@@ -35,7 +35,7 @@ En caso de coincidir varios operadores de igual prioridad en una expresión o su
 expresión encerrada entre paréntesis, el orden de prioridad en este caso es de izquierda aderecha, y a esta propiedad se denomina asociatividad.
 ---
 ## Preguntas de aprendizaje
-*
+
 * 1 - Los dispositivos de entrada permiten: <br>
 a) Guardar datos en la computadora <br>
 b) Desplegar información almacenada en el equipo <br>
@@ -137,7 +137,7 @@ c) (8 >= 4 y 8 >= 10) o (5 = 5 y 4 < 8) <br>
 d) (4 > 4 o 10 >= 8) y (2 > 5 o 8 < 4) <br>
 (False o True) y (False o False) <br>
 (True) y (False) = **False** <br>
-**Respuesta correcta**
+**Respuesta correcta d**
 
 * 14- Seleccione la expresión que da como resultado el valor lógico verdadero. <br>
 
