@@ -202,8 +202,32 @@ True o True = **True** <br>
 **archivo: guia1-ej4.psc**
 
 * 5 - Escribir un programa que calcule cuántos litros de combustible consumió un automóvil. El usuario ingresase una cantidad de litros de combustible cargados en la estación y una cantidad de kilómetros recorridos, después, el programa calculará el consumo (km/lt) y se lo mostrará al usuario. <br>
-En este ejercicio realicé dos opciones una como lo piden, y la otra teniendo en cuenta el conusmo del automóvil para pdoer calcular el consumo real, ya que puede ser que en los kilómetros recorridos no haya utilizado todo el combustible que cargó.
+En este ejercicio realicé dos opciones una como lo piden, y la otra teniendo en cuenta el conusmo del automóvil para pdoer calcular el consumo real, ya que puede ser que en los kilómetros recorridos no haya utilizado todo el combustible que cargó. <br>
 **archivos: guia1-ej5a.psc y guia1-ej5b.psc**
+
+* 6 - Escriba un programa que permita al usuario ingresar el valor de dos variables numéricas de tipo entero. Posteriormente, el programa debe intercambiar los valores de ambas variables y mostrar el resultado final por pantalla. Por ejemplo, si el usuario ingresa los valores num1 = 9 y num2 = 3, la salida a del programa deberá mostrar: num1 = 3 y num2 = 9 <br>
+Ayuda: Para intercambiar los valores de dos variables se debe utilizar una variable auxiliar. <br>
+**archivo: guia1-ej6.psc**
+
+* 7 - Escriba un programa que lea dos números enteros y realice el cálculo de la suma, resta, multiplicación y división entre ambos valores. Los resultados deben mostrarse por pantalla.
+**archivo: guia1-ej7.psc**
+
+**Material extra:**
+
+* 8 - Un colegio desea saber qué porcentaje de niños y qué porcentaje de niñas hay en el curso actual. Diseñar un algoritmo para este propósito. Recuerda que para calcular el porcentaje puedes hacer una regla de 3 simple. El programa debe solicitar al usuario que ingrese la cantidad total de niños, y la cantidad total de niñas que hay en el curso.
+**archivo: guia1-ej8.psc**
+
+* 9 - Solicitar al usuario que ingrese la base y altura de un rectángulo, y calcular y mostrar por pantalla el área y perímetro del mismo : area = base * altura / perimetro = 2 * altura + 2 * base.
+**archivo: guia1-ej9.psc**
+
+* 10 - Escribir un programa que calcule el volumen de un cilindro. Para ello se deberá solicitar al usuario que ingrese el radio y la altura. Mostrar el resultado por pantalla. volumen = π * radio2 * altura
+**archivo: guia1-ej10.psc**
+
+* 11 - A partir de una conocida cantidad de días que el usuario ingresa a través del teclado, escriba un programa para convertir los días en horas, en minutos y en segundos. Por ejemplo: 1 día = 24 horas = 1440 minutos = 86400 segundos
+**archivo: guia1-ej11.psc**
+
+* 12 - Crear un programa que solicite al usuario que ingrese el precio de un producto al inicio del año, y el precio del mismo producto al finalizar el año. El programa debe calcular cuál fue el porcentaje de aumento que tuvo ese producto en el año y mostrarlo por pantalla.
+**archivo: guia1-ej12.psc**
 
 ---
 ## Por favor: 🎁
