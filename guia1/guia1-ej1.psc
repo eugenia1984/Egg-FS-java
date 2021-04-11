@@ -1,12 +1,12 @@
-// Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de hoy? 
-// (soleado, nublado, lloviendo). 
-// A continuación, mostrar por pantalla un mensaje que indique
-// “El día de hoy está ...”, completando el mensaje con el dato que ingresó el usuario.
+//Escribir un algoritmo en el cual se consulte al usuario que ingrese Â¿cÃ³mo estÃ¡ el dÃ­a de hoy? 
+//(soleado, nublado, lloviendo). 
+//A continuaciÃ³n, mostrar por pantalla un mensaje que indique
+//â€œEl dÃ­a de hoy estÃ¡ ...â€, completando el mensaje con el dato que ingresÃ³ el usuario.
 
 Algoritmo Dia
 	Definir dia_de_hoy Como Caracter
 	dia_de_hoy = " "
-	Escribir "Cómo está el día de hoy?"
+	Escribir "CÃ³mo estÃ¡ el dÃ­a de hoy?"
 	Leer dia_de_hoy
-	Escribir "El dia de hoy está: ", dia_de_hoy, "."
+	Escribir "El dia de hoy estÃ¡: ", dia_de_hoy, "."
 FinAlgoritmo
