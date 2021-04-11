@@ -160,8 +160,8 @@ d) (4 > 2 o 7 > 6) y no(3 < 6 o 2 > 0) <br>
 (True) y no(True) = **False** <br>
 **Respuesta correcta c**
 
-* 15- Si a = verdadero y b = falso, la expresión no (no (a o b) y no (a)) toma el mismo
-resultado que: <br>
+* 15- Si a = verdadero y b = falso, la expresión no (no (a o b) y no (a)) toma el mismo resultado que: <br>
+
 no ( no(True o False) y no(True)) <br>
 no ( no(True) y no(True)) <br>
 no ( False y False) <br>
@@ -186,6 +186,7 @@ no (False) o no(False) <br>
 True o True = **True** <br>
 **Respuesta correcta d**
 ---
+
 ## Van a encontrar todos los ejercicios realizados en PseInt, en comentario está la consigna al comienzo de cada uno.
 
 ---
