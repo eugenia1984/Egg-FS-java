@@ -14,7 +14,7 @@ Comenzamos con pseudocódigo viendo los siguientes temas:
   * lógicos: conjunción (Y, and, &&), disyunción (O, or, ||), negación (NO, not)  
   * algebraicos (aritméticas): suma (+), resta (-), multiplicación (*), división (/), potenciación (^), módulo (% o MOD)
 * Reglas de prioridad:
-  * 1 - Las operaciones que están encerradas entre paréntesis se evalúan primero. Si existen diferentes paréntesis anidados (interiores unos a otros), las expresiones más internas se evalúan primero. <br>
+  * 1 - Las operaciones que están encerradas entre paréntesis se evalúan primero. Si existen diferentes paréntesis anidados (interiores unos a otros), las expresiones más internas se evalúan primero. 
   * 2-Las operaciones aritméticas dentro de una expresión suelen seguir el siguiente orden
 de prioridad: <br>
 ✓ operador ( ) <br>
