@@ -185,7 +185,10 @@ no (False o False) o no(False) <br>
 no (False) o no(False) <br>
 True o True = **True** <br>
 **Respuesta correcta d**
+---
+## Van a encontrar todos los ejercicios realizados en PseInt, en comentario está la consigna al comienzo de cada uno.
 
+---
 ## Por favor: 🎁
 
 * comparte este proyecto con otros 📢
