@@ -201,6 +201,9 @@ True o True = **True** <br>
 * 4 - A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se debe obtener su equivalente en centímetros, en milímetros y en pulgadas. Ayuda: 1 pulgada equivale a 2.54 centímetros.
 **archivo: guia1-ej4.psc**
 
+* 5 - Escribir un programa que calcule cuántos litros de combustible consumió un automóvil. El usuario ingresase una cantidad de litros de combustible cargados en la estación y una cantidad de kilómetros recorridos, después, el programa calculará el consumo (km/lt) y se lo mostrará al usuario. <br>
+En este ejercicio realicé dos opciones una como lo piden, y la otra teniendo en cuenta el conusmo del automóvil para pdoer calcular el consumo real, ya que puede ser que en los kilómetros recorridos no haya utilizado todo el combustible que cargó.
+**archivos: guia1-ej5a.psc y guia1-ej5b.psc**
 
 ---
 ## Por favor: 🎁
