@@ -175,7 +175,7 @@ no (True o no(False)) <br>
 no(True o True) <br>
 no(True) = **False**
 
-c) b o (a y b)
+c) b o (a y b) <br>
 False o ( True y False) <br>
 False o False = **False**
 
