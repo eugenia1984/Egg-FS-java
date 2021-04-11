@@ -187,13 +187,15 @@ True o True = **True** <br>
 **Respuesta correcta d**
 ---
 
-## Van a encontrar todos los ejercicios realizados en PseInt, en comentario está la consigna al comienzo de cada uno.
+## Van a encontrar todos los ejercicios realizados en PseInt.
 
-*  1- Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de hoy? (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que indique “El día de hoy está ...”, completando el mensaje con el dato que ingreso el usuario. <br>
+*  1 - Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de hoy? (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que indique “El día de hoy está ...”, completando el mensaje con el dato que ingreso el usuario. <br>
 **archivo: guia1-ej1.psc**
 
 *  2 - Conocido el número en matemática PIπpedir al usuario que ingrese el valor del radio de una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde que para calcular el área y el perímetro se utilizan las siguientes fórmulas: area = PI * radio2 / perimetro = 2 * PI * radio. <br>
 ***archivo: guia1-ej2.psc**
+
+* 3 - Escribir un programa que calcule el precio promedio de un producto. El precio promedio se debe calcular a partir del precio del mismo producto en tres establecimientos distintos.
 
 
 ---
