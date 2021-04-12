@@ -126,7 +126,8 @@ Comenzamos a ver estructuras de control: <br>
 * 3 - Realizar un programa que pida un número al usuario. Si el número es mayor que 100 se deberá de imprimir en pantalla “Es Mayor”, y en caso contrario se deberá imprimir “Es Menor”. <br>
 -Subido en archivo guia2-ej3.psc
 
-* 4 - Realiza un programa que sólo permita introducir los caracteres ‘S’ y ‘N’. Si el usuario ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”.
+* 4 - Realiza un programa que sólo permita introducir los caracteres ‘S’ y ‘N’. Si el usuario ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
+-Subido en archivo guia2-ej4.psc
 
 * 5 - Realizar un programa que pida un numero y determine si ese numero es par o impar. Mostrar en pantalla un mensaje que indique si el numero es par o impar. (para que un   número sea par, se debe dividir entre dos y su resto debe ser igual a 0). <br>
 **Nota: investigar la función mod de Pseint.**
