@@ -184,6 +184,7 @@ no (no(True) o False) o no(False) <br>
 no (False o False) o no(False) <br>
 no (False) o no(False) <br>
 True o True = **True** <br>
+
 **Respuesta correcta d**
 ---
 
