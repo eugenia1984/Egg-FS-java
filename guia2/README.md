@@ -2,7 +2,16 @@
 
 ## Qué hice? 🚀
 
-Comenzamos a ver estructuras de control
+Comenzamos a ver estructuras de control: <br>
+
+  * **Estructura secuencial**: una acción después de otra; la salida de la primera decisión es la entrada de la segunda acción y así sucesivamente una tras otra en el orden que se listan.
+  * 
+  * **Estructura Selectiva o de Decisión**: habrá que tomar decisiones de ejecutar o no una acción. Es para tomar decisiones lógicas, hay un nro. posible de alternativas, en base a una evalución de condición y su resultado, el algoritmo realiza una determinada acción. Las estrucutras pueden ser:<br>
+**Condición Simple** <br>
+**Condición Doble** <br>
+**Condición Múltiple** <br>
+
+  * **Estructura Repetitiva**: habrá que realizar repeticiones.
 
 ---
 
@@ -20,14 +29,14 @@ Comenzamos a ver estructuras de control
   b) Operadores lógicos únicamente <br>
   c) Operadores de comparación únicamente <br>
   d) Operadores lógicos o de comparación, pero nunca ambos simultáneamente <br>
-  **Respuesta correcta**
+  **Respuesta correcta a, porque al analizar una expresión condicional lógica (comparando la conjunción ( Y, and, &&), disyunción (O, or, ||) ó negación (NO, not)) se comparan otras relaciones lógicas o relaciones de comparación (mayor que > , mayor o igual que >= , menor que < , menor o igual que <= , igual == , distinto <> )**
 
 * 3 - Estructuras que se aplican en problemas donde hay varias posibilidades para nuestra condición: <br>
   a) Estructura selectiva doble "si entonces /sino" <br>
   b) Estructura simple " si entonces" <br>
   c) Estructura selectiva múltiple "si múltiple" <br>
   d) Estructura selectiva en cascada (anidadas) <br>
-  **Respuesta correcta**
+**Respuesta correcta c, en la Condición Múltiple tenemos más de dos alternativas para elegir, una variable puede tomar varios valores. La respuesta 'a' aplica a problemas con solo dos opciones, es la Condición Doble: Si / sino. La respuesta 'b' aplica a problemas de Condición Simple: Si - entonces, lleva a cabo una acción simple y cuando se cumpla una determinada acción. La respuesta 'd' se refiere a Condición Anidada: instrucción Si para diseñar estructuras de selección que contengan más de dos alternativas.**
 
 * 4 - Dado el siguiente pseudocódigo, en el cual la sentencia leer permite al usuario introducir un valor entero, ¿cuál será el valor final de la variable "i"? <br>
   **Algoritmo valorFinal** <br>
@@ -50,14 +59,14 @@ Comenzamos a ver estructuras de control
   b) Una sentencia que ejecuta otra sentencia que a su vez ejecuta la primera sentencia <br>
   c) Una sentencia que permite ejecutar un bloque de código varias veces hasta que se cumpla (o deje de cumplirse) la condición asignada al bucle<br>
   d) Ninguna de las anteriores<br>
-  **Respuesta correcta**
+  **Respuesta correcta c**
 
 * 6 - ¿Qué diferencia hay entre un bucle mientras y un bucle para? <br>
   a) El bucle para puede no llegar a ejecutarse nunca pero el bucle mientras siempre se ejecuta al menos una vez <br>
   b) El bucle para se ejecuta un número determinado de veces y el mientras un número indeterminado de veces. <br>
   c) El bucle para no puede convertirse en un bucle mientras, pero sí al contrario <br>
   d) El bucle mientras permite su inicialización, pero el bucle para no <br>
-  **Respuesta correcta**
+  **Respuesta correcta b**
 
 * 7 - De acuerdo a la sintaxis del bucle mientras, señalar cuál es la afirmación falsa:<br>
   **Mientras condición hacer** <br>
@@ -67,21 +76,21 @@ Comenzamos a ver estructuras de control
   b) La condición se evalúa cada vez que se ejecuta una nueva iteración del bucle <br>
   c) Si la condición es falsa, no se ejecuta el bloque de sentencias <br>
   d) Ninguna de las anteriores es falsa <br>
-  **Respuesta correcta**
+  **Respuesta correcta d**
 
 * 8 - Si, según, mientras, hacer-mientras y para son: <br>
   a) Funciones de acceso a datos <br>
   b) Instrucciones de acceso a datos <br>
   c) Sentencias de control <br>
   d) Tipos de datos <br>
-  **Respuesta correcta**
+  **Respuesta correcta c**
 
 * 9 - ¿Qué diferencia hay entre un bucle mientras y un hacer-mientras? <br>
   a) El bucle hacer-mientras puede no llegar a ejecutarse nunca pero el bucle mientras siempre se ejecuta al menos una vez <br>
   b) El bucle hacer-mientras se ejecuta un número determinado de veces y el mientras un número indeterminado de veces.<br>
   c) El bucle mientras puede no llegar a ejecutarse nunca pero el hacer-mientras siempre se ejecuta al menos una vez<br>
   d) El bucle mientras permite utilizar contadores y el hacer-mientras no lo permite<br>
-  **Respuesta correcta**
+  **Respuesta correcta c**
 
 * 10 - De acuerdo a la sintaxis del bucle hacer-mientras, señalar cuál es la afirmación falsa:<br>
   **Hacer** <br>
@@ -91,14 +100,14 @@ Comenzamos a ver estructuras de control
   b) Aunque se cumpla condición = falso, el bucle se llega a ejecutar alguna vez <br>
   c) Si condición = falso, el bucle no se llega a ejecutar nunca <br>
   d) Ninguna de las anteriores es falsa <br>
-  **Respuesta correcta**
+  **Respuesta correcta d**
 
 * 11 - La estructura repetitiva Para se caracteriza por: <br>
   a) No conocer el número de repeticiones <br>
   b) No se puede repetir más de 10000 veces <br>
   c) Conocer de antemano el número de repeticiones <br>
   d) Ninguna de las anteriores <br>
-  **Respuesta correcta**
+  **Respuesta correcta c**
 
 ---
 
