@@ -113,9 +113,15 @@ Comenzamos a ver estructuras de control: <br>
 
 ## Van a encontrar todos los ejercicios realizados en PseInt en archivos subidos con el nombre guia2-ej(nro de ejercicio). Estos son los ejercicios
 
-* 1 - Escriba un programa en donde se pida la edad del usuario. Si el usuario es mayor de edad se debe mostrar un mensaje por pantalla indicándolo.
+**Condicional Simple**
 
-* 2 - Un hombre desea saber si su sueldo es mayor al sueldo mínimo, el programa le pedirá al usuario su sueldo actual y el sueldo mínimo. Si el sueldo es mayor al mínimo se debe mostrar un mensaje por pantalla indicándolo.
+* 1 - Escriba un programa en donde se pida la edad del usuario. Si el usuario es mayor de edad se debe mostrar un mensaje por pantalla indicándolo. <br>
+ * Subido en archivo guia2-ej1.psc
+
+* 2 - Un hombre desea saber si su sueldo es mayor al sueldo mínimo, el programa le pedirá al usuario su sueldo actual y el sueldo mínimo. Si el sueldo es mayor al mínimo se debe mostrar un mensaje por pantalla indicándolo. <br>
+ *  Subido en archivo guia2-ej1.psc
+
+**Condicional Doble**
 
 * 3 - Realizar un programa que pida un número al usuario. Si el número es mayor que 100 se deberá de imprimir en pantalla “Es Mayor”, y en caso contrario se deberá imprimir “Es Menor”.
 
