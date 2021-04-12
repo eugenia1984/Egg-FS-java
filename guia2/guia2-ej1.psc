@@ -1,6 +1,6 @@
 Algoritmo EdadUsuario
 	Definir edad Como Entero
-	Escribir "Por favor ingrese su edad en númros: "
+	Escribir "Por favor ingrese su edad en nÃºmeros: "
 	Leer edad
 	Si (edad >= 18) Entonces
 		Escribir " Ustedes es mayor de edad."
