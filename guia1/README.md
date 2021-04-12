@@ -167,25 +167,26 @@ no ( no(True) y no(True)) <br>
 no ( False y False) <br>
 no (False) = **True**
 
-a) a y b <br>
+ * a) a y b <br>
 True y False = **False**
 
-b) no (a o no b) <br>
+ * b) no (a o no b) <br>
 no (True o no(False)) <br>
 no(True o True) <br>
 no(True) = **False**
 
-c) b o (a y b) <br>
+ * c) b o (a y b) <br>
 False o ( True y False) <br>
 False o False = **False**
 
-d) no (no a o b) o no b <br>
+ * d) no (no a o b) o no b <br>
 no (no(True) o False) o no(False) <br>
 no (False o False) o no(False) <br>
 no (False) o no(False) <br>
 True o True = **True** <br>
 
 **Respuesta correcta d**
+
 ---
 
 ## Van a encontrar todos los ejercicios realizados en PseInt.
