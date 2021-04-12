@@ -116,10 +116,10 @@ Comenzamos a ver estructuras de control: <br>
 **Condicional Simple**
 
 * 1 - Escriba un programa en donde se pida la edad del usuario. Si el usuario es mayor de edad se debe mostrar un mensaje por pantalla indicándolo. <br>
- * Subido en archivo guia2-ej1.psc
+-Subido en archivo guia2-ej1.psc
 
 * 2 - Un hombre desea saber si su sueldo es mayor al sueldo mínimo, el programa le pedirá al usuario su sueldo actual y el sueldo mínimo. Si el sueldo es mayor al mínimo se debe mostrar un mensaje por pantalla indicándolo. <br>
- *  Subido en archivo guia2-ej1.psc
+-Subido en archivo guia2-ej1.psc
 
 **Condicional Doble**
 
