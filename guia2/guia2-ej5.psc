@@ -1,11 +1,12 @@
 Algoritmo NumeroParImpar
 	Definir numero_dado Como Real
-	Escribir "Por favor ingrese un número entero para avisarle si es par o impar: "
+	numero_dado = 0
+	Escribir "Por favor ingrese un nÃºmero entero para avisarle si es par o impar: "
 	Leer numero_dado
 	Si ( numero_dado % 2 = 0 ) Entonces
-		Escribir " El número ingresado es par"
+		Escribir " El nÃºmero ingresado es par"
 	SiNo
-		Escribir " El número ingresado es impar"
+		Escribir " El nÃºmero ingresado es impar"
 	Fin Si
 	
 FinAlgoritmo
