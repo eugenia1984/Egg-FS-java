@@ -1,5 +1,6 @@
 Algoritmo IntroducirCaracteres
 	Definir letra Como Caracter
+	letra = " "
 	Escribir "Ingrese S o N: "
 	Leer letra
 	Si (letra = 'S' ||  letra = 's')  || (letra = 'N'  || letra = 'n') Entonces
