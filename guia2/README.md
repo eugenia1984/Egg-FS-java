@@ -116,24 +116,32 @@ Comenzamos a ver estructuras de control: <br>
 **Condicional Simple**
 
 * 1 - Escriba un programa en donde se pida la edad del usuario. Si el usuario es mayor de edad se debe mostrar un mensaje por pantalla indicándolo. <br>
+
 -Subido en archivo guia2-ej1.psc
 
 * 2 - Un hombre desea saber si su sueldo es mayor al sueldo mínimo, el programa le pedirá al usuario su sueldo actual y el sueldo mínimo. Si el sueldo es mayor al mínimo se debe mostrar un mensaje por pantalla indicándolo. <br>
+
 -Subido en archivo guia2-ej2.psc
 
 **Condicional Doble**
 
 * 3 - Realizar un programa que pida un número al usuario. Si el número es mayor que 100 se deberá de imprimir en pantalla “Es Mayor”, y en caso contrario se deberá imprimir “Es Menor”. <br>
+
 -Subido en archivo guia2-ej3.psc
 
 * 4 - Realiza un programa que sólo permita introducir los caracteres ‘S’ y ‘N’. Si el usuario ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
+
 -Subido en archivo guia2-ej4.psc
 
 * 5 - Realizar un programa que pida un numero y determine si ese numero es par o impar. Mostrar en pantalla un mensaje que indique si el numero es par o impar. (para que un   número sea par, se debe dividir entre dos y su resto debe ser igual a 0). <br>
 **Nota: investigar la función mod de Pseint.**
 
+-Subido en archivo guia2-ej5.psc
+
 * 6 - Realizar un programa que pida introducir solo frases o palabras de 6 caracteres. Si el usuario ingresa una frase o palabra de 6 caracteres se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
 **Nota: investigar la función Longitud() de Pseint.**
+
+-Subido en archivo guia2-ej6.psc
 
 * 7 - Realizar un programa que pida una frase o palabra y si la frase o palabra es de 4 caracteres de largo, el programa le concatenara un signo de exclamación al final, y si no  es de 4 caracteres el programa le concatenara un signo de interrogación al final. El programa mostrará después la frase final. <br>
 **Nota: investigar la función Longitud() y Concatenar() de Pseint.**
