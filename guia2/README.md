@@ -146,6 +146,8 @@ Comenzamos a ver estructuras de control: <br>
 * 7 - Realizar un programa que pida una frase o palabra y si la frase o palabra es de 4 caracteres de largo, el programa le concatenara un signo de exclamación al final, y si no  es de 4 caracteres el programa le concatenara un signo de interrogación al final. El programa mostrará después la frase final. <br>
 **Nota: investigar la función Longitud() y Concatenar() de Pseint.**
 
+-Subido en archivo guia2-ej7.psc
+
 * 8 - Escriba un programa que pida 3 notas y valide si esas notas están entre 1 y 10. Si están entre esos parámetros se debe poner en verdadero una variable de tipo lógico y si no ponerla en falso. Al final el programa debe decir si las 3 notas son correctas usando la variable de tipo lógico.
 
 * 9 - Escriba un programa que pida una frase o palabra y valide si la primera letra de esa frase es una ‘A’. Si la primera letra es una ‘A’, se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
