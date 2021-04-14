@@ -52,30 +52,36 @@ Comenzamos a ver estructuras de control: <br>
   b) 0 si el valor introducido es igual o menor que 0; el valor introducido en cualquier otro caso <br>
   c) 0 si el valor introducido es igual o menor que 0; el valor introducido más uno en cualquier otro caso <br>
   d) Ninguna de las anteriores <br>
-  **Respuesta correcta**
+  
+  **Respuesta correcta c, porque si el valor introducido es menor o igual a 0, nunca va acumplir con la condición de mientras i < n (ya que i es 0 y n es un número de (0,-infinito), en cambio si n es mayor a 0 si va a cumplir con la condición de mientras 0 < n va a sumar 1 a n y mosstrará el resultado de esa adición**
 
 * 5 - Un bucle es: <br>
   a) Una sentencia que permite decidir si se ejecuta o no se ejecuta una sola vez un bloque de código <br>
   b) Una sentencia que ejecuta otra sentencia que a su vez ejecuta la primera sentencia <br>
   c) Una sentencia que permite ejecutar un bloque de código varias veces hasta que se cumpla (o deje de cumplirse) la condición asignada al bucle<br>
   d) Ninguna de las anteriores<br>
-  **Respuesta correcta c**
+  
+  **Respuesta correcta c, la c se refiere a la estructura selectiva donde se toma desición de ejecutar o no una acción, la b se refiere a una estructura secuencial, la salida de la 1ra es la entrada de la 2da**
 
 * 6 - ¿Qué diferencia hay entre un bucle mientras y un bucle para? <br>
   a) El bucle para puede no llegar a ejecutarse nunca pero el bucle mientras siempre se ejecuta al menos una vez <br>
   b) El bucle para se ejecuta un número determinado de veces y el mientras un número indeterminado de veces. <br>
   c) El bucle para no puede convertirse en un bucle mientras, pero sí al contrario <br>
   d) El bucle mientras permite su inicialización, pero el bucle para no <br>
+  
   **Respuesta correcta b**
 
 * 7 - De acuerdo a la sintaxis del bucle mientras, señalar cuál es la afirmación falsa:<br>
-  **Mientras condición hacer** <br>
-  **sentencias** <br>
-  **Fin Mientras** <br>
+
+*   **Mientras condición hacer** <br>
+    **sentencias** <br>
+    **Fin Mientras** <br>
+  
   a) La condición debe ser una expresión lógica <br>
   b) La condición se evalúa cada vez que se ejecuta una nueva iteración del bucle <br>
   c) Si la condición es falsa, no se ejecuta el bloque de sentencias <br>
   d) Ninguna de las anteriores es falsa <br>
+  
   **Respuesta correcta d**
 
 * 8 - Si, según, mientras, hacer-mientras y para son: <br>
@@ -83,6 +89,7 @@ Comenzamos a ver estructuras de control: <br>
   b) Instrucciones de acceso a datos <br>
   c) Sentencias de control <br>
   d) Tipos de datos <br>
+  
   **Respuesta correcta c**
 
 * 9 - ¿Qué diferencia hay entre un bucle mientras y un hacer-mientras? <br>
@@ -90,16 +97,20 @@ Comenzamos a ver estructuras de control: <br>
   b) El bucle hacer-mientras se ejecuta un número determinado de veces y el mientras un número indeterminado de veces.<br>
   c) El bucle mientras puede no llegar a ejecutarse nunca pero el hacer-mientras siempre se ejecuta al menos una vez<br>
   d) El bucle mientras permite utilizar contadores y el hacer-mientras no lo permite<br>
-  **Respuesta correcta c**
+  
+  **Respuesta correcta c, porque en el bucle HACER MIENTRAS la evaluación lógica está al final por lo que al menos una vez se ejecuta, en cambio en el bucle MIENTRAS la evaluación lógica (condición a evaluar) está al principio, si no se cumple no se ejecuta**
 
 * 10 - De acuerdo a la sintaxis del bucle hacer-mientras, señalar cuál es la afirmación falsa:<br>
+* 
   **Hacer** <br>
   **sentencias** <br>
   **Mientras Que condición** <br>
+  
   a) Si condición = verdadero, entonces el bucle se sigue ejecutando <br>
   b) Aunque se cumpla condición = falso, el bucle se llega a ejecutar alguna vez <br>
   c) Si condición = falso, el bucle no se llega a ejecutar nunca <br>
   d) Ninguna de las anteriores es falsa <br>
+  
   **Respuesta correcta d**
 
 * 11 - La estructura repetitiva Para se caracteriza por: <br>
