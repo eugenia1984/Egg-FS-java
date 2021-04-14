@@ -181,7 +181,10 @@ Comenzamos a ver estructuras de control: <br>
   * Si sólo cumple la primera condición, grado 6.
   * Si sólo cumple la segunda condición, grado 7.
   * Si cumple las dos condiciones, grado 8
+  * 
 **Nota: para trabajar este ejercicio de manera prolija, ir probando cada inciso que pide el ejercicio. No hacer todos al mismo tiempo y después probar.**
+
+-Subido en archivo guia2-ej13.psc
 
 **Bucle Mientras**
 
