@@ -167,7 +167,10 @@ Comenzamos a ver estructuras de control: <br>
 **Condicional Anidado**
 
 * 12 - Realizar un programa que, dado un número entero, visualice en pantalla si es par o impar. En caso de que el valor ingresado sea 0, se debe mostrar “el número no es par ni impar”. <br>
+* 
 **Nota: investigar la función mod de PSeInt.**
+
+-Subido en archivo guia2-ej12.psc
 
 * 13 - Escriba un programa para obtener el grado de eficiencia de un operario de una fábrica de tornillos, de acuerdo a las siguientes dos condiciones que se le imponen para un período de prueba: <br>
 
