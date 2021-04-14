@@ -114,7 +114,7 @@ Comenzamos a ver estructuras de control: <br>
 
 
 * 10 - De acuerdo a la sintaxis del bucle hacer-mientras, señalar cuál es la afirmación falsa:<br>
-* 
+
   **Hacer** <br>
   **sentencias** <br>
   **Mientras Que condición** <br>
@@ -124,7 +124,7 @@ Comenzamos a ver estructuras de control: <br>
   c) Si condición = falso, el bucle no se llega a ejecutar nunca <br>
   d) Ninguna de las anteriores es falsa <br>
   
-  **Respuesta correcta d**
+  **Respuesta correcta C, se ejecuta al menos la primer vez.. La a es correcta mientras que la condición sea verdadera el bucle se seguirá ejecutando. La  b es correcta porque primero se ejecuta el bloque y luego se ve si la condición se cumple, por lo que aunque al condición sea falsa se va a ejecutar esa primera vez (luego chequea que es falsa y sale del bucle).**
 
 
 * 11 - La estructura repetitiva Para se caracteriza por: <br>
@@ -133,7 +133,7 @@ Comenzamos a ver estructuras de control: <br>
   c) Conocer de antemano el número de repeticiones <br>
   d) Ninguna de las anteriores <br>
   
-  **Respuesta correcta c**
+  **Respuesta correcta c, sabemos de ane mano cuantas veces itera (se repite el ciclo). La a no es correcta porque sabemos el número de repeticiones. La b es incorrecta proque no hay un máximo de repeticiones.**
 
 
 ---
