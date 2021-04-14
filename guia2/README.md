@@ -5,7 +5,7 @@
 Comenzamos a ver estructuras de control: <br>
 
   * **Estructura secuencial**: una acción después de otra; la salida de la primera decisión es la entrada de la segunda acción y así sucesivamente una tras otra en el orden que se listan.
-  * 
+  
   * **Estructura Selectiva o de Decisión**: habrá que tomar decisiones de ejecutar o no una acción. Es para tomar decisiones lógicas, hay un nro. posible de alternativas, en base a una evalución de condición y su resultado, el algoritmo realiza una determinada acción. Las estrucutras pueden ser:<br>
 **Condición Simple** <br>
 **Condición Doble** <br>
@@ -22,23 +22,30 @@ Comenzamos a ver estructuras de control: <br>
   b) Una sentencia que ejecuta otra sentencia que a su vez ejecuta la primera sentencia <br>
   c) Una sentencia que permite ejecutar un bloque de código varias veces <br>
   d) Ninguna de las anteriores <br>
+  
   **Respuesta correcta a, porque la b refiere a un condicional anidado o en casacada y la c se refiere a estructuras repetitivas**
+
 
 * 2 - En una expresión condicional se pueden utilizar: <br>
   a) Operadores lógicos y de comparación simultáneamente <br>
   b) Operadores lógicos únicamente <br>
   c) Operadores de comparación únicamente <br>
   d) Operadores lógicos o de comparación, pero nunca ambos simultáneamente <br>
+  
   **Respuesta correcta a, porque al analizar una expresión condicional lógica (comparando la conjunción ( Y, and, &&), disyunción (O, or, ||) ó negación (NO, not)) se comparan otras relaciones lógicas o relaciones de comparación (mayor que > , mayor o igual que >= , menor que < , menor o igual que <= , igual == , distinto <> )**
+
 
 * 3 - Estructuras que se aplican en problemas donde hay varias posibilidades para nuestra condición: <br>
   a) Estructura selectiva doble "si entonces /sino" <br>
   b) Estructura simple " si entonces" <br>
   c) Estructura selectiva múltiple "si múltiple" <br>
   d) Estructura selectiva en cascada (anidadas) <br>
+  
 **Respuesta correcta c, en la Condición Múltiple tenemos más de dos alternativas para elegir, una variable puede tomar varios valores. La respuesta 'a' aplica a problemas con solo dos opciones, es la Condición Doble: Si / sino. La respuesta 'b' aplica a problemas de Condición Simple: Si - entonces, lleva a cabo una acción simple y cuando se cumpla una determinada acción. La respuesta 'd' se refiere a Condición Anidada: instrucción Si para diseñar estructuras de selección que contengan más de dos alternativas.**
 
+
 * 4 - Dado el siguiente pseudocódigo, en el cual la sentencia leer permite al usuario introducir un valor entero, ¿cuál será el valor final de la variable "i"? <br>
+* 
   **Algoritmo valorFinal** <br>
   **Definir i, n como entero** <br>
   **i = 0** <br>
@@ -48,12 +55,14 @@ Comenzamos a ver estructuras de control: <br>
   **Fin Mientras** <br>
   **escribir “El valor de i es”, i** <br>
   **FinAlgoritmo** <br>
+  
   a) 0 si el valor introducido es igual o menor que 0; el valor introducido menos uno en cualquier otro caso <br>
   b) 0 si el valor introducido es igual o menor que 0; el valor introducido en cualquier otro caso <br>
   c) 0 si el valor introducido es igual o menor que 0; el valor introducido más uno en cualquier otro caso <br>
   d) Ninguna de las anteriores <br>
   
   **Respuesta correcta c, porque si el valor introducido es menor o igual a 0, nunca va acumplir con la condición de mientras i < n (ya que i es 0 y n es un número de (0,-infinito), en cambio si n es mayor a 0 si va a cumplir con la condición de mientras 0 < n va a sumar 1 a n y mosstrará el resultado de esa adición**
+
 
 * 5 - Un bucle es: <br>
   a) Una sentencia que permite decidir si se ejecuta o no se ejecuta una sola vez un bloque de código <br>
@@ -63,13 +72,15 @@ Comenzamos a ver estructuras de control: <br>
   
   **Respuesta correcta c, la c se refiere a la estructura selectiva donde se toma desición de ejecutar o no una acción, la b se refiere a una estructura secuencial, la salida de la 1ra es la entrada de la 2da**
 
+
 * 6 - ¿Qué diferencia hay entre un bucle mientras y un bucle para? <br>
   a) El bucle para puede no llegar a ejecutarse nunca pero el bucle mientras siempre se ejecuta al menos una vez <br>
   b) El bucle para se ejecuta un número determinado de veces y el mientras un número indeterminado de veces. <br>
   c) El bucle para no puede convertirse en un bucle mientras, pero sí al contrario <br>
   d) El bucle mientras permite su inicialización, pero el bucle para no <br>
   
-  **Respuesta correcta b**
+  **Respuesta correcta b, el BUCLE MIENTRAS se ejecuta siempre y cuando la condición sea verdadera, no sabemos desde un principio cuántas veces se ejecuta. En cambio el BUCLE PARA tiene un valor inicial, su incremento por cada iteración y un valor final, es decir que sabemos cuántas veces se ejecutará**
+
 
 * 7 - De acuerdo a la sintaxis del bucle mientras, señalar cuál es la afirmación falsa:<br>
 
@@ -82,7 +93,7 @@ Comenzamos a ver estructuras de control: <br>
   c) Si la condición es falsa, no se ejecuta el bloque de sentencias <br>
   d) Ninguna de las anteriores es falsa <br>
   
-  **Respuesta correcta d**
+  **Respuesta correcta d, porque la condición es una expresión lógica, por cada iteración del bucle la condición se vuelve a evaluar y si se cumple sigue ejecutando el bloque de sentencias sino sale del bloque de sentencias.**
 
 * 8 - Si, según, mientras, hacer-mientras y para son: <br>
   a) Funciones de acceso a datos <br>
@@ -90,7 +101,8 @@ Comenzamos a ver estructuras de control: <br>
   c) Sentencias de control <br>
   d) Tipos de datos <br>
   
-  **Respuesta correcta c**
+  **Respuesta correcta c, todas son sentencias de control, permiten que se realice una instrucción y omite otras de acuerdo a la evalucación de una condición.**
+
 
 * 9 - ¿Qué diferencia hay entre un bucle mientras y un hacer-mientras? <br>
   a) El bucle hacer-mientras puede no llegar a ejecutarse nunca pero el bucle mientras siempre se ejecuta al menos una vez <br>
@@ -99,6 +111,7 @@ Comenzamos a ver estructuras de control: <br>
   d) El bucle mientras permite utilizar contadores y el hacer-mientras no lo permite<br>
   
   **Respuesta correcta c, porque en el bucle HACER MIENTRAS la evaluación lógica está al final por lo que al menos una vez se ejecuta, en cambio en el bucle MIENTRAS la evaluación lógica (condición a evaluar) está al principio, si no se cumple no se ejecuta**
+
 
 * 10 - De acuerdo a la sintaxis del bucle hacer-mientras, señalar cuál es la afirmación falsa:<br>
 * 
@@ -113,12 +126,15 @@ Comenzamos a ver estructuras de control: <br>
   
   **Respuesta correcta d**
 
+
 * 11 - La estructura repetitiva Para se caracteriza por: <br>
   a) No conocer el número de repeticiones <br>
   b) No se puede repetir más de 10000 veces <br>
   c) Conocer de antemano el número de repeticiones <br>
   d) Ninguna de las anteriores <br>
+  
   **Respuesta correcta c**
+
 
 ---
 
