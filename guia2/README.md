@@ -161,16 +161,19 @@ Comenzamos a ver estructuras de control: <br>
 -Subido en archivo guia2-ej4.psc
 
 * 5 - Realizar un programa que pida un numero y determine si ese numero es par o impar. Mostrar en pantalla un mensaje que indique si el numero es par o impar. (para que un   número sea par, se debe dividir entre dos y su resto debe ser igual a 0). <br>
+
 **Nota: investigar la función mod de Pseint.**
 
 -Subido en archivo guia2-ej5.psc
 
 * 6 - Realizar un programa que pida introducir solo frases o palabras de 6 caracteres. Si el usuario ingresa una frase o palabra de 6 caracteres se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
+
 **Nota: investigar la función Longitud() de Pseint.**
 
 -Subido en archivo guia2-ej6.psc
 
 * 7 - Realizar un programa que pida una frase o palabra y si la frase o palabra es de 4 caracteres de largo, el programa le concatenara un signo de exclamación al final, y si no  es de 4 caracteres el programa le concatenara un signo de interrogación al final. El programa mostrará después la frase final. <br>
+
 **Nota: investigar la función Longitud() y Concatenar() de Pseint.**
 
 -Subido en archivo guia2-ej7.psc
@@ -180,6 +183,7 @@ Comenzamos a ver estructuras de control: <br>
 -Subido en archivo guia2-ej8.psc
 
 * 9 - Escriba un programa que pida una frase o palabra y valide si la primera letra de esa frase es una ‘A’. Si la primera letra es una ‘A’, se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
+
 **Nota: investigar la función Subcadena de Pseint.**
 
 -Subido en archivo guia2-ej9.psc
@@ -198,7 +202,7 @@ Comenzamos a ver estructuras de control: <br>
 **Condicional Anidado**
 
 * 12 - Realizar un programa que, dado un número entero, visualice en pantalla si es par o impar. En caso de que el valor ingresado sea 0, se debe mostrar “el número no es par ni impar”. <br>
-* 
+
 **Nota: investigar la función mod de PSeInt.**
 
 -Subido en archivo guia2-ej12.psc
