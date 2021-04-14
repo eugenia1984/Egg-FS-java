@@ -229,6 +229,8 @@ Comenzamos a ver estructuras de control: <br>
 
 * 15 - Escriba un programa en el cual se ingrese un valor límite positivo, y a continuación solicite números al usuario hasta que la suma de los números introducidos supere el límite inicial.
 
+-Subido en archivo guia2-ej15.psc
+
 * 16 - Dada una secuencia de números ingresados por teclado que finaliza con un –1, por ejemplo: 5,3,0,2,4,4,0,0,2,3,6,0,......,-1; realizar un programa que calcule el promedio de los números ingresados. Suponemos que el usuario no insertará número negativos.
 
 **bucle Hacer - Mientras Que**
