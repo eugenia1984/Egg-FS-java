@@ -79,7 +79,7 @@ Comenzamos a ver Subprogramas
 
 * 1 - Realizar una función que calcule la suma de dos números. En el algoritmo principal le pediremos al usuario los dos números para pasárselos a la función. Después la función calculará la suma y lo devolverá para imprimirlo en el algoritmo. <br>
 
-- Subido en guia3-ej1.psc
+-Subido en guia3-ej1.psc
 
 * 2 - Realizar una función que valide si un numero es impar o no. Si es impar la función debe devolver un verdadero, si no es impar debe devolver falso. Nota: la función no debe tener mensajes que digan si es par o no, eso debe pasar en el Algoritmo. <br>
 
