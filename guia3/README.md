@@ -29,7 +29,7 @@ Comenzamos a ver Subprogramas
 	* c) El valor que recibe el subprograma enviado del programa principal. <br>
 	* d) Ninguna de las anteriores. <br>
 
-**Respuesta a. El valor que recibe la función para realizar una tarea**
+**Respuesta c. El valor que recibe la función para realizar una tarea**
 
 * 4 -  Una variable puede pasarse como argumento a un subprograma: <br>
 	* a) Sólo por valor <br>
