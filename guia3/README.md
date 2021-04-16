@@ -95,6 +95,8 @@ Comenzamos a ver Subprogramas
 
 * 5 - Realizar una función que reciba un numero ingresado por el usuario y averigüe si el numero es primo o no. Un número es primo cuando es divisible sólo por 1 y por sí mismo, por ejemplo: 2, 3, 5, 7, 11, 13, 17, etc. Nota: recordar el uso del MOD. <br>
 
+-Subido en guia3-ej5.psc
+
 **Subprograma : procedimientos**
 
 * 6 - Realizar un procedimiento que permita intercambiar el valor de dos variables de tipo entero. La variable A, debe terminar con el valor de la variable B. <br>
