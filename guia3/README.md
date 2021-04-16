@@ -87,7 +87,11 @@ Comenzamos a ver Subprogramas
 
 * 3 - Crea una función EsMultiplo que reciba los dos números pasados por el usuario, validando que el primer numero múltiplo del segundo y devuelva verdadero si el primer numero es múltiplo del segundo, sino es múltiplo que devuelva falso. <br>
 
+-Subido en guia3-ej3.psc
+
 * 4 - Realizar un programa que pida al usuario una frase y una letra a buscar en esa frase. La función debe devolver la cantidad de veces que encontró la letra. Nota: recordar el uso de la función Subcadena(). <br>
+
+-Subido en guia3-ej4.psc
 
 * 5 - Realizar una función que reciba un numero ingresado por el usuario y averigüe si el numero es primo o no. Un número es primo cuando es divisible sólo por 1 y por sí mismo, por ejemplo: 2, 3, 5, 7, 11, 13, 17, etc. Nota: recordar el uso del MOD. <br>
 
