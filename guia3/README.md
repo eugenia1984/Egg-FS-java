@@ -79,23 +79,23 @@ Comenzamos a ver Subprogramas
 
 * 1 - Realizar una función que calcule la suma de dos números. En el algoritmo principal le pediremos al usuario los dos números para pasárselos a la función. Después la función calculará la suma y lo devolverá para imprimirlo en el algoritmo. <br>
 
--Subido en guia3-ej1.psc
+**-Subido en guia3-ej1.psc**
 
 * 2 - Realizar una función que valide si un numero es impar o no. Si es impar la función debe devolver un verdadero, si no es impar debe devolver falso. Nota: la función no debe tener mensajes que digan si es par o no, eso debe pasar en el Algoritmo. <br>
 
--Subido en guia3-ej2.psc
+**-Subido en guia3-ej2.psc**
 
 * 3 - Crea una función EsMultiplo que reciba los dos números pasados por el usuario, validando que el primer numero múltiplo del segundo y devuelva verdadero si el primer numero es múltiplo del segundo, sino es múltiplo que devuelva falso. <br>
 
--Subido en guia3-ej3.psc
+**-Subido en guia3-ej3.psc**
 
 * 4 - Realizar un programa que pida al usuario una frase y una letra a buscar en esa frase. La función debe devolver la cantidad de veces que encontró la letra. Nota: recordar el uso de la función Subcadena(). <br>
 
--Subido en guia3-ej4.psc
+**-Subido en guia3-ej4.psc**
 
 * 5 - Realizar una función que reciba un numero ingresado por el usuario y averigüe si el numero es primo o no. Un número es primo cuando es divisible sólo por 1 y por sí mismo, por ejemplo: 2, 3, 5, 7, 11, 13, 17, etc. Nota: recordar el uso del MOD. <br>
 
--Subido en guia3-ej5.psc
+**-Subido en guia3-ej5.psc**
 
 **Subprograma : procedimientos**
 
@@ -124,13 +124,13 @@ La salida del programa debería ser: @y#r, l*n#s, s@l$m%s @ l@s %nc# y 10. <br>
 
 NOTA: investigue el uso de la función concatenar de PSeInt para armar la palabra/frase. <br>
 
--Subido en guia3-ej9.psc
+**-Subido en guia3-ej9.psc**
 
 **Recursión**
 
 * 10 - Escribir una función recursiva que devuelva la suma de los primeros N enteros. <br>
 
--Subido en guia3-ej10.psc
+**-Subido en guia3-ej10.psc**
 
 **Ejercicios de aprendizaje extra**
 
