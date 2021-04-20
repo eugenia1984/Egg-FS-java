@@ -124,9 +124,13 @@ La salida del programa debería ser: @y#r, l*n#s, s@l$m%s @ l@s %nc# y 10. <br>
 
 NOTA: investigue el uso de la función concatenar de PSeInt para armar la palabra/frase. <br>
 
+-Subido en guia3-ej9.psc
+
 **Recursión**
 
-* 10 - Escribir una función recursiva que devuelva la suma de los primeros N enteros. <br<
+* 10 - Escribir una función recursiva que devuelva la suma de los primeros N enteros. <br>
+
+-Subido en guia3-ej10.psc
 
 **Ejercicios de aprendizaje extra**
 
