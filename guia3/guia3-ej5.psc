@@ -1,17 +1,17 @@
 Algoritmo EsPrimoElNumero
-	//Realizar una función que reciba un numero ingresado por el usuario y averigüe si el
-	//numero es primo o no. Un número es primo cuando es divisible sólo por 1 y por sí
+	//Realizar una funciÃ³n que reciba un numero ingresado por el usuario y averigÃ¼e si el
+	//numero es primo o no. Un nÃºmero es primo cuando es divisible sÃ³lo por 1 y por sÃ­
 	//mismo, por ejemplo: 2, 3, 5, 7, 11, 13, 17, etc. Nota: recordar el uso del MOD.
 	Definir num1 Como Real
 	num1 = 0
 	
-	Escribir " Por favor ingrese un número para decirle si es número primo o no: "
+	Escribir " Por favor ingrese un nÃºmero para decirle si es nÃºmero primo o no: "
 	Leer num1
 	
 	Si esPrimo(num1)
-        Escribir "El número " num1 " es primo"
+        Escribir "El nÃºmero " num1 " es primo"
     SiNo
-        Escribir "El número " num1 " no es primo"
+        Escribir "El nÃºmero " num1 " no es primo"
     FinSi
 FinAlgoritmo
 
