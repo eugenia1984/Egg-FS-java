@@ -195,10 +195,10 @@ True o True = **True** <br>
 **archivo: guia1-ej1.psc**
 
 *  2 - Conocido el número en matemática PIπpedir al usuario que ingrese el valor del radio de una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde que para calcular el área y el perímetro se utilizan las siguientes fórmulas: area = PI * radio2 / perimetro = 2 * PI * radio. <br>
-***archivo: guia1-ej2.psc**
+**archivo: guia1-ej2.psc**
 
 * 3 - Escribir un programa que calcule el precio promedio de un producto. El precio promedio se debe calcular a partir del precio del mismo producto en tres establecimientos distintos.<br>
-***archivo: guia1-ej3.psc**
+**archivo: guia1-ej3.psc**
 
 * 4 - A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se debe obtener su equivalente en centímetros, en milímetros y en pulgadas. Ayuda: 1 pulgada equivale a 2.54 centímetros.<br>
 **archivo: guia1-ej4.psc**
