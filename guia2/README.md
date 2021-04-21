@@ -144,60 +144,60 @@ Comenzamos a ver estructuras de control: <br>
 
 * 1 - Escriba un programa en donde se pida la edad del usuario. Si el usuario es mayor de edad se debe mostrar un mensaje por pantalla indicándolo. <br>
 
--Subido en archivo guia2-ej1.psc
+**-Subido en archivo guia2-ej1.psc**
 
 * 2 - Un hombre desea saber si su sueldo es mayor al sueldo mínimo, el programa le pedirá al usuario su sueldo actual y el sueldo mínimo. Si el sueldo es mayor al mínimo se debe mostrar un mensaje por pantalla indicándolo. <br>
 
--Subido en archivo guia2-ej2.psc
+**-Subido en archivo guia2-ej2.psc**
 
 **Condicional Doble**
 
 * 3 - Realizar un programa que pida un número al usuario. Si el número es mayor que 100 se deberá de imprimir en pantalla “Es Mayor”, y en caso contrario se deberá imprimir “Es Menor”. <br>
 
--Subido en archivo guia2-ej3.psc
+**-Subido en archivo guia2-ej3.psc**
 
 * 4 - Realiza un programa que sólo permita introducir los caracteres ‘S’ y ‘N’. Si el usuario ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
 
--Subido en archivo guia2-ej4.psc
+**-Subido en archivo guia2-ej4.psc**
 
 * 5 - Realizar un programa que pida un numero y determine si ese numero es par o impar. Mostrar en pantalla un mensaje que indique si el numero es par o impar. (para que un   número sea par, se debe dividir entre dos y su resto debe ser igual a 0). <br>
 
 **Nota: investigar la función mod de Pseint.**
 
--Subido en archivo guia2-ej5.psc
+**-Subido en archivo guia2-ej5.psc**
 
 * 6 - Realizar un programa que pida introducir solo frases o palabras de 6 caracteres. Si el usuario ingresa una frase o palabra de 6 caracteres se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
 
 **Nota: investigar la función Longitud() de Pseint.**
 
--Subido en archivo guia2-ej6.psc
+**-Subido en archivo guia2-ej6.psc**
 
 * 7 - Realizar un programa que pida una frase o palabra y si la frase o palabra es de 4 caracteres de largo, el programa le concatenara un signo de exclamación al final, y si no  es de 4 caracteres el programa le concatenara un signo de interrogación al final. El programa mostrará después la frase final. <br>
 
 **Nota: investigar la función Longitud() y Concatenar() de Pseint.**
 
--Subido en archivo guia2-ej7.psc
+**-Subido en archivo guia2-ej7.psc**
 
 * 8 - Escriba un programa que pida 3 notas y valide si esas notas están entre 1 y 10. Si están entre esos parámetros se debe poner en verdadero una variable de tipo lógico y si no ponerla en falso. Al final el programa debe decir si las 3 notas son correctas usando la variable de tipo lógico.
 
--Subido en archivo guia2-ej8.psc
+**-Subido en archivo guia2-ej8.psc**
 
 * 9 - Escriba un programa que pida una frase o palabra y valide si la primera letra de esa frase es una ‘A’. Si la primera letra es una ‘A’, se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. <br>
 
 **Nota: investigar la función Subcadena de Pseint.**
 
--Subido en archivo guia2-ej9.psc
+**-Subido en archivo guia2-ej9.psc**
 
 * 10 - Continuando el ejercicio anterior, ahora se pedirá una frase o palabra y se validara si la primera letra de la frase es igual a la ultima letra de la frase. Se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”.
 
--Subido en archivo guia2-ej10.psc
+**-Subido en archivo guia2-ej10.psc**
 
 **Condicional Múltiple**
 
 
 * 11 - Construir un programa que simule un menú de opciones para realizar las cuatro operaciones aritméticas básicas (suma, resta, multiplicación y división) con dos valores numéricos enteros. El usuario, además, debe especificar la operación con el primer carácter de la operación que desea realizar: ‘S' o ‘s’ para la suma, ‘R’ o ‘r’ para la resta, ‘M’ o ‘m’ para la multiplicación y ‘D’ o ‘d’ para la división.
 
--Subido en archivo guia2-ej11.psc
+**-Subido en archivo guia2-ej11.psc**
 
 **Condicional Anidado**
 
@@ -205,7 +205,7 @@ Comenzamos a ver estructuras de control: <br>
 
 **Nota: investigar la función mod de PSeInt.**
 
--Subido en archivo guia2-ej12.psc
+**-Subido en archivo guia2-ej12.psc**
 
 * 13 - Escriba un programa para obtener el grado de eficiencia de un operario de una fábrica de tornillos, de acuerdo a las siguientes dos condiciones que se le imponen para un período de prueba: <br>
 
@@ -219,17 +219,17 @@ Comenzamos a ver estructuras de control: <br>
   
 **Nota: para trabajar este ejercicio de manera prolija, ir probando cada inciso que pide el ejercicio. No hacer todos al mismo tiempo y después probar.**
 
--Subido en archivo guia2-ej13.psc
+**-Subido en archivo guia2-ej13.psc**
 
 **Bucle Mientras**
 
 * 14 - Escriba un programa que valide si una nota está entre 0 y 10, sino está entre 0 y 10 la nota se pedirá de nuevo hasta que la nota sea correcta.
 
--Subido en archivo guia2-ej14.psc
+**-Subido en archivo guia2-ej14.psc**
 
 * 15 - Escriba un programa en el cual se ingrese un valor límite positivo, y a continuación solicite números al usuario hasta que la suma de los números introducidos supere el límite inicial.
 
--Subido en archivo guia2-ej15.psc
+**-Subido en archivo guia2-ej15.psc**
 
 * 16 - Dada una secuencia de números ingresados por teclado que finaliza con un –1, por ejemplo: 5,3,0,2,4,4,0,0,2,3,6,0,......,-1; realizar un programa que calcule el promedio de los números ingresados. Suponemos que el usuario no insertará número negativos.
 
