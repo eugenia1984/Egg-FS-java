@@ -197,10 +197,10 @@ True o True = **True** <br>
 *  2 - Conocido el número en matemática PIπpedir al usuario que ingrese el valor del radio de una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde que para calcular el área y el perímetro se utilizan las siguientes fórmulas: area = PI * radio2 / perimetro = 2 * PI * radio. <br>
 ***archivo: guia1-ej2.psc**
 
-* 3 - Escribir un programa que calcule el precio promedio de un producto. El precio promedio se debe calcular a partir del precio del mismo producto en tres establecimientos distintos.
+* 3 - Escribir un programa que calcule el precio promedio de un producto. El precio promedio se debe calcular a partir del precio del mismo producto en tres establecimientos distintos.<br>
 ***archivo: guia1-ej3.psc**
 
-* 4 - A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se debe obtener su equivalente en centímetros, en milímetros y en pulgadas. Ayuda: 1 pulgada equivale a 2.54 centímetros.
+* 4 - A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se debe obtener su equivalente en centímetros, en milímetros y en pulgadas. Ayuda: 1 pulgada equivale a 2.54 centímetros.<br>
 **archivo: guia1-ej4.psc**
 
 * 5 - Escribir un programa que calcule cuántos litros de combustible consumió un automóvil. El usuario ingresase una cantidad de litros de combustible cargados en la estación y una cantidad de kilómetros recorridos, después, el programa calculará el consumo (km/lt) y se lo mostrará al usuario. <br>
