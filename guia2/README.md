@@ -9,9 +9,14 @@ Comenzamos a ver estructuras de control: <br>
   * **Estructura Selectiva o de Decisión**: habrá que tomar decisiones de ejecutar o no una acción. Es para tomar decisiones lógicas, hay un nro. posible de alternativas, en base a una evalución de condición y su resultado, el algoritmo realiza una determinada acción. Las estrucutras pueden ser:<br>
 **Condición Simple** <br>
 **Condición Doble** <br>
-**Condición Múltiple** <br>
+**Condición Múltiple** : Según (como el switch) ó Si /Sino Anidados8en cascada) <br>
 
-  * **Estructura Repetitiva**: habrá que realizar repeticiones.
+  * **Estructura Repetitiva**: habrá que realizar repeticiones, son los bucles. <br>
+  
+**Mientras** : primero evalúa la condición y luego ejecuta. <br>
+**Hacer Mientras** : se ejecuta al menos la primera vez, la condición va al final. <br>
+**Estructura Para** : inicialización (i, , k), finalización (cuando la condición deja de ser true), incremento (lo que varía en cada iteración).
+  
 
 ---
 
