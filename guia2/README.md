@@ -12,7 +12,6 @@ Comenzamos a ver estructuras de control: <br>
 **Condición Múltiple** : Según (como el switch) ó Si /Sino Anidados8en cascada) <br>
 
   * **Estructura Repetitiva**: habrá que realizar repeticiones, son los bucles. <br>
-  
 **Mientras** : primero evalúa la condición y luego ejecuta. <br>
 **Hacer Mientras** : se ejecuta al menos la primera vez, la condición va al final. <br>
 **Estructura Para** : inicialización (i, , k), finalización (cuando la condición deja de ser true), incremento (lo que varía en cada iteración).
