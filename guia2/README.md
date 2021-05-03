@@ -237,9 +237,13 @@ Comenzamos a ver estructuras de control: <br>
 
 * 16 - Dada una secuencia de números ingresados por teclado que finaliza con un –1, por ejemplo: 5,3,0,2,4,4,0,0,2,3,6,0,......,-1; realizar un programa que calcule el promedio de los números ingresados. Suponemos que el usuario no insertará número negativos.
 
+**-Subido en archivo guia2-ej16.psc**
+
 **bucle Hacer - Mientras Que**
 
 * 17 - Teniendo en cuenta que la clave es “eureka”, escribir un programa que nos pida ingresar una clave. Sólo se cuenta con 3 intentos para acertar, si fallamos los 3 intentos se deberá mostrar un mensaje indicándonos que hemos agotado esos 3 intentos. Si acertamos la clave se deberá mostrar un mensaje que indique que se ha ingresado al sistema correctamente.
+
+**-Subido en archivo guia2-ej17.psc**
 
 * 18 - Escribir un programa que lea números enteros hasta teclear 0 (cero). Al finalizar el programa se debe mostrar el máximo número ingresado, el mínimo, y el promedio de todos ellos.
 
