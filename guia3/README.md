@@ -83,7 +83,7 @@ Comenzamos a ver Subprogramas
 
 * 2 - Realizar una función que valide si un numero es impar o no. Si es impar la función debe devolver un verdadero, si no es impar debe devolver falso. Nota: la función no debe tener mensajes que digan si es par o no, eso debe pasar en el Algoritmo. <br>
 
-**-Subido en guia3-ej2.psc**
+**-Subido en guia3-ej2.psc  y guia3-ej2-opc2.psc**
 
 * 3 - Crea una función EsMultiplo que reciba los dos números pasados por el usuario, validando que el primer numero múltiplo del segundo y devuelva verdadero si el primer numero es múltiplo del segundo, sino es múltiplo que devuelva falso. <br>
 
@@ -100,6 +100,8 @@ Comenzamos a ver Subprogramas
 **Subprograma : procedimientos**
 
 * 6 - Realizar un procedimiento que permita intercambiar el valor de dos variables de tipo entero. La variable A, debe terminar con el valor de la variable B. <br>
+
+**-Subido en guia3-ej6.psc**
 
 * 7 - Crear una procedimiento que calcule la temperatura media de un día a partir de la temperatura máxima y mínima. Crear un programa principal, que utilizando un procedimiento, vaya pidiendo la temperatura máxima y mínima de n días y vaya mostrando la media de cada día. El programa pedirá el número de días que se van a introducir. <br>
 
