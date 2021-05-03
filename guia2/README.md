@@ -247,15 +247,21 @@ Comenzamos a ver estructuras de control: <br>
 
 * 18 - Escribir un programa que lea números enteros hasta teclear 0 (cero). Al finalizar el programa se debe mostrar el máximo número ingresado, el mínimo, y el promedio de todos ellos.
 
+**-Subido en archivo guia2-ej18.psc**
+
 **Bucle Para**
 
 * 19 - Escribir un programa que calcule el cuadrado de los 9 primeros números naturales e imprima por pantalla el número seguido de su cuadrado. Ejemplo: “2 elevado al cuadrado es igual a 4”, y así sucesivamente.
+
+**-Subido en archivo guia2-ej19.psc**
 
 * 20 - Realizar un programa que pida una frase y el programa deberá mostrar la frase con un espacio entre cada letra. La frase se mostrara así: **H o l a**. **Nota**: recordar el funcionamiento de la función Subcadena(). <br>
 **NOTA**:. En PSeInt, si queremos escribir sin que haya saltos de línea, al final de la operación “escribir” escribimos “sin saltar”. Por ejemplo: <br>
 Escribir sin saltar “Hola, ” <br>
 Escribir sin saltar “cómo estás?” <br>
 **Imprimirá por pantalla**: Hola, cómo estás? <br>
+
+**-Subido en archivo guia2-ej20.psc**
 
 * 21 - Un docente de Programación tiene un listado de 3 notas registradas por cada uno de sus N estudiantes. La nota final se compone de un trabajo práctico Integrador (35%), una Exposición (25%) y un Parcial (40%). El docente requiere los siguientes informes claves de sus estudiantes: <br>
 
@@ -264,6 +270,8 @@ Escribir sin saltar “cómo estás?” <br>
   * La mayor nota obtenida en las exposiciones.
   * Total de estudiantes que obtuvieron en el Parcial entre 4.0 y 7.5. El programa pedirá la cantidad de alumnos que tiene el docente y en cada alumno pedirá las 3 notas y calculará todos informes claves que requiere el docente.<br>
 **Nota: para trabajar este ejercicio de manera prolija, ir probando cada inciso que pide el ejercicio. No hacer todos al mismo tiempo y después probar.**
+
+**-Subido en archivo guia2-ej21.psc**
 
 **Bucles Anidados**
 
@@ -274,7 +282,11 @@ Escribir sin saltar “cómo estás?” <br>
   . . . . <br>
 **Nota**: Recordar el uso del escribir sin saltar en Pseint.
 
+**-Subido en archivo guia2-ej22.psc**
+
 * 23 - Una compañía de seguros tiene contratados a n vendedores. Cada vendedor realiza múltiples ventas a la semana. La política de pagos de la compañía es que cada vendedor recibe un sueldo base más un 10% extra por comisiones de sus ventas. El gerente de la compañía desea saber, por un lado, cuánto dinero deberá pagar en la semana a cada vendedor por concepto de comisiones de las ventas realizadas, y por otro lado, cuánto deberá pagar a cada vendedor como sueldo total (sueldo base + comisiones). Para cada vendedor ingresar cuanto es su sueldo base, cuantas ventas realizó y cuanto cobró por cada venta.
+
+**-Subido en archivo guia2-ej23.psc**
 
 ## Material Extra
 
