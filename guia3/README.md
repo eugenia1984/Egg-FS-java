@@ -105,6 +105,8 @@ Comenzamos a ver Subprogramas
 
 * 7 - Crear una procedimiento que calcule la temperatura media de un día a partir de la temperatura máxima y mínima. Crear un programa principal, que utilizando un procedimiento, vaya pidiendo la temperatura máxima y mínima de n días y vaya mostrando la media de cada día. El programa pedirá el número de días que se van a introducir. <br>
 
+**-Subido en guia3-ej7.psc**
+
 * 8 -  Realizar un procedimiento que permita realizar la división entre dos números y muestre el cociente y el resto utilizando el método de restas sucesivas. <br>
 El método de división por restas sucesivas consiste en restar el dividendo con el divisor hasta obtener un resultado menor que el divisor, este resultado es el residuo, y el número de restas realizadas es el cociente. <br>
 Por ejemplo: 50 / 13: <br>
@@ -113,6 +115,8 @@ Por ejemplo: 50 / 13: <br>
 24 – 13 = 11 tres restas realizadas <br>
 
 dado que 11 es menor que 13, entonces: el residuo es 11 y el cociente es 3. <br>
+
+**-Subido en guia3-ej8.psc**
 
 * 9 - Escribir un programa que procese una secuencia de caracteres ingresada por teclado y terminada en punto, y luego codifique la palabra o frase ingresada de la siguiente manera: cada vocal se reemplaza por el carácter que se indica en la tabla y el resto de los caracteres (incluyendo a las vocales acentuadas) se mantienen sin cambios. <br>
 a  e  i  o  u <br>
