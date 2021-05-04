@@ -151,6 +151,9 @@ NOTA: investigue el uso de la función concatenar de PSeInt para armar la palabr
 * 13 - Crear una función llamada “Login”, que recibe un nombre de usuario y una contraseña y que devuelve Verdadero si el nombre de usuario es “usuario1” y si la contraseña es “asdasd”. Además la función calculara el número de intentos que se ha usado para
 loguearse, tenemos solo 3 intentos, si nos quedamos sin intentos la función devolverá Falso. <br>
 
+
+**-Subido en guia3-ej13.psc**
+
 * 14 - Los empleados de una fábrica trabajan en dos turnos: Diurno y Nocturno. Se desea calcular el jornal diario de acuerdo con las siguientes reglas: <br>
 
 a) La tarifa de las horas diurnas es de $ 90 <br>
