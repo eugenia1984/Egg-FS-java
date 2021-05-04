@@ -133,3 +133,56 @@ hasta que ingrese la opción Salir:
 NOTA: El rango de los números aleatorios para los Vectores será de [-100 a 100]. La
 longitud para todos los vectores debe ser la misma, por lo tanto, esa información sólo se
 solicitará una vez.
+
+* 6 - Disponemos de un vector unidimensional de 20 elementos de tipo carácter. Se pide
+desarrollar un programa que:
+
+	a. Pida una frase al usuario y luego ingrese la frase dentro del arreglo letra por letra. Ayuda: utilizar la función Subcadena de PSeInt. <br>
+	b. Una vez completado lo anterior, pedirle al usuario un carácter cualquiera y una posición dentro del arreglo, y el programa debe intentar ingresar el carácter en la posición indicada, si es que hay lugar (es decir la posición está vacía o es un espacio en blanco). De ser posible debe mostrar el vector con la frase y el carácter ingresado, de lo contrario debe darle un mensaje al usuario de que esa posición estaba ocupada.
+	
+Por ejemplo, suponiendo la siguiente frase y los subíndices del vector: <br>
+
+H o l a   m u n d o     c  r  u  e  l  !  ! <br>
+0 1 2 3 2 5 6 7 8 9 10 11 12 13 14 15 16 17  <br>
+
+Si se desea ingresar el carácter “%” en la posición 10, entonces el resultado sería: <br>
+
+H o l a   m u n d o  %  c  r  u  e  l  !  ! <br>
+0 1 2 3 2 5 6 7 8 9 10 11 12 13 14 15 16 17  <br>
+
+* 7 - Crear un subproceso que rellene dos arreglos de tamaño n, con números aleatorios. <br>
+Después, hacer una función que reciba los dos arreglos y diga si todos sus valores son iguales o no. La función debe devolver el resultado de está validación, para mostrar el mensaje en el algoritmo. Nota: recordar el uso de las variables de tipo lógico.
+
+**Arreglos : Matrices**
+
+* 8 - Realizar un programa que rellene una matriz de 3x3 con 9 valores ingresados por el usuario y los muestre por pantalla
+
+* 9 - Escribir un programa que realice la búsqueda lineal de un número entero ingresado por el usuario en una matriz de 5x5, llena de números aleatorios y devuelva por pantalla las coordenadas donde se encuentra el valor, es decir en que fila y columna se encuentra. <br>
+En caso de no encontrar el valor dentro de la matriz se debe mostrar un mensaje.
+
+* 10 - Dada una matriz de orden n * m (donde n y m son valores ingresados por el usuario) realizar un subprograma que llene la matriz de numeros aleatorios. <br>
+Despues, crearemos otro subprograma que calcule y muestre la suma de los elementos de la matriz. <br>
+Mostrar la matriz y los resultados por pantalla.
+
+* 11 - Rellenar en un subproceso una matriz cuadrada con números aleatorios salvo en la diagonal principal, la cual debe rellenarse con ceros. Una vez llena la matriz debe generar otro subproceso para imprimir la matriz.
+
+* 12 - Rellenar una matriz, de 3 x 3, con una palabra de 9 de longitud, pedida por el usuario, encontrando la manera de que la frase se muestre de manera continua en la matriz. <br>
+Por ejemplo, si tenemos la palabra habilidad, nuestra matriz se debería ver así: <br>
+
+H A B  <br>
+I L I <br>
+D A D <br>
+
+Nota: recordar el uso de la función Subcadena().
+
+* 13 - Una matriz mágica es una matriz cuadrada (tiene igual número de filas que de columnas) que tiene como propiedad especial que la suma de las filas, las columnas y las diagonales es igual. Por ejemplo: <br>
+
+2 7 6 <br>
+9 5 1  <br>
+4 3 8 <br>
+
+En la matriz de ejemplo las sumas son siempre 15. Considere el problema de construir un algoritmo que compruebe si una matriz de datos enteros es mágica o no, y en caso de que sea mágica escribir la suma. <br>
+Además, el programa deberá comprobar que los números introducidos son correctos, es decir, están entre el 1 y el 9. <br>
+El usuario ingresa el tamaño de la matriz que no debe superar orden igual a 10.
+
+
