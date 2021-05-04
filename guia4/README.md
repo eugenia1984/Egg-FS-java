@@ -185,4 +185,16 @@ En la matriz de ejemplo las sumas son siempre 15. Considere el problema de const
 Además, el programa deberá comprobar que los números introducidos son correctos, es decir, están entre el 1 y el 9. <br>
 El usuario ingresa el tamaño de la matriz que no debe superar orden igual a 10.
 
+** Ejercicios de aprendizaje extra**
+
+**Vectores**
+
+* 1 - Realizar un programa que rellene dos vectores al mismo tiempo, con 5 valores aleatorios
+y los muestre por pantalla.
+
+* 2 - Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
+usuario y muestre por pantalla el promedio de la suma de todos los valores ingresados.
+
+* 3 - 
+
 
