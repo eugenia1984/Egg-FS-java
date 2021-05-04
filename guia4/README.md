@@ -68,24 +68,24 @@ También vimos matrices
 
 * 8 - Dado el siguiente fragmento de código:
 
-...
-Dimension dias(7)
-Definir dias Como Real
-Definir tempAux Como Real
-Definir sabado como Entero
-dias(1) = 17 //asignación con índice constante
-sabado = 6
-leer dias(sabado) //asignación mediante una función
-tempAux = dias(sabado) //acceso con índice variable
+	...
+	Dimension dias(7)
+	Definir dias Como Real
+	Definir tempAux Como Real
+	Definir sabado como Entero
+	dias(1) = 17 //asignación con índice constante
+	sabado = 6
+	leer dias(sabado) //asignación mediante una función
+	tempAux = dias(sabado) //acceso con índice variable
 ...
 
 Indique con una cruz cuál/es de las siguientes sentencias es incorrecta:
-a) días(0) = “lunes”
-b) tempAux = días
-c) tempAux = días(0)
-d) tempAux = días(sabado – 1)
-e) tempAux = días(sabado + 5)
-f) tempAux = días(días(sábado))
+	a) días(0) = “lunes”
+	b) tempAux = días
+	c) tempAux = días(0)
+	d) tempAux = días(sabado – 1)
+	e) tempAux = días(sabado + 5)
+	f) tempAux = días(días(sábado))
 
 **La respuesta es C, D y F(si sábado va de 0 a 6)**
 
