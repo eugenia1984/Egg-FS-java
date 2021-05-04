@@ -144,6 +144,8 @@ NOTA: investigue el uso de la función concatenar de PSeInt para armar la palabr
 
 * 11 -  Realizar una función que calcule y retorne la suma de todos los divisores del número n distintos de n. El valor de n debe ser ingresado por el usuario. <br>
 
+**-Subido en guia3-ej11.psc**
+
 * 12 - Diseñar una función que reciba un numero en forma de cadena y lo devuelva como numero entero. El programa podrá recibir números de hasta 3 dígitos. Nota: no poner números con decimales.
 
 * 13 - Crear una función llamada “Login”, que recibe un nombre de usuario y una contraseña y que devuelve Verdadero si el nombre de usuario es “usuario1” y si la contraseña es “asdasd”. Además la función calculara el número de intentos que se ha usado para
