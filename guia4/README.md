@@ -16,43 +16,57 @@ También vimos matrices
 	c) uno es una variable de tipo de vector de lógico
 	d) dos es una variable de tipo vector de lógico
 
-*2 - Dada la siguiente sentencia correcta: uno[dos] = “auto”, se puede afirmar...
+**La respuesta correcta es la B.**
+
+* 2 - Dada la siguiente sentencia correcta: uno[dos] = “auto”, se puede afirmar...
 	a) uno es una variable de tipo de vector de carácter
 	b) uno es una variable de tipo carácter
 	c) dos es una variable de tipo entero
 	d) dos es una variable de tipo vector de carácter
 
-3* - Señale cuál de las siguientes afirmaciones es verdadera:
+**La respuesta correcta es la C. A es falso. B es faldo porque caracter es una sola letra. D es falso.**
+
+* 3 - Señale cuál de las siguientes afirmaciones es verdadera:
 	a) Los vectores sólo almacenan elementos del mismo tipo
 	b) Las cadenas se implementan como un arreglo de caracteres
 	c) Los vectores pueden almacenar datos de distinto tipo
 	d) Los vectores no pueden pasarse como parámetro a un subprograma
+	
+**La respuesta correcta es la A, los vectores solo almacenan elementos del mismo tipo.**
 
-4* - Para sumar dos matrices de orden 3x3:
+* 4 - Para sumar dos matrices de orden 3x3:
 	a) Se requieren dos bucles
 	b) Se requieren tres bucles
 	c) Sólo se requiere un bucle
 	d) No requiere ningún bucle
 
-5* - Indique cuál de las siguientes sentencias es verdadera:
+**La respuesta correcta es la A, pueden ser solo 2 matrices porque el tercer bucle puede ser la suma de las dos anteriores.**
+
+* 5 - Indique cuál de las siguientes sentencias es verdadera:
 	a) Un arreglo es una estructura de datos heterogénea
 	b) Un arreglo es una estructura de datos homogénea
 	c) Los arreglos no pueden tener más de tres dimensiones.
 	d) Ninguna de las anteriores
+	
+**La respuesta corrrecta es la A, porque dentro de un arreglo sus elementos deben ser del mismo tipo**
 
-6* - 6. Para recorrer una matriz de orden NxMxP:
+* 6 - 6. Para recorrer una matriz de orden NxMxP:
 	a) Se requieren dos bucles
 	b) Sólo se requiere un bucle
 	c) Se requieren tres bucles
 	d) No requiere ningún bucle
+	
+**La respuesta correcta es la C, se requiere el orden de 3 x 3, y tenemos: fila, columna y profundidad**
 
-7* - Un subíndice puede ser representado por:
+* 7 - Un subíndice puede ser representado por:
 	a) Una variable de tipo entero
 	b) Una constante numérica de tipo entero
 	c) Una expresión algebraica cuyo resultado sea equivalente a un valor entero
 	d) Todas las anteriores
+	
+**La respuesta correcta es la D**
 
-8* - Dado el siguiente fragmento de código:
+* 8 - Dado el siguiente fragmento de código:
 
 ...
 Dimension dias(7)
@@ -72,6 +86,8 @@ c) tempAux = días(0)
 d) tempAux = días(sabado – 1)
 e) tempAux = días(sabado + 5)
 f) tempAux = días(días(sábado))
+
+**La respuesta es C, D y F(si sábado va de 0 a 6)**
 
 ---
 
