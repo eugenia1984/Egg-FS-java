@@ -80,12 +80,12 @@ También vimos matrices
 ... <br>
 
 Indique con una cruz cuál/es de las siguientes sentencias es incorrecta:
-	a) días(0) = “lunes”
-	b) tempAux = días
-	c) tempAux = días(0)
-	d) tempAux = días(sabado – 1)
-	e) tempAux = días(sabado + 5)
-	f) tempAux = días(días(sábado))
+	a) días(0) = “lunes” <br>
+	b) tempAux = días <br> 
+	c) tempAux = días(0) <br>
+	d) tempAux = días(sabado – 1) <br>
+	e) tempAux = días(sabado + 5) <br>
+	f) tempAux = días(días(sábado)) <br>
 
 **La respuesta es C, D y F(si sábado va de 0 a 6)**
 
