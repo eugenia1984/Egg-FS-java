@@ -93,14 +93,14 @@ f) tempAux = días(días(sábado))
 
 ## Ejercicios de aprendizaje
 
-1* Realizar un programa que rellene un vector con 5 valores ingresados por el usuario y los
+* 1 - Realizar un programa que rellene un vector con 5 valores ingresados por el usuario y los
 muestre por pantalla.
 
-2* Realizar un programa que lea 10 números reales por teclado, los almacene en un arreglo
+* 2 - Realizar un programa que lea 10 números reales por teclado, los almacene en un arreglo
 y muestre por pantalla la suma, resta y multiplicación de todos los números ingresados
 al arreglo.
 
-3* Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
+* 3 - Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
 usuario. A continuación, se debe buscar un elemento dentro del arreglo (el número a
 buscar también debe ser ingresado por el usuario). El programa debe indicar la posición
 donde se encuentra el valor. En caso que el número se encuentre repetido dentro del
@@ -108,6 +108,6 @@ arreglo se deben imprimir todas las posiciones donde se encuentra ese valor.
 Finalmente, en caso que el número a buscar no está adentro del arreglo se debe mostrar
 un mensaje.
 
-4* Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
+* 4 - Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
 usuario. A continuación, se deberá crear una función que reciba el vector y devuelva el
 valor más grande del vector.
