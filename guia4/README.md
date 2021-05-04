@@ -50,7 +50,7 @@ También vimos matrices
 	
 **La respuesta corrrecta es la A, porque dentro de un arreglo sus elementos deben ser del mismo tipo**
 
-* 6 - 6. Para recorrer una matriz de orden NxMxP:
+* 6 - Para recorrer una matriz de orden NxMxP:
 	a) Se requieren dos bucles
 	b) Sólo se requiere un bucle
 	c) Se requieren tres bucles
