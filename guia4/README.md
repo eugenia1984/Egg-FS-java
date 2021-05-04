@@ -96,9 +96,13 @@ f) tempAux = días(días(sábado)) <br>
 * 1 - Realizar un programa que rellene un vector con 5 valores ingresados por el usuario y los
 muestre por pantalla.
 
+***guia4-ej1*
+
 * 2 - Realizar un programa que lea 10 números reales por teclado, los almacene en un arreglo
 y muestre por pantalla la suma, resta y multiplicación de todos los números ingresados
 al arreglo.
+
+***guia4-ej2**
 
 * 3 - Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
 usuario. A continuación, se debe buscar un elemento dentro del arreglo (el número a
@@ -108,6 +112,20 @@ arreglo se deben imprimir todas las posiciones donde se encuentra ese valor.
 Finalmente, en caso que el número a buscar no está adentro del arreglo se debe mostrar
 un mensaje.
 
+***guia4-ej3**
+
 * 4 - Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
 usuario. A continuación, se deberá crear una función que reciba el vector y devuelva el
 valor más grande del vector.
+
+***guia4-ej4**
+
+* 5 - Realizar un programa con el siguiente menú y le pregunte al usuario que quiere hacer
+hasta que ingrese la opción Salir:
+
+	a. Llenar Vector A. Este vector es de tamaño N y se debe llenar de manera aleatoria usando la función Aleatorio(valorMin, valorMax) de PseInt.
+	b. Llenar Vector B. Este vector también es de tamaño N y se llena de manera aleatoria.
+	c. Llenar Vector C con la suma de los vectores A y B. La suma se debe realizar elemento a elemento. Ejemplo: C = A + B
+	d. Llenar Vector C con la resta de los vectores B y A. La resta se debe realizar elemento a elemento. Ejemplo: C = B - A
+	e. Mostrar. Esta opción debe permitir al usuario decidir qué vector quiere mostrar: Vector A, B, o C.
+	f. Salir.
