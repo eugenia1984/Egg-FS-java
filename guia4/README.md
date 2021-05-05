@@ -189,12 +189,24 @@ El usuario ingresa el tamaño de la matriz que no debe superar orden igual a 10.
 
 **Vectores**
 
-* 1 - Realizar un programa que rellene dos vectores al mismo tiempo, con 5 valores aleatorios
-y los muestre por pantalla.
+* 1 - Realizar un programa que rellene dos vectores al mismo tiempo, con 5 valores aleatorios y los muestre por pantalla.
 
-* 2 - Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
-usuario y muestre por pantalla el promedio de la suma de todos los valores ingresados.
+* 2 - Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el usuario y muestre por pantalla el promedio de la suma de todos los valores ingresados.
 
-* 3 - 
+* 3 - Crear dos vectores que tengan el mismo tamaño (el tamaño se pedirá por teclado) y almacenar en uno de ellos nombres de personas como cadenas. <br>
+En el segundo vector se debe almacenar la longitud de cada uno de los nombres (para ello puedes usar la función Longitud() de PseInt). <br>
+Mostrar por pantalla cada uno de los nombres junto con su longitud.
+
+* 4 - Crear un vector que contenga 100 notas de 100 supuestos estudiantes, con valores entre 0 y 20 generadas aleatoriamente mediante el uso de la función azar() o aleatorio() de PseInt. Luego, de acuerdo a las notas contenidas, el programa debe indicar cuántos estudiantes son: <br>
+a) Deficientes 0-5  <br>
+b) Regulares 6-10  <br>
+c) Buenos 11-15  <br>
+d) Excelentes 16-20  <br>
+
+* 5 - Tomando en cuenta el ejercicio 6, mejore el mecanismo de inserción del carácter, facilitando un potencial reordenamiento del vector. Digamos que se pide ingresar el carácter en la posición X y la misma está ocupada, entonces de existir un espacio en cualquier posición X-n o X+n, desplazar los caracteres hacia la izq o hacia la derecha para poder ingresar el carácter en cuestión en el lugar deseado. <br>
+El procedimiento de reordenamiento debe ubicar el espacio más cercano. <br>
+Por ejemplo, suponiendo la siguiente frase y los subíndices del vector: <br>
+
+
 
 
