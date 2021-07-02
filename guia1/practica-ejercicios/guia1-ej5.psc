@@ -1,14 +1,18 @@
 Algoritmo Consumo
-	Definir litros_combustible, kilometros_recorridos, consumo_real Como Real
+	Definir litros_combustible, kilometros_recorridos, consumo_real Como Real     ///Defino mis variables
 	
-	litros_combustible=0
+	litros_combustible=0    ///Inicializo mis variables
 	kilometros_recorridos=0
 	consumo_real=0
 	
-	Escribir "Ingrese los litros de combustibles cargados y los kil髆etros recorridos, para calcular el consumo: "
-	Leer litros_combustible, kilometros_recorridos
-	consumo_real = kilometros_recorridos / litros_combustible
+	Escribir "Ingrese los litros de combustibles cargados y los kil贸metros recorridos, para calcular el consumo: "        ///Pido que ingrese los litros y kilometros
+	Leer litros_combustible, kilometros_recorridos             ///Asigno los valores
+	consumo_real = kilometros_recorridos / litros_combustible         ///Calculo el consumo real
 	
-	Escribir "El consumo es de: ", consumo_real
+	Escribir "El consumo es de: ", consumo_real            ///Lo muestro por pantalla
 	
 FinAlgoritmo
+
+// Escribir un programa que calcule cu谩ntos litros de combustible que consumi贸 el auto.
+// El usuario ingresase una cantidad de litros de combustible cargados en la estaci贸n y una cantidad
+// de kil贸metros recorridos, despu茅s, el programa calcular谩 el consumo y se lo mostrar谩 al usuario
