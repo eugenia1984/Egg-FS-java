@@ -1,3 +1,28 @@
+ENGLISH
+
+# Guide 2 of Full Stack with Java (Egg)
+
+## What did I do? 🚀
+
+We begin to see control structures: <br>
+
+  * **Sequential structure**: one action after another; the output of the first decision is the input of the second action, and so on one after the other in the order they are listed.
+  
+  * **Selective or Decision Structure**: decisions will have to be made whether or not to execute an action. It is to make logical decisions, there is a no. possible of alternatives, based on a condition evaluation and its result, the algorithm performs a certain action. The structures can be: <br>
+**Simple Condition** <br>
+**Double Condition** <br>
+**Multiple Condition**: According to (like the switch) or Yes / Else Nested8 in cascade) <br>
+
+  * **Repetitive Structure**: it will be necessary to perform repetitions, they are the loops. for
+**While**: first evaluate the condition and then execute. for
+**Do While** - Run at least the first time, the condition goes last. for
+**Structure For**: initialization (i,, k), completion (when the condition stops being true), increment (which varies in each iteration).
+
+
+---
+
+ESPAÑOL
+
 # Guia 2 de Full Stack con Java (Egg)
 
 ## Qué hice? 🚀
