@@ -11,7 +11,7 @@ Algoritmo CalcularAreaPerimetro
 	area = PI * radio ^ 2     ///calculo el area con la circunferencia dada
 	perimetro = 2 * PI * radio     ///calculo el perimetro con la circunferencia dada
 	
-	Escribir "En base a su radio ingresado ( ", radio, " ), su área es de : ", area, " y su perímetro es: ", perimetro
+	Escribir "En base a su radio ingresado : ", radio, " , su área es de : ", area, " y su perímetro es: ", perimetro
 	
 FinAlgoritmo
 // Conocido el número en matemática PI, pedir la usuario que ingrese el valor del radio de 
