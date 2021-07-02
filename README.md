@@ -10,8 +10,11 @@ I added one file for each unit of exercises I did.
 ## Content 🚀
 
    * Unit 1 : PseInt
-   * Unit 2 :
+   
+   * Unit 2 : PseInt : **Sequential structure** , **Selective or Decision Structure** ( **Simple Condition** , **Double Condition** , **Multiple Condition** ) , **Repetitive Structure** ( **While** , **Do While** , **Structure For** ). 
+   
    * Unit 3 :
+   
    * Unit 4 :
 
 ## Builded with 🛠️
@@ -44,8 +47,11 @@ Cree una carpeta por cada unidad ( guía de ejercicios)
 ## Contenido 🚀
 
    * Unidad 1 : PseInt
-   * Unidad 2 :
+   
+   * Unidad 2 : PseInt: Estructuras de control:  **Estructura secuencial** , **Estructura Selectiva o de Decisión** ( **Condición Simple** , **Condición Doble** , **Condición Múltiple** ) y **Estructura Repetitiva** (**Mientras** , **Hacer Mientras** , **Estructura Para** ) .
+   
    * Unidad 3 :
+   
    * Unidad 4 :
 
 ## Construido con 🛠️
