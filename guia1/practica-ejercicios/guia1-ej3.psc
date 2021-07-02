@@ -13,3 +13,6 @@ Algoritmo PrecioPromedio
 	
 	Escribir "El PRECIO PROMEDIO del producto en base a los 3 establemientos es de: ", precio_promedio  ///Muestro por pantalla el precio promedio
 FinAlgoritmo
+
+//  Escribir un programa que calcule el precio promedio de un producto.
+//  El precio promedio se debe calcular a partir del precio del mismo producto en tres establecimientos distintos
