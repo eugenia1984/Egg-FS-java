@@ -1,16 +1,21 @@
 Algoritmo Equivalente
-	Definir metros, centimetros, milimetros, pulgadas Como Real
-	
-	metros=0
+	Definir metros, centimetros, milimetros, pulgadas Como Real       ///Defino mis variables
+	 
+	metros=0         ///Inicializo mis variables en cero.
 	centimetros = 0
 	milimetros = 0
 	pulgadas = 0
 	
-	Escribir "Ingrese una cantidad de metros, para decirle su equivalente en centÌmetros, milÌmetros y pulgadas: "  ///Pido que ingrese el valor
-	Leer metros   ///Leo el valor y lo asigno a la varaible
-	centimetros = metros * 100
-	milimetros = metros * 1000
-	pulgadas = metros * 100 * 2.54
+	Escribir "Ingrese una cantidad de metros, para decirle su equivalente en cent√≠metros, mil√≠metros y pulgadas: "  ///Pido que ingrese el valor
+	Leer metros   ///Leo el valor y lo asigno a la variable metros
+	centimetros = metros * 100             ///Calculo los centimeros
+	milimetros = metros * 1000             ///Calculo los metros
+	pulgadas = metros * 100 * 2.54         ///Calculo las pulgadas
 	
-	Escribir "Los ", metros, "metros ingresados equivalen a: ", centimetros," centÌmetros , ", milimetros, " milÌmetros y ", pulgadas, " pulgadas."
+	///Muesro por pantalla las equivalencias
+	Escribir "Los ", metros, "metros ingresados equivalen a: ", centimetros," cent√≠metros , ", milimetros, " mil√≠metros y ", pulgadas, " pulgadas."
 FinAlgoritmo
+
+// A partir de una conocida cantidad de metros que el usuario ingresa a trav√©s del teclado se debe obtener
+// su equivalente en cent√≠metros, en mil√≠metros y en pulgadas.
+// Ayuda: 1 pulgada = 254 centimetros
