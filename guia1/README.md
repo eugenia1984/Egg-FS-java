@@ -1,39 +1,112 @@
+ENGLISH
+
+# Guide 1 of Full Stack with Java (Egg)
+
+## What did I do? 🚀
+
+We start with pseudocode by looking at the following topics:
+
+  * programming
+  
+  * programming language
+  
+  * algorithm (writing, action section, sequential primitives)
+  
+  * program: its elements: reserved words, identifiers, variables and constants, data type:
+   * Integer: only whole numbers.
+   * Real: numbers with decimal places. The point is used to separate decimals. Example: 3.14
+   * Character: when we want to save a character. Characters are enclosed in single quotes. one character (one-dimensional): 'a', 'A'.
+   * Logical: when we need to save a logical expression (true or false)
+   * String: when we want to save character strings. Strings are enclosed in double quotes. a string (multidimensional): "this is a string", "hello world"
+   
+  * IDE
+  
+  * encoding
+  
+  *  testing and debugging
+  
+  *  operators:
+   * relational:>,> =, <, <=, =, <>
+   * logical: conjunction (Y, and, &&), disjunction (O, or, ||), negation (NO, not)
+   * algebraic (arithmetic): addition (+), subtraction (-), multiplication (*), division (/), power (^), modulus (% or MOD)
+
+  * Priority rules:
+   * 1 - Operations that are enclosed in parentheses are evaluated first. If there are different nested parentheses (inside each other), the innermost expressions are evaluated first.
+   
+   * 2-Arithmetic operations within an expression usually follow the following order
+priority: <br>
+✓ operator () <br>
+✓ unit operators (empowerment), <br>
+✓ *, /,% operators (product, division, modulus) ✓ +, - operators (addition and subtraction). for
+
+  * 3- The logical operations within an expression usually follow the following order of
+priority: <br>
+✓ operator () <br>
+✓ negation operator NO / not <br>
+✓ conjunction operator AND / and / && <br>
+✓ disjunction operator O / or / || for
+
+In case of matching several operators of equal priority in an expression or sub <br>
+expression enclosed in parentheses, the order of precedence in this case is from left to right, and this property is called associativity. <br>
+
+---
+
+ESPAÑOL
+
+
 # Guia 1 de Full Stack con Java (Egg)
 
 ## Qué hice? 🚀
+
 Comenzamos con pseudocódigo viendo los siguientes temas: 
+
 * programación
+
 * lenguaje de programación
+
 * algoritmo (escritura, sección de acciones, primitivas secuenciales)
+
 * programa: sus elementos: palabras reservadas, identificadores, variables y constantes, tipo de datos:
   * Entero: solo números enteros.
   * Real: números con cifras decimales. Para separar decimales se utiliza el punto. Ejemplo: 3.14
   * Carácter: cuando queremos guardar un carácter. Caracteres se encierran entre comillas simples. un carácter (unidimensional): ‘a’, 'A'.
   * Lógico: cuando necesitamos guardar una expresión lógica (verdadero o falso)
   * Cadena: cuando queremos guardar cadenas de caracteres. Cadenas se encierran entre comillas dobles. una cadena (multidimensional): “esto es una cadena”, "hola mundo"
+  
 * IDE
+
 * codificación
+
 * prueba y depuración
+
 * operadores: 
   * relacionales:  >,  >=, < , <=, =, <>
   * lógicos: conjunción (Y, and, &&), disyunción (O, or, ||), negación (NO, not)  
   * algebraicos (aritméticas): suma (+), resta (-), multiplicación (*), división (/), potenciación (^), módulo (% o MOD)
+  
 * Reglas de prioridad:
+
   * 1 - Las operaciones que están encerradas entre paréntesis se evalúan primero. Si existen diferentes paréntesis anidados (interiores unos a otros), las expresiones más internas se evalúan primero. 
+  
   * 2-Las operaciones aritméticas dentro de una expresión suelen seguir el siguiente orden
 de prioridad: <br>
 ✓ operador ( ) <br>
 ✓ operadores unitarios (potenciación), <br>
 ✓ operadores *, /, % (producto, división, módulo) ✓ operadores +, – (suma y resta). <br>
+
   * 3- Las operaciones lógicas dentro de una expresión suelen seguir el siguiente orden de
 prioridad:<br>
 ✓ operador ( ) <br>
 ✓ operador negación NO / not <br>
 ✓ operador conjunción Y / and / && <br>
 ✓ operador disyunción O / or / || <br>
-En caso de coincidir varios operadores de igual prioridad en una expresión o sub
-expresión encerrada entre paréntesis, el orden de prioridad en este caso es de izquierda aderecha, y a esta propiedad se denomina asociatividad.
+
+En caso de coincidir varios operadores de igual prioridad en una expresión o sub <br>
+expresión encerrada entre paréntesis, el orden de prioridad en este caso es de izquierda aderecha, y a esta propiedad se denomina asociatividad. <br>
+
+
 ---
+
 ## Preguntas de aprendizaje
 
 * 1 - Los dispositivos de entrada permiten: <br>
