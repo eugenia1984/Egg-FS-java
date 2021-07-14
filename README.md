@@ -21,6 +21,10 @@ I added one file for each unit of exercises I did.
    
    * Unit 5 : **Java** , you will find the pdf with the theory (compiler; source file; program structure; comments; packages; classes; methods; main () method; sentences; reserved words; identifier; variables and constants; data type; operators; console write input and output; control structures: if / else and switch; repetitive structures: while, di / while, for; jump statements: break and continue; utility classes: String , Math; applets and functions; vectors and matrices) and exercises performed in .java files.
    
+   * Unit 6: object orientated programming
+   
+   * Unit 7: **colections**
+   
 ---
 
 ## Builded with 🛠️
@@ -69,6 +73,10 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
    * Unidad 4 : un archivo .PDF con la teoría vista de: **arreglos**: unidimensionales (vectores) , bidimensionales (matrices) y multidimencionales. También vimos **matrices**. Los ejercicios realizados
    
    * Unidad 5: **Java**, van a encontrar el pdf con la teoría (compilador ; archivo fuente; estructura de un programa; comentarios; paquetes; clases; métodos; método main(); sentencias; palabras reservadas; identificador; variables y constantes; tipo de datos; operadores; input y output de escritura por consola; estructuras de control: if/else y switch; estructuras repetitivas: while, di/while, for; sentencias de salto: break y continue; clases de utilidad: String, Math; subprogramas y funciones ; vectores y matrices  ) y los ejercicios realizados en archivos .java.
+   
+   * Unidad 6: **Programacion Orienada a Objetos**
+   
+   * Unidad 7: **Colecciones**
    
 ---   
 
