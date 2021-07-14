@@ -17,7 +17,7 @@ I added one file for each unit of exercises I did.
    
    * Unit 4 :
    
-   * Unit 5 : **Java** , you will see a PDF document with the teory and all the exercise I did to practice, they are saved as .java.
+   * Unit 5 : **Java** , you will find the pdf with the theory (compiler; source file; program structure; comments; packages; classes; methods; main () method; sentences; reserved words; identifier; variables and constants; data type; operators; console write input and output; control structures: if / else and switch; repetitive structures: while, di / while, for; jump statements: break and continue; utility classes: String , Math; applets and functions; vectors and matrices) and exercises performed in .java files.
    
 ---
 
@@ -63,7 +63,7 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
    
    * Unidad 4 :
    
-   * Unidad 5: **Java**, van a encontrar el pdf con la teoría y los ejercicios realizados en archivos .java.
+   * Unidad 5: **Java**, van a encontrar el pdf con la teoría (compilador ; archivo fuente; estructura de un programa; comentarios; paquetes; clases; métodos; método main(); sentencias; palabras reservadas; identificador; variables y constantes; tipo de datos; operadores; input y output de escritura por consola; estructuras de control: if/else y switch; estructuras repetitivas: while, di/while, for; sentencias de salto: break y continue; clases de utilidad: String, Math; subprogramas y funciones ; vectores y matrices  ) y los ejercicios realizados en archivos .java.
    
 ---   
 
