@@ -74,7 +74,7 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
    
    * Unidad 5: **Java**, van a encontrar el pdf con la teoría (compilador ; archivo fuente; estructura de un programa; comentarios; paquetes; clases; métodos; método main(); sentencias; palabras reservadas; identificador; variables y constantes; tipo de datos; operadores; input y output de escritura por consola; estructuras de control: if/else y switch; estructuras repetitivas: while, di/while, for; sentencias de salto: break y continue; clases de utilidad: String, Math; subprogramas y funciones ; vectores y matrices  ) y los ejercicios realizados en archivos .java.
    
-   * Unidad 6: **Programacion Orienada a Objetos**
+   * Unidad 6: **Programacion Orientada a Objetos**
    
    * Unidad 7: **Colecciones**
    
