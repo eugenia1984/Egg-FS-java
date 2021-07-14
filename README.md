@@ -13,9 +13,9 @@ I added one file for each unit of exercises I did.
    
    * Unit 2 : PseInt : Sequential structure |  Selective or Decision Structure ( Simple Condition , Double Condition , Multiple Condition ) | Repetitive Structure ( While , Do While , Structure For ). 
    
-   * Unit 3 :
+   * Unit 3 : the theory of Subprograms and teh exercices.
    
-   * Unit 4 :
+   * Unit 4 : a .PDF file with the theory seen of: **arrays**: one-dimensional (vectors), two-dimensional (matrices) and multidimensional. We also saw **matrices**. I also added the excersice I did in order to practice.
    
    * Unit 5 : **Java** , you will find the pdf with the theory (compiler; source file; program structure; comments; packages; classes; methods; main () method; sentences; reserved words; identifier; variables and constants; data type; operators; console write input and output; control structures: if / else and switch; repetitive structures: while, di / while, for; jump statements: break and continue; utility classes: String , Math; applets and functions; vectors and matrices) and exercises performed in .java files.
    
@@ -59,9 +59,9 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
    
    * Unidad 2 : PseInt : Estructura Seceuncial | Estructura Selectiva o de Decisión ( Condición Simple , Condición Doble , Condición Múltiple ) | Estructura Repetitiva (Mientras , Hacer Mientras , Estructura Para ) .
    
-   * Unidad 3 :
+   * Unidad 3 : la teoría de **subprogramas** y los exercicios de practica.
    
-   * Unidad 4 :
+   * Unidad 4 : un archivo .PDF con la teoría vista de: **arreglos**: unidimensionales (vectores) , bidimensionales (matrices) y multidimencionales. También vimos **matrices**. Los ejercicios realizados
    
    * Unidad 5: **Java**, van a encontrar el pdf con la teoría (compilador ; archivo fuente; estructura de un programa; comentarios; paquetes; clases; métodos; método main(); sentencias; palabras reservadas; identificador; variables y constantes; tipo de datos; operadores; input y output de escritura por consola; estructuras de control: if/else y switch; estructuras repetitivas: while, di/while, for; sentencias de salto: break y continue; clases de utilidad: String, Math; subprogramas y funciones ; vectores y matrices  ) y los ejercicios realizados en archivos .java.
    
