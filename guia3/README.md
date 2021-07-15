@@ -37,7 +37,7 @@ Comenzamos a ver Subprogramas
 	* c) Por valor y por referencia <br>
 	* d) No puede pasarse como argumento <br>
 
-**Respuesta c**
+**Respuesta c :  Una variable puede pasarse como argumento a un subprograma: por valor y por referencia**
 
 * 5 - ¿Qué características tienen los elementos locales? <br>
 	* a) Son visibles en su ámbito y fuera <br>
@@ -45,7 +45,7 @@ Comenzamos a ver Subprogramas
 	* c) Son invisibles en su ámbito y visibles fuera <br>
 	* d) Son visibles en su ámbito e invisibles fuera <br>
 
-**Respuesta d**
+**Respuesta d: los elementos locales on visibles en su ámbito e invisibles fuera**
 
 * 6 - ¿Qué características tienen los elementos globales?
 	* a) Son visibles en su ámbito y fuera <br>
@@ -53,7 +53,7 @@ Comenzamos a ver Subprogramas
 	* c) Son visibles en su ámbito e invisibles fuera <br>
 	* d) Son invisibles en su ámbito y visibles fuera <br>
 
-**Respuesta a**
+**Respuesta a: los elementos globales son visibles en su ámbito y fuera**
 
 * 7 - Una función de un programa siempre debe <br>
 	* a) Recibir al menos un argumento <br>
@@ -61,7 +61,7 @@ Comenzamos a ver Subprogramas
 	* c) Ser recursivo <br>
 	* d) Ninguna de las anteriores <br>
 
-**Respuesta b**
+**Respuesta b :  Una función de un programa siempre debe ser llamado en el algoritmo principal **
 
 *	8 - Cuando se escribe una función PSeInt <br>
 	* a) Es necesario definir el tipo de dato de la variable de retorno <br>
@@ -69,7 +69,7 @@ Comenzamos a ver Subprogramas
 	* c) Es indiferente si el tipo de dato de la variable de retorno se define o no <br>
 	* d) Ninguna de las anteriores <br>
 
-**Respuesta a**
+**Respuesta a : Cuando se escribe una función PSeInt es necesario definir el tipo de dato de la variable de retorno **
 
 ---
 
