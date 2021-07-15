@@ -1,17 +1,24 @@
 # Guia 5 : Introduccion a Java
 
+
 ## Java
 
 Es un **lenguaje de programacion de alto nivel**. <br>
+
+---
+
+
 
 ## Compilador de Java
 
 Traduce todo un programa de una sola vez. <br>
 Se compila a un lenguaje intermedio (ByteCode) que es interpretado por JVM (Java Virtual Machine) del JRE (Java Runtime Enviroment) y asi es portable a distintas plataformas. <br>
 
+
 ## Ejecucion de una aplicacion
 
 en Java el cñodigo fuente se guarda en archivos .java y al compilar el codigo fuente se realiza un analisis de sintaxis de codigo escrito en archivos .java y de estar ok son compilados a archivos .class <br>
+
 
 ## Archivo fuente en Java
 
@@ -27,6 +34,7 @@ Tiene la sigueinte forma:
 ```
 
 El nombre del archivo fuente debe ser el mismo de la declaracion de clase publica(la mian class).<br>
+
 
 
 ## Estructura de un programa Java
@@ -61,10 +69,12 @@ Cuerpo de clase <br>
 Siempre tienen la palabra reservada *class* y se cierran y abren entre llaves: { }. <br>
 
 
+
 ## Métodos
 
 Un método es una secuencia de sentencias ejecutables, y son delimitadas por las { }
 . <br>
+
 
 ## Método Main()
 
@@ -86,6 +96,7 @@ public static void main(String[] args)
 El *método main()* siempre debe aceptar *String* como parámetro. <br>
 
 
+
 ## Sentencia
 
 Las unidades ejecutables más pequeñas de un programa (las líneas de código escrito). <br>
@@ -94,15 +105,19 @@ Tienen una *palabra clave* o *reservada* como expresiones, declaraciones de vara
 Todas las sentencias deben terminar con **;** . <br>
 
 
+
 ## Elementos de un programa
+
 
 ### Palabra reservada
 
 Palabra dentro del lenguaje que significan la ejecucion de una instruccion determinada, por lo que no pueden ser utilizadas con otro fin. <br>
 
+
 ### Identificador
 
 Los nombres que se usan para identificar cada uno de los elementos del lenguaje (nombre de variables, nombre de clases, interfaces, atributos y métodos). <br>
+
 
 ### Variables y Constantes
 
@@ -116,6 +131,7 @@ Si la información que guarda no debe cambiar, entonces tenemos uan **constante*
 Si los valores pueden cambiar (variar) entonces tenemos uan **variable** . <br>
 
 
+
 ## Declaracion de variables 
 
 Siempre deben ser declaradas antes de usarse, se deben declarar al principio del programa. <br>
@@ -125,6 +141,7 @@ Su sintaxis. <br>
 ```
 <tipo_de_dato> <nombre_varaible>;
 ```
+
 
 ## Tipos de datos
 
@@ -142,11 +159,14 @@ Su sintaxis. <br>
 
 ---
 
+
 ## Operadores
+
 
 ### De asignacion
 
 = es de asignación simple
+
 
 ### Aritméticos
 
@@ -157,21 +177,26 @@ Su sintaxis. <br>
 
 +suma, -resta, ++operador de incremento, --operador de decremento,  !operador logico de negacion
 
+
 ### De igualdad y relacion
 
 ==igual, !=distinto, >mayor, >=mayor igual, <menor, <=menor igual.
 
+
 ### Condicionales
 
-&&and, ||or, ?:ternario
+&& and , || or , ?: ternario
+
 
 ### De comparacion de tipo
 
 *instance of*
 
+
 ---
 
-## Tipos de instrucciones
+## Tip
+os de instrucciones
 
 
 **instuccones de inicio/fin** : para delimitar bloques de codigo. <br>
@@ -196,6 +221,7 @@ nombre_de_la_variable = expresion
 
 
 ## Instrucciones primitivas
+
 
 
 ### Asignacion
