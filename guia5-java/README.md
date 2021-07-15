@@ -241,6 +241,282 @@ Se puede definir una variable y al mismo tiempo asignarle valor: <br>
 Primero de evalúa la expresión de la derecha y luego se asigna el resultado a al varaible de la izquierda. <br>
 El tipo de la variable y el de la expresión deben coincidir. <br>
 
+---
 
+## Entrada y Salida de información
+
+### Escritura en Java
+
+```
+System.out.println();
+```
+
+Permite mostrar valores en el *output*, la interfaz gráfica de Java. <br>
+Siempre entre comillas dobles (si es String) y dentro de los paréntesis, si es una variable va sin comillas. <br>
+
+Para concetanar *mensaje* con *variable* se utiliza el + . <br>
+
+Si se quiere escribir sin saltos de línea: <br>
+
+```
+System.out.print();
+```
+
+Va sin el *ln* por next line. <br>
+
+### Lectura o entrada en Java
+
+Hay muchas maneras de ingresar información en el output por teclado en nuestro programa Java. <br>
+
+*Scanner* es una clase en el paquete *java.util* utilizada para obtener la entrada de los tipos primitivos: int, double, etc, y también String. <br>
+
+Ejemplo: <br>
+
+```
+Scanner leer = new Scanner(System.in);
+```
+
+Para poder usar el Objeto Scanner hay que *importarlo* para poder usarlo: <br>
+
+```
+import java.util.Scanner;
+```
+
+Para crear un objeto de clase Scanner pasamos un objeto predefinido *System.in* que representa el flujo de entrada standard. <br>
+
+Se le dio el nombre *leer* pero puede nombrarse como quieran. <br>
+
+Para utilizar las funciones del objeto Scanner se usa el nombre que le asignamos (leer) y luego un punto (.), para llamar a los métodos del Scanner. <br>
+
+Para leer valores numéricos de un determinado tipo de datos, la funcion que se utilizará es : <br>
+**naxtT()** <br>
+Por ejemplo, para leer un tipo entero: **leer.nextInt()** o para ller un double: **leer.nextDouble()**.<br>
+
+Se puede usar cuando se define la variable. <br>
+
+```
+int numero = leer.nextInt()
+```
+
+Se puede usar como una varaible pre definida: <br>
+
+```
+int numero;
+numero = leer.nextInt();
+```
+
+---
+
+
+# Instrucciones de bfurcacion
+
+
+## Estructuras de control
+
+Construcciones a partir de palabras reservadas que permiten modificar el flujo de ejecución dle programa. <br>
+
+
+## Estructuras condicionales
+
+Estructuras de control que cambian el flujo de ejecución de un programa de acuerdo a si se cumple o no una condición. <br>
+Cuando el flujo de control del programa llega al condicional, el programa evalúa la condición y determina el camino a seguir. <br>
+
+
+### if / else
+
+**IF** es la más básica de las estructuras de control de flujo. Se ejecuta cierta parte del código si la condición evaluada es verdadera (TRUE). <br>
+
+
+```
+if( condición ) {
+ //sentencias
+}
+```
+
+
+La *condición* es una expresión condicional cuyo resultado luego de la evaluación es un dato booleano, si es TRUE se ejecutan las sentencias. <br>
+
+
+En el **if / else** primero se evalua la condición si es TRUE se ejecuta la sentencia1, si es false se ejecuta al sentencia2. <br>
+
+
+```
+if( condición ) {
+ //sentencias1
+} else {
+ //sentencias2
+}
+```
+
+En el **if / else if / else** son condiciones anidadas, primero se evalua la *condicion* si es true se ejecuta *sentencias1*, sino pasa a evaluar *condicion2* si es true se ejecuta *sentencias2* y sino pasa a ejecutar *sentencias3* dentro del *else*. <br>
+
+```
+if( condición ) {
+ //sentencias1
+} else if (condicion2) {
+ //sentencias2
+} else {
+  //sentencias3	
+}
+```
+
+### Switch
+
+Evalúa el valor que tiene la variable y de acuerdo al valor que posee ejecuta las sentencias del bloque correspondiente. <br>
+
+```
+switch( varaible) {
+  case valor1:
+              sentencia1;
+	      break;
+  case valor2:
+              sentencia2;
+	      break;
+   default:
+           sentencia3;
+}
+```
+
+**break** va detrás de cada sentencia, para cortar el switch y que se salga del bucle. <br>
+
+Las instrucciones dentro del bloque default se ejecutan cuando la variable que se está evaluando no coincide con ninguno de los valores case. <br>
+
+
+---
+
+## Estructuras repetitivas
+
+Cuando hay operaciones qeu deben repetirse muchas veces. <br>
+Son los bucles. <br>
+
+La *iteracion* es cuando se repite la ejecución de una secuenacia, es cada vuelta del ciclo. <br>
+
+Todo bucle tiene una *condición* que es la que determina cuándo se repite el bucle. <br>
+
+
+### While
+
+```
+while (  condicion ) {
+   //sentencias
+}
+```
+
+Ejecuta un bloque de instrucciones mientras se cumple una condición.<br>
+La condición se comprueba *antes* de empezar a ejecutar por primera vez el bucle; por lo que si la condición es falsa, nunca se ejecuta.<br>
+
+### Do / While
+
+El bloque se ejecuta siempre al menos una vez, proqeu primero se ejecuta y luego se ve si se cumple con la condición. <br>
+
+```
+do {
+  //sentencias
+}  while ( condicion );
+
+```
+
+### For
+
+
+Es una forma comparcta de recorrer un rango de valores cuando la cantidad de veces que se debe iterar un bloque de codigo es conocida.
+
+
+```
+for ( inicializacion ; terminacion ; incremento ) {
+   //sentencias
+}
+```
+
+*inicializacion* inicializa el bucle y se ejecuta una sola vez al iniciar el bucle. <br>
+
+*terminacion* es la condición que permite que el bucle pase de true a false y corte, sino es un bule infinito.<br>
+
+*incremento* se invoca luego de cada iteración, puede tanto incrementar como decrementar.<br>
+
+
+
+## Sentencias de Salto
+
+### Break
+
+Sirve para abandonar una esructura de control, en : if-else , switch, for, do-while, while. <br>
+cuadno se ejecuta la instrucción break, el control del programa sale de la estructura en la que encuetnra contenida y continua con el programa. <br>
+
+### Continue
+
+Corta la iteración en donde se encuentra el continue, pero en lugar de salir del bucle, continúa con la sigueinte iteración. <br>
+Transfiere el control del programa desde la instrucción continue directamente a la cabecera del bucle: for, do-while, while. <br>
+
+---
+
+# Clases de utilidad
+
+## Clase String
+
+Cadenas de caracteres. <br>
+
+Sus métodos: <br>
+
+**charAt( int index)**: retorna el caracter especificado en la posicion index. <br>
+
+**equals(String str)**: sirve para comparar si dos cadenas son iguales. Devuelve True si son iguales y false si no. <br>
+
+**equalsIgnoreCase(String str)** :  sirve para comparar si dos cadenas son iguales, ignorando la grafía de la palabra. devuelve true si son iguales y false si no.<br>
+
+**compareTo(string otraCadena)** : compara dos cadenas de caracteres alfabéticamente. Retorna 0 si son iguales, entero negativo si la primera es menor o entero positivo si la primera es mayor. <br>
+
+**concat(String str)** : concatena la cadena del parámetro al final de la primera cadena. <br>
+
+**contains(charSequence s)** : retorna si la cadena contiene la secuencia tipo char del parámetro. <br>
+
+**endsWith(String str)** : retrna verdadero si la cadena es igual al objeto del parámetro. <br>
+
+**indexOf(String str)** : retorna e índice de la primera ocurrencia de la cadena del parámetro. <br>
+
+**isEmpty()** : retorna verdadero si la longitud de la cadena es 0.<br>
+
+**length()**: retorna la longitud de la cadena. <br>
+
+**replace(char oldChar, char newChar)** : renueva una nueva cadena reemplazando los caracteres del primer parámetro con el carácter del segundo parámetro. <br>
+
+**split(Sting regex)** : retorna un arreglo de cadenas separadas por la cadena del parámetro. <br>
+
+**startsWith(String prefix)** : retorna verdadero si el comienzo de la cadena es igual al prefijo del parámetro. <br>
+
+
+**cubstring(int beginIndex, int endIndex)** : retorna la sub cadena desde el caracter del primer parámetro hasta el carácter del segundo parámetro. <br>
+
+**toCharArray()** : retorna el conjunto de caracteres de la cadena. <br>
+
+**toLowerCase()** : retorna la cadena en minúscula. <br>
+
+**toUpperCase()** : retorna la cadena en mayúscula. <br>
+
+
+
+jave es un lenguaje de tipado estático, para convertir cualquier tipo de dato a un String, utilizamos la función **valueOf(n)**. <br>
+
+Ejempo: <br>
+
+```
+int numeroEntero = 4;
+String numCadena = String.valueOf(numentero);
+```
+
+Si lo quiero hacer al reves: <br>
+
+```
+String numCadena = "1";
+int numEntero = integer.parseInt(numCadena);
+```
+
+---
+
+## Clase Math
+
+
+
+---
 
 
