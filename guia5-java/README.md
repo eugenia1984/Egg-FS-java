@@ -195,8 +195,7 @@ Su sintaxis. <br>
 
 ---
 
-## Tip
-os de instrucciones
+## Tipos de instrucciones
 
 
 **instuccones de inicio/fin** : para delimitar bloques de codigo. <br>
