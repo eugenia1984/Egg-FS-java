@@ -624,6 +624,15 @@ for (int i = 0 ; i < 5 ; i++) {
 }
 ```
 
+**En un subprograma** <br>
+
+```
+public static int devolverVector() {
+   int[] vector = new int[5];
+   return vector;
+}
+```
+
 
 ## Matriz
 
