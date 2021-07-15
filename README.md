@@ -68,7 +68,7 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
    
    * Unidad 2 : PseInt : Estructura Seceuncial | Estructura Selectiva o de Decisión ( Condición Simple , Condición Doble , Condición Múltiple ) | Estructura Repetitiva (Mientras , Hacer Mientras , Estructura Para ) .
    
-   * Unidad 3 : la teoría de **subprogramas** y los exercicios de practica.
+   * Unidad 3 : la teoría de **subprogramas** y los ejercicios de practica.
    
    * Unidad 4 : un archivo .PDF con la teoría vista de: **arreglos**: unidimensionales (vectores) , bidimensionales (matrices) y multidimencionales. También vimos **matrices**. Los ejercicios realizados
    
