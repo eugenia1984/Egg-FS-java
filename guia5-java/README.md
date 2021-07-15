@@ -72,7 +72,10 @@ El *mian()* sirve para que un programa se pueda ejecutar, es como el Algoritmo d
 
 ¿ Cómo de declara ? <br>
 
-*public static void main(String[] args)*
+```
+public static void main(String[] args)
+```
+
 
 **public** : tipo de acceso, puede ser llamado desde otras clases. <br>
 
@@ -118,7 +121,10 @@ Si los valores pueden cambiar (variar) entonces tenemos uan **variable** . <br>
 Siempre deben ser declaradas antes de usarse, se deben declarar al principio del programa. <br>
 
 Su sintaxis. <br>
-*<tipo_de_dato> <nombre_varaible>;* <br>
+
+```
+<tipo_de_dato> <nombre_varaible>;
+```
 
 ## Tipos de datos
 
@@ -167,7 +173,9 @@ Su sintaxis. <br>
 
 ## Tipos de instrucciones
 
+
 **instuccones de inicio/fin** : para delimitar bloques de codigo. <br>
+
 
 **instrucciones de asignacion* : para asignar el resultado de la evalucacion de una expresion a una variable. <br>
 
@@ -178,7 +186,9 @@ nombre_de_la_variable = expresion
 
 **instrucciones de lectura** : para leer datos de un dispositivo de entrada y se asignan a una variable. <br>
 
+
 **instrucciones de escritura**: escribir o mostrar mensajes o contenido de las variables en un dispositivo de salida. <br>
+
 
 **instrucciones de bifurcacion**: se interrumpe el desarrollo lineal de un programa.<br>
 
@@ -186,6 +196,7 @@ nombre_de_la_variable = expresion
 
 
 ## Instrucciones primitivas
+
 
 ### Asignacion
 
