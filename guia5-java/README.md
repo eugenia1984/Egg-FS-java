@@ -170,7 +170,11 @@ Su sintaxis. <br>
 **instuccones de inicio/fin** : para delimitar bloques de codigo. <br>
 
 **instrucciones de asignacion* : para asignar el resultado de la evalucacion de una expresion a una variable. <br>
-*nombre_de_la_varaible* = *expresion* <br>
+
+```
+nombre_de_la_variable = expresion
+```
+
 
 **instrucciones de lectura** : para leer datos de un dispositivo de entrada y se asignan a una variable. <br>
 
@@ -187,12 +191,16 @@ Su sintaxis. <br>
 
 Permite almacenar un valor en una variable, previamente definida. <br>
 
-
-*<variable>* = *<expresion>* <br>
+```
+<variable> =  <expresion>
+```
 
 Se puede definir una variable y al mismo tiempo asignarle valor: <br>
 
-*<tipo de variable>* *<variable>* = *<expresion>* <br>
+```
+<tipo de variable> <variable> = <expresion>
+```
+
 
 Primero de evalúa la expresión de la derecha y luego se asigna el resultado a al varaible de la izquierda. <br>
 El tipo de la variable y el de la expresión deben coincidir. <br>
