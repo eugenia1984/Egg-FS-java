@@ -515,8 +515,136 @@ int numEntero = integer.parseInt(numCadena);
 
 ## Clase Math
 
+Sus métodos: <br>
 
+**abs(double a)** : devuelve el valor absoluto de un valor doble introducido como parámetro. <br>
+
+**abs(int a)** : devuelve el valor absoluto de un valor Entero introducido como parámetro. <br>
+
+**abs(long a)** : devuelve el valor absoluto de un valor long introducido como parámetro. <br>
+
+**max(double a, double b)** : devuelve el mayor de dos valores dobles.<br>
+
+**max(int a, int b)** : devuelve el mayor de dos valores Enteros. <br>
+
+**max(long a, long b)** . devuelve el mayor de los valores long.
+
+**min(double a, double b)** : devuelve el menor de dos valores dobles. <br>
+
+**min(int a, int b)** : devuelve el menor de dos valores enteros.<br>
+
+**min(long , long b)** : devuelve el menor de dos valores long.<br>
+
+**pow(double a, double b)** : devuelve el valor del primer argumento elevado a la potencia del segundo argumento. <br>
+
+**random()**: devuelve un doble con un signo positivo, mayor o igula que 0 y menor que 1.0 . <br>
+
+**roud(double a)**: devuelve el long redondeado más cercano al double inroducido.<br>
+
+**sqrt(double a)** : devuelve la raiz positiva correctamente redondeada de un doble.<br>
+
+**floor(double a)** : devuelve el entero más cerno por debajo.<br>
+
+
+
+## Método random() de la clase Math
+
+Se puede usar para generar números al azar. <br>
+El rango o margen con el que trabaja el método random oscila entre 0.0 y 1.0 (este último no incluido). <br>
+
+Por lo tanto , para generar un núemro entero entre 0 y 9 hay que escribir la sentencia: <br>
+
+```
+int numero = (int) (Marth.random() * 10);
+```
 
 ---
+
+## Subprogramas
+
+Para solucionar un problema complejo es lo mejor dividir en subproblemas ( subprogrmas ) . <br>
+
+Divide y vencerás. <br>
+
+El problema principal se soluciona por el correspondiente programa o algoritmo principal mientras que la solución de los subproblemas será a través de subprogrmas, conocidos como **procedimeintos** o **funciones**. <br>
+
+Un subprograma es como un mini algoritmo. <br>
+
+
+## Funciones
+
+
+Son un conjunto de líneas de código encapsulados en un bloque, recibe argumentos, cuyos valores se utilizan para efectuar operaciones y adicionalmente retorna un valor. <br>
+
+Según sus parámetros, puede recibir argumentos (algunas no reciben nada), hace usp de dichos valores recibidos como sea necesario y retorna un valor usando la instrucción **return**, si no retorna es otro tipo de función. <br>
+
+Los tipos que pueden usarse en la función son: int, double, long, boolean, Strinf, char. <br>
+
+
+
+```
+[acceso]  [modificador]  [tipo]  nombreFuncion( [tipo] nombreArgumento, ...) {
+  //bloque de instrucciones
+}
+```
+
+
+## Procedimientos (Funciones sin retorno)
+
+
+```
+[acceso]  [modificador]  void  nombreFuncion( [tipo] nombreArgumento, ...) {
+  //bloque de instrucciones
+}
+```
+
+---
+
+# Arreglos: Vectores y Matrices
+
+## Vector
+
+
+**Declaración y creación** <br>
+
+```
+tipo[]  arregloV = new tipo[tamanio];
+```
+
+**Asignar elementos manualmente**<br>
+```
+vector[0] = 5;
+```
+
+**Asigar elementos con for**<br>
+
+```
+for (int i = 0 ; i < 5 ; i++) {
+  vector[i] = 5;
+}
+```
+
+
+## Matriz
+
+**Declaración y creación** <br>
+```
+tipo[] [] arregloM = new tipo[filas][columnas]:
+```
+
+**Asignar elementos** <br>
+```
+matriz[0][0]=6;
+```
+
+**Asigar elementos con for**<br>
+
+```
+for (int i = 0 ; i < 5 ; i++) {
+  for (int j = 0 ; j < 5; j++) {
+    matriz[i][j] = 6;
+  }
+}
+```
 
 
