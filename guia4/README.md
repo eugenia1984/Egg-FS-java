@@ -10,63 +10,63 @@ También vimos matrices
 
 ## Preguntas de aprendizaje
 
-* 1 -  Dada la siguiente sentencia correcta: uno[dos] = verdadero, se puede afirmar…
-	a) dos es una variable de tipo lógico
-	b) uno es una variable de tipo lógico
-	c) uno es una variable de tipo de vector de lógico
-	d) dos es una variable de tipo vector de lógico
+* 1 -  Dada la siguiente sentencia correcta: uno[dos] = verdadero, se puede afirmar… <br>
+	a) dos es una variable de tipo lógico <br>
+	b) uno es una variable de tipo lógico <br>
+	c) uno es una variable de tipo de vector de lógico <br>
+	d) dos es una variable de tipo vector de lógico <br>
 
-**La respuesta correcta es la B.**
+**La respuesta correcta es la B.** <br>
 
-* 2 - Dada la siguiente sentencia correcta: uno[dos] = “auto”, se puede afirmar...
-	a) uno es una variable de tipo de vector de carácter
-	b) uno es una variable de tipo carácter
-	c) dos es una variable de tipo entero
-	d) dos es una variable de tipo vector de carácter
+* 2 - Dada la siguiente sentencia correcta: uno[dos] = “auto”, se puede afirmar... <br>
+	a) uno es una variable de tipo de vector de carácter <br>
+	b) uno es una variable de tipo carácter <br>
+	c) dos es una variable de tipo entero <br>
+	d) dos es una variable de tipo vector de carácter <br>
 
-**La respuesta correcta es la C. A es falso. B es faldo porque caracter es una sola letra. D es falso.**
+**La respuesta correcta es la C. A es falso. B es faldo porque caracter es una sola letra. D es falso.** <br>
 
-* 3 - Señale cuál de las siguientes afirmaciones es verdadera:
-	a) Los vectores sólo almacenan elementos del mismo tipo
-	b) Las cadenas se implementan como un arreglo de caracteres
-	c) Los vectores pueden almacenar datos de distinto tipo
-	d) Los vectores no pueden pasarse como parámetro a un subprograma
+* 3 - Señale cuál de las siguientes afirmaciones es verdadera: <br>
+	a) Los vectores sólo almacenan elementos del mismo tipo <br>
+	b) Las cadenas se implementan como un arreglo de caracteres <br>
+	c) Los vectores pueden almacenar datos de distinto tipo <br>
+	d) Los vectores no pueden pasarse como parámetro a un subprograma <br>
 	
-**La respuesta correcta es la A, los vectores solo almacenan elementos del mismo tipo.**
+**La respuesta correcta es la A, los vectores solo almacenan elementos del mismo tipo.** <br>
 
-* 4 - Para sumar dos matrices de orden 3x3:
-	a) Se requieren dos bucles
-	b) Se requieren tres bucles
-	c) Sólo se requiere un bucle
-	d) No requiere ningún bucle
+* 4 - Para sumar dos matrices de orden 3x3: <br>
+	a) Se requieren dos bucles <br>
+	b) Se requieren tres bucles <br>
+	c) Sólo se requiere un bucle <br>
+	d) No requiere ningún bucle <br>
 
-**La respuesta correcta es la A, pueden ser solo 2 matrices porque el tercer bucle puede ser la suma de las dos anteriores.**
+**La respuesta correcta es la A, pueden ser solo 2 matrices porque el tercer bucle puede ser la suma de las dos anteriores.** <br>
 
-* 5 - Indique cuál de las siguientes sentencias es verdadera:
-	a) Un arreglo es una estructura de datos heterogénea
-	b) Un arreglo es una estructura de datos homogénea
-	c) Los arreglos no pueden tener más de tres dimensiones.
-	d) Ninguna de las anteriores
+* 5 - Indique cuál de las siguientes sentencias es verdadera: <br>
+	a) Un arreglo es una estructura de datos heterogénea <br>
+	b) Un arreglo es una estructura de datos homogénea <br>
+	c) Los arreglos no pueden tener más de tres dimensiones. <br>
+	d) Ninguna de las anteriores<br>
 	
-**La respuesta corrrecta es la A, porque dentro de un arreglo sus elementos deben ser del mismo tipo**
+**La respuesta corrrecta es la A, porque dentro de un arreglo sus elementos deben ser del mismo tipo** <br>
 
-* 6 - Para recorrer una matriz de orden NxMxP:
-	a) Se requieren dos bucles
-	b) Sólo se requiere un bucle
-	c) Se requieren tres bucles
-	d) No requiere ningún bucle
+* 6 - Para recorrer una matriz de orden NxMxP:<br>
+	a) Se requieren dos bucles<br>
+	b) Sólo se requiere un bucle<br>
+	c) Se requieren tres bucles<br>
+	d) No requiere ningún bucle<br>
 	
-**La respuesta correcta es la C, se requiere el orden de 3 x 3, y tenemos: fila, columna y profundidad**
+**La respuesta correcta es la C, se requiere el orden de 3 x 3, y tenemos: fila, columna y profundidad**<br>
 
-* 7 - Un subíndice puede ser representado por:
-	a) Una variable de tipo entero
-	b) Una constante numérica de tipo entero
-	c) Una expresión algebraica cuyo resultado sea equivalente a un valor entero
-	d) Todas las anteriores
+* 7 - Un subíndice puede ser representado por:<br>
+	a) Una variable de tipo entero<br>
+	b) Una constante numérica de tipo entero<br>
+	c) Una expresión algebraica cuyo resultado sea equivalente a un valor entero<br>
+	d) Todas las anteriores<br>
 	
-**La respuesta correcta es la D**
+**La respuesta correcta es la D**<br>
 
-* 8 - Dado el siguiente fragmento de código:
+* 8 - Dado el siguiente fragmento de código:<br>
 
 	... <br>
 	Dimension dias(7)  <br>
@@ -86,8 +86,8 @@ c) tempAux = días(0) <br>
 d) tempAux = días(sabado – 1) <br>
 e) tempAux = días(sabado + 5) <br>
 f) tempAux = días(días(sábado)) <br>
-
-**La respuesta es C, D y F(si sábado va de 0 a 6)**
+ 
+**La respuesta es C, D y F(si sábado va de 0 a 6)** <br>
 
 ---
 
