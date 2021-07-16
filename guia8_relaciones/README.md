@@ -1,5 +1,14 @@
 # Guia 8 : Relaciones entre clases
 
+Una **relación**  es una **conexión semántica** entre **clases**.<br>
+Permite que una clase *conozca los atributos, operaciones y relaciones de otras clases*. <br>
+Las clases están relacionadas unas con otras. <br>
+
+En la Programación Orientada a Objetos, un objeto se comunica con otro objeto para utilizar la funcionalidad y los servicios proporcionados por ese objetivo. <br>
+
+La relación entre dos clases separadas se establece a través de sus objetos. <br>
+Las ralaciones entre clases significan que *una clase contiene una referencia a un objeto u objetos, de la otra clase en la forma de un atributo*. <br>
+
 ## Agregación
 
 ## Composición
