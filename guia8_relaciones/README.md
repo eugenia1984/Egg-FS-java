@@ -73,13 +73,13 @@ Para representar la estructura de un sistema mostrando las clases del sistema, s
 Ayudan a identificar la relación entre diferentes clases u objetos. <br>
 
 Cada clase está representada por un rectángulo que tiene  una subdivisión de tres compartimentos: <br>
-////////// <br>
+//////////// <br>
 nombre <br>
-////////// <br>
+//////////// <br>
 atributos <br>
-/////////// <br>
+///////////// <br>
 métodos<br>
-/////////// <br>
+///////////// <br>
 
 Hay tres tipos de modificadores: <br>
 
@@ -89,19 +89,28 @@ Hay tres tipos de modificadores: <br>
 
 Por ejemplo: <br>
 
-////////////////<br>
+//////////////////////<br>
 Libro<br>
-////////////////<br>
+//////////////////////<br>
 -String titulo <br>
 -Integer ejemplares<br>
-//////////////////// <br>
+/////////////////////// <br>
 +void prestamo() <br>
 -void devolucion() <br>
-/////////////////// <br>
+////////////////////// <br>
 
 ### Relaciones entre clases
 
+Se representan con flechas entre las clases. <br>
+Las clases que recibe la relación de la otra clase, como un objeto de la otra clase, es la clase a la que le toca el rombo. <br>
+
+Si el rombo está pintado es *composición* y si está vacío es *asociación*. <br>
+
+Para representar: relación de uno a uno **(1...1)**, relación de uno a muchos **(1 ...*)**. <br>
+
 ### Herencia
+
+Se representa con -> <br>
 
 ---
 
