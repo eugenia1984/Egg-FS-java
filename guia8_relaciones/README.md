@@ -56,7 +56,7 @@ b) Más (+)<br>
 c) Numeral (#)<br>
 d) ninguna de las anteriores <br>
 
-**Respuesta : b - con el +**
+**Respuesta : b - con el más ( + )**
 
 6- El modificador de acceso private en los UML se representa con un...<br>
 a) Menos (-)<br>
@@ -64,4 +64,4 @@ b) Más (+)<br>
 c) Numeral (#) <br>
 d) Ninguna de las anteriores <br>
 
-**Respuesta : a - Menos**<br>
+**Respuesta : a - con el menos (- )**<br>
