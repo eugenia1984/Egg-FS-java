@@ -9,15 +9,91 @@ En la Programación Orientada a Objetos, un objeto se comunica con otro objeto p
 La relación entre dos clases separadas se establece a través de sus objetos. <br>
 Las ralaciones entre clases significan que *una clase contiene una referencia a un objeto u objetos, de la otra clase en la forma de un atributo*. <br>
 
-## Agregación
+---
 
-## Composición
+## Asociación
+
+Es la relación entre dos objetos.  Y puede ser : <br>
+
+**Bidireccinal** : los objetos que están al extremo de una relación pueden conocerse entre sí.<br>
+Por ejemplo: <br>
+Padre <-> Hijo <br>
+
+**Unidireccional** : solamente uno de ellos conoce a otro .<br>
+Por ejemplo : <br>
+Curso -> Alumno <br>
+
+Dentro de la **asociación simple** existe la **composición** y la **agregación**. <br>
+
+### Agregación
+
+**Una clase es instanciada por otro objeto y clase**. <br>
+
+El momento en que dos objetos se unen para trabajar juntos y así alcanzar una meta. <br>
+
+Ambos objetos son independientes entre sí, existen más allá de que exista o no el otro objeto al que se unen.<br>
+Ambos objetos pueden sobrevivir individualmente, al borrar un objeto no afectará a la otra entidad. <br>
+
+### Composición
+
+Es una *relación más fuerte*, es una **relación de vida**, el tiempo de un objeto está condicionado por el tiempo de vida del objeto que lo incluye. <br>
+Es un tipo de relación dependeinte en dónde un objeto más complejo es conformado por objetos más pequeños. <br>
+
+---
 
 ## Relaciones en código
 
-## UML
+Las relaciones entre clases significan que uan clase contiene una referencia a un objeto u objetos, de la otra clase en la forma de un atributo. Pero a la hora de poner un *atributo* en una clase, debemos ver el tipo de *relación* de eas clases.<br>
+
+El tipo de relación se ve representada a la hora de poner el objeto como forma de atributo en la clase que recibe la relación, que puede ser: <br>
+
+**uno a uno** : por cada ubjeto tenemos una relación con un solo objeto.<br>
+Por ejemplo para un *curso* tengo un *profesor*.<br>
+
+**uno a muchos** : por cada objeto tenemos una relación con muchos onjetos de una clase. <br>
+Por ejemplo, para un *curso* tengo muchos *alumnos* . <br>
+Utilizamos *colecciones* y las **listas** son las colecciones más rápidas de llenar. <br>
+
+**muchos a muchos** <br>
+
+---
+
+## UML (Unified Model Language / Lenguaje de Modelado Unificado)
+
+Es un lenguaje de modelado de propósito general, que permite visualizar la forma en que se ha diseñado un sistema mediante diagramas. <br>
+Es un *lenguaje visual*. <br>
+Nos ayuda a representar el comportamiento y la estructura de un sistema. <br>
+
+Hay varios diagramas, se va a hacer incapié en *diagrama de clase*.<br>
 
 ## Diagramas de clases
+
+Para representar la estructura de un sistema mostrando las clases del sistema, sus métodos y atributos. <br>
+
+Ayudan a identificar la relación entre diferentes clases u objetos. <br>
+
+Cada clase está representada por un rectángulo que tiene  una subdivisión de tres compartimentos: <br>
+nombre <br>
+- <br>
+atributos <br>
+- <br>
+métodos<br>
+- <br>
+
+Hay tres tipos de modificadores: <br>
+   * + para modificador de **acceso público**
+   * # para modificador de **acceso protected**
+   * - para modificar de **acceso private**
+
+Por ejemplo: <br>
+
+Libro<br>
+- <br>
+-String titulo <br>
+-Integer ejemplares<br>
+- <br>
++void prestamo() <br>
+-void devolucion() <br>
 
 ### Relaciones entre clases
 
