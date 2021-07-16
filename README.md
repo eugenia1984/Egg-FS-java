@@ -97,7 +97,7 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
 * Muchas gracias 🤓.
 
 ---
-## Natas:
+## Notas:
 Aprecio tu interes en este proyecto <br/>
 ⌨️ con ❤️ por [María Eugenia Costa](https://github.com/eugenia1984) 😊 y seguime en  [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
 
