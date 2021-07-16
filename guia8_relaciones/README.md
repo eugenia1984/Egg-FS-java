@@ -15,7 +15,7 @@ Las ralaciones entre clases significan que *una clase contiene una referencia a 
 
 Es la relación entre dos objetos.  Y puede ser : <br>
 
-**Bidireccinal** : los objetos que están al extremo de una relación pueden conocerse entre sí.<br>
+**Bidireccional** : los objetos que están al extremo de una relación pueden conocerse entre sí.<br>
 Por ejemplo: <br>
 Padre <-> Hijo <br>
 
@@ -82,9 +82,10 @@ métodos<br>
 /////////// <br>
 
 Hay tres tipos de modificadores: <br>
-   * + para modificador de **acceso público**
-   * # para modificador de **acceso protected**
-   * - para modificar de **acceso private**
+
+(+) para modificador de **acceso público** <br>
+(#) para modificador de **acceso protected** <br>
+(-) para modificar de **acceso private** <br>
 
 Por ejemplo: <br>
 
