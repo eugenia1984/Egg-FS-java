@@ -73,12 +73,13 @@ Para representar la estructura de un sistema mostrando las clases del sistema, s
 Ayudan a identificar la relación entre diferentes clases u objetos. <br>
 
 Cada clase está representada por un rectángulo que tiene  una subdivisión de tres compartimentos: <br>
+////////// <br>
 nombre <br>
-- <br>
+////////// <br>
 atributos <br>
-- <br>
+/////////// <br>
 métodos<br>
-- <br>
+/////////// <br>
 
 Hay tres tipos de modificadores: <br>
    * + para modificador de **acceso público**
@@ -87,13 +88,15 @@ Hay tres tipos de modificadores: <br>
 
 Por ejemplo: <br>
 
+////////////////<br>
 Libro<br>
-- <br>
+////////////////<br>
 -String titulo <br>
 -Integer ejemplares<br>
-- <br>
+//////////////////// <br>
 +void prestamo() <br>
 -void devolucion() <br>
+/////////////////// <br>
 
 ### Relaciones entre clases
 
