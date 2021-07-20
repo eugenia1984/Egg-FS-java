@@ -163,3 +163,17 @@ c) Numeral (#) <br>
 d) Ninguna de las anteriores <br>
 
 **Respuesta : a - con el menos (- )**<br>
+
+///////////////////////////////////////////// 
+
+# Videos
+
+Introducción UML -> https://www.youtube.com/watch?v=KRas8Q9QAQk&list=PLgwlfcqa5h3y5vpitxQyKhiNYq3Y83Sa2 <br>
+
+Asociación Simple -> https://www.youtube.com/watch?v=W5u4UCFFEEk&list=PLgwlfcqa5h3y5vpitxQyKhiNYq3Y83Sa2 <br>
+
+Asociación de Agregación -> https://www.youtube.com/watch?v=cz0rRCwbh3A&list=PLgwlfcqa5h3y5vpitxQyKhiNYq3Y83Sa2&index=4 <br>
+
+Asociación de Composición ->  https://www.youtube.com/watch?v=PqGHnyHe-kQ&list=PLgwlfcqa5h3y5vpitxQyKhiNYq3Y83Sa2&index=5 <br>
+
+
