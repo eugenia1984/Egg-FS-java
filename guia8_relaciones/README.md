@@ -164,7 +164,9 @@ d) Ninguna de las anteriores <br>
 
 **Respuesta : a - con el menos (- )**<br>
 
-///////////////////////////////////////////// 
+
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
+
 
 # Videos
 
@@ -175,5 +177,18 @@ Asociación Simple -> https://www.youtube.com/watch?v=W5u4UCFFEEk&list=PLgwlfcqa
 Asociación de Agregación -> https://www.youtube.com/watch?v=cz0rRCwbh3A&list=PLgwlfcqa5h3y5vpitxQyKhiNYq3Y83Sa2&index=4 <br>
 
 Asociación de Composición ->  https://www.youtube.com/watch?v=PqGHnyHe-kQ&list=PLgwlfcqa5h3y5vpitxQyKhiNYq3Y83Sa2&index=5 <br>
+
+
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
+
+# Ejercicios
+
+## 1
+
+Realizar un programa para que una Persona pueda adoptar un Perro. Vamos a contar de dos clases. Perro, que tendrá como atributos: nombre, raza, edad y tamaño; y la clase Persona con atributos: nombre, apellido, edad, documento y Perro. <br>
+Ahora deberemos en el main crear dos Personas y dos Perros. <br>
+Después, vamos a tener que pensar la lógica necesaria para asignarle a cada Persona un Perro y por ultimo, mostrar desde la clase Persona, la información del Perro y de la Persona. <br>
+
+💻 Se puede ver en la carpeta **ejercicio1** <br>
 
 
