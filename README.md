@@ -23,9 +23,11 @@ I added one file for each unit of exercises I did.
    
    * Unit 6: object orientated programming
    
-   * Unit 7: **colections**
+   * Unit 7: **collections**
    
-   * Unit 8: **Relations between classes** : bidirectional / unidirectional association, aggregation, composition, relations in code, UML, class diagram, relations between classes, inheritance
+   * Unit 8: **Relations between classes** : bidirectional / unidirectional association, aggregation, composition, relations in code, UML, class diagram, relations between classes
+   
+   * Unit 9 : **Inheritance**
    
 ---
 
@@ -80,7 +82,9 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
    
    * Unidad 7: **Colecciones**
    
-   * Unidad 8 : **Relaciones entre clases**: asociación bidireccional / unidireccional , agregación, composición, relaciones en cósigo, UML, diagrama de clases, relaciones entre clases, herencia
+   * Unidad 8 : **Relaciones entre clases**: asociación bidireccional / unidireccional , agregación, composición, relaciones en cósigo, UML, diagrama de clases, relaciones entre clases
+   
+   * Unidad 9 : Herencia
    
 ---   
 
