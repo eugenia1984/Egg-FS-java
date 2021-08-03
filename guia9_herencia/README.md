@@ -131,7 +131,7 @@ public class Main {
 
 :computer: está en la carpeta Ejercicio 1 <br>
 
-### Ejercici 2:
+### Ejercicio 2:
 
 Crear una superclase llamada Electrodoméstico con los siguientes atributos: <br>
 precio, color, consumo energético (letras entre A y F) y peso. <br>
