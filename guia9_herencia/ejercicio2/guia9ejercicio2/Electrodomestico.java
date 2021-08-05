@@ -82,6 +82,11 @@ public class Electrodomestico {   //Crear una superclase llamada Electrodomésti
     */
     private void comprobarConsumoEnergetico(char consumoEnergetico) {
         
+         //Para pasar el char a mayuscula debo llamar a CHARTER
+        //y aplicar toUpperCase
+        //Y si o si debo reasignarlo, sino no me pasa el char a UpperCase
+        consumoEnergetico = Character.toUpperCase(consumoEnergetico);
+        
         if ( (consumoEnergetico!='A') ||
             (consumoEnergetico!='B') ||
             (consumoEnergetico!='C') || 
