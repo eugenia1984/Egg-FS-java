@@ -2,6 +2,10 @@
 
 ---
 
+:computer: en el proyecto **Hoteles** se puede ver la herencia de clases, el método *instanceOf* y como se corta la herencia con *final*. <br>
+
+---
+
 ## PREGUNTAS DE APRENDIZAJE
 
 ### 1) ¿Qué palabra se usa para generar la herencia entre clases?
