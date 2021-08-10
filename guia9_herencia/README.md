@@ -2,7 +2,8 @@
 
 ---
 
-:computer: en el proyecto **Hoteles** se puede ver la herencia de clases, el método *instanceOf* y como se corta la herencia con *final*. <br>
+:computer: En el proyecto **Hoteles** se puede ver la herencia de clases, el método *instanceOf* y como se corta la herencia con *final*. <br>
+A partir de la clase Hotel, se va a ir heredando a Hotel 1 *, Hotel 2 * , Hotel 3 * , Hotel 4 * y Hotel 5 * , y cada hotel al subir de categoría va a tener los atributos de la clase de la que hereda más sus nuevas propiedades. <br>
 
 ---
 
