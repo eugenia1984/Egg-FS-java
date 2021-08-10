@@ -15,7 +15,7 @@ I added one file for each unit of exercises I did.
    
    * Unit 2 : PseInt : Sequential structure |  Selective or Decision Structure ( Simple Condition , Double Condition , Multiple Condition ) | Repetitive Structure ( While , Do While , Structure For ). 
    
-   * Unit 3 : the theory of Subprograms and teh exercices.
+   * Unit 3 : the theory of Subprograms and the exercices.
    
    * Unit 4 : a .PDF file with the theory seen of: **arrays**: one-dimensional (vectors), two-dimensional (matrices) and multidimensional. We also saw **matrices**. I also added the excersice I did in order to practice.
    
