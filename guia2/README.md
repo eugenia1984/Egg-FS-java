@@ -346,11 +346,18 @@ Escribir sin saltar “cómo estás?” <br>
 
 * 24 - Realizar un programa que pida tres notas y determine si un alumno aprueba o reprueba un curso, sabiendo que aprobará el curso si su promedio de tres calificaciones es mayor o igual a 70; y reprueba en caso contrario.
 
+[**Subido en archivo Ejercicio24.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio24.psc)
+
 
 * 25 - Una tienda ofrece para los meses de septiembre, octubre y noviembre un descuento del 10% sobre el total de la compra que realiza un cliente. Solicitar al usuario que ingrese un mes y el importe de la compra. El programa debe calcular cuál es el monto total que se debe cobrar al cliente e imprimirlo por pantalla.
 
+[**Subido en archivo Ejercicio25.psc](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio25.psc)
 
-* 26 - Solicitar al usuario que ingrese dos números enteros y determinar si ambos son pares o impares. Mostrar en pantalla un mensaje que indique “Ambos números son pares” siempre y cuando cumplan con la condición. En caso contrario se deberá imprimir el siguiente mensaje “Los números no son pares, o uno de ellos no es par”. <br>
+
+* 26 - Solicitar al usuario que ingrese dos números enteros y determinar si ambos son pares o impares. 
+
+Mostrar en pantalla un mensaje que indique “Ambos números son pares” siempre y cuando cumplan con la condición. En caso contrario se deberá imprimir el siguiente mensaje “Los números no son pares, o uno de ellos no es par”. 
+
 **Nota: investigar la función mod de Pseint.**
 
 
