@@ -373,7 +373,7 @@ Mostrar en pantalla un mensaje que indique “Ambos números son pares” siempr
 
 * 28 - Solicitar al usuario que ingrese un valor entre 1 y 7. El programa debe mostrar por pantalla un mensaje que indique a qué día de la semana corresponde. Considere que el número 1 corresponde al día “Lunes”, y así sucesivamente.
 
-[**Subido en archivo Ejercicio28.psc](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio28.psc)
+[**Subido en archivo Ejercicio28.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio28.psc)
 
 
 * 29 - Leer tres números que denoten una fecha (día, mes, año) y comprobar que sea una fecha válida. Si la fecha no es válida escribir un mensaje de error por pantalla. Si la fecha es válida se debe imprimir la fecha cambiando el número que representa el mes por su nombre. Por ejemplo: si se introduce 1 2 2006, se deberá imprimir “1 de febrero de 2006”.
@@ -383,6 +383,7 @@ Mostrar en pantalla un mensaje que indique “Ambos números son pares” siempr
 
 * 30 - Hacer un algoritmo que lea un número por el teclado y determine si tiene tres dígitos.
 
+[**Subido en archivo Ejercicio30.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio30.psc)
 
 
 **Condicionales Anidados**
