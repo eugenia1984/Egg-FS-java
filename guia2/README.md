@@ -360,21 +360,30 @@ Mostrar en pantalla un mensaje que indique “Ambos números son pares” siempr
 
 **Nota: investigar la función mod de Pseint.**
 
-[**Subido en archivo Ejercicio26.psc](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio26.psc)
+[**Subido en archivo Ejercicio26.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio26.psc)
 
 
 * 27 - La empresa “Te llevo a todos lados” está destinada al alquiler de autos y tiene un sistema de tarifa que consiste en cobrar el alquiler por hora. Si el cliente devuelve el auto dentro de las 2 horas de uso el valor que corresponde pagar es de $400 pesos y la nafta va de regalo. Cuando el cliente regresa a la empresa pasadas las 2 horas, se ingresan la cantidad de litros de nafta gastados y el tiempo transcurrido en horas. Luego, se le cobra 40 pesos por litro de nafta gastado, y la hora se fracciona en minutos, cobrando un total de $5,20 el minuto de uso. Realice un programa que permita registrar esa información y el total a pagar por el cliente.
+
+[**Subido en archivo Ejercicio27.psc](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio27.psc)
 
 
 **Condicional Múltiple**
 
 
-* 28 - Solicitar al usuario que ingrese un valor entre 1 y 7. EL programa debe mostrar por pantalla un mensaje que indique a qué día de la semana corresponde. Considere que el número 1 corresponde al día “Lunes”, y así sucesivamente.
+* 28 - Solicitar al usuario que ingrese un valor entre 1 y 7. El programa debe mostrar por pantalla un mensaje que indique a qué día de la semana corresponde. Considere que el número 1 corresponde al día “Lunes”, y así sucesivamente.
+
+[**Subido en archivo Ejercicio28.psc](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio28.psc)
 
 
 * 29 - Leer tres números que denoten una fecha (día, mes, año) y comprobar que sea una fecha válida. Si la fecha no es válida escribir un mensaje de error por pantalla. Si la fecha es válida se debe imprimir la fecha cambiando el número que representa el mes por su nombre. Por ejemplo: si se introduce 1 2 2006, se deberá imprimir “1 de febrero de 2006”.
 
+[**Subido en archivo Ejercicio29.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio29.psc)
+
+
 * 30 - Hacer un algoritmo que lea un número por el teclado y determine si tiene tres dígitos.
+
+
 
 **Condicionales Anidados**
 
