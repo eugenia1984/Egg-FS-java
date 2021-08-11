@@ -11,7 +11,7 @@ I added one file for each unit of exercises I did.
 
 ## Content 🚀
 
-   * [**Unit 1](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia1) : PseInt : we start with pseudocode by looking at the following topics: programming | programming language | algorithm (writing, action section, sequential primitives) | program and its elements: reserved words, identifiers, variables and constants, data type: integer, real, character, logical, String | IDE | encoding | testing and debugging | operators: relational ( >,> =, <, <=, =, <> ) . logical ( conjunction (Y, and, &&), disjunction (O, or, ||), negation (NO, not) ) , algebraic  ( (arithmetic): addition (+), subtraction (-), multiplication (*), division (/), power (^), modulus (% or MOD) ) | Priority rules
+   * [**Unit 1**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia1) : PseInt : we start with pseudocode by looking at the following topics: programming | programming language | algorithm (writing, action section, sequential primitives) | program and its elements: reserved words, identifiers, variables and constants, data type: integer, real, character, logical, String | IDE | encoding | testing and debugging | operators: relational ( >,> =, <, <=, =, <> ) . logical ( conjunction (Y, and, &&), disjunction (O, or, ||), negation (NO, not) ) , algebraic  ( (arithmetic): addition (+), subtraction (-), multiplication (*), division (/), power (^), modulus (% or MOD) ) | Priority rules
    
    * [**Unit 2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia2) : PseInt : Sequential structure |  Selective or Decision Structure ( Simple Condition , Double Condition , Multiple Condition ) | Repetitive Structure ( While , Do While , Structure For ). 
    
