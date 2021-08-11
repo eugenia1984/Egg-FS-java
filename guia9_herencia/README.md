@@ -2,8 +2,9 @@
 
 ---
 
-:computer: En el proyecto **Hoteles** se puede ver la herencia de clases, el método *instanceOf* y como se corta la herencia con *final*. <br>
-A partir de la clase Hotel, se va a ir heredando a Hotel 1 *, Hotel 2 * , Hotel 3 * , Hotel 4 * y Hotel 5 * , y cada hotel al subir de categoría va a tener los atributos de la clase de la que hereda más sus nuevas propiedades. <br>
+:computer: En el proyecto [**Hoteles**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia9_herencia/Hoteles) se puede ver la herencia de clases, el método *instanceOf* y como se corta la herencia con *final*. 
+
+A partir de la clase Hotel, se va a ir heredando a Hotel 1 *, Hotel 2 * , Hotel 3 * , Hotel 4 * y Hotel 5 * , y cada hotel al subir de categoría va a tener los atributos de la clase de la que hereda más sus nuevas propiedades. 
 
 ---
 
@@ -108,12 +109,14 @@ d) Componente cp = new Componente.interfaz <br>
 
 ### Ejercicio 1:
 
-Tenemos una clase padre Animal junto con sus 3 clases hijas Perro, Gato, Caballo. <br>
-La clase Animal tendrá como atributos el nombre, alimento, edad y raza del Animal.  <br>
-Crear un método en la clase Animal a través del cual cada clase hija deberá mostrar luego un mensaje por pantalla informando de que se alimenta.  <br>
-Generar  una clase Main que realice lo siguiente:  <br>
+Tenemos una clase padre Animal junto con sus 3 clases hijas Perro, Gato, Caballo. 
 
-```
+La clase Animal tendrá como atributos el nombre, alimento, edad y raza del Animal.  
+
+Crear un método en la clase Animal a través del cual cada clase hija deberá mostrar luego un mensaje por pantalla informando de que se alimenta.  <br>
+Generar  una clase Main que realice lo siguiente:  
+
+```JAVA
 public class Main {
 
    public static void main(String[] args) {
@@ -134,27 +137,35 @@ public class Main {
 }
 ```
 
-:computer: está en la carpeta Ejercicio 1 <br>
+:computer: está en la carpeta Ejercicio 1
 
 ### Ejercicio 2:
 
-Crear una superclase llamada Electrodoméstico con los siguientes atributos: <br>
-precio, color, consumo energético (letras entre A y F) y peso. <br>
+Crear una superclase llamada Electrodoméstico con los siguientes atributos:
 
-Los constructores que se deben implementar son los siguientes: <br>
-• Un constructor vacío. <br>
-• Un constructor con todos los atributos pasados por parámetro. <br>
+precio, color, consumo energético (letras entre A y F) y peso. 
 
-Los métodos a implementar son: <br>
-• Métodos getters y setters de todos los atributos. <br>
-• **Método comprobarConsumoEnergetico(char letra)**: comprueba que la letra es correcta, sino es correcta usara la letra F por defecto. Este método se debe invocar al crear el objeto y no será visible. <br>
-• **Método comprobarColor(String color)**: comprueba que el color es correcto, y si no lo es, usa el color blanco por defecto. Los colores disponibles para los electrodomésticos son blanco, negro, rojo, azul y gris. No importa si el nombre
-está en mayúsculas o en minúsculas. Este método se invocará al crear el objeto y no será visible. <br>
-• **Metodo crearElectrodomestico()**: le pide la información al usuario y llena el electrodoméstico, también llama los métodos para comprobar el color y el consumo. Al precio se le da un valor base de $1000. <br>
-• **Método precioFinal()**: según el consumo energético y su tamaño, aumentará el valor del precio. Esta es la lista de precios: <br>
+Los constructores que se deben implementar son los siguientes:
 
-LETRA - PRECIO <br>
-A - $ 1000 <br>
+• Un constructor vacío.
+
+• Un constructor con todos los atributos pasados por parámetro.
+
+Los métodos a implementar son: 
+
+• Métodos getters y setters de todos los atributos. 
+
+• **Método comprobarConsumoEnergetico(char letra)**: comprueba que la letra es correcta, sino es correcta usara la letra F por defecto. Este método se debe invocar al crear el objeto y no será visible. 
+
+• **Método comprobarColor(String color)**: comprueba que el color es correcto, y si no lo es, usa el color blanco por defecto. Los colores disponibles para los electrodomésticos son blanco, negro, rojo, azul y gris. No importa si el nombre está en mayúsculas o en minúsculas. Este método se invocará al crear el objeto y no será visible. 
+
+• **Metodo crearElectrodomestico()**: le pide la información al usuario y llena el electrodoméstico, también llama los métodos para comprobar el color y el consumo. Al precio se le da un valor base de $1000. 
+
+• **Método precioFinal()**: según el consumo energético y su tamaño, aumentará el valor del precio. Esta es la lista de precios: 
+
+| LETRA | PRECIO |
+| ----- | ------ |
+| A | $ 1000 |
 B - $ 800 <br>
 C - $ 600 <br>
 D - $ 500 <br>
