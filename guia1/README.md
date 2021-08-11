@@ -287,50 +287,72 @@ True o True = **True** <br>
 
 ## Van a encontrar todos los ejercicios realizados en PseInt.
 
+
 *  1 - Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de hoy? (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que indique “El día de hoy está ...”, completando el mensaje con el dato que ingreso el usuario. 
 
 **archivo:** [**guia1-ej1.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej1.psc)
+
 
 *  2 - Conocido el número en matemática PIπpedir al usuario que ingrese el valor del radio de una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde que para calcular el área y el perímetro se utilizan las siguientes fórmulas: area = PI * radio2 / perimetro = 2 * PI * radio. 
 
 **archivo:** [**guia1-ej2.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej2.psc)
 
+
 * 3 - Escribir un programa que calcule el precio promedio de un producto. El precio promedio se debe calcular a partir del precio del mismo producto en tres establecimientos distintos.
 
 **archivo:** [**guia1-ej3.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej3.psc)
 
-* 4 - A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se debe obtener su equivalente en centímetros, en milímetros y en pulgadas. Ayuda: 1 pulgada equivale a 2.54 centímetros.<br>
-**archivo: guia1-ej4.psc**
+
+* 4 - A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se debe obtener su equivalente en centímetros, en milímetros y en pulgadas. Ayuda: 1 pulgada equivale a 2.54 centímetros.
+
+**archivo:** [**guia1-ej4.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej4.psc)
+
 
 * 5 - Escribir un programa que calcule cuántos litros de combustible consumió un automóvil. El usuario ingresase una cantidad de litros de combustible cargados en la estación y una cantidad de kilómetros recorridos, después, el programa calculará el consumo (km/lt) y se lo mostrará al usuario. <br>
-En este ejercicio realicé dos opciones una como lo piden, y la otra teniendo en cuenta el conusmo del automóvil para pdoer calcular el consumo real, ya que puede ser que en los kilómetros recorridos no haya utilizado todo el combustible que cargó. <br>
-**archivos: guia1-ej5a.psc y guia1-ej5b.psc**
+En este ejercicio realicé dos opciones una como lo piden, y la otra teniendo en cuenta el conusmo del automóvil para pdoer calcular el consumo real, ya que puede ser que en los kilómetros recorridos no haya utilizado todo el combustible que cargó. 
 
-* 6 - Escriba un programa que permita al usuario ingresar el valor de dos variables numéricas de tipo entero. Posteriormente, el programa debe intercambiar los valores de ambas variables y mostrar el resultado final por pantalla. Por ejemplo, si el usuario ingresa los valores num1 = 9 y num2 = 3, la salida a del programa deberá mostrar: num1 = 3 y num2 = 9 <br>
-Ayuda: Para intercambiar los valores de dos variables se debe utilizar una variable auxiliar. <br>
-**archivo: guia1-ej6.psc**
+**archivos:** [**guia1-ej5a.psc y guia1-ej5b.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej5.psc)
 
-* 7 - Escriba un programa que lea dos números enteros y realice el cálculo de la suma, resta, multiplicación y división entre ambos valores. Los resultados deben mostrarse por pantalla. <br>
-**archivo: guia1-ej7.psc**
+* 6 - Escriba un programa que permita al usuario ingresar el valor de dos variables numéricas de tipo entero. Posteriormente, el programa debe intercambiar los valores de ambas variables y mostrar el resultado final por pantalla. Por ejemplo, si el usuario ingresa los valores num1 = 9 y num2 = 3, la salida a del programa deberá mostrar: num1 = 3 y num2 = 9 
+
+Ayuda: Para intercambiar los valores de dos variables se debe utilizar una variable auxiliar.
+
+**archivo:** [**guia1-ej6.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej6.psc)
+
+
+* 7 - Escriba un programa que lea dos números enteros y realice el cálculo de la suma, resta, multiplicación y división entre ambos valores. Los resultados deben mostrarse por pantalla. 
+
+**archivo:** [**guia1-ej7.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej7.psc)
+
 
 **Material extra:**
 
-* 8 - Un colegio desea saber qué porcentaje de niños y qué porcentaje de niñas hay en el curso actual. Diseñar un algoritmo para este propósito. Recuerda que para calcular el porcentaje puedes hacer una regla de 3 simple. El programa debe solicitar al usuario que ingrese la cantidad total de niños, y la cantidad total de niñas que hay en el curso. <br>
-**archivo: guia1-ej8.psc**
 
-* 9 - Solicitar al usuario que ingrese la base y altura de un rectángulo, y calcular y mostrar por pantalla el área y perímetro del mismo : area = base * altura / perimetro = 2 * altura + 2 * base. <br>
-**archivo: guia1-ej9.psc**
+* 8 - Un colegio desea saber qué porcentaje de niños y qué porcentaje de niñas hay en el curso actual. Diseñar un algoritmo para este propósito. Recuerda que para calcular el porcentaje puedes hacer una regla de 3 simple. El programa debe solicitar al usuario que ingrese la cantidad total de niños, y la cantidad total de niñas que hay en el curso. 
 
-* 10 - Escribir un programa que calcule el volumen de un cilindro. Para ello se deberá solicitar al usuario que ingrese el radio y la altura. Mostrar el resultado por pantalla. volumen = π * radio2 * altura <br>
-**archivo: guia1-ej10.psc**
+**archivo:** [**guia1-extra-ej1.psc**[(https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-extra-ej1.psc)
 
-* 11 - A partir de una conocida cantidad de días que el usuario ingresa a través del teclado, escriba un programa para convertir los días en horas, en minutos y en segundos. Por ejemplo: 1 día = 24 horas = 1440 minutos = 86400 segundos <br>
-**archivo: guia1-ej11.psc**
 
-* 12 - Crear un programa que solicite al usuario que ingrese el precio de un producto al inicio del año, y el precio del mismo producto al finalizar el año. El programa debe calcular cuál fue el porcentaje de aumento que tuvo ese producto en el año y mostrarlo por pantalla. <br>
-**archivo: guia1-ej12.psc**
+* 9 - Solicitar al usuario que ingrese la base y altura de un rectángulo, y calcular y mostrar por pantalla el área y perímetro del mismo : area = base * altura / perimetro = 2 * altura + 2 * base. 
+
+**archivo:** [**guia1-extra-ej2.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-extra-ej2.psc)
+
+
+* 10 - Escribir un programa que calcule el volumen de un cilindro. Para ello se deberá solicitar al usuario que ingrese el radio y la altura. Mostrar el resultado por pantalla. volumen = π * radio2 * altura 
+
+**archivo:** [**guia1-extra-ej3.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-extra-ej3.psc)
+
+* 11 - A partir de una conocida cantidad de días que el usuario ingresa a través del teclado, escriba un programa para convertir los días en horas, en minutos y en segundos. Por ejemplo: 1 día = 24 horas = 1440 minutos = 86400 segundos
+
+**archivo:** [**guia1-extra-ej4.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-extra-ej4.psc)
+
+
+* 12 - Crear un programa que solicite al usuario que ingrese el precio de un producto al inicio del año, y el precio del mismo producto al finalizar el año. El programa debe calcular cuál fue el porcentaje de aumento que tuvo ese producto en el año y mostrarlo por pantalla. 
+
+**archivo:** [**guia1-extra-ej5.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-extra-ej1.psc)
 
 ---
+
 ## Por favor: 🎁
 
 * comparte este proyecto con otros 📢
@@ -338,6 +360,9 @@ Ayuda: Para intercambiar los valores de dos variables se debe utilizar una varia
 * Muchas gracias 🤓.
 
 ---
-## Notes
+
+## Notas
+
 Aprecio tu interés en este repositorio ⌨️ con  ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 seguime en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta) 
+
 ---
