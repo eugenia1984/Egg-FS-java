@@ -109,84 +109,107 @@ expresión encerrada entre paréntesis, el orden de prioridad en este caso es de
 
 ## Preguntas de aprendizaje
 
-* 1 - Los dispositivos de entrada permiten: <br>
+* 1 - Los dispositivos de entrada permiten: 
+
 a) Guardar datos en la computadora <br>
 b) Desplegar información almacenada en el equipo <br>
 c) Ingresar datos a la computadora <br>
 d) Ninguna de las anteriores <br>
+
 **Respuesta correcta C**
 
-* 2 - Los dispositivos de salida permiten: <br>
+* 2 - Los dispositivos de salida permiten: 
+
 a) Guardar datos en la computadora <br>
 b) Desplegar información almacenada en el equipo <br>
 c) Ingresar datos a la computadora <br> 
 d) Ninguna de las anteriores <br>
+
 **Respuesta correcta b, la A y la C refieren a los disponitivos de entrada (INPUT)**
 
-* 3- ¿Qué es un algoritmo? <br>
+* 3- ¿Qué es un algoritmo? 
+
 a) Un conjunto de instrucciones o reglas bien definidas, ordenadas y finitas que permiten realizar una actividad mediante pasos sucesivos que no generen dudas a quien deba realizar dicha actividad <br>
 b) Es una igualdad entre dos expresiones algebraicas, denominadas miembros, en las que aparecen valores conocidos o datos, y desconocidos o incógnitas, relacionados mediante operaciones <br>
 c) Es una relación de variables que pueden ser cuantificadas para calcular el valor de otras de muy difícil o imposible cálculo y que suministra una solución para un problema <br>
 d) Ninguna de las anteriores <br>
+
 **Respuesta correcta a**
 
-* 4- La prueba de escritorio se usa para:  <br>
+* 4- La prueba de escritorio se usa para: 
+
 a) Programar órdenes  <br>
 b) Verificar si el algoritmo es correcto  <br>
 c) Eliminar virus informáticos  <br>
 d) Todas las anteriores  <br>
+
 **Respuesta correcta b, verifica  que el algoritmo esté bien realizado, ve si está ok o debe modificarse**
 
-* 5- Una variable es: <br>
+* 5- Una variable es: 
+
 a) Un lugar de almacenamiento, cuyo contenido podrá variar durante el proceso y finalmente se obtendrán los resultados con los datos contenidos en ellas <br>
 b) Un lugar de almacenamiento, cuyo contenido no varía durante el proceso y finalmente se obtendrán los resultados con los datos contenidos en ellas <br>
 c) Una palabra reservada del lenguaje de programación <br>
 d) Ninguna de las anteriores <br>
+
 **Respuesta correcta a, la b no es porque puede variar su contenido, la c no porque las palabras reservadas ejecutan una acción determinada, no son variables.**
 
-* 6- La ejecución de la siguiente sentencia de asignación: A = “4.5”  <br>
+* 6- La ejecución de la siguiente sentencia de asignación: A = “4.5”  
+
 a) A debe ser una variable de tipo real  <br>
 b) A debe ser una variable de tipo entero  <br>
 c) A debe ser una variable de tipo cadena  <br>
 d) A puede ser tanto una variable de tipo real como de tipo cadena  <br>
+
 **Respuesta correcta a, porque es un número decimal**
 
-* 7- Entero, carácter, lógico y real son: <br>
+* 7- Entero, carácter, lógico y real son: 
+
 a) Funciones de acceso a datos <br>
 b) Instrucciones de acceso a datos <br>
 c) Sentencias de control <br>
 d) Tipos de datos <br>
+
 **Respuesta correcta d**
 
-* 8- Un operador es:   <br>
+* 8- Un operador es:   
+
 a) Un lugar de almacenamiento de datos <br>
 b) Un símbolo especial que indica al compilador que se debe realizar una operación matemática o lógica <br>
 c) Una variable <br>
 d) Ninguna de las anteriores <br>
+
 **Respuesta correcta b, porque la A se refiere a la memoria, la C a una variable**
 
-* 9- Los operadores relacionales se usan en:  <br>
+* 9- Los operadores relacionales se usan en: 
+
 a) Operaciones de comparación  <br>
 b) Operaciones de suma y resta  <br>
 c) Operaciones de multiplicación y división  <br>
 d) Ninguna de las anteriores  <br>
+
 **Respuesta correcta a, son mayor(igual), menor(igual), igual, distinto**
 
-* 10- Una estructura secuencial es aquella que ejecuta:  <br>
+* 10- Una estructura secuencial es aquella que ejecuta:  
+
 a) Una evaluación de una expresión y, dependiendo del resultado, se decide la siguiente sentencia a ejecutar  <br>
 b) Una sentencia detrás de otra  <br>
 c) Una repetición de un bloque de sentencias mientras sea verdadera una determinada condición  <br>
 d) Ninguna de las anteriores  <br>
+
 **Respuesta correcta**
 
-* 11- La instrucción leer base,altura permite: <br>
+* 11- La instrucción leer base,altura permite: 
+
 a) Almacenar los datos ingresados por el usuario en algún lugar de la computadora <br>
 b) Almacenar los datos ingresados por el teclado en las variables base y altura <br>
 c) Almacenar tres datos ingresados por teclado en las variables leer, base y altura <br>
 d) Ninguna de las anteriores <br>
+
 **Respuesta correcta b**
 
-* 12- La instrucción escribir "Ingrese 25 números enteros" permite: <br>
+* 12- La instrucción escribir "Ingrese 25 números enteros" permite: 
+
 a) Visualizar en pantalla el mensaje entre comillas <br>
 b) Guardar en la variable pantalla los datos ingresados por teclado <br>
 c) Verificar si el algoritmo está bien hecho <br>
@@ -212,7 +235,7 @@ d) (4 > 4 o 10 >= 8) y (2 > 5 o 8 < 4) <br>
 (True) y (False) = **False** <br>
 **Respuesta correcta d**
 
-* 14- Seleccione la expresión que da como resultado el valor lógico verdadero. <br>
+* 14- Seleccione la expresión que da como resultado el valor lógico verdadero. 
 
 a) (50 > 49 y 7 = 5) o (15 <= 14 o 10 > 100) <br>
  (True y False) o (False o False) <br>
@@ -264,14 +287,17 @@ True o True = **True** <br>
 
 ## Van a encontrar todos los ejercicios realizados en PseInt.
 
-*  1 - Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de hoy? (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que indique “El día de hoy está ...”, completando el mensaje con el dato que ingreso el usuario. <br>
-**archivo: guia1-ej1.psc**
+*  1 - Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de hoy? (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que indique “El día de hoy está ...”, completando el mensaje con el dato que ingreso el usuario. 
 
-*  2 - Conocido el número en matemática PIπpedir al usuario que ingrese el valor del radio de una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde que para calcular el área y el perímetro se utilizan las siguientes fórmulas: area = PI * radio2 / perimetro = 2 * PI * radio. <br>
-**archivo: guia1-ej2.psc**
+**archivo:** [**guia1-ej1.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej1.psc)
 
-* 3 - Escribir un programa que calcule el precio promedio de un producto. El precio promedio se debe calcular a partir del precio del mismo producto en tres establecimientos distintos.<br>
-**archivo: guia1-ej3.psc**
+*  2 - Conocido el número en matemática PIπpedir al usuario que ingrese el valor del radio de una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde que para calcular el área y el perímetro se utilizan las siguientes fórmulas: area = PI * radio2 / perimetro = 2 * PI * radio. 
+
+**archivo:** [**guia1-ej2.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej2.psc)
+
+* 3 - Escribir un programa que calcule el precio promedio de un producto. El precio promedio se debe calcular a partir del precio del mismo producto en tres establecimientos distintos.
+
+**archivo:** [**guia1-ej3.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia1/practica-ejercicios/guia1-ej3.psc)
 
 * 4 - A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se debe obtener su equivalente en centímetros, en milímetros y en pulgadas. Ayuda: 1 pulgada equivale a 2.54 centímetros.<br>
 **archivo: guia1-ej4.psc**
