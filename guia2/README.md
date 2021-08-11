@@ -391,17 +391,25 @@ Mostrar en pantalla un mensaje que indique “Ambos números son pares” siempr
 * 31 - Si se compran menos de cinco llantas el precio es de $3000 cada una, si se compran entre 5 y 10 el precio es de $2500, y si se compran más de 10 el precio es $2000. Obtener la cantidad de dinero que una persona tiene que pagar por cada una de las llantas que compra, y el monto total que tiene que pagar por el total de la compra.
 
 
-* 32 - Realice un programa que, dado un año, nos diga si es bisiesto o no. Un año es bisiesto bajo las siguientes condiciones: Un año divisible por 4 es bisiesto y no debe ser divisible por 100. Si un año es divisible por 100 y además es divisible por 400, también resulta bisiesto. <br>
-  **Nota: recuerde la función mod de PSeInt.**
+[**Subido en archivo Ejercicio31.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio31.psc)
 
 
-* 33 - Una verdulería ofrece las manzanas con descuento según la siguiente tabla: <br>
-  Nº de kilos comprados / % desceunto <br>
-  0 - 2 0% <br>
-  2.01 - 5 10% <br>
-  5.01 - 10 15% <br>
-  10.01 en adelante 20% <br>
-  Determinar cuánto pagará una persona que compre manzanas en esa verdulería.
+* 32 - Realice un programa que, dado un año, nos diga si es bisiesto o no. Un año es bisiesto bajo las siguientes condiciones: Un año divisible por 4 es bisiesto y no debe ser divisible por 100. Si un año es divisible por 100 y además es divisible por 400, también resulta bisiesto. 
+
+**Nota: recuerde la función mod de PSeInt.**
+
+[**Subido en archivo Ejercicio32.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio32.psc)
+
+* 33 - Una verdulería ofrece las manzanas con descuento según la siguiente tabla: 
+
+| Nº de kilos comprados | % descuento |
+| --------------------- | ----------- |
+| 0 - 2 | 0% |
+| 2.01 - 5 | 10% |
+| 5.01 - 10 | 15% |
+| 10.01 en adelante | 20% |
+
+Determinar cuánto pagará una persona que compre manzanas en esa verdulería.
 
 
 * 34 - El promedio de los trabajos prácticos de un curso se calcula en base a cuatro notas de las cuales se elimina la nota menor y se promedian las tres notas más altas. Escriba un programa que determine cuál es la nota eliminada y el promedio de los trabajos prácticos de un estudiante.
