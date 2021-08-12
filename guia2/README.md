@@ -417,6 +417,8 @@ Determinar cuánto pagará una persona que compre manzanas en esa verdulería.
 
 * 34 - El promedio de los trabajos prácticos de un curso se calcula en base a cuatro notas de las cuales se elimina la nota menor y se promedian las tres notas más altas. Escriba un programa que determine cuál es la nota eliminada y el promedio de los trabajos prácticos de un estudiante.
 
+[**Subido en archivo Ejercicio34.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio34.psc)
+
 
 * 35 - Una empresa tiene personal de distintas áreas con distintas condiciones de contratación y formas de pago. El departamento de contabilidad necesita calcular los sueldos semanales (lunes a viernes) en base a las 3 modalidades de sueldo: <br>
   a) comisión <br>
