@@ -225,7 +225,9 @@ Recuerda que las condiciones que hemos visto en la clase Electrodomestico tambi�
 
 Finalmente, en el main debemos realizar lo siguiente: 
 
-Vamos a crear una Lavadora y un Televisor y llamar a los métodos necesarios para mostrar el precio final de los dos electrodomésticos <br>
+Vamos a crear una Lavadora y un Televisor y llamar a los métodos necesarios para mostrar el precio final de los dos electrodomésticos 
+
+[**Ejercicio2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia9_herencia/ejercicio2)
 
 ----
 
