@@ -431,14 +431,14 @@ Determinar cuánto pagará una persona que compre manzanas en esa verdulería.
 
 [**Subido en archivo Ejercicio35.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio35.psc)
 
-**Buecle Mientras**
+**Bucle Mientras**
 
 
 * 36 - Escriba un programa en el cual se ingrese un numero y mientras ese numero sea mayor de 10, se pedirá el numero de nuevo.
 
+[**Subido en archivo Ejercicio36.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio36.psc)
 
-* 37 - Escriba un programa que solicite dos números enteros (mínimo y máximo). A continuación, se debe pedir al usuario que ingrese números enteros situados entre el máximo y mínimo. Cada vez que un numero se encuentre entre ese intervalo, se sumara uno a una variable. El programa terminará cuando se escriba un número que no pertenezca a ese intervalo, y al finalizar se debe mostrar por pantalla la cantidad de
-  números ingresados dentro del intervalo.
+* 37 - Escriba un programa que solicite dos números enteros (mínimo y máximo). A continuación, se debe pedir al usuario que ingrese números enteros situados entre el máximo y mínimo. Cada vez que un numero se encuentre entre ese intervalo, se sumara uno a una variable. El programa terminará cuando se escriba un número que no pertenezca a ese intervalo, y al finalizar se debe mostrar por pantalla la cantidad de números ingresados dentro del intervalo.
 
 
 * 38 - Escriba un programa que solicite al usuario números decimales mientras que el usuario escriba números mayores al primero que se ingresó. Por ejemplo: si el usuario ingresa como primer número un 3.1, y luego ingresa un 4, el programa debe solicitar un tercer número. El programa continuará solicitando valores sucesivamente mientras los valores ingresados sean mayores que 3.1, caso contrario, el programa finaliza.
@@ -479,7 +479,7 @@ El programa tiene que imprimir los mensajes adecuados para informarle al usuario
 **NOTA: Para generar un número aleatorio entre 1 y 10 se puede utilizar la función Aleatorio(limite_inferior, limite_superior) de PSeInt.**
 
 
-**Buecle Para**
+**Bucle Para**
 
 
 * 46 - Realizar un programa que muestre la cantidad de números que son múltiplos de 2 o de 3 comprendidos entre 1 y 100.
