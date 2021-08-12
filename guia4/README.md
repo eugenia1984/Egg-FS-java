@@ -123,16 +123,21 @@ valor más grande del vector.
 * 5 - Realizar un programa con el siguiente menú y le pregunte al usuario que quiere hacer
 hasta que ingrese la opción Salir:
 
-	a. Llenar Vector A. Este vector es de tamaño N y se debe llenar de manera aleatoria usando la función Aleatorio(valorMin, valorMax) de PseInt. <br>
-	b. Llenar Vector B. Este vector también es de tamaño N y se llena de manera aleatoria.  <br>
-	c. Llenar Vector C con la suma de los vectores A y B. La suma se debe realizar elemento a elemento. Ejemplo: C = A + B  <br>
-	d. Llenar Vector C con la resta de los vectores B y A. La resta se debe realizar elemento a elemento. Ejemplo: C = B - A  <br>
-	e. Mostrar. Esta opción debe permitir al usuario decidir qué vector quiere mostrar: Vector A, B, o C.  <br>
-	f. Salir.  <br>
+a. Llenar Vector A. Este vector es de tamaño N y se debe llenar de manera aleatoria usando la función Aleatorio(valorMin, valorMax) de PseInt. 
+
+b. Llenar Vector B. Este vector también es de tamaño N y se llena de manera aleatoria.  
+
+c. Llenar Vector C con la suma de los vectores A y B. La suma se debe realizar elemento a elemento. Ejemplo: C = A + B  
+
+d. Llenar Vector C con la resta de los vectores B y A. La resta se debe realizar elemento a elemento. Ejemplo: C = B - A  
+
+e. Mostrar. Esta opción debe permitir al usuario decidir qué vector quiere mostrar: Vector A, B, o C.  
+
+f. Salir. 
 	
-NOTA: El rango de los números aleatorios para los Vectores será de [-100 a 100]. La
-longitud para todos los vectores debe ser la misma, por lo tanto, esa información sólo se
-solicitará una vez.
+NOTA: El rango de los números aleatorios para los Vectores será de [-100 a 100]. La longitud para todos los vectores debe ser la misma, por lo tanto, esa información sólo se solicitará una vez.
+
+[**guia4-ej5**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia4/guia4-ej5.psc)
 
 * 6 - Disponemos de un vector unidimensional de 20 elementos de tipo carácter. Se pide
 desarrollar un programa que:
@@ -150,30 +155,40 @@ Si se desea ingresar el carácter “%” en la posición 10, entonces el result
 H o l a   m u n d o  %  c  r  u  e  l  !  ! <br>
 0 1 2 3 2 5 6 7 8 9 10 11 12 13 14 15 16 17  <br>
 
+
 * 7 - Crear un subproceso que rellene dos arreglos de tamaño n, con números aleatorios. <br>
 Después, hacer una función que reciba los dos arreglos y diga si todos sus valores son iguales o no. La función debe devolver el resultado de está validación, para mostrar el mensaje en el algoritmo. Nota: recordar el uso de las variables de tipo lógico.
 
+
+
 **Arreglos : Matrices**
+
 
 * 8 - Realizar un programa que rellene una matriz de 3x3 con 9 valores ingresados por el usuario y los muestre por pantalla
 
+
 * 9 - Escribir un programa que realice la búsqueda lineal de un número entero ingresado por el usuario en una matriz de 5x5, llena de números aleatorios y devuelva por pantalla las coordenadas donde se encuentra el valor, es decir en que fila y columna se encuentra. <br>
 En caso de no encontrar el valor dentro de la matriz se debe mostrar un mensaje.
+
 
 * 10 - Dada una matriz de orden n * m (donde n y m son valores ingresados por el usuario) realizar un subprograma que llene la matriz de numeros aleatorios. <br>
 Despues, crearemos otro subprograma que calcule y muestre la suma de los elementos de la matriz. <br>
 Mostrar la matriz y los resultados por pantalla.
 
+
 * 11 - Rellenar en un subproceso una matriz cuadrada con números aleatorios salvo en la diagonal principal, la cual debe rellenarse con ceros. Una vez llena la matriz debe generar otro subproceso para imprimir la matriz.
 
-* 12 - Rellenar una matriz, de 3 x 3, con una palabra de 9 de longitud, pedida por el usuario, encontrando la manera de que la frase se muestre de manera continua en la matriz. <br>
-Por ejemplo, si tenemos la palabra habilidad, nuestra matriz se debería ver así: <br>
+
+* 12 - Rellenar una matriz, de 3 x 3, con una palabra de 9 de longitud, pedida por el usuario, encontrando la manera de que la frase se muestre de manera continua en la matriz. <
+
+Por ejemplo, si tenemos la palabra habilidad, nuestra matriz se debería ver así: 
 
 H A B  <br>
 I L I <br>
 D A D <br>
 
 Nota: recordar el uso de la función Subcadena().
+
 
 * 13 - Una matriz mágica es una matriz cuadrada (tiene igual número de filas que de columnas) que tiene como propiedad especial que la suma de las filas, las columnas y las diagonales es igual. Por ejemplo: <br>
 
@@ -187,21 +202,27 @@ El usuario ingresa el tamaño de la matriz que no debe superar orden igual a 10.
 
 ** Ejercicios de aprendizaje extra**
 
+
 **Vectores**
+
 
 * 1 - Realizar un programa que rellene dos vectores al mismo tiempo, con 5 valores aleatorios y los muestre por pantalla.
 
+
 * 2 - Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el usuario y muestre por pantalla el promedio de la suma de todos los valores ingresados.
+
 
 * 3 - Crear dos vectores que tengan el mismo tamaño (el tamaño se pedirá por teclado) y almacenar en uno de ellos nombres de personas como cadenas. <br>
 En el segundo vector se debe almacenar la longitud de cada uno de los nombres (para ello puedes usar la función Longitud() de PseInt). <br>
 Mostrar por pantalla cada uno de los nombres junto con su longitud.
+
 
 * 4 - Crear un vector que contenga 100 notas de 100 supuestos estudiantes, con valores entre 0 y 20 generadas aleatoriamente mediante el uso de la función azar() o aleatorio() de PseInt. Luego, de acuerdo a las notas contenidas, el programa debe indicar cuántos estudiantes son: <br>
 a) Deficientes 0-5  <br>
 b) Regulares 6-10  <br>
 c) Buenos 11-15  <br>
 d) Excelentes 16-20  <br>
+
 
 * 5 - Tomando en cuenta el ejercicio 6, mejore el mecanismo de inserción del carácter, facilitando un potencial reordenamiento del vector. Digamos que se pide ingresar el carácter en la posición X y la misma está ocupada, entonces de existir un espacio en cualquier posición X-n o X+n, desplazar los caracteres hacia la izq o hacia la derecha para poder ingresar el carácter en cuestión en el lugar deseado. <br>
 El procedimiento de reordenamiento debe ubicar el espacio más cercano. <br>
