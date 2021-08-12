@@ -412,6 +412,9 @@ Mostrar en pantalla un mensaje que indique “Ambos números son pares” siempr
 Determinar cuánto pagará una persona que compre manzanas en esa verdulería.
 
 
+[**Subido en archivo Ejercicio33.psc**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia2/practica-ejercicios/Ejercicio33.psc)
+
+
 * 34 - El promedio de los trabajos prácticos de un curso se calcula en base a cuatro notas de las cuales se elimina la nota menor y se promedian las tres notas más altas. Escriba un programa que determine cuál es la nota eliminada y el promedio de los trabajos prácticos de un estudiante.
 
 
