@@ -76,23 +76,11 @@ public class Electrodomestico {   //Crear una superclase llamada Electrodomésti
     es correcta, sino no es correcta usara la letra F por defecto. 
     Este método se debe invocar al crear el objeto y no será visible.
     */
-    private void comprobarConsumoEnergetico(char consumoEnergetico) {
-        
-        //Para pasar el char a mayuscula debo llamar a CHARTER
-        //y aplicar toUpperCase
-        //Y si o si debo reasignarlo, sino no me pasa el char a UpperCase
-        consumoEnergetico = Character.toUpperCase(consumoEnergetico);
-        
-        if ( (consumoEnergetico!='A') ||
-            (consumoEnergetico!='B') ||
-            (consumoEnergetico!='C') || 
-            (consumoEnergetico!='D') || 
-            (consumoEnergetico!='E') ||
-            (consumoEnergetico !='F')) {
-            setConsumoEnergetico('F');
-        } else {
-            this.consumoEnergetico = consumoEnergetico;
-        }
+    private void comprobarConsumoEnergetico(char letra) {
+            
+       if (letra!= 'A' && letra !='B' && letra !='C' && letra !='D' && 
+               letra !='E' && letra !='F')  {
+          setConsumoEnergetico('F');
     }
  
 
