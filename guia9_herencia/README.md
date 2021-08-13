@@ -286,5 +286,7 @@ En el main se crearán las formas y se mostrará el resultado final.
 
 Área rectángulo: base * altura / Perímetro rectángulo: (base + altura) * 2.
 
+:computer: [**ver ejercicio 5**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia9_herencia/guia9ejercicio5)
+
 ----
  
