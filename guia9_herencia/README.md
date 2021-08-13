@@ -242,6 +242,9 @@ Se deberá también mostrar el precio de cada tipo de objeto, es decir, el preci
 
 Por ejemplo, si tenemos una lavadora con un precio de 2000 y un televisor de 5000, el resultado final será de 7000 (2000+5000) para electrodomésticos, 2000 para lavadora y 5000 para televisor 
 
+
+[**Ver ejericico 3**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia9_herencia/guia9ejercicio3)
+
 ----
 
 ### Ejercicio 4
