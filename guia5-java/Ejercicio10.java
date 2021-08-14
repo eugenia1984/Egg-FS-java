@@ -18,9 +18,8 @@ public class Ejercicio10 {
         System.out.println("Ingrese una frase, para ver si la primer letras es la 'A': ");
     //Leo la frase ingresada y la asigno a la variable frase
         frase = leer.next();  
-        letra =  frase.charAt(0);
-    //letra2 = frase.substring(0,1); De es modo letra2 es String pero de un solo caracte, no es char
-        if (letra == 'A') {
+        letra =  frase.charAt(0);     //Siguiendo todo con String -> letra2 = frase.substring(0,1); De es modo letra2 es String pero de un solo caracter, no es char
+        if (letra == 'A') {   //Si seguia todo con String tenia que usar .equals()
             System.out.println("CORRECTO");
             } else {
             System.out.println("INCORRECTO");
