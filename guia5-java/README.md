@@ -901,7 +901,7 @@ err. Standard Error stream.
 
 Escribir un programa que pida dos números enteros por teclado y calcule la suma de los dos. El programa deberá después mostrar el resultado de la suma
 
-:computer: [ver ejercicio 1 resuelto](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio1.java)
+:computer: [ver ejercicio 1](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio1.java)
 
 
 ## Ejercicio 2 
@@ -1046,6 +1046,95 @@ Tener en cuenta que, si el usuario selecciona la opción 5, en vez de salir del 
 Si el usuario selecciona el carácter ‘S’ se sale del programa, caso contrario se vuelve a mostrar el menú.
 
 :computer: [ver ejercicio 14](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio14.java)
+
+
+## Ejercicio 15
+
+Escriba un programa que lea 20 números. 
+
+Si el número leído es igual a cero se debe salir del bucle y mostrar el mensaje "Se capturó el numero cero". 
+
+El programa deberá calcular y mostrar el resultado de la suma de los números leídos, pero si el número es negativo no debe sumarse. 
+
+Nota: recordar el uso de la sentencia **break**.
+
+:computer: [ver ejercicio 15](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio15.java)
+
+
+## Ejercicio 16
+
+Realizar un programa que simule el funcionamiento de un dispositivo RS232, este tipo de dispositivo lee cadenas enviadas por el usuario. 
+
+Las cadenas deben llegar con un formato fijo: tienen que ser de un máximo de 5 caracteres de largo, el primer carácter tiene que ser X y el último tiene que ser una O.
+
+Las secuencias leídas que respeten el formato se consideran correctas, la secuencia especial “&&&&&” marca el final de los envíos (llamémosla FDE), y toda secuencia distinta de FDE, que no respete el formato se considera incorrecta.
+
+Al finalizar el proceso, se imprime un informe indicando la cantidad de lecturas correctas e incorrectas recibidas. 
+
+Para resolver el ejercicio deberá investigar cómo se utilizan las siguientes funciones de Java **Substring()**, **Length()**, **equals()**.
+
+:computer: [ver ejercicio 16](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio16.java)
+
+
+## Ejercicio 17
+
+Necesitamos mostrar un contador con 3 dígitos (X-X-X), que muestre los números del 0-0-0 al 9-9-9, con la particularidad que cada vez que aparezca un 3 lo sustituya por una E. Ejemplo:
+
+0-0-0
+
+0-0-1
+
+0-0-2
+
+0-0-E
+
+0-0-4
+
+.
+
+.
+
+0-1-2
+
+0-1-E
+
+Nota: investigar función equals() y como convertir números a String.
+
+:computer: [ver ejercicio 17](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio17.java)
+
+
+## Ejercicio 18
+
+Dibujar un cuadrado de N elementos por lado utilizando el carácter “*”. 
+
+Por ejemplo, si el cuadrado tiene 4 elementos por lado se deberá dibujar lo siguiente:
+
+```
+* * * *
+
+*     *
+
+*     *
+
+* * * *
+```
+
+:computer: [ver ejercicio 18](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio18.java)
+
+
+## Ejercicio 19
+
+Realizar un programa que lea 4 números (comprendidos entre 1 y 20) e imprima el número ingresado seguido de tantos asteriscos como indique su valor. Por ejemplo:
+
+5 *****
+
+3 ***
+
+11 ***********
+
+2 **
+
+:computer: [ver ejercicio 19](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio19.java)
 
 
 :computer: [ver ejercicio ]()
