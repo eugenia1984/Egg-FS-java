@@ -896,6 +896,156 @@ err. Standard Error stream.
 
 # EJERCICIOS DE APRENDIZAJE
 
-## Ejercicio
+
+## Ejercicio 1
 
 Escribir un programa que pida dos números enteros por teclado y calcule la suma de los dos. El programa deberá después mostrar el resultado de la suma
+
+:computer: [ver ejercicio 1 resuelto](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio1.java)
+
+
+## Ejercicio 2 
+
+Escribir un programa que pida tu nombre, lo guarde en una variable y lo muestre por pantalla.
+
+:computer: [ver ejercicio 2](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio2.java)
+
+
+## Ejercicio 3
+
+Escribir un programa que pida una frase y la muestre toda en mayúsculas y después toda en minúsculas. 
+
+Nota: investigar la función **toUpperCase()** y **toLowerCase()** en Java.
+
+:computer: [ver ejercicio 3](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio3.java)
+
+
+## Ejercicio 4
+
+Dada una cantidad de grados centígrados se debe mostrar su equivalente en grados Fahrenheit. La fórmula correspondiente es: F = 32 + (9 * C / 5).
+
+:computer: [ver ejercicio 4](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio4.java)
+
+
+## Ejercicio 5
+
+Escribir un programa que lea un número entero por teclado y muestre por pantalla el doble, el triple y la raíz cuadrada de ese número. 
+
+Nota: investigar la función **Math.sqrt()**.
+
+:computer: [ver ejercicio 5](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio5.java)
+
+
+## Ejercicio 6
+
+Implementar un programa que dado dos números enteros determine cuál es el mayor y lo muestre por pantalla
+
+:computer: [ver ejercicio 6](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio6.java)
+
+
+## Ejercicio 7
+
+Crear un programa que dado un numero determine si es par o impar.
+
+:computer: [ver ejercicio 7](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio7.java)
+
+
+## Ejercicio 8
+
+Crear un programa que pida una frase y si esa frase es igual a “eureka” el programa pondrá un mensaje de Correcto, sino mostrará un mensaje de Incorrecto. 
+
+Nota: investigar la función **equals()** en Java.
+
+:computer: [ver ejercicio 8](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio8.java)
+
+
+## Ejercicio 9
+
+Realizar un programa que solo permita introducir solo frases o palabras de 8 de largo. 
+
+Si el usuario ingresa una frase o palabra de 8 de largo se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”. 
+
+Nota: investigar la función **Lenght()** en Java.
+
+:computer: [ver ejercicio 9](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio9.java)
+
+
+## Ejercicio 10
+
+Escriba un programa que pida una frase o palabra y valide si la primera letra de esa frase es una ‘A’. 
+
+Si la primera letra es una ‘A’, se deberá de imprimir un mensaje por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir
+“INCORRECTO”.
+
+Nota: investigar la función **Substring** y **equals()** de Java.
+
+:computer: [ver ejercicio 10](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio10.java)
+
+
+## Ejercicio 11
+
+Considera que estás desarrollando una web para una empresa que fabrica motores (suponemos que se trata del tipo de motor de una bomba para mover fluidos).
+
+Definir una variable tipoMotor y permitir que el usuario ingrese un valor entre 1 y 4.
+
+El programa debe mostrar lo siguiente:
+
+o Si el tipo de motor es 1, mostrar un mensaje indicando “La bomba es una bomba de agua”.
+
+o Si el tipo de motor es 2, mostrar un mensaje indicando “La bomba es una bomba de gasolina”.
+
+o Si el tipo de motor es 3, mostrar un mensaje indicando “La bomba es una bomba de hormigón”.
+
+o Si el tipo de motor es 4, mostrar un mensaje indicando “La bomba es una bomba de pasta alimenticia”.
+
+o Si no se cumple ninguno de los valores anteriores mostrar el mensaje “No existe un valor válido para tipo de bomba”
+
+:computer: [ver ejercicio 11](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio11.java)
+
+
+## Ejercicio 12
+
+Escriba un programa que valide si una nota está entre 0 y 10, sino está entre 0 y 10 la nota se pedirá de nuevo hasta que la nota sea correcta.
+
+:computer: [ver ejercicio 12](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio12.java)
+
+
+## Ejercicio 13
+
+Escriba un programa en el cual se ingrese un valor límite positivo, y a continuación solicite números al usuario hasta que la suma de los números introducidos supere el límite inicial.
+
+:computer: [ver ejercicio 13](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio13.java)
+
+
+## Ejercicio 14
+
+Realizar un programa que pida dos números enteros positivos por teclado y muestre por pantalla el siguiente menú:
+
+MENU
+
+1. Sumar
+
+2. Restar
+
+3. Multiplicar
+
+4. Dividir
+
+5. Salir
+
+Elija opción:
+
+El usuario deberá elegir una opción y el programa deberá mostrar el resultado por pantalla y luego volver al menú. 
+
+El programa deberá ejecutarse hasta que se elija la opción 5. 
+
+Tener en cuenta que, si el usuario selecciona la opción 5, en vez de salir del programa directamente, se debe mostrar el siguiente mensaje de confirmación:
+
+¿Está seguro que desea salir del programa (S/N)? 
+
+Si el usuario selecciona el carácter ‘S’ se sale del programa, caso contrario se vuelve a mostrar el menú.
+
+:computer: [ver ejercicio 14](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio14.java)
+
+
+:computer: [ver ejercicio ]()
