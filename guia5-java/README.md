@@ -3,7 +3,7 @@
 
 ## Java
 
-Es un **lenguaje de programacion de alto nivel**. <br>
+Es un **lenguaje de programacion de alto nivel**.
 
 ---
 
@@ -11,98 +11,110 @@ Es un **lenguaje de programacion de alto nivel**. <br>
 
 ## Compilador de Java
 
-Traduce todo un programa de una sola vez. <br>
-Se compila a un lenguaje intermedio (ByteCode) que es interpretado por JVM (Java Virtual Machine) del JRE (Java Runtime Enviroment) y asi es portable a distintas plataformas. <br>
+Traduce todo un programa de una sola vez.
+
+Se compila a un lenguaje intermedio (**ByteCode**) que es interpretado por **JVM** (Java Virtual Machine) del **JRE** (Java Runtime Enviroment) y asi es portable a distintas plataformas.
 
 
 ## Ejecucion de una aplicacion
 
-en Java el cñodigo fuente se guarda en archivos .java y al compilar el codigo fuente se realiza un analisis de sintaxis de codigo escrito en archivos .java y de estar ok son compilados a archivos .class <br>
+En Java el código fuente se guarda en archivos **.java** y al compilar el codigo fuente se realiza un analisis de sintaxis de codigo escrito en archivos .java y de estar ok son compilados a archivos **.class**.
 
 
 ## Archivo fuente en Java
 
-Tiene la sigueinte forma:
+Tiene la siguiente forma:
 
-```
+```JAVA
 <declaracion_paquete>
+
 <declaracion_importacion>
+
 <modificador> <declaracion_clase>
+
 	<atributos>
+	
 	<constructores>
+	
 	<metodos>
+	
 ```
 
-El nombre del archivo fuente debe ser el mismo de la declaracion de clase publica(la mian class).<br>
+El nombre del archivo fuente debe ser el mismo de la declaracion de clase publica(la main class).
 
 
 
 ## Estructura de un programa Java
 
 
-```
+```JAVA
 /*
 *El siguiente programa muestra un mensaje "Hola mundo" en la consola utilizando el método System.out.println()
 */
 
-package primerprograma;
+package primerPrograma;
 
 public class HolaMundo{
+
   public static void main(String[] args) {
      System.out.println("Hola Mundo");
-  }	
+  }
+  
 }
 ```
 
-Los **comentarios** van entre /* */.<br>
+Los **comentarios** van entre /* */.
 
-Los **paquetes** son contenedores de clases, son analogos a las carpetas y archivos utilizados en el sistema operativo. <br>
-Se escriben en minuscula.<br>
+Los **paquetes** son contenedores de **clases**, son analogos a las carpetas y archivos utilizados en el sistema operativo. Se escriben en minuscula.
 
-Las **clases** moldean los objetos que serán utilizados por los programas. Una clase se forma asi: <br>
+Las **clases** moldean los objetos que serán utilizados por los programas. Una clase se forma asi:
 
-Declaracion de clase { <br>
-Cuerpo de clase <br>
-} <br>
+**Declaracion de clase {** <br>
+**Cuerpo de clase** <br>
+**}** <br>
 
 
-Siempre tienen la palabra reservada *class* y se cierran y abren entre llaves: { }. <br>
+Siempre tienen la palabra reservada **class** y se cierran y abren entre llaves: **{ }**.
 
 
 
 ## Métodos
 
-Un método es una secuencia de sentencias ejecutables, y son delimitadas por las { }
-. <br>
+Un método es una secuencia de sentencias ejecutables, y son delimitadas por las { }. 
 
 
 ## Método Main()
 
-El *mian()* sirve para que un programa se pueda ejecutar, es como el Algoritmo de Pseint. <br>
+El **main()** sirve para que un programa se pueda ejecutar, es como el Algoritmo de Pseint. 
 
-¿ Cómo de declara ? <br>
 
+## ¿ Cómo de declara ? 
+
+
+```JAVA
+public static void main(String[] args) {
+
+}
 ```
-public static void main(String[] args)
-```
 
 
-**public** : tipo de acceso, puede ser llamado desde otras clases. <br>
+**public** : tipo de acceso, puede ser llamado desde otras clases.
 
-**static** : un modificador que indica que la clase no necesita ser instancia para poder utilizar el método. Y dicho método es el mismo para todas las instancias que pueden crearse.<br>
+**static** : un modificador que indica que la clase no necesita ser instancia para poder utilizar el método. Y dicho método es el mismo para todas las instancias que pueden crearse.
 
-**void** : el étodo main no devuelve valor. <br>
+**void** : el método main no devuelve valor. 
 
-El *método main()* siempre debe aceptar *String* como parámetro. <br>
+El **método main()** siempre debe aceptar **String** como parámetr : **(String[] args)**.
 
 
 
 ## Sentencia
 
-Las unidades ejecutables más pequeñas de un programa (las líneas de código escrito). <br>
-Tienen una *palabra clave* o *reservada* como expresiones, declaraciones de varaibles o llamadas a funciones. <br>
+Las unidades ejecutables más pequeñas de un programa (las líneas de código escrito). 
 
-Todas las sentencias deben terminar con **;** . <br>
+Tienen una *palabra clave* o *reservada* como expresiones, declaraciones de varaibles o llamadas a funciones. 
+
+Todas las sentencias deben terminar con **;**. 
 
 
 
@@ -111,37 +123,38 @@ Todas las sentencias deben terminar con **;** . <br>
 
 ### Palabra reservada
 
-Palabra dentro del lenguaje que significan la ejecucion de una instruccion determinada, por lo que no pueden ser utilizadas con otro fin. <br>
+Palabra dentro del lenguaje que significan la ejecucion de una instruccion determinada, por lo que no pueden ser utilizadas con otro fin. 
 
 
 ### Identificador
 
-Los nombres que se usan para identificar cada uno de los elementos del lenguaje (nombre de variables, nombre de clases, interfaces, atributos y métodos). <br>
+Los nombres que se usan para identificar cada uno de los elementos del lenguaje (nombre de variables, nombre de clases, interfaces, atributos y métodos). 
 
 
 ### Variables y Constantes
 
 
-Son como pequeñas cajas que guardan informacion. <br>
+Son como pequeñas cajas que guardan informacion. 
 
-Poseen un identificador (su nombre) que facilita distinguirla una de otra. <br>
+Poseen un identificador (su nombre) que facilita distinguirla una de otra.
 
-Si la información que guarda no debe cambiar, entonces tenemos uan **constante**. <br>
+Si la información que guarda no debe cambiar, entonces tenemos una **constante**. 
 
-Si los valores pueden cambiar (variar) entonces tenemos uan **variable** . <br>
+Si los valores pueden cambiar (variar) entonces tenemos uan **variable** . 
 
 
 
 ## Declaracion de variables 
 
-Siempre deben ser declaradas antes de usarse, se deben declarar al principio del programa. <br>
+Siempre deben ser declaradas antes de usarse, se deben declarar al principio del programa. 
 
-Su sintaxis. <br>
+Su sintaxis:
 
-```
+```JAVA
 <tipo_de_dato> <nombre_varaible>;
 ```
 
+---
 
 ## Tipos de datos
 
@@ -198,23 +211,24 @@ Su sintaxis. <br>
 ## Tipos de instrucciones
 
 
-**instuccones de inicio/fin** : para delimitar bloques de codigo. <br>
+**instuccones de inicio/fin** : para delimitar bloques de codigo. 
 
 
-**instrucciones de asignacion* : para asignar el resultado de la evalucacion de una expresion a una variable. <br>
+**instrucciones de asignacion** : para asignar el resultado de la evalucacion de una expresion a una variable. Ejemplo:
 
-```
+
+```JAVA
 nombre_de_la_variable = expresion
 ```
 
 
-**instrucciones de lectura** : para leer datos de un dispositivo de entrada y se asignan a una variable. <br>
+**instrucciones de lectura** : para leer datos de un dispositivo de entrada y se asignan a una variable. ( Scanner ).
 
 
-**instrucciones de escritura**: escribir o mostrar mensajes o contenido de las variables en un dispositivo de salida. <br>
+**instrucciones de escritura**: escribir o mostrar mensajes o contenido de las variables en un dispositivo de salida. ( System.out.print ).
 
 
-**instrucciones de bifurcacion**: se interrumpe el desarrollo lineal de un programa.<br>
+**instrucciones de bifurcacion**: se interrumpe el desarrollo lineal de un programa.
 
 ---
 
@@ -225,82 +239,86 @@ nombre_de_la_variable = expresion
 
 ### Asignacion
 
-Permite almacenar un valor en una variable, previamente definida. <br>
+Permite almacenar un valor en una variable, previamente definida.
 
-```
+```JAVA
 <variable> =  <expresion>
 ```
 
-Se puede definir una variable y al mismo tiempo asignarle valor: <br>
+Se puede definir una variable y al mismo tiempo asignarle valor: 
 
-```
+```JAVA
 <tipo de variable> <variable> = <expresion>
 ```
 
 
-Primero de evalúa la expresión de la derecha y luego se asigna el resultado a al varaible de la izquierda. <br>
-El tipo de la variable y el de la expresión deben coincidir. <br>
+Primero de evalúa la expresión de la derecha y luego se asigna el resultado a al variable de la izquierda. 
+
+El tipo de la variable y el de la expresión deben coincidir.
+
 
 ---
 
 ## Entrada y Salida de información
 
+
 ### Escritura en Java
 
-```
+```JAVA
 System.out.println();
 ```
 
-Permite mostrar valores en el *output*, la interfaz gráfica de Java. <br>
-Siempre entre comillas dobles (si es String) y dentro de los paréntesis, si es una variable va sin comillas. <br>
+Permite mostrar valores en el **output**, la interfaz gráfica de Java.
 
-Para concetanar *mensaje* con *variable* se utiliza el + . <br>
+Siempre entre comillas dobles (si es String) y dentro de los paréntesis, si es una variable va sin comillas. 
 
-Si se quiere escribir sin saltos de línea: <br>
+Para concetanar *mensaje* con *variable* se utiliza el **+** . 
 
-```
+Si se quiere escribir sin saltos de línea va sin ln(next line): 
+
+```JAVA
 System.out.print();
 ```
 
-Va sin el *ln* por next line. <br>
+
 
 ### Lectura o entrada en Java
 
-Hay muchas maneras de ingresar información en el output por teclado en nuestro programa Java. <br>
+Hay muchas maneras de ingresar información en el output por teclado en nuestro programa Java.
 
-*Scanner* es una clase en el paquete *java.util* utilizada para obtener la entrada de los tipos primitivos: int, double, etc, y también String. <br>
+**Scanner** es una clase en el paquete **java.util** utilizada para obtener la entrada de los tipos primitivos: int, double, etc, y también String. 
 
-Ejemplo: <br>
+Ejemplo: 
 
-```
+```JAVA
 Scanner leer = new Scanner(System.in);
 ```
 
-Para poder usar el Objeto Scanner hay que *importarlo* para poder usarlo: <br>
+Para poder usar el Objeto Scanner hay que **importarlo** para poder usarlo: 
 
-```
+```JAVA
 import java.util.Scanner;
 ```
 
-Para crear un objeto de clase Scanner pasamos un objeto predefinido *System.in* que representa el flujo de entrada standard. <br>
+Para crear un objeto de clase Scanner pasamos un objeto predefinido **System.in** que representa el flujo de entrada standard. 
 
-Se le dio el nombre *leer* pero puede nombrarse como quieran. <br>
+Se le dio el nombre **leer** pero puede nombrarse como quieran. 
 
-Para utilizar las funciones del objeto Scanner se usa el nombre que le asignamos (leer) y luego un punto (.), para llamar a los métodos del Scanner. <br>
+Para utilizar las funciones del objeto Scanner se usa el nombre que le asignamos (leer) y luego un punto (.), para llamar a los métodos del Scanner. 
 
-Para leer valores numéricos de un determinado tipo de datos, la funcion que se utilizará es : <br>
-**naxtT()** <br>
-Por ejemplo, para leer un tipo entero: **leer.nextInt()** o para ller un double: **leer.nextDouble()**.<br>
+Para leer valores numéricos de un determinado tipo de datos, la funcion que se utilizará es : 
 
-Se puede usar cuando se define la variable. <br>
+**naxtT()** donde **Y** es el tipo de dato, por ejemplo, para leer un tipo entero: **leer.nextInt()** o para leer un double: **leer.nextDouble()**.
 
-```
+Se puede usar cuando se define la variable. 
+
+```JAVA
 int numero = leer.nextInt()
 ```
 
-Se puede usar como una varaible pre definida: <br>
+Se puede usar como una variable pre definida: 
 
-```
+```JAVA
 int numero;
 numero = leer.nextInt();
 ```
@@ -308,113 +326,141 @@ numero = leer.nextInt();
 ---
 
 
-# Instrucciones de bfurcacion
+# Instrucciones de bifurcacion
 
 
 ## Estructuras de control
 
-Construcciones a partir de palabras reservadas que permiten modificar el flujo de ejecución dle programa. <br>
+Construcciones a partir de palabras reservadas que permiten modificar el flujo de ejecución del programa.
 
 
 ## Estructuras condicionales
 
-Estructuras de control que cambian el flujo de ejecución de un programa de acuerdo a si se cumple o no una condición. <br>
-Cuando el flujo de control del programa llega al condicional, el programa evalúa la condición y determina el camino a seguir. <br>
+Estructuras de control que cambian el flujo de ejecución de un programa de acuerdo a si se cumple o no una condición. 
+
+Cuando el flujo de control del programa llega al condicional, el programa evalúa la condición y determina el camino a seguir.
 
 
 ### if / else
 
-**IF** es la más básica de las estructuras de control de flujo. Se ejecuta cierta parte del código si la condición evaluada es verdadera (TRUE). <br>
+**IF** es la más básica de las estructuras de control de flujo. 
+
+Se ejecuta cierta parte del código si la condición evaluada es verdadera (TRUE).
 
 
-```
+```JAVA
 if( condición ) {
+
  //sentencias
+ 
 }
 ```
 
 
-La *condición* es una expresión condicional cuyo resultado luego de la evaluación es un dato booleano, si es TRUE se ejecutan las sentencias. <br>
+La **condición** es una expresión condicional cuyo resultado luego de la evaluación es un dato booleano, si es TRUE se ejecutan las sentencias.
 
 
-En el **if / else** primero se evalua la condición si es TRUE se ejecuta la sentencia1, si es false se ejecuta al sentencia2. <br>
+En el **if / else** primero se evalua la condición si es TRUE se ejecuta la sentencia1, si es false se ejecuta al sentencia2. 
 
 
-```
+```JAVA
 if( condición ) {
+
  //sentencias1
+ 
 } else {
+
  //sentencias2
+ 
 }
 ```
 
-En el **if / else if / else** son condiciones anidadas, primero se evalua la *condicion* si es true se ejecuta *sentencias1*, sino pasa a evaluar *condicion2* si es true se ejecuta *sentencias2* y sino pasa a ejecutar *sentencias3* dentro del *else*. <br>
+En el **if / else if / else** son condiciones anidadas, primero se evalua la **condicion** si es true se ejecuta **sentencias1**, sino pasa a evaluar **condicion2** si es true se ejecuta **sentencias2** y sino pasa a ejecutar **sentencias3** dentro del **else**. 
 
-```
+```JAVA
 if( condición ) {
+
  //sentencias1
+ 
 } else if (condicion2) {
+
  //sentencias2
+ 
 } else {
+
   //sentencias3	
+  
 }
 ```
 
 ### Switch
 
-Evalúa el valor que tiene la variable y de acuerdo al valor que posee ejecuta las sentencias del bloque correspondiente. <br>
+Evalúa el valor que tiene la variable y de acuerdo al valor que posee ejecuta las sentencias del bloque correspondiente.
 
-```
-switch( varaible) {
+```JAVA
+switch( variable) {
+
   case valor1:
               sentencia1;
 	      break;
+	      
   case valor2:
               sentencia2;
 	      break;
+	      
    default:
            sentencia3;
 }
 ```
 
-**break** va detrás de cada sentencia, para cortar el switch y que se salga del bucle. <br>
+**break** va detrás de cada sentencia, para cortar el switch y que se salga del bucle. 
 
-Las instrucciones dentro del bloque default se ejecutan cuando la variable que se está evaluando no coincide con ninguno de los valores case. <br>
+Las instrucciones dentro del bloque default se ejecutan cuando la variable que se está evaluando no coincide con ninguno de los valores case.
 
 
 ---
 
 ## Estructuras repetitivas
 
-Cuando hay operaciones qeu deben repetirse muchas veces. <br>
-Son los bucles. <br>
+Cuando hay operaciones que deben repetirse muchas veces. 
 
-La *iteracion* es cuando se repite la ejecución de una secuenacia, es cada vuelta del ciclo. <br>
+Son los **bucles** / **ciclos** / **loops**.
 
-Todo bucle tiene una *condición* que es la que determina cuándo se repite el bucle. <br>
+La **iteracion** es cuando se repite la ejecución de una secuenacia, es cada vuelta del ciclo. 
+
+Todo bucle tiene una **condición** que es la que determina cuándo se repite el bucle. 
 
 
 ### While
 
-```
+```JAVA
 while (  condicion ) {
+
    //sentencias
+   
 }
 ```
 
-Ejecuta un bloque de instrucciones mientras se cumple una condición.<br>
-La condición se comprueba *antes* de empezar a ejecutar por primera vez el bucle; por lo que si la condición es falsa, nunca se ejecuta.<br>
+Ejecuta un bloque de instrucciones mientras se cumple una condición.
+
+La condición se comprueba **antes** de empezar a ejecutar por primera vez el bucle; por lo que si la condición es falsa, nunca se ejecuta.
+
 
 ### Do / While
 
-El bloque se ejecuta siempre al menos una vez, proqeu primero se ejecuta y luego se ve si se cumple con la condición. <br>
+El bloque se ejecuta siempre al menos una vez, porque primero se ejecuta y luego se ve si se cumple con la condición. 
 
-```
+```JAVA
 do {
+
   //sentencias
+  
 }  while ( condicion );
 
 ```
+
+Tener en cuenta que esta sentencia de ciclo finaliza con **;**
+
 
 ### For
 
@@ -422,17 +468,19 @@ do {
 Es una forma comparcta de recorrer un rango de valores cuando la cantidad de veces que se debe iterar un bloque de codigo es conocida.
 
 
-```
+```JAVA
 for ( inicializacion ; terminacion ; incremento ) {
+
    //sentencias
+   
 }
 ```
 
-*inicializacion* inicializa el bucle y se ejecuta una sola vez al iniciar el bucle. <br>
+**inicializacion** inicializa el bucle y se ejecuta una sola vez al iniciar el bucle.
 
-*terminacion* es la condición que permite que el bucle pase de true a false y corte, sino es un bule infinito.<br>
+**terminacion** es la condición que permite que el bucle pase de true a false y corte, sino es un bule infinito
 
-*incremento* se invoca luego de cada iteración, puede tanto incrementar como decrementar.<br>
+**incremento** se invoca luego de cada iteración, puede tanto incrementar como decrementar.
 
 
 
@@ -440,13 +488,15 @@ for ( inicializacion ; terminacion ; incremento ) {
 
 ### Break
 
-Sirve para abandonar una esructura de control, en : if-else , switch, for, do-while, while. <br>
-cuadno se ejecuta la instrucción break, el control del programa sale de la estructura en la que encuetnra contenida y continua con el programa. <br>
+Sirve para abandonar una estructura de control, en : if-else , switch, for, do-while, while.
+
+Cuando se ejecuta la instrucción break, el control del programa sale de la estructura en la que encuetnra contenida y continua con el programa. 
 
 ### Continue
 
-Corta la iteración en donde se encuentra el continue, pero en lugar de salir del bucle, continúa con la sigueinte iteración. <br>
-Transfiere el control del programa desde la instrucción continue directamente a la cabecera del bucle: for, do-while, while. <br>
+Corta la iteración en donde se encuentra el continue, pero en lugar de salir del bucle, continúa con la sigueinte iteración. 
+
+Transfiere el control del programa desde la instrucción continue directamente a la cabecera del bucle: for, do-while, while.
 
 ---
 
@@ -454,15 +504,14 @@ Transfiere el control del programa desde la instrucción continue directamente a
 
 ## Clase String
 
-Cadenas de caracteres. <br>
+Cadenas de caracteres. 
 
-Sus métodos: <br>
+Sus métodos: 
 
-**charAt( int index)**: retorna el caracter especificado en la posicion index. <br>
-
-**equals(String str)**: sirve para comparar si dos cadenas son iguales. Devuelve True si son iguales y false si no. <br>
-
-**equalsIgnoreCase(String str)** :  sirve para comparar si dos cadenas son iguales, ignorando la grafía de la palabra. devuelve true si son iguales y false si no.<br>
+| **charAt( int index)** |  retorna el caracter especificado en la posicion index. |
+| ---------------------- | ------------------------------------------------------- |
+| **equals(String str)** | sirve para comparar si dos cadenas son iguales. Devuelve True si son iguales y false si no |
+| **equalsIgnoreCase(String str)** | sirve para comparar si dos cadenas son iguales, ignorando la grafía de la palabra. devuelve true si son iguales y false si no |
 
 **compareTo(string otraCadena)** : compara dos cadenas de caracteres alfabéticamente. Retorna 0 si son iguales, entero negativo si la primera es menor o entero positivo si la primera es mayor. <br>
 
