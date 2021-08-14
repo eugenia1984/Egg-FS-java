@@ -508,8 +508,8 @@ Cadenas de caracteres.
 
 Sus métodos: 
 
-| **nombre del método | descripcion de qué hace |
-| ------------------- | ----------------------- |
+| **nombre del método** | **descripcion de qué hace** |
+| --------------------- | --------------------------- |
 | **charAt( int index)** |  retorna el caracter especificado en la posicion index. |
 | **equals(String str)** | sirve para comparar si dos cadenas son iguales. Devuelve True si son iguales y false si no |
 | **equalsIgnoreCase(String str)** | sirve para comparar si dos cadenas son iguales, ignorando la grafía de la palabra. devuelve true si son iguales y false si no |
@@ -555,8 +555,8 @@ int numEntero = integer.parseInt(numCadena);
 
 Sus métodos: 
 
-| **nombre del método | descripcion de qué hace |
-| ------------------- | ----------------------- |
+| **nombre del método** | **descripcion de qué hace** |
+| --------------------- | --------------------------- |
 | **abs(double a)** | devuelve el valor absoluto de un valor doble introducido como parámetro |
 | **abs(int a)** | devuelve el valor absoluto de un valor Entero introducido como parámetro |
 | **abs(long a)** | devuelve el valor absoluto de un valor long introducido como parámetro |
