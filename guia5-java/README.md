@@ -509,54 +509,41 @@ Cadenas de caracteres.
 Sus métodos: 
 
 | **charAt( int index)** |  retorna el caracter especificado en la posicion index. |
-| ---------------------- | ------------------------------------------------------- |
 | **equals(String str)** | sirve para comparar si dos cadenas son iguales. Devuelve True si son iguales y false si no |
 | **equalsIgnoreCase(String str)** | sirve para comparar si dos cadenas son iguales, ignorando la grafía de la palabra. devuelve true si son iguales y false si no |
-
-**compareTo(string otraCadena)** : compara dos cadenas de caracteres alfabéticamente. Retorna 0 si son iguales, entero negativo si la primera es menor o entero positivo si la primera es mayor. <br>
-
-**concat(String str)** : concatena la cadena del parámetro al final de la primera cadena. <br>
-
-**contains(charSequence s)** : retorna si la cadena contiene la secuencia tipo char del parámetro. <br>
-
-**endsWith(String str)** : retrna verdadero si la cadena es igual al objeto del parámetro. <br>
-
-**indexOf(String str)** : retorna e índice de la primera ocurrencia de la cadena del parámetro. <br>
-
-**isEmpty()** : retorna verdadero si la longitud de la cadena es 0.<br>
-
-**length()**: retorna la longitud de la cadena. <br>
-
-**replace(char oldChar, char newChar)** : renueva una nueva cadena reemplazando los caracteres del primer parámetro con el carácter del segundo parámetro. <br>
-
-**split(Sting regex)** : retorna un arreglo de cadenas separadas por la cadena del parámetro. <br>
-
-**startsWith(String prefix)** : retorna verdadero si el comienzo de la cadena es igual al prefijo del parámetro. <br>
-
-
-**cubstring(int beginIndex, int endIndex)** : retorna la sub cadena desde el caracter del primer parámetro hasta el carácter del segundo parámetro. <br>
-
-**toCharArray()** : retorna el conjunto de caracteres de la cadena. <br>
-
-**toLowerCase()** : retorna la cadena en minúscula. <br>
-
-**toUpperCase()** : retorna la cadena en mayúscula. <br>
+| **compareTo(string otraCadena)** | compara dos cadenas de caracteres alfabéticamente. Retorna 0 si son iguales, entero negativo si la primera es menor o entero positivo si la primera es mayor. |
+| **concat(String str)** | concatena la cadena del parámetro al final de la primera cadena |
+| **contains(charSequence s)** | retorna si la cadena contiene la secuencia tipo char del parámetro |
+| **endsWith(String str)** | retorna verdadero si la cadena es igual al objeto del parámetro |
+| **indexOf(String str)** | retorna e índice de la primera ocurrencia de la cadena del parámetro |
+| **isEmpty()** | retorna verdadero si la longitud de la cadena es 0. |
+| **length()** | etorna la longitud de la cadena |
+| **replace(char oldChar, char newChar)** | renueva una nueva cadena reemplazando los caracteres del primer parámetro con el carácter del segundo parámetro |
+| **split(Sting regex)** | retorna un arreglo de cadenas separadas por la cadena del parámetro |
+| **startsWith(String prefix)** | retorna verdadero si el comienzo de la cadena es igual al prefijo del parámetro |
+| **cubstring(int beginIndex, int endIndex)** : retorna la sub cadena desde el caracter del primer parámetro hasta el carácter del segundo parámetro. <br>
+| **toCharArray()** | retorna el conjunto de caracteres de la cadena |
+| **toLowerCase()** | retorna la cadena en minúscula |
+| **toUpperCase()** | retorna la cadena en mayúscula |
 
 
 
-jave es un lenguaje de tipado estático, para convertir cualquier tipo de dato a un String, utilizamos la función **valueOf(n)**. <br>
+Java es un lenguaje de tipado estático, para convertir cualquier tipo de dato a un String, utilizamos la función **valueOf(n)**. 
 
-Ejempo: <br>
+Ejempo: 
 
-```
+```JAVA
 int numeroEntero = 4;
+
 String numCadena = String.valueOf(numentero);
-```
-
-Si lo quiero hacer al reves: <br>
 
 ```
+
+Si lo quiero hacer al reves: 
+
+```JAVA
 String numCadena = "1";
+
 int numEntero = integer.parseInt(numCadena);
 ```
 
@@ -564,46 +551,34 @@ int numEntero = integer.parseInt(numCadena);
 
 ## Clase Math
 
-Sus métodos: <br>
+Sus métodos: 
 
-**abs(double a)** : devuelve el valor absoluto de un valor doble introducido como parámetro. <br>
-
-**abs(int a)** : devuelve el valor absoluto de un valor Entero introducido como parámetro. <br>
-
-**abs(long a)** : devuelve el valor absoluto de un valor long introducido como parámetro. <br>
-
-**max(double a, double b)** : devuelve el mayor de dos valores dobles.<br>
-
-**max(int a, int b)** : devuelve el mayor de dos valores Enteros. <br>
-
-**max(long a, long b)** . devuelve el mayor de los valores long.
-
-**min(double a, double b)** : devuelve el menor de dos valores dobles. <br>
-
-**min(int a, int b)** : devuelve el menor de dos valores enteros.<br>
-
-**min(long , long b)** : devuelve el menor de dos valores long.<br>
-
-**pow(double a, double b)** : devuelve el valor del primer argumento elevado a la potencia del segundo argumento. <br>
-
-**random()**: devuelve un doble con un signo positivo, mayor o igula que 0 y menor que 1.0 . <br>
-
-**roud(double a)**: devuelve el long redondeado más cercano al double inroducido.<br>
-
-**sqrt(double a)** : devuelve la raiz positiva correctamente redondeada de un doble.<br>
-
-**floor(double a)** : devuelve el entero más cerno por debajo.<br>
+| **abs(double a)** | devuelve el valor absoluto de un valor doble introducido como parámetro |
+| **abs(int a)** | devuelve el valor absoluto de un valor Entero introducido como parámetro |
+| **abs(long a)** | devuelve el valor absoluto de un valor long introducido como parámetro |
+| **max(double a, double b)** | devuelve el mayor de dos valores dobles |
+| **max(int a, int b)** | devuelve el mayor de dos valores Enteros |
+| **max(long a, long b)** | devuelve el mayor de los valores long |
+| **min(double a, double b)** | devuelve el menor de dos valores dobles |
+| **min(int a, int b)** | devuelve el menor de dos valores enteros |
+| **min(long , long b)** | devuelve el menor de dos valores long |
+| **pow(double a, double b)** | devuelve el valor del primer argumento elevado a la potencia del segundo argumento |
+| **random()** | devuelve un doble con un signo positivo, mayor o igula que 0 y menor que 1.0  |
+| **roud(double a)** | devuelve el long redondeado más cercano al double inroducido |
+| **sqrt(double a)** | devuelve la raiz positiva correctamente redondeada de un doble |
+| **floor(double a)** | devuelve el entero más cerno por debajo |
 
 
 
 ## Método random() de la clase Math
 
-Se puede usar para generar números al azar. <br>
-El rango o margen con el que trabaja el método random oscila entre 0.0 y 1.0 (este último no incluido). <br>
+Se puede usar para generar números al azar.
 
-Por lo tanto , para generar un núemro entero entre 0 y 9 hay que escribir la sentencia: <br>
+El rango o margen con el que trabaja el método random oscila entre 0.0 y 1.0 (este último no incluido)
 
-```
+Por lo tanto , para generar un núemro entero entre 0 y 9 hay que escribir la sentencia: 
+
+```JAVA
 int numero = (int) (Marth.random() * 10);
 ```
 
@@ -611,29 +586,32 @@ int numero = (int) (Marth.random() * 10);
 
 ## Subprogramas
 
-Para solucionar un problema complejo es lo mejor dividir en subproblemas ( subprogrmas ) . <br>
+Para solucionar un problema complejo es lo mejor dividir en subproblemas ( subprogrmas ) . 
 
-Divide y vencerás. <br>
+Divide y vencerás. 
 
-El problema principal se soluciona por el correspondiente programa o algoritmo principal mientras que la solución de los subproblemas será a través de subprogrmas, conocidos como **procedimeintos** o **funciones**. <br>
+El problema principal se soluciona por el correspondiente programa o algoritmo principal mientras que la solución de los subproblemas será a través de subprogrmas, conocidos como **procedimientos** o **funciones**. 
 
-Un subprograma es como un mini algoritmo. <br>
+Un subprograma es como un mini algoritmo. 
 
 
 ## Funciones
 
 
-Son un conjunto de líneas de código encapsulados en un bloque, recibe argumentos, cuyos valores se utilizan para efectuar operaciones y adicionalmente retorna un valor. <br>
+Son un conjunto de líneas de código encapsulados en un bloque, recibe argumentos, cuyos valores se utilizan para efectuar operaciones y adicionalmente retorna un valor.
 
-Según sus parámetros, puede recibir argumentos (algunas no reciben nada), hace usp de dichos valores recibidos como sea necesario y retorna un valor usando la instrucción **return**, si no retorna es otro tipo de función. <br>
+Según sus parámetros, puede recibir argumentos (algunas no reciben nada), hace uso de dichos valores recibidos como sea necesario y retorna un valor usando la instrucción **return**, si no retorna es otro tipo de función. 
 
-Los tipos que pueden usarse en la función son: int, double, long, boolean, Strinf, char. <br>
+Los tipos que pueden usarse en la función son: int, double, long, boolean, Strinf, char. 
 
 
 
-```
+```JAVA
+
 [acceso]  [modificador]  [tipo]  nombreFuncion( [tipo] nombreArgumento, ...) {
+
   //bloque de instrucciones
+  
 }
 ```
 
@@ -641,9 +619,11 @@ Los tipos que pueden usarse en la función son: int, double, long, boolean, Stri
 ## Procedimientos (Funciones sin retorno)
 
 
-```
+```JAVA
 [acceso]  [modificador]  void  nombreFuncion( [tipo] nombreArgumento, ...) {
+
   //bloque de instrucciones
+  
 }
 ```
 
@@ -654,54 +634,63 @@ Los tipos que pueden usarse en la función son: int, double, long, boolean, Stri
 ## Vector
 
 
-**Declaración y creación** <br>
+**Declaración y creación** 
 
-```
+```JAVA
 tipo[]  arregloV = new tipo[tamanio];
 ```
 
-**Asignar elementos manualmente**<br>
-```
+**Asignar elementos manualmente**
+
+```JAVA
 vector[0] = 5;
 ```
 
-**Asigar elementos con for**<br>
+**Asigar elementos con for**
 
-```
+```JAVA
 for (int i = 0 ; i < 5 ; i++) {
+
   vector[i] = 5;
+  
 }
 ```
 
-**En un subprograma** <br>
+**En un subprograma**
 
-```
+```JAVA
 public static int devolverVector() {
+
    int[] vector = new int[5];
    return vector;
+   
 }
 ```
 
 
 ## Matriz
 
-**Declaración y creación** <br>
-```
+**Declaración y creación**
+
+```JAVA
 tipo[] [] arregloM = new tipo[filas][columnas]:
 ```
 
-**Asignar elementos** <br>
-```
+**Asignar elementos**
+
+```JAVA
 matriz[0][0]=6;
 ```
 
-**Asigar elementos con for**<br>
+**Asigar elementos con for**
 
-```
+```JAVA
 for (int i = 0 ; i < 5 ; i++) {
+
   for (int j = 0 ; j < 5; j++) {
     matriz[i][j] = 6;
   }
+  
 }
 ```
 
