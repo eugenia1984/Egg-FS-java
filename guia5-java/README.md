@@ -1349,6 +1349,13 @@ Caso contrario mostrar un mensaje. Nota: investigar la función equals() de la c
 :heavy_check_mark: [ejercicio extra 3](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra3.java)
 
 
+## Ejercicio extra 4
+
+Elaborar un algoritmo en el cuál se ingrese un número entre 1 y 10 y se muestre su equivalente en romano.
+
+:heavy_check_mark: [ejercicio extra 4](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra4.java)
+
+
 ## Ejercicio Extra 19
 
 Crear una función rellene un vector con números aleatorios, pasándole un arreglo por parámetro. 
