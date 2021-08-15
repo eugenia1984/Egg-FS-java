@@ -1331,6 +1331,24 @@ Como podemos observar nuestra submatriz P se encuentra en la matriz M en los ín
 
 # Ejercicio de practica extra
 
+## Ejercicio extra 1
+
+Dado un tiempo en minutos, calcular su equivalente en días y horas. 
+
+Por ejemplo, si el usuario ingresa 1600 minutos, el sistema debe calcular su equivalente: 1 día, 2 horas.
+
+:heavy_check_mark: [ejercicio extra 1](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra1.java)
+
+
+## Ejercicio extra 3
+
+Elaborar un algoritmo en el cuál se ingrese una letra y se detecte si se trata de una vocal. 
+
+Caso contrario mostrar un mensaje. Nota: investigar la función equals() de la clase String.
+
+:heavy_check_mark: [ejercicio extra 3](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra3.java)
+
+
 ## Ejercicio Extra 19
 
 Crear una función rellene un vector con números aleatorios, pasándole un arreglo por parámetro. 
