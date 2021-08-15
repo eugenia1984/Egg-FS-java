@@ -755,6 +755,8 @@ for (int i = 0 ; i < 5 ; i++) {
 
 :computer: [ver ejemplo de vectores y matrices](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia5-java/vectoresYMatrices)
 
+Se utiliza el **bucle for mejorado** -> **for ( tipo elemento : arreglo )**
+
 ---
 
 # Preguntas de aprendizaje
