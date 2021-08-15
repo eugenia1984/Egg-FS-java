@@ -1320,3 +1320,8 @@ MATRIZ DE 3 X 3
 
 
 Como podemos observar nuestra submatriz P se encuentra en la matriz M en los índices: 4,4 - 4,5 - 4,6 - 5,4 - 5,5 - 5,6 - 6,4 - 6,5 - 6,6.
+
+
+:computer: [ver ejercicio 27](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio28.java)
+
+:computer: [ver ejercicio 27 alternativo](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio28Opcion2.java)
