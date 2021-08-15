@@ -1216,3 +1216,26 @@ El cambio de divisas es:
 Realizar un algoritmo que rellene un vector con los 100 primeros números enteros y los muestre por pantalla en orden descendente
 
 :computer: [ver ejercicio 21](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio21.java)
+
+
+## Ejercicio 22
+
+Realizar un algoritmo que rellene un vector de tamaño N con valores aleatorios y le pida al usuario un numero a buscar en el vector. 
+
+El programa mostrará donde se encuentra el numero y si se encuentra repetido.
+
+:computer: [ver ejercicio 22](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio22.java)
+
+
+## Ejercicio 23
+
+Recorrer un vector de N enteros contabilizando cuántos números son de 1 dígito, cuántos de 2 dígitos, etcétera (hasta 5 dígitos).
+
+:computer: [ver ejercicio 23](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio23.java)
+
+
+## Ejercicio 24
+
+Realizar un programa que rellene un matriz de 4 x 4 de valores aleatorios y la muestre ordenada por sus columnas
+
+:computer: [ver ejercicio 24](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio24.java)
