@@ -181,27 +181,55 @@ Su sintaxis:
 
 ### De asignacion
 
-= es de asignación simple
+| signo | operador significado |
+| ----- | -------------------- |
+| = | es de asignación simple |
 
 
 ### Aritméticos
 
-+suma , -resta, *multiplicacion, /division, %modulo <br>
+| signo | operador significado |
+| ----- | -------------------- |
+| + | suma |
+| - | resta |
+| * | multiplicacion |
+| / | division |
+| % | modulo |
 
 
 ### Unarios
 
-+suma, -resta, ++operador de incremento, --operador de decremento,  !operador logico de negacion
+
+| signo | operador significado |
+| ----- | -------------------- |
+| + | suma |
+| - | resta |
+| ++ | operador de incremento | 
+| -- | operador de decremento |
+| ! |operador logico de negacion |
 
 
 ### De igualdad y relacion
 
-==igual, !=distinto, >mayor, >=mayor igual, <menor, <=menor igual.
+
+| signo | operador significado |
+| ----- | -------------------- |
+| == | igual |
+| != | distinto |
+| > | mayor |
+| >= | mayor igual |
+| < | menor |
+| <= | menor igual |
 
 
 ### Condicionales
 
-&& and , || or , ?: ternario
+
+| signo | operador significado |
+| ----- | -------------------- |
+| &&  | and / Y |
+| || | or / O |
+| ?: | ternario |
 
 
 ### De comparacion de tipo
@@ -325,6 +353,11 @@ Se puede usar como una variable pre definida:
 int numero;
 numero = leer.nextInt();
 ```
+
+
+---
+
+:computer: [ver el primer programa en Java](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia5-java/primerPrograma)
 
 ---
 
@@ -634,11 +667,13 @@ Los tipos que pueden usarse en la función son: int, double, long, boolean, Stri
 }
 ```
 
+
 ---
+
 
 # Arreglos: Vectores y Matrices
 
-## Vector
+# Vector
 
 
 **Declaración y creación** 
@@ -647,11 +682,13 @@ Los tipos que pueden usarse en la función son: int, double, long, boolean, Stri
 tipo[]  arregloV = new tipo[tamanio];
 ```
 
+
 **Asignar elementos manualmente**
 
 ```JAVA
 vector[0] = 5;
 ```
+
 
 **Asigar elementos con for**
 
@@ -662,6 +699,7 @@ for (int i = 0 ; i < 5 ; i++) {
   
 }
 ```
+
 
 **En un subprograma**
 
@@ -675,7 +713,9 @@ public static int devolverVector() {
 ```
 
 
-## Matriz
+
+# Matriz
+
 
 **Declaración y creación**
 
@@ -683,11 +723,13 @@ public static int devolverVector() {
 tipo[] [] arregloM = new tipo[filas][columnas]:
 ```
 
+
 **Asignar elementos**
 
 ```JAVA
 matriz[0][0]=6;
 ```
+
 
 **Asigar elementos con for**
 
@@ -700,6 +742,7 @@ for (int i = 0 ; i < 5 ; i++) {
   
 }
 ```
+
 
 ---
 
