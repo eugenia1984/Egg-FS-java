@@ -536,6 +536,10 @@ Transfiere el control del programa desde la instrucción continue directamente a
 
 ---
 
+:computer: [ver ejemplo de Condionales(https://github.com/eugenia1984/Egg-FS-java/tree/master/guia5-java/condicionales)]
+
+---
+
 # Clases de utilidad
 
 ## Clase String
