@@ -1268,3 +1268,16 @@ MATRIZ TRASPUESTA
 ```
 
 :computer: [ver ejercicio 25](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio25.java)
+
+
+## Ejercicio 26
+
+Un cuadrado mágico 3 x 3 es una matriz 3 x 3 formada por números del 1 al 9 donde la suma de sus filas, sus columnas y sus diagonales son idénticas. 
+
+Crear un programa que permita introducir un cuadrado por teclado y determine si este cuadrado es mágico o no. 
+
+El programa deberá comprobar que los números introducidos son correctos, es decir, están entre el 1 y el 9.
+
+*En vez de ingresarlos por teclado los fui asignando con Math.random()
+
+:computer: [ver ejercicio 26](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio26.java)
