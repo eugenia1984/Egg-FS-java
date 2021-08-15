@@ -1239,3 +1239,32 @@ Recorrer un vector de N enteros contabilizando cuántos números son de 1 dígit
 Realizar un programa que rellene un matriz de 4 x 4 de valores aleatorios y la muestre ordenada por sus columnas
 
 :computer: [ver ejercicio 24](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio24.java)
+
+
+## Ejercicio 25
+
+Realice un programa que compruebe si una matriz dada es anti simétrica. 
+
+Se dice que una matriz A es anti simétrica cuando ésta es igual a su propia traspuesta, pero cambiada de signo. 
+
+Es decir, A es anti simétrica si A = -AT. La matriz traspuesta de una matriz A se denota por AT y se obtiene cambiando sus filas por columnas (o
+viceversa).
+
+
+MATRIZ
+
+0 -2 4
+
+2 0 2
+
+-4 -2 0
+
+MATRIZ TRASPUESTA
+
+0 2 -4
+
+-2 0 -2
+
+4 2 0
+
+:computer: [ver ejercicio 25](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio25.java)
