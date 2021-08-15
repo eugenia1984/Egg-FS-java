@@ -1253,18 +1253,18 @@ viceversa).
 
 MATRIZ
 
-0 -2 4
-
-2 0 2
-
--4 -2 0
+```
+ 0  -2   4
+ 2   0   2
+-4  -2   0
+```
 
 MATRIZ TRASPUESTA
 
-0 2 -4
-
--2 0 -2
-
-4 2 0
+```
+ 0   2  -4
+-2   0  -2
+ 4   2   0
+```
 
 :computer: [ver ejercicio 25](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio25.java)
