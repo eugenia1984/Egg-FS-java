@@ -1325,3 +1325,16 @@ Como podemos observar nuestra submatriz P se encuentra en la matriz M en los ín
 :computer: [ver ejercicio 27](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio28.java)
 
 :computer: [ver ejercicio 27 alternativo](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Ejercicio28Opcion2.java)
+
+
+---
+
+# Ejercicio de practica extra
+
+## Ejercicio Extra 19
+
+Crear una función rellene un vector con números aleatorios, pasándole un arreglo por parámetro. 
+
+Después haremos otra función o procedimiento que imprima el vector.
+
+:circle: [ejercicio extra 19](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra19.java)
