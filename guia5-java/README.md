@@ -1337,4 +1337,4 @@ Crear una función rellene un vector con números aleatorios, pasándole un arre
 
 Después haremos otra función o procedimiento que imprima el vector.
 
-:circle: [ejercicio extra 19](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra19.java)
+:heavy_check_mark: [ejercicio extra 19](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra19.java)
