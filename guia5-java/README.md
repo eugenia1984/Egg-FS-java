@@ -1380,6 +1380,13 @@ Solicite una letra (carácter) que representa la clase de un socio, y luego un v
 :heavy_check_mark: [ejercicio extra 5](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra5.java)
 
 
+## Ejercicio extra 6
+
+Leer la altura de N personas y determinar el promedio de estaturas que se encuentran por debajo de 1.60 mts. y el promedio de estaturas en general.
+
+:heavy_check_mark: [ejercicio extra 6](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra6.java)
+
+
 ## Ejercicio Extra 19
 
 Crear una función rellene un vector con números aleatorios, pasándole un arreglo por parámetro. 
