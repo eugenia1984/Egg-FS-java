@@ -1404,6 +1404,13 @@ Ejemplo: si se ingresa el número 3:
 :heavy_check_mark: [ejercicio extra 12](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra12.java)
 
 
+## Ejercicio extra 17
+
+Realizar un algoritmo que calcule la suma de todos los elementos de un vector de tamaño N, con los valores ingresados por el usuario.
+
+:heavy_check_mark: [ejercicio extra 17](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra17.java)
+
+
 ## Ejercicio Extra 19
 
 Crear una función rellene un vector con números aleatorios, pasándole un arreglo por parámetro. 
