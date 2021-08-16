@@ -132,15 +132,15 @@ La declaración de un atributo de un objeto tiene la siguiente forma:
 <modificador>* <tipo> <nombre> [ = <valor inicial> ];
 ```
 
-• <nombre>: puede ser cualquier identificador válido y denomina el atributo que está
+• **nombre**: puede ser cualquier identificador válido y denomina el atributo que está
 siendo declarado.
   
-• <modificador>: si bien hay varios valores posibles para el <modificador>, por el momento
+• **modificador**: si bien hay varios valores posibles para el <modificador>, por el momento
 solo usaremos modificadores de visibilidad: **public**, **protected**, **private**.
   
-• <tipo>: indica la clase a la que pertenece el atributo definido.
+• **tipo**: indica la clase a la que pertenece el atributo definido.
   
-• <valor inicial>: esta sentencia es opcional y se usa para inicializar el atributo del objeto
+• **valor inicial**: esta sentencia es opcional y se usa para inicializar el atributo del objeto
 con un valor particular.
   
 Estos atributos irán al principio de la clase.
@@ -162,12 +162,12 @@ La declaración básica toma la siguiente forma:
 }
 ```
      
-• <nombre de clase>: El nombre del **constructor debe ser siempre el mismo que el de la clase**.
+• **nombre de clase**: El nombre del **constructor debe ser siempre el mismo que el de la clase**.
      
-• <modificador>: Actualmente, los únicos modificadores válidos para los constructores son
+• **modificador**: Actualmente, los únicos modificadores válidos para los constructores son
 **public**, **protected** y **private**.
      
-• <argumentos>: es una lista de parámetros que tiene la misma función que en los métodos.
+• **argumentos**: es una lista de parámetros que tiene la misma función que en los métodos.
      
 El método constructor se ejecuta cada vez que se instancia un objeto de la clase. 
      
@@ -209,13 +209,13 @@ Para definir los métodos, el lenguaje de programación Java toma la siguiente f
 }
 ``` 
       
-• <nombre>: puede ser cualquier identificador válido, con algunas restricciones basadas en los nombres que ya están en uso.
+• **nombre**: puede ser cualquier identificador válido, con algunas restricciones basadas en los nombres que ya están en uso.
       
-• <modificador>: el segmento es opcional y puede contener varios modificadores diferentes incluyendo a public, protected y private. Aunque no está limitado a estos.
+• **modificador**: el segmento es opcional y puede contener varios modificadores diferentes incluyendo a public, protected y private. Aunque no está limitado a estos.
       
-• <tipo de retorno>: el tipo de retorno indica el tipo de valor devuelto por el método. Si el método no devuelve un valor, debe ser declarado** void**. La tecnología Java es rigurosa acerca de los valores de retorno. Si el tipo de retorno en la declaración del método es un int, por ejemplo, el método debe devolver un valor int desde todos los posibles caminos de retorno (y puede ser invocado solamente en contextos que esperan un int para ser devuelto). Se usa la sentencia **return** dentro de un método para devolver un valor.
+• **tipo de retorno**: el tipo de retorno indica el tipo de valor devuelto por el método. Si el método no devuelve un valor, debe ser declarado** void**. La tecnología Java es rigurosa acerca de los valores de retorno. Si el tipo de retorno en la declaración del método es un int, por ejemplo, el método debe devolver un valor int desde todos los posibles caminos de retorno (y puede ser invocado solamente en contextos que esperan un int para ser devuelto). Se usa la sentencia **return** dentro de un método para devolver un valor.
       
-• <argumento>: permite que los valores de los argumentos sean pasados hacia el método.
+• **argumento**: permite que los valores de los argumentos sean pasados hacia el método.
 Los elementos de la lista están separados por comas y cada elemento consiste en un tipo y un identificador.
       
       
@@ -471,16 +471,13 @@ manipular arreglos.
 | ------ | ----------- |      
 | Arrays.equals(arreglo1, arreglo2) | Retorna true o false, si dos arreglos del mismo tipo de dato
 son iguales | 
-| Arrays.fill(arreglo, variable) <br> Arrays.fill(arreglo, int desde, int
-hasta, variable)| Este método lo que hace es inicializar todo el arreglo con la
-variable o valor que pasamos como argumento. Este método
-se puede usar con cualquier tipo de dato y le podemos decir
-desde y hasta que índice queremos que llene con ese valor. |
-| Arrays.sort(arreglo) <br> Arrays.sort(arreglo, int desde, int hasta) | Este método sirve para ordenar un arreglo de manera ascendente. A este método también le podemos decir desde y hasta que índice queremos que ordene. |
+| Arrays.fill(arreglo, variable) - Arrays.fill(arreglo, int desde, int
+hasta, variable)| Este método lo que hace es inicializar todo el arreglo con la variable o valor que pasamos como argumento. Este método se puede usar con cualquier tipo de dato y le podemos decir desde y hasta que índice queremos que llene con ese valor. |
+| Arrays.sort(arreglo) - Arrays.sort(arreglo, int desde, int hasta) | Este método sirve para ordenar un arreglo de manera ascendente. A este método también le podemos decir desde y hasta que índice queremos que ordene. |
 | Arrays.binarySearch(arreglo,valor) | Este método sirve para buscar un elemento determinado en
 un arreglo. El método devuelve la posición en la cual se encuentra el elemento. La implementación del algoritmo de
 búsqueda utilizado es el de búsqueda binaria, por lo tanto, antes de utilizar este método debemos asegurarnos que el arreglo se encuentre ordenado. |
-| Arrays.toString(arreglo) | Este método imprime el arreglo como una cadena, la cadena consiste en una lista de los elementos del arreglo encerrados entre corchetes ("[]"). Los elementos adyacentes están separados por comas (","). |
+| Arrays.toString(arreglo) | Este método imprime el arreglo como una cadena, la cadena consiste en una lista de los elementos del arreglo encerrados entre corchetes. Los elementos adyacentes están separados por comas. |
       
       
 ---
