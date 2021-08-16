@@ -1340,6 +1340,15 @@ Por ejemplo, si el usuario ingresa 1600 minutos, el sistema debe calcular su equ
 :heavy_check_mark: [ejercicio extra 1](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra1.java)
 
 
+## Ejercicio extra 2
+
+Declarar cuatro variables de tipo entero A, B, C y D y asignarle un valor diferente a cada una. A continuación, realizar las instrucciones necesarias para que: B tome el valor de C, C tome el valor de A, A tome el valor de D y D tome el valor de B.
+
+Mostrar los valores iniciales y los valores finales de cada variable. Utilizar sólo una variable auxiliar.
+
+:heavy_check_mark: [ejercicio extra 2](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra2.java)
+
+
 ## Ejercicio extra 3
 
 Elaborar un algoritmo en el cuál se ingrese una letra y se detecte si se trata de una vocal. 
