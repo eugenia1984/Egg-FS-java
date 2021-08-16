@@ -1387,6 +1387,23 @@ Leer la altura de N personas y determinar el promedio de estaturas que se encuen
 :heavy_check_mark: [ejercicio extra 6](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra6.java)
 
 
+## Ejercicio extra 12
+
+Crear un programa que dibuje una escalera de números, donde cada línea de números comience en uno y termine en el número de la línea. 
+
+Solicitar la altura de la escalera al usuario al comenzar. 
+
+Ejemplo: si se ingresa el número 3:
+
+1
+
+12
+
+123
+
+:heavy_check_mark: [ejercicio extra 12](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia5-java/Extra12.java)
+
+
 ## Ejercicio Extra 19
 
 Crear una función rellene un vector con números aleatorios, pasándole un arreglo por parámetro. 
