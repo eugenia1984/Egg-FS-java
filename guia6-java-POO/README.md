@@ -469,14 +469,10 @@ manipular arreglos.
       
 | METODO | DESCRIPCION |
 | ------ | ----------- |      
-| Arrays.equals(arreglo1, arreglo2) | Retorna true o false, si dos arreglos del mismo tipo de dato
-son iguales | 
-| Arrays.fill(arreglo, variable) - Arrays.fill(arreglo, int desde, int
-hasta, variable)| Este método lo que hace es inicializar todo el arreglo con la variable o valor que pasamos como argumento. Este método se puede usar con cualquier tipo de dato y le podemos decir desde y hasta que índice queremos que llene con ese valor. |
+| Arrays.equals(arreglo1, arreglo2) | Retorna true o false, si dos arreglos del mismo tipo de dato son iguales | 
+| Arrays.fill(arreglo, variable) - Arrays.fill(arreglo, int desde, int hasta, variable)| Este método lo que hace es inicializar todo el arreglo con la variable o valor que pasamos como argumento. Este método se puede usar con cualquier tipo de dato y le podemos decir desde y hasta que índice queremos que llene con ese valor. |
 | Arrays.sort(arreglo) - Arrays.sort(arreglo, int desde, int hasta) | Este método sirve para ordenar un arreglo de manera ascendente. A este método también le podemos decir desde y hasta que índice queremos que ordene. |
-| Arrays.binarySearch(arreglo,valor) | Este método sirve para buscar un elemento determinado en
-un arreglo. El método devuelve la posición en la cual se encuentra el elemento. La implementación del algoritmo de
-búsqueda utilizado es el de búsqueda binaria, por lo tanto, antes de utilizar este método debemos asegurarnos que el arreglo se encuentre ordenado. |
+| Arrays.binarySearch(arreglo,valor) | Este método sirve para buscar un elemento determinado en un arreglo. El método devuelve la posición en la cual se encuentra el elemento. La implementación del algoritmo de búsqueda utilizado es el de búsqueda binaria, por lo tanto, antes de utilizar este método debemos asegurarnos que el arreglo se encuentre ordenado. |
 | Arrays.toString(arreglo) | Este método imprime el arreglo como una cadena, la cadena consiste en una lista de los elementos del arreglo encerrados entre corchetes. Los elementos adyacentes están separados por comas. |
       
       
