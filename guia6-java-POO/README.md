@@ -668,4 +668,62 @@ Crear una clase llamada Libro que contenga los siguientes atributos: ISBN, Títu
 
 Crear un método para cargar un libro pidiendo los datos al usuario y luego informar mediante otro método el número de ISBN, el título, el autor del libro y el numero de páginas.
       
-[ver resolución ejercicio 1](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio1)      
+[ver resolución ejercicio 1](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio1)  
+  
+      
+## Ejercicio 2
+      
+Declarar una clase llamada Circunferencia que tenga como atributo privado el radio
+de tipo real. A continuación, se deben crear los siguientes métodos:
+      
+a) Método constructor que inicialice el radio pasado como parámetro.
+      
+b) Métodos get y set para el atributo radio de la clase Circunferencia.
+      
+c) Método para crearCircunferencia(): que le pide el radio y lo guarda en el atributo del objeto.
+      
+d) Método area(): para calcular el área de la circunferencia (Area = π ∗ radio!).
+      
+e) Método perimetro(): para calcular el perímetro (Perimetro = 2 ∗ π ∗ radio).
+      
+[ver resolución ejercicio 2](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio2)  
+      
+      
+## Ejercicio 3
+      
+Crear una clase llamada Operacion que tenga como atributos privados numero1 y numero2. A continuación, se deben crear los siguientes métodos:
+      
+a) Método constructor con todos los atributos pasados por parámetro.
+      
+b) Metodo constructor sin los atributos pasados por parámetro.
+      
+c) Métodos get y set.
+      
+d) Método para crearOperacion(): que le pide al usuario los dos números y los guarda en los atributos del objeto.  
+      
+e) Método sumar(): calcular la suma de los números y devolver el resultado al main.
+      
+f) Método restar(): calcular la resta de los números y devolver el resultado al main.
+      
+g) Método multiplicar(): primero valida que no se haga una multiplicación por cero, si fuera a multiplicar por cero, el método devuelve 0 y se le informa al usuario el error. Si no, se hace la multiplicación y se devuelve el resultado al main
+      
+h) Método dividir(): primero valida que no se haga una división por cero, si fuera a pasar una división por cero, el método devuelve 0 y se le informa al usuario el error se le informa al usuario. Si no, se hace la división y se devuelve el resultado al main.  
+      
+[ver resolución ejercicio 3](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio3)     
+      
+      
+## Ejercicio 4
+      
+Crear una clase Rectángulo que modele rectángulos por medio de un atributo privado base y un atributo privado altura. 
+      
+La clase incluirá un método para crear el rectángulo con los datos del Rectángulo dados por el usuario. 
+      
+También incluirá un método para calcular la superficie del rectángulo y un método para calcular el perímetro del rectángulo. 
+      
+Por último, tendremos un método que dibujará el rectángulo mediante asteriscos usando la base y la altura. 
+      
+Se deberán además definir los métodos getters, setters y constructores correspondientes.
+      
+Superficie = base * altura / Perímetro = (base + altura) * 2.   
+      
+[ver resolución ejercicio 4](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio4)         
