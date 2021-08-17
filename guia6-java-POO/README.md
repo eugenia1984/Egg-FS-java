@@ -652,6 +652,10 @@ d) Todas las anteriores
       
 ---
 
+:computer: [Ver carpeta **clase utilidad** que tiene ejemplos de Arrays, Clase Date y clase Integer](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/ClasesUtilidad)
+      
+---
+      
 # EJERCICIOS DE APRENDIZAJE
 
 ## Ejercicio 1
