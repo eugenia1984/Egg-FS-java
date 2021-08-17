@@ -752,3 +752,47 @@ Las operaciones asociadas a dicha clase son:
 • Método consultarDatos(): permitirá mostrar todos los datos de la cuenta   
       
 [ver resolución ejercicio 5](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio5)  
+      
+      
+## Ejercicio 6
+      
+Programa Nespresso. Desarrolle una clase Cafetera con los atributos capacidadMaxima (la cantidad máxima de café que puede contener la cafetera) y cantidadActual (la cantidad actual de café que hay en la cafetera). 
+      
+Implemente, al menos, los siguientes métodos:
+      
+• Constructor predeterminado o vacío
+      
+• Constructor con la capacidad máxima y la cantidad actual
+      
+• Métodos getters y setters.
+      
+• Método llenarCafetera(): hace que la cantidad actual sea igual a la capacidad máxima.
+      
+• Método servirTaza(int): se pide el tamaño de una taza vacía, el método recibe el tamaño de la taza y simula la acción de servir la taza con la capacidad indicada. Si la cantidad actual de café “no alcanza” para llenar la taza, se sirve lo que quede. El método le informará al usuario si se llenó o no la taza, y de no haberse llenado en cuanto quedó la taza.
+      
+• Método vaciarCafetera(): pone la cantidad de café actual en cero.
+      
+• Método agregarCafe(int): se le pide al usuario una cantidad de café, el método lo recibe y se añade a la cafetera la cantidad de café indicada.
+      
+[ver resolución ejercicio 6](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio6)  
+      
+      
+## Ejercicico 8
+      
+Realizar una clase llamada Cadena que tenga como atributos una frase (de tipo de String) y su longitud. En el main se creará el objeto y se le pedirá al usuario que ingrese una frase que puede ser una palabra o varias palabras separadas por un espacio en blanco y a través de los métodos set, se guardará la frase y la longitud de manera automática según la longitud de la frase ingresada. Deberá además implementar los siguientes métodos:
+      
+• Método mostrarVocales(), deberá contabilizar la cantidad de vocales que tiene la frase ingresada.
+      
+• Método invertirFrase(), deberá invertir la frase ingresada y mostrar la frase invertida por pantalla. Por ejemplo: Entrada: "casa blanca", Salida: "acnalb asac".
+      
+• Método vecesRepetido(String letra), deberá recibir por parámetro un carácter ingresado por el usuario y contabilizar cuántas veces se repite el carácter en la frase, por ejemplo: Entrada: frase = "casa blanca". Salida: El carácter 'a' se repite 4 veces.
+      
+• Método compararLongitud(String frase), deberá comparar la longitud de la frase que compone la clase con otra nueva frase ingresada por el usuario.
+      
+• Método unirFrases(String frase), deberá unir la frase contenida en la clase Cadena con una nueva frase ingresada por el usuario y mostrar la frase resultante.
+      
+• Método reemplazar(String letra), deberá reemplazar todas las letras “a” que se encuentren en la frase, por algún otro carácter seleccionado por el usuario y mostrar la frase resultante.
+      
+• Método contiene(String letra), deberá comprobar si la frase contiene una letra que ingresa el usuario y devuelve verdadero si la contiene y falso si no.
+      
+[ver resolución ejercicio 8](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio8) 
