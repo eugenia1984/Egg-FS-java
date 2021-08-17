@@ -475,6 +475,57 @@ manipular arreglos.
 | Arrays.binarySearch(arreglo,valor) | Este método sirve para buscar un elemento determinado en un arreglo. El método devuelve la posición en la cual se encuentra el elemento. La implementación del algoritmo de búsqueda utilizado es el de búsqueda binaria, por lo tanto, antes de utilizar este método debemos asegurarnos que el arreglo se encuentre ordenado. |
 | Arrays.toString(arreglo) | Este método imprime el arreglo como una cadena, la cadena consiste en una lista de los elementos del arreglo encerrados entre corchetes. Los elementos adyacentes están separados por comas. |
       
+
+## CLASE INTEGER
+      
+La clase Integer permite convertir un tipo primitivo de dato int a objeto Integer. La clase Integer pertenece al paquete java.lang del API de Java y hereda de la clase java.lang.Number.  
+      
+      
+| METODO | DESCRIPCION |
+| ------ | ----------- | 
+| Integer(String s) | Constructor que inicializa un objeto con una cadena de caracteres. Esta cadena debe contener un número entero. |
+| compareTo(entero, otroEntero) | Compara dos objetos Integer numéricamente. Retorna 0 si son iguales, entero negativo si el primer numero es menor o entero positivo si el primer numero es mayor. |
+| doubleValue() | Retorna el valor del Integer en tipo primitivo double |
+| equals(Object obj) | Compara el Integer con el objeto del parámetro. Devuelve true si son iguales y false si no. |
+| parseInt(String s) | Convierte la cadena de caracteres numérica del parámetro en tipo primitivo int. |
+| toString() | Retorna el valor del Integer en una cadena de caracteres |
+      
+ 
+## CLASE DATE
+      
+La clase Date modela objetos o variables de tipo fecha. La clase Date representa un
+instante de tiempo específico con una precisión en milisegundos y permite el uso del
+formato Universal Coordinated Time (UTC). Por otro lado, muchas computadoras están
+definidas en términos de Greenwich Mean Time (GMT) que es equivalente a Universal Time
+(UT). GMT es el nombre estándar y UT es el nombre científico del estándar. La diferencia
+entre UT y UTC es que UTC está basado en un reloj atómico y UT está basado en un reloj
+astronómico.
+      
+Las fechas en Java, comienzan en el valor standar based time llamado “epoch” que hace
+referencia al 1 de Enero de 1970, 0 horas 0 minutos 0 segundos GMT.
+La clase Date posee métodos que permiten la manipulación de fechas. La clase Date
+pertenece al paquete java.util del API de Java.
+  
+| METODO | DESCRIPCION |
+| ------ | ----------- |      
+| Date() | Constructor que inicializa la fecha en el milisegundo más cercano a la fecha del sistema. |
+| Date(int dia, int mes, int año) | Constructor que inicializa la fecha sumándole 1900 al año. |
+| after(Date fecha2) | Retorna verdadero si la fecha esta después de la fecha del parámetro |
+| before(Date fecha2) | Retorna verdadero si la fecha esta antes de la fecha del parámetro |
+| compareTo(Date fecha) | Compara la fecha con la del parámetro. Retorna 0 si son iguales, entero negativo si el primer numero es menor o entero positivo si el primer numero es mayor. |
+| equals(Object obj) | Compara el Date con el objeto del parámetro. Devuelve true si son iguales y false si no.|
+| getDay() | Retorna el valor del día de la semana de la fecha. Ejemplo: si es lunes devuelve 0, martes 1, miércoles 2, jueves 3, viernes 4, sábado 5 y domingo 6. |
+| getDate() | Retorna el numero del día de la fecha. |
+| getMonth() | Retorna el mes de la fecha. |
+| getYear() | Retorna el año de la fecha. |
+| getTime() | Retorna la fecha en milisegundos a partir del “epoch”. |
+| setDate(int dia) | Asigna un día a la fecha. |
+| setMonth(int mes) | Asigna un mes a la fecha. |
+| setYear(int anio) | Asigna un año a la fecha. |
+| setTime(long time) | Asigna la fecha en milisegundos a partir del “epoch”. |
+| toString() |  Retorna la fecha en una cadena de caracteres.|
+
+      
       
 ---
       
@@ -482,19 +533,20 @@ manipular arreglos.
 
 ## 1) Responda Verdadero (V) o Falso (F)
 
-Cuando se coloca la palabra final precediendo la declaración de una variable la misma se transforma en una constante 
+Cuando se coloca la palabra final precediendo la declaración de una variable la misma se transforma en una constante -> VERDADERO, se debe declarar e inicializar al mismo tiempo, ya que su valor no va a variar 
 
-Una variable local no puede ser declarada en cualquier lugar del cuerpo de una clase o método 
+Una variable local no puede ser declarada en cualquier lugar del cuerpo de una clase o método -> FALSO debe ser declarada dentro de la clase
 
-El método constructor de una clase puede tener cualquier nombre 
+El método constructor de una clase puede tener cualquier nombre -> FALSO el metodo constructor tiene que tener el mismo nombre que la clase
 
-Cuando un método no devuelve ningún valor se utiliza la palabra reservada void para indicar que no devuelve nada
+Cuando un método no devuelve ningún valor se utiliza la palabra reservada void para indicar que no devuelve nada -> VERDADERO
 
-La palabra reservada final determina que un atributo no puede ser redefinido
+La palabra reservada final determina que un atributo no puede ser redefinido -> VERDADERO son atributos CONSTANTES, no pueden ser sobreescritos ni redefinidos
 
-La devolución de un valor a través de un método se hace con la sentencia restore
+La devolución de un valor a través de un método se hace con la sentencia restore -> FALSO es con la sentencia return
 
 
+      
 ##  2) ¿Cuál es la descripción que crees que define mejor el concepto clase en la programación orientada a objetos?
 
 a) Es un concepto similar al de array
@@ -505,6 +557,8 @@ c) Es un modelo o plantilla a partir de la cual creamos objetos
 
 d) Es una categoría de datos ordenada secuencialmente
 
+**Respuesta: C - Es un modelo o plantilla a partir de la cual creamos objetos; a partir de la clase se instancian objetos**
+      
 
 ## 3) ¿Qué elementos crees que definen a un objeto?
 
@@ -516,7 +570,9 @@ c) La forma en que establece comunicación e intercambia mensajes
 
 d) Su interfaz y los eventos asociados
 
-
+**Respuesta B: Sus atributos y sus métodos, que se crean a través de las clases que heredan y además pueden tener otros propios de ellos**
+      
+      
 ## 4) Una clase es:
 
 a) Un molde para crear múltiples objetos
@@ -527,7 +583,9 @@ c) Un tipo de modificador de acceso
 
 d) Ninguna de las anteriores
 
-
+**Respuesta A: Un molde para crear múltiples objetos que encapsulan datos y comportamientosm tiene sus atributos y métodos. Es una *plantilla* o prototipo de objetos. Su nombre empieza con mayuscula. También tiene sus constructores.**
+      
+      
 ## 5) El modificador de acceso private, hace que los datos puedan ser accedidos por
 
 a) Cualquier clase
@@ -538,7 +596,9 @@ c) El método main
 
 d) Ninguna de las anteriores
 
-
+**Respuesta : B, La clase donde se encuentran, si es que está en el mismo paquete, sino no.**
+      
+      
 ## 6) ¿Qué significa instanciar una clase?
 
 a) Duplicar una clase
@@ -549,7 +609,9 @@ c) Crear un objeto a partir de la clase
 
 d) Conectar dos clases entre sí
 
-
+**Respuesta: C  Crear un objeto a partir de la clase, por esto se dice que un objeto es una instancia de una clase**
+      
+      
 ## 7) Queremos crear una clase Java con atributos que puedan ser accedidos, ¿qué opción elegirías como la mejor?
 
 a) Atributos públicos
@@ -560,7 +622,9 @@ c) Atributos privados con getters y setters
 
 d) Ninguna de las anteriores
 
-
+**Respuesta A: Atributos públicos, pueden ser accedidos desde la misma clase, desde cualquier clase del mismo paquete, desde una subclase del mismo paquete, desde una subclase fuera del mismo paquete. Desde cualquier clase fuera del paquete.**
+      
+      
 ## 8) Se crean anteponiendo la palabra static a su declaración:
 
 a) Atributos de objeto
@@ -571,7 +635,9 @@ c) Variables finales
 
 d) Ninguna de las anteriores
 
-
+**Respuesta B: Atributos de clase estáticos**
+      
+      
 ## 9) No puede cambiar su valor durante la ejecución del programa:
 
 a) Atributos de objeto
@@ -582,7 +648,8 @@ c) Variables finales
 
 d) Todas las anteriores
 
-
+**Respuesta C: Variables finales, son las constantes**
+      
 ---
 
 # EJERCICIOS DE APRENDIZAJE
