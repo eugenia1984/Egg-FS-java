@@ -49,7 +49,7 @@ public class Rectangulo {
     //Incluirá un método para calcular la superficie del rectángulo 
     // Superficie = base * altura
     public int superficie() {
-        return this.base+this.altura;
+        return this.base * this.altura;
     }
     // Incluira un método para calcular el perímetro del rectángulo.
     // Perímetro = (base + altura) * 2.
