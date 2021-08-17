@@ -656,6 +656,10 @@ d) Todas las anteriores
       
 ---
       
+:computer: [ver carpeta **veterinaria** con ejemplo de clase **Perro** para instanciar objetos] (https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/veterinaria)
+      
+---
+      
 # EJERCICIOS DE APRENDIZAJE
 
 ## Ejercicio 1
@@ -663,3 +667,5 @@ d) Todas las anteriores
 Crear una clase llamada Libro que contenga los siguientes atributos: ISBN, Título, Autor, Número de páginas, y un constructor con todos los atributos pasados por parámetro y un constructor vacío. 
 
 Crear un método para cargar un libro pidiendo los datos al usuario y luego informar mediante otro método el número de ISBN, el título, el autor del libro y el numero de páginas.
+      
+[ver resolución ejercicio 1](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio1)      
