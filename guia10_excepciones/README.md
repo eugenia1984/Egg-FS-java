@@ -448,6 +448,8 @@ Definir una Clase que contenga algún tipo de dato de tipo array y agregue el
 código para generar y capturar una excepción ArrayIndexOutOfBoundsException
 (índice de arreglo fuera de rango)
 
+[ver ejercicio 2](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia10_excepciones/ejercicio2)
+
 
 ### Ejercicio 3
 
