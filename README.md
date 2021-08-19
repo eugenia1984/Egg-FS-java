@@ -29,6 +29,8 @@ I added one file for each unit of exercises I did.
    
    * [**Unit 9**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia9_herencia) : **Inheritance**
    
+   * [**Unit 10**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia10_excepciones) : **Exceptions**
+   
 ---
 
 ## Builded with 🛠️
@@ -86,6 +88,8 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
    * [**Unidad 8**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia8_relaciones) : **Relaciones entre clases**: asociación bidireccional / unidireccional , agregación, composición, relaciones en cósigo, UML, diagrama de clases, relaciones entre clases
    
    * [**Unidad 9**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia9_herencia) : **Herencia**
+   
+   * [**Unidad 10**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia10_excepciones) : **Excepciones**
    
 ---   
 
