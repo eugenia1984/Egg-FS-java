@@ -334,43 +334,98 @@ catch (Exception e){
 ---
 
 ##  PREGUNTAS DE APRENDIZAJE
+
 1) La clase Error maneja errores:
+
 a) Del código
+
 b) De la Maquina Virtual de Java
+
 c) De Netbeans
+
 d) Ninguna de las anteriores
+
+
+**Respuesta B: De la Maquina Virtual de Java**
+
+
 2) La clase Exception maneja errores:
+
 a) Del código
+
 b) De la Maquina Virtual de Java
+
 c) De Netbeans
+
 d) Ninguna de las anteriores
+
+**Respuesta A: Del código**
+
+
 3) Las excepciones se manejan con el bloque:
+
 a) Finally
+
 b) Throws
+
 c) Try Catch
+
 d) Throw
+
+**Respuesta C: Try Catch**
+
+
 4) Para cerrar recursos después de una operación usamos el bloque:
+
 a) Finally
+
 b) Throws
+
 c) Try Catch
+
 d) Throw
+
+**Respuesta A: Finally**
+
+
 5) Cuando queremos informar que un método puede tirar una excepción usamos el bloque:
+
 a) Finally
+
 b) Throws
+
 c) Try Catch
+
 d) Throw
+
+**Respuesta B: Try Catch**
+
+
 6) Cuando queremos lanzar una excepción de manera explicita usamos el bloque:
+
 a) Finally
+
 b) Throws
-c) Try Catch
+
+c) Try CaD:  Throw//
+
 d) Throw
+
+**Respuesta D:  Throw//
+
+
 7) En Java la diferencia entre throws y throw es:
-a) throws arroja una excepción y throw indica el tipo de excepción que no maneja el
-método
+
+a) throws arroja una excepción y throw indica el tipo de excepción que no maneja el método
+
 b) throws se usa en los metodos y throw en los constructores
-c) throws indica el tipo de excepcición que no maneja el método y throw arroja una
-excepción
+
+c) throws indica el tipo de excepcición que no maneja el método y throw arroja una excepción
+
 d) Ninguna de las anteriores
+
+**Respuesta B: throws se usa en los metodos y throw en los constructores**
+
 
 ---
 
