@@ -65,6 +65,8 @@ archivo caen en esta categoría. En general, tu programa debe manejar excepcione
 de estos tipos. Una subclase importante de Exception es RuntimeException, que se
 usa para representar varios tipos comunes de errores en tiempo de ejecución.
 
+[Lista de Escepciones de java](https://programming.guide/java/list-of-java-exceptions.html)
+
 ---
 
 ## MANEJADOR DE EXCEPCIONES
