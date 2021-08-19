@@ -330,3 +330,266 @@ catch (Exception e){
 }
 
 ```
+
+---
+
+##  PREGUNTAS DE APRENDIZAJE
+1) La clase Error maneja errores:
+a) Del código
+b) De la Maquina Virtual de Java
+c) De Netbeans
+d) Ninguna de las anteriores
+2) La clase Exception maneja errores:
+a) Del código
+b) De la Maquina Virtual de Java
+c) De Netbeans
+d) Ninguna de las anteriores
+3) Las excepciones se manejan con el bloque:
+a) Finally
+b) Throws
+c) Try Catch
+d) Throw
+4) Para cerrar recursos después de una operación usamos el bloque:
+a) Finally
+b) Throws
+c) Try Catch
+d) Throw
+5) Cuando queremos informar que un método puede tirar una excepción usamos el bloque:
+a) Finally
+b) Throws
+c) Try Catch
+d) Throw
+6) Cuando queremos lanzar una excepción de manera explicita usamos el bloque:
+a) Finally
+b) Throws
+c) Try Catch
+d) Throw
+7) En Java la diferencia entre throws y throw es:
+a) throws arroja una excepción y throw indica el tipo de excepción que no maneja el
+método
+b) throws se usa en los metodos y throw en los constructores
+c) throws indica el tipo de excepcición que no maneja el método y throw arroja una
+excepción
+d) Ninguna de las anteriores
+
+---
+
+## Ejercicios de aprendizaje
+
+
+### Ejercicio 1
+
+Inicializar un objeto de la clase Persona ejercicio 7 de la guía POO, a null y tratar
+de invocar el método esMayorDeEdad() a través de ese objeto. Luego, englobe el
+código con una cláusula try-catch para probar la nueva excepción que debe ser
+controlada.
+
+
+### Ejercicio 2
+
+Definir una Clase que contenga algún tipo de dato de tipo array y agregue el
+código para generar y capturar una excepción ArrayIndexOutOfBoundsException
+(índice de arreglo fuera de rango)
+
+
+### Ejercicio 3
+
+Defina una clase llamada DivisionNumero. En el método main utilice un Scanner
+para leer dos números en forma de cadena. A continuación, utilice el método
+parseInt() de la clase Integer, para convertir las cadenas al tipo int y guardarlas en
+dos variables de tipo int. Por ultimo realizar una división con los dos numeros y
+mostrar el resultado.
+
+Todas estas operaciones puede tirar excepciones a manejar, el ingreso por
+teclado puede causar una excepción de tipo InputMismatchException, el método
+Integer.parseInt() si la cadena no puede convertirse a entero, arroja una
+NumberFormatException y además, al dividir un número por cero surge una
+ArithmeticException. Manipule todas las posibles excepciones utilizando bloques
+try/catch para las distintas excepciones
+
+
+### Ejercicio 4
+
+Escribir un programa en Java que juegue con el usuario a adivinar un número. La
+computadora debe generar un número aleatorio entre 1 y 500, y el usuario tiene
+que intentar adivinarlo. Para ello, cada vez que el usuario introduce un valor, la
+computadora debe decirle al usuario si el número que tiene que adivinar es mayor
+o menor que el que ha introducido el usuario. Cuando consiga adivinarlo, debe
+indicárselo e imprimir en pantalla el número de veces que el usuario ha intentado
+adivinar el número. Si el usuario introduce algo que no es un número, se debe
+controlar esa excepción e indicarlo por pantalla. En este último caso también se
+debe contar el carácter fallido como un intento
+
+
+### Ejercicio 5
+
+Dado el método metodoA de la clase A, indique:
+
+a) ¿Qué sentencias y en qué orden se ejecutan si se produce la excepción MioException?
+
+b) ¿Qué sentencias y en qué orden se ejecutan si no se produce la excepción MioException?
+
+```
+class A {
+void metodoA() {
+  sentencia_a1
+  sentencia_a2
+  try {
+    sentencia_a3
+    sentencia_a4
+  } catch (MioException e){
+    sentencia_a6
+  }
+    sentencia_a5
+  }
+}
+```
+
+### Ejercicio 6
+
+Dado el método metodoB de la clase B, indique:
+
+a) ¿Qué sentencias y en qué orden se ejecutan si se produce la excepción MioException?
+
+b) ¿Qué sentencias y en qué orden se ejecutan si no se produce la excepción MioException?
+
+```
+class B {
+void metodoB() {
+  sentencia_b1
+  try {
+    sentencia_b2
+  } catch (MioException e){
+    sentencia_b3
+  }
+    finally
+    sentencia_b4
+  }
+}
+```
+
+### Ejercicio 7
+
+Indique que se mostrará por pantalla cuando se ejecute cada una de estas clases:
+
+```
+class Uno{
+  private static int metodo() {
+    int valor=0;
+    try {
+      valor = valor+1;
+      valor = valor + Integer.parseInt (”42”);
+      valor = valor +1;
+      System.out.println(”Valor final del try:” + valor) ;
+    } catch (NumberFormatException e) {
+    Valor = valor + Integer.parseInt(”42”);
+      System.out.println(“Valor final del catch:” + valor);
+    } finally {
+      valor = valor + 1;
+      System.out.println(”Valor final del finally: ” + valor) ;
+    }
+    valor = valor +1;
+    System.out.println(”Valor antes del return: ” + valor) ;
+    return valor;
+}
+
+public static void main (String[] args) {
+  try {
+    System.out.println (metodo()) ;
+  }catch(Exception e) {
+    System.err.println(”Excepcion en metodo() ”) ;
+    e.printStackTrace();
+  }
+  }
+}
+
+class Dos{
+  private static metodo() {
+    int valor=0;
+    try{
+      valor = valor + 1;
+      valor = valor + Integer.parseInt (”W”);
+      valor = valor + 1;
+      System.out.println(”Valor final del try: ” + valor) ;
+    } catch ( NumberFormatException e ) {
+      valor = valor + Integer.parseInt (”42”);
+      System.out.println(”Valor final del catch: ” + valor) ;
+    } finally {
+      valor = valor + 1;
+      System.out.println(”Valor final del finally: ” + valor) ;
+      }
+    valor = valor + 1;
+    System.out.println(”Valor antes del return: ” + valor) ;
+    return valor;
+}
+public static void main (String[] args) {
+  try{
+    System.out.println ( metodo ( ) ) ;
+  } catch(Exception e) {
+    System.err.println ( ” Excepcion en metodo ( ) ” ) ;
+    e.printStackTrace();
+  }
+ }
+}
+
+
+class Tres{
+  private static metodo( ) {
+    int valor=0;
+    try{
+      valor = valor + 1;
+      valor = valor + Integer.parseInt (”W”);
+      valor = valor + 1;
+      System.out.println(”Valor final del try: ” + valor);
+    } catch(NumberFormatException e) {
+      valor = valor + Integer.parseInt (”W”);
+      System.out.println(”Valor final del catch: ” + valor);
+    } finally{
+      valor = valor + 1;
+      System.out.println(”Valor final del finally:” + valor);
+    }
+    valor = valor + 1;
+    System.out.println(”Valor antes del return: ” + valor) ;
+    return valor;
+    }
+    
+    public static void main (String[] args) {
+      try{
+        System.out.println( metodo ( ) ) ;
+      } catch(Exception e) {
+        System.err.println(”Excepcion en metodo ( ) ” ) ;
+        e.printStackTrace();
+      }
+      }
+}
+    
+```
+
+## Ejercicio 8
+
+Dado el método metodoC de la clase C, indique:
+
+a) ¿Qué sentencias y en qué orden se ejecutan si se produce la excepción MioException?
+
+b) ¿Qué sentencias y en qué orden se ejecutan si no se produce la excepción MioException?
+
+c) ¿Qué sentencias y en qué orden se ejecutan si se produce la excepción TuException?
+
+```
+class C {
+  void metodoC() throws TuException{
+    sentencia_c1
+    try {
+      sentencia_c2
+      sentencia_c3
+    } catch (MioException e){
+      sentencia_c4
+    } catch (TuException e){
+      sentencia_c5
+      throw (e)
+    }
+    finally
+      sentencia_c6
+  }
+}
+```
