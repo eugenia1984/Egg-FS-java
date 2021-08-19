@@ -407,6 +407,8 @@ NumberFormatException y además, al dividir un número por cero surge una
 ArithmeticException. Manipule todas las posibles excepciones utilizando bloques
 try/catch para las distintas excepciones
 
+[ver ejercicio 3](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia10_excepciones/ejercicio3)
+
 
 ### Ejercicio 4
 
