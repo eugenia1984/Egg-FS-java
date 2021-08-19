@@ -337,7 +337,7 @@ catch (Exception e){
 
 ##  PREGUNTAS DE APRENDIZAJE
 
-1) La clase Error maneja errores:
+1- La clase Error maneja errores:
 
 a) Del código
 
@@ -351,7 +351,7 @@ d) Ninguna de las anteriores
 **Respuesta B: De la Maquina Virtual de Java**
 
 
-2) La clase Exception maneja errores:
+2- La clase Exception maneja errores:
 
 a) Del código
 
@@ -364,7 +364,7 @@ d) Ninguna de las anteriores
 **Respuesta A: Del código**
 
 
-3) Las excepciones se manejan con el bloque:
+3- Las excepciones se manejan con el bloque:
 
 a) Finally
 
@@ -377,7 +377,7 @@ d) Throw
 **Respuesta C: Try Catch**
 
 
-4) Para cerrar recursos después de una operación usamos el bloque:
+4- Para cerrar recursos después de una operación usamos el bloque:
 
 a) Finally
 
@@ -390,7 +390,7 @@ d) Throw
 **Respuesta A: Finally**
 
 
-5) Cuando queremos informar que un método puede tirar una excepción usamos el bloque:
+5- Cuando queremos informar que un método puede tirar una excepción usamos el bloque:
 
 a) Finally
 
@@ -403,7 +403,7 @@ d) Throw
 **Respuesta B: Try Catch**
 
 
-6) Cuando queremos lanzar una excepción de manera explicita usamos el bloque:
+6- Cuando queremos lanzar una excepción de manera explicita usamos el bloque:
 
 a) Finally
 
@@ -416,7 +416,7 @@ d) Throw
 **Respuesta D:  Throw//
 
 
-7) En Java la diferencia entre throws y throw es:
+7- En Java la diferencia entre throws y throw es:
 
 a) throws arroja una excepción y throw indica el tipo de excepción que no maneja el método
 
