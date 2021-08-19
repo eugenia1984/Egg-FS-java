@@ -481,6 +481,8 @@ adivinar el número. Si el usuario introduce algo que no es un número, se debe
 controlar esa excepción e indicarlo por pantalla. En este último caso también se
 debe contar el carácter fallido como un intento
 
+[ver ejercicio 4](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia10_excepciones/ejercicio4)
+
 
 ### Ejercicio 5
 
