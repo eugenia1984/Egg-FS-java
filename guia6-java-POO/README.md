@@ -4,11 +4,20 @@
 
 ---
 
-## Teoría
+# Teoría
+
+## Paradigma de programación
+
 
 Un **paradigma** es una manera o estilo de programación. 
 
 Es un conjunto de métodos sistemáticos aplicables en todos los niveles del diseño de programas para resolver problemas. 
+
+
+---
+
+## La Programación orientada a Objetos
+
 
 La **Progrmación orientada a Objetos** es un paradigma de programación, un modelo o estilo de programación que se basa en el concepto de **clases** y **objetos**. 
 
@@ -16,6 +25,8 @@ Se enfoca en los **objetos**, sus **atributos** y las **interacciones** que se p
 
 Hay un conjunto de objetos que se crean, interaccionan entre sí y dejan de existir cuando ya no son útiles durane la ejecución de un programa. 
 
+
+---
 
 
 ## ¿ Por qué POO?
@@ -86,6 +97,9 @@ NombreClase nombreObjeto = new NombreClase();
 A partir de este momento los objetos ya pueden ser referenciados por su nombre
 
 
+---
+
+
 ## ACCESO A LOS ATRIBUTOS
 
 Desde un objeto se puede acceder a los atributos mediante la siguiente sintaxis:
@@ -93,6 +107,9 @@ Desde un objeto se puede acceder a los atributos mediante la siguiente sintaxis:
 ```JAVA
 nombreObjeto.atributo;
 ```
+
+---
+
 
 ##  ESTADO Y COMPORTAMIENTO
 
@@ -306,98 +323,78 @@ específicamente, en la cantidad y tipos de datos que reciben.
       
 ## ABSTRACCIÓN Y ENCAPSULAMIENTO
       
-La abstracción es la habilidad de ignorar los detalles de las partes para enfocar la atención
-en un nivel más alto de un problema. El encapsulamiento sucede cuando algo es envuelto
-en una capa protectora. Cuando el encapsulamiento se aplica a los objetos, significa que los
-datos del objeto están protegidos, “ocultos” dentro del objeto. Con los datos ocultos, ¿cómo
-puede el resto del programa acceder a ellos? (El acceso a los datos de un objeto se refiere
-a leerlos o modificarlos.) El resto del programa no puede acceder de manera directa a los
-datos de un objeto; lo tiene que hacer con ayuda de los métodos del objeto. Al hecho de
-proteger los datos o atributos con los métodos se denomina encapsulamiento.
+La abstracción es la habilidad de ignorar los detalles de las partes para enfocar la atención en un nivel más alto de un problema. 
+      
+El encapsulamiento sucede cuando algo es envuelto en una capa protectora. Cuando el encapsulamiento se aplica a los objetos, significa que **los datos del objeto están protegidos, “ocultos” dentro del objeto**. 
+      
+Con los datos ocultos, ¿cómo puede el resto del programa acceder a ellos? (El acceso a los datos de un objeto se refiere a leerlos o modificarlos.) 
+      
+El resto del programa no puede acceder de manera directa a los datos de un objeto; lo tiene que hacer con ayuda de los métodos del objeto (los **getters** y los **setters**). 
+      
+Al hecho de proteger los datos o atributos con los métodos se denomina **encapsulamiento**.
       
       
 ## ABSTRACCIÓN
       
-La abstracción es la propiedad que considera los aspectos más significativos o notables de
-un problema y expresa una solución en esos términos. La abstracción posee diversos grados
-o niveles de abstracción, los cuales ayudan a estructurar la complejidad intrínseca que
-poseen los sistemas del mundo real. La abstracción encarada desde el punto de vista de la
-programación orientada a objetos es el mecanismo por el cual se proveen los límites
-conceptuales de los objetos y se expresan sus características esenciales, dejando de lado
-sus características no esenciales. Si un objeto tiene más características de las necesarias
-los mismos resultan difíciles de usar, modificar, construir y comprender. En el análisis hay
-que concentrarse en ¿Qué hace? y no en ¿Cómo lo hace? 
+La abstracción es la propiedad que considera los aspectos más significativos o notables de un problema y expresa una solución en esos términos. La abstracción posee diversos grados o niveles de abstracción, los cuales ayudan a estructurar la complejidad intrínseca que poseen los sistemas del mundo real. 
+      
+La abstracción encarada desde el punto de vista de la programación orientada a objetos es el mecanismo por el cual se proveen los límites conceptuales de los objetos y se expresan sus características esenciales, dejando de lado sus características no esenciales. Si un objeto tiene más características de las necesarias los mismos resultan difíciles de usar, modificar, construir y comprender. 
+      
+En el análisis hay que concentrarse en ¿Qué hace? y no en ¿Cómo lo hace? 
       
 ## ENCAPSULAMIENTO
       
-La encapsulación o encapsulamiento significa reunir en una cierta estructura a todos los
-elementos que a un cierto nivel de abstracción se pueden considerar pertenecientes a una
-misma entidad, y es el proceso de agrupamiento de datos y operaciones relacionadas bajo
-una misma unidad de programación, lo que permite aumentar la cohesión de los
-componentes del sistema.
+La encapsulación o encapsulamiento significa reunir en una cierta estructura a todos los elementos que a un cierto nivel de abstracción se pueden considerar pertenecientes a una misma entidad, y es el proceso de agrupamiento de datos y operaciones relacionadas bajo una misma unidad de programación, lo que permite aumentar la cohesión de los componentes del sistema.
       
       
-El encapsulamiento oculta lo que hace un objeto de lo que hacen otros objetos y del mundo
-exterior por lo que se denomina también ocultación de datos. Un objeto tiene que presentar
-“una cara” al mundo exterior de modo que se puedan iniciar sus operaciones.
+El encapsulamiento **oculta lo que hace un objeto de lo que hacen otros objetos y del mundo exterior** por lo que se denomina también ocultación de datos. Un objeto tiene que presentar “una cara” al mundo exterior de modo que se puedan iniciar sus operaciones.
       
-Los métodos operan sobre el estado interno de un objeto y sirven como el mecanismo
-primario de comunicación entre objetos. Ocultar el estado interno y hacer que toda
-interacción sea a través de los métodos del objeto es un mecanismo conocido como
-encapsulación de datos
+Los métodos operan sobre el estado interno de un objeto y sirven como el mecanismo primario de comunicación entre objetos. Ocultar el estado interno y hacer que toda interacción sea a través de los métodos del objeto es un mecanismo conocido como **encapsulación de datos**.
+      
+      
+---
       
       
 ## MODIFICADORES DE ACCESO
  
-Para lograr el uso correcto del encapsulamiento vamos utilizar los modificadores de acceso,
-estos, van a dejarnos elegir como se accede a los datos y a través de que se accede a dichos
-datos. Todas las clases poseen diferentes niveles de acceso en función del modificador de
-acceso (visibilidad). A continuación, se detallan los niveles de acceso con sus símbolos
-correspondientes:
+Para lograr el uso correcto del encapsulamiento vamos utilizar los modificadores de acceso, estos, van a dejarnos elegir como se accede a los datos y a través de que se accede a dichos datos. 
       
-• **Public**: Este modificador permite a acceder a los elementos desde cualquier clase,
-independientemente de que esta pertenezca o no al paquete en que se encuentra el
+Todas las clases poseen diferentes niveles de acceso en función del modificador de acceso (visibilidad). 
+      
+A continuación, se detallan los niveles de acceso con sus símbolos correspondientes:
+      
+• **Public**: Este modificador permite a **acceder a los elementos desde cualquier clase**, independientemente de que esta pertenezca o no al paquete en que se encuentra el
 elemento.
       
-• **Private**: Es el modificador más restrictivo y especifica que los elementos que lo utilizan
-sólo pueden ser accedidos desde la clase en la que se encuentran. Este modificador
-sólo puede utilizarse sobre los atributos de una clase y sobre interfaces y clases internas,
-no sobre clases o interfaces de primer nivel, dado que esto no tendría sentido. Es
-importante destacar también que el modificador private convierte los elementos en
-privados para otras clases, no para otras instancias de la clase. Es decir, un objeto de una
-determinada clase puede acceder a los atributos privados de otro objeto de la misma
-clase.
+• **Private**: Es el modificador más restrictivo y especifica que **los elementos que lo utilizan sólo pueden ser accedidos desde la clase en la que se encuentran**. Este modificador sólo puede utilizarse **sobre los atributos de una clase y sobre interfaces y clases internas**, no sobre clases o interfaces de primer nivel, dado que esto no tendría sentido. Es importante destacar también que el modificador private **convierte los elementos en privados para otras clases**, no para otras instancias de la clase. Es decir, un objeto de una determinada clase puede acceder a los atributos privados de otro objeto de la misma clase.
       
-• **Protected**: Este modificador indica que los elementos sólo pueden ser accedidos desde
-su mismo paquete y desde cualquier clase que extienda la clase en que se encuentra,
-independientemente de si esta se encuentra en el mismo paquete o no. Este
-modificador, como private, no tiene sentido a nivel de clases o interfaces no internas.  
+• **Protected**: Este modificador indica que **los elementos sólo pueden ser accedidos desde su mismo paquete y desde cualquier clase que extienda la clase en que se encuentra**,
+independientemente de si esta se encuentra en el mismo paquete o no. Este modificador, como private, no tiene sentido a nivel de clases o interfaces no internas.  
       
-Si no especificamos ningún modificador de acceso se utiliza el nivel de acceso por defecto
-(Default), que consiste en que el elemento puede ser accedido sólo desde las clases que
-pertenezcan al mismo paquete .
+Si no especificamos ningún modificador de acceso se utiliza el nivel de acceso por defecto (**Default**), que consiste en que **el elemento puede ser accedido sólo desde las clases que pertenezcan al mismo paquete** .
+      
+| visibilidad | public | private | protected | default |
+| ----------- | ------- | ------ | --------- | ------- | 
+| desde la misma clase | SI | SI | SI | SI |
+| desde cualquier clase del mismo paquete | SI | NO | SI | SI |
+| desde una subclase del mismo paquete | SI | NO | SI | SI |
+| desde una subclase fuera del mismo paquete | SI | NO | SI, a traves de herencia | NO |
+| desde cualquier clase fuera del paquete | SI | NO | NO | NO |
       
       
 ---
 
 ## ATRIBUTOS Y METODOS ESTÁTICOS
       
-Un atributo o un método de una clase se puede modificar con la palabra reservada static
-para indicar que este atributo o método no pertenece a las instancias de la clase si no a la
-propia clase.
+Un atributo o un método de una clase se puede modificar con la palabra reservada **static** para indicar que este atributo o método no pertenece a las instancias de la clase si no a la propia clase.
       
-Se dice que son atributos de clase si se usa la palabra clave static: en ese caso la variable es
-única para todas las instancias (objetos) de la clase (ocupa un único lugar en memoria), es
-decir que, si se poseen múltiples instancias de una clase, cada una de ellas no tendrán una
-copia propia de este atributo, si no que todas estas instancias compartirán una misma copia
-del atributo. A veces a las variables de clase se les llama variables estáticas. Si no se usa
-static, el sistema crea un lugar nuevo para esa variable con cada instancia (la variable es
+Se dice que **son atributos de clase si se usa la palabra clave static**: en ese caso **la variable es única para todas las instancias (objetos) de la clase (ocupa un único lugar en memoria)**, es decir que, si se poseen múltiples instancias de una clase, cada una de ellas no tendrán una copia propia de este atributo, si no que todas estas instancias compartirán una misma copia del atributo. 
+      
+ A veces a las variables de clase se les llama **variables estáticas**. Si no se usa static, el sistema crea un lugar nuevo para esa variable con cada instancia (la variable es
 diferente para cada objeto).
       
-En el caso de una constante no tiene sentido crear un nuevo lugar de memoria por cada
-objeto de una clase que se cree. Por ello es adecuado el uso de la palabra clave static.
-Cuando usamos “static final” se dice que creamos una constante de clase, un atributo común
-a todos los objetos de esa clase.
+En el caso de una constante no tiene sentido crear un nuevo lugar de memoria por cada objeto de una clase que se cree. Por ello es adecuado el uso de la palabra clave static.
+Cuando usamos **static final** se dice que creamos una **constante de clase**, un atributo común a todos los objetos de esa clase.
       
 Ejemplo:
       
@@ -411,23 +408,22 @@ Public class Cuenta {
       
 ## ATRIBUTOS FINALES
       
-En este contexto indica que una variable es de tipo constante: no admitirá cambios después
-de su declaración y asignación de valor. La palabra reservada final determina que un atributo
-no puede ser sobrescrito o redefinido, es decir, no funcionará como una variable
-“tradicional”, sino como una constante. Toda constante declarada con final ha de ser
-inicializada en el mismo momento de declararla. El modificador final también se usa como
-palabra clave en otro contexto: una clase final es aquella que no puede tener clases que la
-hereden. Lo veremos más adelante cuando hablemos sobre herencia.
+En este contexto **indica que una variable es de tipo constante**: no admitirá cambios después de su declaración y asignación de valor. 
       
-Cuando se declaran constantes es muy frecuente que los programadores usen letras
-mayúsculas (como práctica habitual que permite una mayor claridad en el código), aunque
+La palabra reservada **final** determina que un atributo **no puede ser sobrescrito o redefinido**, es decir, no funcionará como una variable “tradicional”, sino como una constante.
+      
+Toda constante declarada con final ha de ser **inicializada en el mismo momento de declararla**. 
+      
+El modificador final también se usa como palabra clave en otro contexto: una **clase final es aquella que no puede tener clases que la hereden**. Lo veremos más adelante cuando hablemos sobre herencia.
+      
+Cuando se declaran constantes es muy frecuente que los programadores usen **letras mayúsculas** (como práctica habitual que permite una mayor claridad en el código), aunque
 no es obligatorio.
       
 Ejemplo:
    
 ```JAVA      
 Public class Perro {
-   private final int edad;
+   private final int EDAD = 5;
 }
 ```      
   
@@ -435,37 +431,33 @@ Public class Perro {
       
 ## EN RESUMEN
       
-Antes de POO, la técnica estándar de programación era la programación procedural. Se
-denomina programación procedural porque en ella se destacan los procedimientos o
-tareas que resuelven un problema. Se piensa primero en lo que se quiere hacer: los
-procedimientos.
+Antes de POO, la técnica estándar de programación era la programación procedural. Se denomina programación procedural porque en ella se destacan los procedimientos o
+tareas que resuelven un problema. Se piensa primero en lo que se quiere hacer: los procedimientos.
 
-En contraste, el paradigma POO invita a pensar en lo que se desea que represente el
-programa. Normalmente se responde esta invitación identificando algunas cosas en el
-mundo que se desea que el programa modele. Estas cosas podrían ser entidades físicas o
-conceptuales, por ejemplo, un libro. Una vez identificadas las cosas que se quiere modelar,
-se identifican sus propiedades/atributos básicos. Estos se pueden agrupar todos juntos en
-una estructura coherente llamada objeto que creamos a través de las clases.      
+En contraste, el **paradigma POO** invita a **pensar en lo que se desea que represente el programa**. Normalmente se responde esta invitación identificando algunas cosas en el
+mundo que se desea que el **programa modele**. Estas cosas podrían ser **entidades físicas** o **conceptuales**, por ejemplo, un libro. Una vez identificadas las cosas que se quiere modelar, se identifican sus **propiedades/atributos básico**s. Estos se pueden agrupar todos juntos en una estructura coherente llamada **objeto** que creamos a través de las clases.      
       
 ---
 
 ## CLASES DE UTILIDAD PARTE 2
       
-Recordemos que las clases de utilidad son clases dentro del API de Java que son muy
-utilizadas en el desarrollo de aplicaciones. Las clases de utilidad son clases que definen un
-conjunto de métodos que realizan funciones, normalmente muy reutilizadas. Estas nos van
-a ayudar junto con las estructuras de control, a lograr resolver problemas de manera más
-sencilla.
+Recordemos que las clases de utilidad son clases dentro del API de Java que son muy utilizadas en el desarrollo de aplicaciones. 
       
-Entre las clases de utilidad de Java más utilizadas y conocidas están las siguientes: Arrays,
-String, Integer, Math, Date, Calendar y GregorianCalendar. En la guía anterior vimos solo
-las clases Math y String. Ahora vamos a ver el resto de las clases.  
+Las clases de utilidad son clases que definen un conjunto de métodos que realizan funciones, normalmente muy reutilizadas. 
+      
+Estas nos van a ayudar junto con las estructuras de control, a lograr resolver problemas de manera más sencilla.
+      
+Entre las clases de utilidad de Java más utilizadas y conocidas están las siguientes: Arrays, String, Integer, Math, Date, Calendar y GregorianCalendar. 
+      
+      
+En la guía anterior vimos solo las clases Math y String. 
+      
+Ahora vamos a ver el resto de las clases.  
       
       
 ##  CLASE ARRAYS
       
-La clase Arrays es una clase de utilidad que posee una gran cantidad de métodos para
-manipular arreglos.
+La clase Arrays es una clase de utilidad que posee una gran cantidad de métodos **para manipular arreglos**.
       
 | METODO | DESCRIPCION |
 | ------ | ----------- |      
@@ -478,7 +470,9 @@ manipular arreglos.
 
 ## CLASE INTEGER
       
-La clase Integer permite convertir un tipo primitivo de dato int a objeto Integer. La clase Integer pertenece al paquete java.lang del API de Java y hereda de la clase java.lang.Number.  
+La clase Integer permite convertir un tipo primitivo de dato int a **objeto Integer**. 
+      
+La clase Integer pertenece al paquete java.lang del API de Java y hereda de la clase java.lang.Number.  
       
       
 | METODO | DESCRIPCION |
@@ -489,22 +483,24 @@ La clase Integer permite convertir un tipo primitivo de dato int a objeto Intege
 | equals(Object obj) | Compara el Integer con el objeto del parámetro. Devuelve true si son iguales y false si no. |
 | parseInt(String s) | Convierte la cadena de caracteres numérica del parámetro en tipo primitivo int. |
 | toString() | Retorna el valor del Integer en una cadena de caracteres |
+   
+
       
+:computer: [**más informacion de Integer](http://java-white-box.blogspot.com/2014/01/javaplayer-la-clase-integer-java.html)
  
 ## CLASE DATE
       
-La clase Date modela objetos o variables de tipo fecha. La clase Date representa un
-instante de tiempo específico con una precisión en milisegundos y permite el uso del
-formato Universal Coordinated Time (UTC). Por otro lado, muchas computadoras están
-definidas en términos de Greenwich Mean Time (GMT) que es equivalente a Universal Time
-(UT). GMT es el nombre estándar y UT es el nombre científico del estándar. La diferencia
-entre UT y UTC es que UTC está basado en un reloj atómico y UT está basado en un reloj
-astronómico.
+La clase Date modela objetos o variables de tipo fecha. 
       
-Las fechas en Java, comienzan en el valor standar based time llamado “epoch” que hace
-referencia al 1 de Enero de 1970, 0 horas 0 minutos 0 segundos GMT.
-La clase Date posee métodos que permiten la manipulación de fechas. La clase Date
-pertenece al paquete java.util del API de Java.
+La clase Date **representa un instante de tiempo específico con una precisión en milisegundos** y permite el uso del formato Universal Coordinated Time (**UTC**). 
+      
+Por otro lado, muchas computadoras están definidas en términos de Greenwich Mean Time (**GMT**) que es equivalente a Universal Time (UT). GMT es el nombre estándar y UT es el nombre científico del estándar. La diferencia entre UT y UTC es que UTC está basado en un reloj atómico y UT está basado en un reloj astronómico.
+      
+Las fechas en Java, comienzan en el valor standar based time llamado “epoch” que hace referencia al **1 de Enero de 1970**, **0 horas 0 minutos 0 segundos GMT**.
+      
+La clase Date posee métodos que permiten la manipulación de fechas. 
+      
+La clase Date pertenece al paquete java.util del API de Java.
   
 | METODO | DESCRIPCION |
 | ------ | ----------- |      
@@ -660,6 +656,11 @@ d) Todas las anteriores
       
 ---
       
+## Ver videos
+      
+[**POO](https://www.youtube.com/watch?v=VxNApegMlTo&list=PLgwlfcqa5h3y1P5W-X13ZD-s1ItKqXcNk&index=1)   
+----
+      
 # EJERCICIOS DE APRENDIZAJE
 
 ## Ejercicio 1
@@ -668,7 +669,7 @@ Crear una clase llamada Libro que contenga los siguientes atributos: ISBN, Títu
 
 Crear un método para cargar un libro pidiendo los datos al usuario y luego informar mediante otro método el número de ISBN, el título, el autor del libro y el numero de páginas.
       
-[ver resolución ejercicio 1](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio1)  
+:computer: [ver resolución ejercicio 1](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio1)  
   
       
 ## Ejercicio 2
@@ -686,7 +687,7 @@ d) Método area(): para calcular el área de la circunferencia (Area = π ∗ ra
       
 e) Método perimetro(): para calcular el perímetro (Perimetro = 2 ∗ π ∗ radio).
       
-[ver resolución ejercicio 2](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio2)  
+:computer: [ver resolución ejercicio 2](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio2)  
       
       
 ## Ejercicio 3
@@ -709,7 +710,7 @@ g) Método multiplicar(): primero valida que no se haga una multiplicación por 
       
 h) Método dividir(): primero valida que no se haga una división por cero, si fuera a pasar una división por cero, el método devuelve 0 y se le informa al usuario el error se le informa al usuario. Si no, se hace la división y se devuelve el resultado al main.  
       
-[ver resolución ejercicio 3](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio3)     
+:computer: [ver resolución ejercicio 3](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio3)     
       
       
 ## Ejercicio 4
@@ -726,7 +727,7 @@ Se deberán además definir los métodos getters, setters y constructores corres
       
 Superficie = base * altura / Perímetro = (base + altura) * 2.   
       
-[ver resolución ejercicio 4](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio4)  
+:computer: [ver resolución ejercicio 4](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio4)  
       
 
 ## Ejercicio 5
@@ -751,7 +752,7 @@ Las operaciones asociadas a dicha clase son:
       
 • Método consultarDatos(): permitirá mostrar todos los datos de la cuenta   
       
-[ver resolución ejercicio 5](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio5)  
+:computer: [ver resolución ejercicio 5](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio5)  
       
       
 ## Ejercicio 6
@@ -774,7 +775,32 @@ Implemente, al menos, los siguientes métodos:
       
 • Método agregarCafe(int): se le pide al usuario una cantidad de café, el método lo recibe y se añade a la cafetera la cantidad de café indicada.
       
-[ver resolución ejercicio 6](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio6)  
+:computer: [ver resolución ejercicio 6](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio6)  
+      
+   
+## Ejercicio 7
+      
+Realizar una clase llamada Persona que tenga los siguientes atributos: nombre, edad,
+sexo ('H' hombre, 'M' mujer, 'O' otro), peso y altura. Si el alumno desea añadir algún
+otro atributo, puede hacerlo. Los métodos que se implementarán son:
+      
+• Un constructor por defecto.
+      
+• Un constructor con todos los atributos como parámetro.
+      
+• Métodos getters y setters de cada atributo.
+      
+• **Metodo crearPersona()**: el método crear persona, le pide los valores de los atributos al usuario y después se le asignan a sus respectivos atributos para llenar el objeto Persona. Además, comprueba que el sexo introducido sea correcto, es decir, H, M o O. Si no es correcto se deberá mostrar un mensaje
+      
+• **Método calcularIMC()**: calculara si la persona está en su peso ideal (**peso en kg/(altura^2 en mt2)**). Si esta fórmula da por resultado un valor menor que 20, la función devuelve un -1. Si la fórmula da por resultado un número entre 20 y 25 (incluidos), significa que el peso está por debajo de su peso ideal y la función devuelve un 0. Finalmente, si el resultado de la fórmula es un valor mayor que 25 significa que la persona tiene sobrepeso, y la función devuelve un 1. Se recomienda hacer uso de constantes para devolver estos valores.
+      
+• **Método esMayorDeEdad()**: indica si la persona es mayor de edad. La función devuelve un booleano. 
+      
+A continuación, en la clase main hacer lo siguiente:
+      
+Crear 4 objetos de tipo Persona con distintos valores, a continuación, llamaremos todos los métodos para cada objeto, deberá comprobar si la persona está en su peso ideal, tiene sobrepeso o está por debajo de su peso ideal e indicar para cada objeto si la persona es mayor de edad.
+      
+Por último, guardaremos los resultados de los métodos calcularIMC y esMayorDeEdad en distintas variables, para después en el main, calcular un porcentaje de esas 4 personas cuantas están por debajo de su peso, cuantas en su peso ideal y cuantos, por encima, y también calcularemos un porcentaje de cuantos son mayores de edad y cuantos menores.     
       
       
 ## Ejercicico 8
@@ -795,4 +821,77 @@ Realizar una clase llamada Cadena que tenga como atributos una frase (de tipo de
       
 • Método contiene(String letra), deberá comprobar si la frase contiene una letra que ingresa el usuario y devuelve verdadero si la contiene y falso si no.
       
-[ver resolución ejercicio 8](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio8) 
+:computer: [ver resolución ejercicio 8](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio8) 
+      
+ 
+ ## Ejercicio 9
+      
+Realizar una clase llamada **Matemátic**a que tenga como atributos **dos números reales**
+con los cuales se realizarán diferentes operaciones matemáticas. 
+      
+La clase deber tener un **constructor vacío**, **parametrizado** y **get** y **set**. 
+      
+En el main se creará el objeto y se usará el Math.random para generar los dos números y se guardaran en el objeto con su respectivos set. 
+      
+Deberá además implementar los siguientes métodos:   
+      
+• Método devolverMayor() para retornar cuál de los dos atributos tiene el mayor valor
+      
+• Método calcularPotencia() para calcular la potencia del mayor valor de la clase elevado al menor número. Previamente se deben redondear ambos valores.
+      
+• Método calculaRaiz(), para calcular la raíz cuadrada del menor de los dos valores. Antes de calcular la raíz cuadrada se debe obtener el valor absoluto del número.      
+      
+
+ ## Ejercicio 10
+      
+ Realizar un programa en Java donde se creen dos arreglos: el primero será un arreglo
+A de 50 números reales, y el segundo B, un arreglo de 20 números, también reales. 
+      
+El programa deberá inicializar el arreglo A con números aleatorios y mostrarlo por
+pantalla. 
+      
+Luego, el arreglo A se debe ordenar de menor a mayor y copiar los primeros 10 números ordenados al arreglo B de 20 elementos, y rellenar los 10 últimos elementos con el valor 0.5. 
+      
+Mostrar los dos arreglos resultantes: el ordenado de 50 elementos y el combinado de 20.  
+      
+  
+## Ejercicio 11
+
+Pongamos de lado un momento el concepto de POO, ahora vamos a trabajar solo con
+la clase Date. En este ejercicio deberemos instanciar en el main, una fecha usando la
+clase Date, para esto vamos a tener que crear 3 variables, dia, mes y anio que se le
+pedirán al usuario para poner el constructor del objeto Date. Una vez creada la fecha
+de tipo Date, deberemos mostrarla y mostrar cuantos años hay entre esa fecha y la
+fecha actual, que se puede conseguir instanciando un objeto Date con constructor
+vacío.
+      
+Ejemplo fecha: Date fecha = new Date(anio, mes, dia);
+      
+Ejemplo fecha actual: Date fechaActual = new Date();
+      
+[**Documentacion en Oracle**](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)     
+      
+## Ejercicio 12
+      
+Implemente la clase Persona. Una persona tiene un nombre y una fecha de
+nacimiento (Tipo Date), constructor vacío, constructor parametrizado, get y set. Y los
+siguientes métodos:
+      
+Ejemplo Date como atributo: [DateAtributo](https://drive.google.com/drive/folders/12PoifkyZiBlMF7iTpszOKiPfhnktd5tm)
+      
+• Agregar un método de creación del objeto que respete la siguiente firma:
+crearPersona(). Este método rellena el objeto mediante un Scanner y le pregunta
+al usuario el nombre y la fecha de nacimiento de la persona a crear, recordemos
+que la fecha de nacimiento debe guardarse en un Date y los guarda en el objeto.      
+      
+      
+• Escribir un método calcularEdad() a partir de la fecha de nacimiento ingresada.
+Tener en cuenta que para conocer la edad de la persona también se debe
+conocer la fecha actual.
+      
+• Agregar a la clase el método menorQue(int edad) que recibe como parámetro
+otra edad y retorna true en caso de que el receptor tenga menor edad que la
+persona que se recibe como parámetro, o false en caso contrario.
+      
+• Metodo mostrarPersona(): este método muestra la persona creada en el método
+anterior.      
