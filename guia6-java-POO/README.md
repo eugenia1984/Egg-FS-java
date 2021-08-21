@@ -652,6 +652,10 @@ d) Todas las anteriores
       
 ---
       
+:computer: [ver **video POO** ejemplo de clase Perro y dos nuevos perro1 y perro2 instanciados a partir de Perro](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/VideoPOO)      
+      
+---
+      
 :computer: [ver carpeta **veterinaria** con ejemplo de clase **Perro** para instanciar objetos](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/veterinaria)
       
 ---
