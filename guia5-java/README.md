@@ -763,7 +763,7 @@ Se utiliza el **bucle for mejorado** que permite recorrer los arreglos sin neces
 
 
 
-**1) El archivo de un programa en Java debe terminar con la extensión de archivo:**
+## 1) El archivo de un programa en Java debe terminar con la extensión de archivo:
 
 a) .class
 
@@ -776,8 +776,7 @@ d) Ninguna de las anteriores
 **Respuesta B: .java**
 
 
-**2) Cuando se compila un programa en Java, el archivo producido por el compilador 
-termina con la extensión:**
+## 2) Cuando se compila un programa en Java, el archivo producido por el compilador termina con la extensión:
 
 a) .class
 
@@ -790,7 +789,7 @@ d) Ninguna de las anteriores
 **Respuesta A: .class**
 
 
-**3) ¿Qué es el bytecode en Java?**
+## 3) ¿Qué es el bytecode en Java?
 
 a) El formato de intercambio de datos
 
@@ -803,8 +802,7 @@ d) Un depurador de código
 **Respuesta B: El formato que obtenemos tras compilar un código fuente .java**
 
 
-**4) Una aplicación ejecutable que representa un procesador genérico sobre el cual se
-ejecutan los bytecodes de Java es:**
+## 4) Una aplicación ejecutable que representa un procesador genérico sobre el cual se ejecutan los bytecodes de Java es:
 
 a) La máquina virtual de Java (JVM)
 
@@ -817,7 +815,7 @@ d) Ninguna de las anteriores
 **Respuesta A: La máquina virtual de Java (JVM)**
 
 
-**5) ¿Con qué se comienza la ejecución de un programa Java?**
+## 5 ¿Con qué se comienza la ejecución de un programa Java?
 
 a) Con package
 
@@ -830,7 +828,7 @@ d) Todas las anteriores
 **Respuesta A: package**
 
 
-**6) Teniendo en cuenta que los paquetes y las clases son análogos a las carpetas y archivos utilizados por el sistema operativo, ¿el nombre de la clase debe ser diferente al del paquete?**
+## 6) Teniendo en cuenta que los paquetes y las clases son análogos a las carpetas y archivos utilizados por el sistema operativo, ¿el nombre de la clase debe ser diferente al del paquete?
 
 a) Siempre
 
@@ -843,7 +841,7 @@ d) Ninguna de las anteriores
 **Respuesta B: nunca, el nombre del paquete debe ser el mismo al de la clase principal**
 
 
-**7) ¿El llamado a una librería se hace haciendo uso de la sentencia: **
+## 7) ¿El llamado a una librería se hace haciendo uso de la sentencia: 
 
 a) String
 
@@ -857,7 +855,7 @@ d) Import
 
 
 
-**8) El double se aplica para datos tipo:**
+## 8) El double se aplica para datos tipo:
 
 a) Entero
 
@@ -870,7 +868,7 @@ d) Ninguno de los anteriores
 **Respuesta B: DECIMAL**
 
 
-**9) Para mostrar mensajes por pantalla se usa:**
+## 9) Para mostrar mensajes por pantalla se usa:
 
 a) System.out.printer()
 
@@ -883,7 +881,7 @@ d) Ninguna de las anteriores
 **Respuesta C:  System.out.println()**
 
 
-**10) ¿Cuáles son las sentencias de iteración?**
+## 10) ¿Cuáles son las sentencias de iteración?
 
 a) El Bucle for, while y do/while
 
@@ -896,7 +894,7 @@ d) Ninguna de las anteriores
 **Respuesta A:  Bucle for, while y do/while**
 
 
-**11) ¿Cuáles son las sentencias de salto?**
+## 11) ¿Cuáles son las sentencias de salto?
 
 a) Try y break
 
@@ -909,7 +907,7 @@ d) While y break
 **Respuesta B: Break y continue **
 
 
-**12) ¿Qué diferencia hay entre un bucle while y un bucle for?**
+## 12) ¿Qué diferencia hay entre un bucle while y un bucle for?
 
 a) El bucle for puede llegar a ejecutarse nunca pero el while siempre se ejecuta al menos una vez.
 
@@ -922,11 +920,11 @@ d) El bucle while permite su inicialización, pero el bucle for no lo permite.
 **Respuesta B: El bucle for se ejecuta un número determinado de veces y el while un número indeterminado de veces**
 
 
-**PREGUNTAS EXTRA:**
+## PREGUNTAS EXTRA:
 
 Investigar la documentación de la clase System y responder:
 
-• ¿Que representa la clase System?
+• **¿Que representa la clase System?**
 
 La clase System representa al sistema donde se esta ejecutando el programa Java. 
 
@@ -934,11 +932,11 @@ Puede accederse a la salida estándar del proceso, a la salida de error del proc
 
 Por lo tanto se la puede utilizar para interactuar con el entorno en el que corre, y utilizar las propiedades del entorno, sistema operativo, usuario y demás.
 
-• ¿Para qué sirve el atributo out de la clase System?
+• **¿Para qué sirve el atributo out de la clase System?**
 
-• ¿Para qué sirve el atributo in de la clase System?
+• **¿Para qué sirve el atributo in de la clase System?**
 
-• ¿Para qué sirve el atributo err de la clase System?
+• **¿Para qué sirve el atributo err de la clase System?**
 
 Esta clase nos permite trabajar con los diferentes canales de datos de nuestro programa. La clase posee tres atributos staticos, uno por cada canal.
 
