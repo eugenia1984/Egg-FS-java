@@ -486,7 +486,7 @@ La clase Integer pertenece al paquete java.lang del API de Java y hereda de la c
    
 
       
-:computer: [**más informacion de Integer](http://java-white-box.blogspot.com/2014/01/javaplayer-la-clase-integer-java.html)
+:computer: [**más informacion de Integer**](http://java-white-box.blogspot.com/2014/01/javaplayer-la-clase-integer-java.html)
  
 ## CLASE DATE
       
@@ -658,7 +658,7 @@ d) Todas las anteriores
       
 ## Ver videos
       
-:computer: [**POO](https://www.youtube.com/watch?v=VxNApegMlTo&list=PLgwlfcqa5h3y1P5W-X13ZD-s1ItKqXcNk&index=1)   
+:computer: [**POO**](https://www.youtube.com/watch?v=VxNApegMlTo&list=PLgwlfcqa5h3y1P5W-X13ZD-s1ItKqXcNk&index=1)   
       
 :computer: [**Metodo Static y clase Math**](https://www.youtube.com/watch?v=ir2Ri5vRoNo)
       
