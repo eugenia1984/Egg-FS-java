@@ -217,9 +217,9 @@ Todos los objetos de una misma clase tienen los mismos métodos y el mismo compo
 Para definir los métodos, el lenguaje de programación Java toma la siguiente forma básica:
    
 ```      
-<modificador>* <tipo de retorno> <nombre> ( <argumento>>* ) {
+<modificador> <tipo de retorno> <nombre> ( <argumento> ) {
   
-    <sentencias>*
+    <sentencias>
   
    return valorRetorno;
   
