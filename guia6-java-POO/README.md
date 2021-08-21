@@ -658,8 +658,40 @@ d) Todas las anteriores
       
 ## Ver videos
       
-[**POO](https://www.youtube.com/watch?v=VxNApegMlTo&list=PLgwlfcqa5h3y1P5W-X13ZD-s1ItKqXcNk&index=1)   
+:computer: [**POO](https://www.youtube.com/watch?v=VxNApegMlTo&list=PLgwlfcqa5h3y1P5W-X13ZD-s1ItKqXcNk&index=1)   
+      
+:computer: [**Metodo Static y clase Math**](https://www.youtube.com/watch?v=ir2Ri5vRoNo)
+      
+:computer: [**video clase arrays**](https://www.youtube.com/watch?v=XrqJ8YoW4pI)      
+      
+:computer: [**más acerca de arrays**](https://www.it-swarm-es.com/es/java/como-usar-java.util.arrays/971207658/)   
+      
+:computer: [**video Clase Date**](https://www.youtube.com/watch?v=mOMvmSdMELo)      
+    
+:computer: [**más acerca de la clase Date**](https://www.discoduroderoer.es/clase-date-de-java/)      
+      
+:computer: [**ejemplo de vector como atributo**](https://drive.google.com/drive/folders/1D_F5Y-GUknt7slaFHFnVsgkbroIRt2oX)   
+      
+       
 ----
+   
+## Bibliografía
+      
+Información sacada de libros:
+      
+-Fundamentos de Programación de Luis Joyanes Aguilar
+      
+-Fundamentos de Programación Java de Jorge Martínez Ladrón de Guevara en conjunto con la Facultad de Informática (Universidad Complutense de Madrid).
+      
+-Introducción a la programación Java de John S. Dean y Raymond H. Dean
+      
+Información sacada de las paginas:
+      
+:computer: [**https://profile.es/blog/que-son-los-paradigmas-de-programacion/**](https://profile.es/blog/que-son-los-paradigmas-de-programacion/)
+      
+:computer: [**https://profile.es/blog/que-es-la-programacion-orientada-a-objetos/**](https://profile.es/blog/que-es-la-programacion-orientada-a-objetos/)      
+      
+---      
       
 # EJERCICIOS DE APRENDIZAJE
 
