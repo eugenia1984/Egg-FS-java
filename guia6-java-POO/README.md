@@ -660,7 +660,7 @@ d) Todas las anteriores
       
 ---
       
-:computer: [ver carpeta **MascotaApp](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/MascotApp)  -> tiene ejemplos de Clases : constructores vacios, constructores con parámetros, getters, setters, sobrecarga de metodos, tostring()   
+:computer: [ver carpeta **MascotaApp**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/MascotApp)  -> tiene ejemplos de Clases : constructores vacios, constructores con parámetros, getters, setters, sobrecarga de metodos, tostring()   
       
 ---
       
