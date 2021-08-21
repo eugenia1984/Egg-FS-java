@@ -652,7 +652,7 @@ d) Todas las anteriores
       
 ---
       
-:computer: [ver carpeta **veterinaria** con ejemplo de clase **Perro** para instanciar objetos] (https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/veterinaria)
+:computer: [ver carpeta **veterinaria** con ejemplo de clase **Perro** para instanciar objetos](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/veterinaria)
       
 ---
       
