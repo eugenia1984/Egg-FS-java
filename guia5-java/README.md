@@ -571,6 +571,8 @@ Sus métodos:
 | **toUpperCase()** | retorna la cadena en mayúscula |
 
 
+:computer:  [**video de Clase String**](https://www.youtube.com/watch?v=3HG9qvTuBeY) 
+
 
 Java es un lenguaje de tipado estático, para convertir cualquier tipo de dato a un String, utilizamos la función **valueOf(n)**. 
 
