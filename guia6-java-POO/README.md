@@ -956,3 +956,5 @@ persona que se recibe como parámetro, o false en caso contrario.
       
 • Metodo mostrarPersona(): este método muestra la persona creada en el método
 anterior.      
+
+:computer: [ver resolucion **ejercicio 12**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/ejercicio12)      
