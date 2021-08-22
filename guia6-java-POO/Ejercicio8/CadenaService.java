@@ -9,6 +9,7 @@ public class CadenaService {
     static Scanner leer = new Scanner(System.in).useDelimiter("\n");
 
     public Cadena ingresarCadena() {
+        //instancio una cad de la clase Cadena para poder settear atributo frase y longitud
         Cadena cad = new Cadena();
         System.out.println("Ingrese una frase: ");
         String cadena = leer.next();
