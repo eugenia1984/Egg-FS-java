@@ -769,6 +769,8 @@ El programa pedirá una raza de perro en un bucle, el mismo se guardará en la l
 
 Si decide salir, se mostrará todos los perros guardados en el ArrayList.
 
+:computer:[ejercicio resuelto en -> **ejercicio1y2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia7-java-colecciones/ejercicio1y2)
+
 
 ## Ejercicio 2
 
@@ -777,6 +779,9 @@ Continuando el ejercicio anterior, después de mostrar los perros, al usuario se
 Si el perro está en la lista, se eliminará el perro que ingresó el usuario y se mostrará la lista ordenada. 
 
 Si el perro no se encuentra en la lista, se le informará al usuario y se mostrará la lista ordenada.
+
+:computer:[ejercicio resuelto en -> **ejercicio1y2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia7-java-colecciones/ejercicio1y2)
+
 
 ## Ejercicio 3
 
