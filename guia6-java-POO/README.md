@@ -850,6 +850,10 @@ Crear 4 objetos de tipo Persona con distintos valores, a continuación, llamarem
       
 Por último, guardaremos los resultados de los métodos calcularIMC y esMayorDeEdad en distintas variables, para después en el main, calcular un porcentaje de esas 4 personas cuantas están por debajo de su peso, cuantas en su peso ideal y cuantos, por encima, y también calcularemos un porcentaje de cuantos son mayores de edad y cuantos menores.     
       
+:computer:[ver resolucion **Ejercicio 7**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio7)   
+      
+:computer:[ver resolucion **Ejercicio 7 con clase Service**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio7Service)
+      
       
 ## Ejercicico 8
       
