@@ -894,7 +894,10 @@ Deberá además implementar los siguientes métodos:
 • Método calculaRaiz(), para calcular la raíz cuadrada del menor de los dos valores. Antes de calcular la raíz cuadrada se debe obtener el valor absoluto del número.      
       
 
- ## Ejercicio 10
+:computer: [ver resolucion ejercicio 9](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio9)     
+
+      
+## Ejercicio 10      
       
  Realizar un programa en Java donde se creen dos arreglos: el primero será un arreglo
 A de 50 números reales, y el segundo B, un arreglo de 20 números, también reales. 
