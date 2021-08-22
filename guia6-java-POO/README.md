@@ -664,6 +664,10 @@ d) Todas las anteriores
       
 ---
       
+:computer: [ver carpeta **MascotApp2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/mascotApp2/MascotApp)   ->  tiene ejemplo con **clase Service**
+      
+---      
+      
       
 ## Ver videos
       
