@@ -827,7 +827,7 @@ c) Con el programa o método main()
 
 d) Todas las anteriores
 
-**Respuesta A: package**
+**Respuesta C: Con el programa o método main()**
 
 
 ## 6) Teniendo en cuenta que los paquetes y las clases son análogos a las carpetas y archivos utilizados por el sistema operativo, ¿el nombre de la clase debe ser diferente al del paquete?
@@ -840,7 +840,7 @@ c) No importa
 
 d) Ninguna de las anteriores
 
-**Respuesta B: nunca, el nombre del paquete debe ser el mismo al de la clase principal**
+**Respuesta C: No importa**
 
 
 ## 7) ¿El llamado a una librería se hace haciendo uso de la sentencia: 
