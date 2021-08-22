@@ -41,26 +41,28 @@ public class Ejercicio10 {
         
         // System.out.println(Arrays.toString(arrayA));
         
-        //Para ordenarlos en forma ascendente
-        Arrays.sort(arrayA);
+         
+        //Luego, el arreglo A se debe ordenar de menor a mayor y copiar los 
+        //primeros 10 números ordenados al arreglo B de 20 elementos, y rellenar 
+        //los 10 últimos elementos con el valor 0.5.
+        
+        Arrays.sort(arrayA); //Para ordenarlos en forma ascendente
         
         System.out.println("Array A ordenado: ");
         mostrarVector(arrayA);
         
         System.out.println("Array B:");
-        //Desde que array tomo los numeros
-        //Desde que posicion tomo los numeros del Array original
-        //A que array pongo los numeros
-        //La posicion inicial del que le paso los numeros
-        //Cuantos numeros paso
+        //arrayA -> Desde que array tomo los numeros
+        //0 ->  Desde que posicion tomo los numeros del Array original
+        //arrayB  ->  A que array pongo los numeros
+        // 0  -> La posicion inicial del que le paso los numeros
+        //10 ->  Cuantos numeros paso
         System.arraycopy(arrayA, 0, arrayB, 0, 10);
         
         //Si tenia 0,10 el problema es que cambia la dimension del vector
         //arrayB = Arrays.copyOfRange(arrayA, 0 ,20);  
-  
         Arrays.fill(arrayB, 10, 20 , 0.5);
         mostrarVector(arrayB);
-        
     }
     
     //Metodo para imprimir (mostrar) vectores
