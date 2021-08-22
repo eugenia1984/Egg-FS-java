@@ -958,3 +958,15 @@ persona que se recibe como parámetro, o false en caso contrario.
 anterior.      
 
 :computer: [ver resolucion **ejercicio 12**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/ejercicio12)      
+
+---
+      
+# Ejercicios de aprendizaje extra
+      
+## Ejercicio Extra 1
+      
+Desarrollar una clase Cancion con los siguientes atributos: titulo y autor. 
+      
+Se deberá́ definir además dos constructores: uno vacío que inicializa el titulo y el autor a cadenas vacías y otro que reciba como parámetros el titulo y el autor de la canción. 
+      
+Se deberán además definir los métodos getters y setters correspondientes      
