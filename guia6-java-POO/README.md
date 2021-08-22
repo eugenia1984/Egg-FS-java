@@ -172,9 +172,9 @@ Toda clase debe definir un método especial denominado **constructor para instan
 La declaración básica toma la siguiente forma:
   
 ```  
-[<modificador>] <nombre de clase> ( <argumento>* ) {
+[<modificador>] <nombre de clase> ( <argumento> ) {
   
-   <sentencia>*
+   <sentencia>
   
 }
 ```
