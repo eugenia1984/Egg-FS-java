@@ -769,7 +769,7 @@ El programa pedirá una raza de perro en un bucle, el mismo se guardará en la l
 
 Si decide salir, se mostrará todos los perros guardados en el ArrayList.
 
-:computer:[ejercicio resuelto en -> **ejercicio1y2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia7-java-colecciones/ejercicio1y2)
+:computer:[resolucion de ejercicio -> **ejercicio1y2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia7-java-colecciones/ejercicio1y2)
 
 
 ## Ejercicio 2
@@ -780,7 +780,7 @@ Si el perro está en la lista, se eliminará el perro que ingresó el usuario y 
 
 Si el perro no se encuentra en la lista, se le informará al usuario y se mostrará la lista ordenada.
 
-:computer:[ejercicio resuelto en -> **ejercicio1y2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia7-java-colecciones/ejercicio1y2)
+:computer:[resolucion de ejercicio ->**ejercicio1y2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia7-java-colecciones/ejercicio1y2)
 
 
 ## Ejercicio 3
@@ -794,6 +794,8 @@ Se pide toda la información al usuario y ese Alumno se guarda en una lista de t
 Despues de ese bluce tendremos el siguiente método en la clase Alumno:
 
 **Metodo notaFinal()**: El usuario ingresa el nombre del alumno que quiere calcular su nota final y se lo busca en la lista de Alumnos. Si está en la lista, se llama al método. Dentro del método se usará la lista notas para calcular el promedio final de alumno. Siendo este promedio final, devuelto por el método y mostrado en el main.
+
+:computer: [resolucion de ejercicio -> **ejercicio3**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia7-java-colecciones/ejercicio3)
 
 
 ## Ejercicio 4
