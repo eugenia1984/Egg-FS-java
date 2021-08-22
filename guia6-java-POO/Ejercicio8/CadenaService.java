@@ -22,9 +22,9 @@ public class CadenaService {
     public int mostrarVocales(Cadena cad) {
         int vocales = 0;
         for (int i = 0; i < cad.getLongitud(); i++) {
-            
-            char letra = cad.getFrase().charAt(i);
-            if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U' || letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
+            //lo paso a letra mayuscula asi en el if solo comparo con vocales en mayuscula
+            char letra = cad.getFrase().toUpperCase().charAt(i);
+            if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U' ) {
                 vocales++;
             }
         }
