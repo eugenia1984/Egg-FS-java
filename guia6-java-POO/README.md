@@ -909,7 +909,9 @@ Luego, el arreglo A se debe ordenar de menor a mayor y copiar los primeros 10 n√
       
 Mostrar los dos arreglos resultantes: el ordenado de 50 elementos y el combinado de 20.  
       
-  
+:computer: [ver ejercicio 10](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia6-java-POO/Ejercicio10/Ejercicio10.java)
+      
+      
 ## Ejercicio 11
 
 Pongamos de lado un momento el concepto de POO, ahora vamos a trabajar solo con
