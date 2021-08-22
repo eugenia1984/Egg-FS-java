@@ -717,7 +717,7 @@ Crear una clase llamada Libro que contenga los siguientes atributos: ISBN, Títu
 
 Crear un método para cargar un libro pidiendo los datos al usuario y luego informar mediante otro método el número de ISBN, el título, el autor del libro y el numero de páginas.
       
-:computer: [ver resolución ejercicio 1](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio1)  
+:computer: [ver resolución **ejercicio 1**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio1)  
   
       
 ## Ejercicio 2
@@ -735,7 +735,7 @@ d) Método area(): para calcular el área de la circunferencia (Area = π ∗ ra
       
 e) Método perimetro(): para calcular el perímetro (Perimetro = 2 ∗ π ∗ radio).
       
-:computer: [ver resolución ejercicio 2](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio2)  
+:computer: [ver resolución **ejercicio 2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio2)  
       
       
 ## Ejercicio 3
@@ -758,7 +758,7 @@ g) Método multiplicar(): primero valida que no se haga una multiplicación por 
       
 h) Método dividir(): primero valida que no se haga una división por cero, si fuera a pasar una división por cero, el método devuelve 0 y se le informa al usuario el error se le informa al usuario. Si no, se hace la división y se devuelve el resultado al main.  
       
-:computer: [ver resolución ejercicio 3](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio3)     
+:computer: [ver resolución **ejercicio 3**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio3)     
       
       
 ## Ejercicio 4
@@ -775,7 +775,7 @@ Se deberán además definir los métodos getters, setters y constructores corres
       
 Superficie = base * altura / Perímetro = (base + altura) * 2.   
       
-:computer: [ver resolución ejercicio 4](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio4)  
+:computer: [ver resolución **ejercicio 4**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio4)  
       
 
 ## Ejercicio 5
@@ -800,7 +800,7 @@ Las operaciones asociadas a dicha clase son:
       
 • Método consultarDatos(): permitirá mostrar todos los datos de la cuenta   
       
-:computer: [ver resolución ejercicio 5](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio5)  
+:computer: [ver resolución **ejercicio 5**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio5)  
       
       
 ## Ejercicio 6
@@ -823,7 +823,7 @@ Implemente, al menos, los siguientes métodos:
       
 • Método agregarCafe(int): se le pide al usuario una cantidad de café, el método lo recibe y se añade a la cafetera la cantidad de café indicada.
       
-:computer: [ver resolución ejercicio 6](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio6)  
+:computer: [ver resolución **ejercicio 6**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio6)  
       
    
 ## Ejercicio 7
@@ -873,7 +873,7 @@ Realizar una clase llamada Cadena que tenga como atributos una frase (de tipo de
       
 • Método contiene(String letra), deberá comprobar si la frase contiene una letra que ingresa el usuario y devuelve verdadero si la contiene y falso si no.
       
-:computer: [ver resolución ejercicio 8](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio8) 
+:computer: [ver resolución **ejercicio 8**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio8) 
       
  
  ## Ejercicio 9
@@ -894,7 +894,7 @@ Deberá además implementar los siguientes métodos:
 • Método calculaRaiz(), para calcular la raíz cuadrada del menor de los dos valores. Antes de calcular la raíz cuadrada se debe obtener el valor absoluto del número.      
       
 
-:computer: [ver resolucion ejercicio 9](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio9)     
+:computer: [ver resolucion **ejercicio 9**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/Ejercicio9)     
 
       
 ## Ejercicio 10      
@@ -909,7 +909,7 @@ Luego, el arreglo A se debe ordenar de menor a mayor y copiar los primeros 10 n�
       
 Mostrar los dos arreglos resultantes: el ordenado de 50 elementos y el combinado de 20.  
       
-:computer: [ver ejercicio 10](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia6-java-POO/Ejercicio10/Ejercicio10.java)
+:computer: [ver resolucion **ejercicio 10**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia6-java-POO/Ejercicio10/Ejercicio10.java)
       
       
 ## Ejercicio 11
@@ -927,6 +927,10 @@ Ejemplo fecha: Date fecha = new Date(anio, mes, dia);
 Ejemplo fecha actual: Date fechaActual = new Date();
       
 [**Documentacion en Oracle**](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)     
+  
+      
+:computer: [ver resolucion **ejercicio 11**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia6-java-POO/Ejercicio10/Ejercicio11.java)      
+      
       
 ## Ejercicio 12
       
