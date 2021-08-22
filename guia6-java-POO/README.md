@@ -667,7 +667,10 @@ d) Todas las anteriores
 :computer: [ver carpeta **MascotApp2**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/mascotApp2/MascotApp)   ->  tiene ejemplo con **clase Service**
       
 ---      
+    
+:computer: [ver carpeta **Pasaje por Valor Por Referencia**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia6-java-POO/pasajePorValorPorReferencia/MascotApp)   ->  ejemplo de metodos con pasaje por valor y por referencia    
       
+---      
       
 ## Ver videos
       
@@ -685,7 +688,7 @@ d) Todas las anteriores
       
 :computer: [**ejemplo de vector como atributo**](https://drive.google.com/drive/folders/1D_F5Y-GUknt7slaFHFnVsgkbroIRt2oX)   
       
-       
+    
 ----
    
 ## Bibliografía
