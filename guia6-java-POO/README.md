@@ -531,7 +531,7 @@ La clase Date pertenece al paquete java.util del API de Java.
 
 Cuando se coloca la palabra final precediendo la declaración de una variable la misma se transforma en una constante -> VERDADERO, se debe declarar e inicializar al mismo tiempo, ya que su valor no va a variar 
 
-Una variable local no puede ser declarada en cualquier lugar del cuerpo de una clase o método -> FALSO debe ser declarada dentro de la clase
+Una variable local no puede ser declarada en cualquier lugar del cuerpo de una clase o método -> VERDADERO
 
 El método constructor de una clase puede tener cualquier nombre -> FALSO el metodo constructor tiene que tener el mismo nombre que la clase
 
