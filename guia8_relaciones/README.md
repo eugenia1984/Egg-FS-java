@@ -116,53 +116,84 @@ Se representa con -> <br>
 
 ## Preguntas del aprendizaje
 
-1- La relación más fuerte es la... <br>
-a) Agregación <br>
-b) Composición <br>
-c) Dependencia <br>
-d) Ninguna de las anteriores <br>
+1- La relación más fuerte es la... 
 
-**Respuesta : a - composición, es una relación de vida. El tiempo de vida de un objeto está condicionado por el tiempo de visa del objeto que lo incluye; como el caso del cliente del banco, si se va se va su cuenta.** <br>
+a) Agregación 
 
-2- La relación más débil es la ...<br>
-a) Agregación <br>
-b) Compisición <br>
-c) Dependencia <br>
-d) Ninguna de las anteriores <br>
+b) Composición 
 
-**Respuesta : a - agregación**<br>
+c) Dependencia 
 
-3- La relación es entre ...<br>
-a) Clases<br>
-b) Interfaces<br>
-c) Métodos <br>
-d) Ninguna de las anteriores <br>
+d) Ninguna de las anteriores 
 
-**Respuesta : a - las clases están relacionadas unas con otras**<br>
+**Respuesta : b - composición, es una relación de vida. El tiempo de vida de un objeto está condicionado por el tiempo de visa del objeto que lo incluye; como el caso del cliente del banco, si se va se va su cuenta.** 
 
-4- La relación se representa en una clase con un ...<br>
-a) Método <br>
-b) constructor <br>
-c) Atributo abjeto de esa clase <br>
-d) Ninguna de las anteriores <br>
 
-**Respuesta : c - atributo objeto de esa clase** <br>
+2- La relación más débil es la ...
 
-5- El modificador de acceso public de los UML se representa con  un...<br>
-a) Menos (-) <br>
-b) Más (+)<br>
-c) Numeral (#)<br>
-d) ninguna de las anteriores <br>
+a) Agregación 
+
+b) Compisición 
+
+c) Dependencia 
+
+d) Ninguna de las anteriores 
+
+**Respuesta : a - agregación**
+
+
+3- La relación es entre ...
+
+a) Clases
+
+b) Interfaces
+
+c) Métodos 
+
+d) Ninguna de las anteriores 
+
+**Respuesta : a - las clases están relacionadas unas con otras**
+
+
+4- La relación se representa en una clase con un ...
+
+a) Método 
+
+b) constructor 
+
+c) Atributo abjeto de esa clase 
+
+d) Ninguna de las anteriores 
+
+**Respuesta : c - atributo objeto de esa clase** 
+
+
+5- El modificador de acceso public de los UML se representa con  un...
+
+a) Menos (-) 
+
+b) Más (+)
+
+c) Numeral (#)
+
+d) ninguna de las anteriores 
+
 
 **Respuesta : b - con el más ( + )**
 
-6- El modificador de acceso private en los UML se representa con un...<br>
-a) Menos (-)<br>
-b) Más (+)<br>
-c) Numeral (#) <br>
-d) Ninguna de las anteriores <br>
 
-**Respuesta : a - con el menos (- )**<br>
+6- El modificador de acceso private en los UML se representa con un...
+
+a) Menos (-)
+
+b) Más (+)
+
+c) Numeral (#) 
+
+d) Ninguna de las anteriores 
+
+
+**Respuesta : a - con el menos (- )**
 
 
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
