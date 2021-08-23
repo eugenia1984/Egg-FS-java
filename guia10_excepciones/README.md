@@ -413,7 +413,7 @@ c) Try CaD:  Throw//
 
 d) Throw
 
-**Respuesta D:  Throw//
+**Respuesta D:  Throw**
 
 
 7- En Java la diferencia entre throws y throw es:
@@ -426,7 +426,7 @@ c) throws indica el tipo de excepcición que no maneja el método y throw arroja
 
 d) Ninguna de las anteriores
 
-**Respuesta B: throws se usa en los metodos y throw en los constructores**
+**Respuesta D**
 
 
 ---
