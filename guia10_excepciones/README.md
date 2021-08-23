@@ -441,6 +441,8 @@ de invocar el método esMayorDeEdad() a través de ese objeto. Luego, englobe el
 código con una cláusula try-catch para probar la nueva excepción que debe ser
 controlada.
 
+[ver ejercicio 1](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia10_excepciones/ejercicio1)
+
 
 ### Ejercicio 2
 
