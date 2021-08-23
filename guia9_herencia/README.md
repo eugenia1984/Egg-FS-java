@@ -17,7 +17,7 @@ b) super <br>
 c) this <br>
 d) extends <br>
 
-**Respuesta D : EXTENDS indica que se extiende ( que hereda) de su clase Padre / Madre***<br>
+**Respuesta D : EXTENDS indica que se extiende ( que hereda) de su clase Padre / Madre***
 
 
 ### 2) ¿Qué código de los siguientes tiene que ver con la herencia?
@@ -27,7 +27,7 @@ b) public class Componente inherit Producto <br>
 c) public class Componente implements Producto <br>
 d) public class Componente belong to Producto <br>
 
-**Respuesta A: Porque indica que la clase Componente extiende (hereda) de su clase Padre / Madre Producto**<br>
+**Respuesta A: Porque indica que la clase Componente extiende (hereda) de su clase Padre / Madre Producto**
 
 
 ### 3) ¿La superclase es la clase?
@@ -38,7 +38,7 @@ c) Nieta <br>
 d) Es una interfaz <br>
 
 
-**REspuesta A : MADRE es de la que van a heredar las hijas**<br>
+**Respuesta A : MADRE es de la que van a heredar las hijas**
 
 
 ### 4) Cual de estos componentes de la superclase no hereda la subclase
@@ -48,7 +48,7 @@ b) Métodos <br>
 c) Getter/Setters <br>
 d) Constructores <br>
 
-**Respuesta D: CONSTRUCTORES; los constructores no se heredan, los métodos si se heredan. Con super puedo usar los constructores de la clase padre.**<br>
+**Respuesta D: CONSTRUCTORES; los constructores no se heredan, los métodos si se heredan. Con super puedo usar los constructores de la clase padre.**
 
 
 ### 5) La superclase debe ser abstracta
@@ -58,6 +58,8 @@ b) Nunca <br>
 c) Depende de la situación <br>
 d) Cuando implementa una interfaz <br>
 
+**Respuesta C**
+
 
 ### 6) ¿Cuál tipo de clase debe tener al menos un método abstracto?
 
@@ -65,6 +67,8 @@ a) final <br>
 b) abstract <br>
 c) public <br>
 d) Todas las anteriores <br>
+
+**Respuesta B**
 
 
 ### 7) ¿De cuántas clases se puede derivar Java?
@@ -74,6 +78,8 @@ b) Dos clases <br>
 c) Una clase <br>
 d) Cinco clases <br>
 
+**Respuesta C**
+
 
 ### 8) Una clase que termina la cadena de una herencia se la puede declarar como:
 
@@ -82,7 +88,7 @@ b) abstract <br>
 c) public <br>
 d) Ninguna de las anteriores <br>
 
-**Respuesta A: FINAL, no va a tener hijos/ hijas** <br>
+**Respuesta A: FINAL, no va a tener hijos/ hijas** 
 
 
 ### 9) ¿Qué palabra se usa para implementar una interfaz?
