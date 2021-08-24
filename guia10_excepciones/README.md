@@ -510,6 +510,48 @@ void metodoA() {
 }
 ```
 
+A) 	
+
+Opcion 1:
+
+sentencia_a1
+
+sentencia_a2
+
+(sentencia_a3  entra en Excepción)
+
+sentencia_a6
+
+sentencia_a5
+
+Opcion 2:
+
+sentencia_a1
+
+sentencia_a2
+
+sentencia_a3
+
+(sentencia_a4  entra en Excepción)
+
+sentencia_a6
+
+sentencia_a5
+
+
+B) 	
+
+sentencia_a1
+
+sentencia_a2
+
+sentencia_a3
+
+sentencia_a4
+
+sentencia_a5
+
+
 ### Ejercicio 6
 
 Dado el método metodoB de la clase B, indique:
@@ -532,6 +574,26 @@ void metodoB() {
   }
 }
 ```
+
+A) 	
+
+sentencia_b1
+
+(sentencia_b2 entra a Excepcion)
+
+sentencia_b3 
+
+sentencia_b4
+
+B)	 
+
+sentencia_b1
+
+sentencia_b2
+
+sentencia_b4
+
+
 
 ### Ejercicio 7
 
@@ -630,6 +692,42 @@ class Tres{
     
 ```
 
+Clase Uno : 	
+
+Valor final del try: 44
+
+Valor final del finally: 45
+
+Valor antes del return: 46
+
+46
+
+
+Clase Dos:
+
+Valor final del catch: 43
+
+Valor final del finally: 44
+
+Valor antes del return: 45
+
+45
+
+Clase Tres: 
+
+Valor final del finally:2
+
+Excepcion en metodo() 
+```
+java.lang.NumberFormatException: For input string: "W"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ejercicio07.Tres.metodo(Tres.java:24)
+	at ejercicio07.Tres.main(Tres.java:40)
+```
+
+
 ## Ejercicio 8
 
 Dado el método metodoC de la clase C, indique:
@@ -658,3 +756,39 @@ class C {
   }
 }
 ```
+
+A) 	
+
+sentencia_c1 
+
+sentencia_c2
+
+sentencia_c3 (Excepcion)
+
+sentencia_c4
+
+sentencia_c6
+
+B)	 
+
+sentencia_c1 
+
+sentencia_c2
+
+sentencia_c3 (Excepcion)
+
+sentencia_c6
+
+C) 	
+
+sentencia_c1 
+
+sentencia_c2
+
+sentencia_c3 (Excepcion)
+
+sentencia_c5 
+
+throw (e)
+
+sentencia_c6
