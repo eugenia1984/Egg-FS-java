@@ -339,7 +339,7 @@ Nota: recordemos que los TreeSet y TreeMap se ordenan por si mismos.
 **Listas**:
 ```JAVA
 ArrayList<Integer> numeros = new ArrayList();
-Collections.sort(numeros);JAVA
+Collections.sort(numeros);
 ```
 
 **Conjuntos**:
