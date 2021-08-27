@@ -116,7 +116,9 @@ Los comandos son:
 	 * **ALTER**: modifica las tablas agregando campos o cambiando la definición de los campos.
 
 
--CREO  una base de datos / schema , puede ser tanto con SCHEMA como con DATABASE:
+## CREATE 
+
+CREO  una base de datos / schema , puede ser tanto con SCHEMA como con DATABASE:
 
 ```
 CREATE SCHEMA 'egg';
@@ -139,6 +141,79 @@ Damos el nombre a la tabla
 Vamos definiendo cada columna con su nombre y su tipo de dato, tambien le puedo definir la cantidad de caracteres, si es una **PK** (primary key / clave primaria), si quiero que tenga nulos ( NOT NULL).
 
 Los nombres van todos en minuscula, y si son mas de una palabra se separan con guion bajo, por ejemplo *nombre_mascota*.
+
+```
+CREATE TABLE 'egg2'.'curso_programacion'(
+  'nombre_curso' VARCHAR (255) NOT NULL,
+  'cantidad_alumno' INT NULL);
+```
+
+## DROP
+
+Para eliminar un schema o una tabla.
+
+La puedo eliminar directamente desde la parte donde tengo el SCHEMA, hago click en la tabla a eliminar y drop.
+
+Tambien se puede hacer con sentencia, siempre y cuando marquemos el schema donde está la tabla qie queremos eliminar, lo que tenemos que hacer es seleccionarlo, desde chemma hacer doble ckick en la tabla que queremos eliminar
+
+```
+DROP table nombre_de_la_tabla;
+```
+
+
+Para borrar el **schema** tambien se puede hacer desde el SCHEMa seleccionandolo con click y drop, ojo porque al borrar el schema ya pierdo todas mis tablas.
+
+Tambien se puede hacer en forma de sentencia
+
+```
+DROP schema nombre_de_mi_base_de_datos;
+```
+
+## ALTER
+
+Se utiliza para modificar un schema o una tabla
+
+Lo puedo hacer directo desde el modo grafico, me posiciono y lo cambio.
+
+Tambien lo puedo hacer en forma de sentencia.
+
+Voy a cambiar de nombre a nombre1, de la tabla prueba_tabla de la base de datos: prueba
+
+```
+ALTER TABLE 'prueba'.'prueba_tabla'
+CHANGE COLUMN 'nombre' 'nombre1' VARCHAR(255) NOT NULL;
+```
+
+Y si por ejemplo le quiero cambiar la longitud:
+
+```
+ALTER TABLE 'prueba'.'prueba_tabla'
+CHANGE COLUMN 'nombre1' 'nombre1' VARCHAR(50) NOT NULL;
+```
+
+## SCRIPT
+
+Archivos SQL que incorporan sentencias SQL ya escritas, nos ahorran tiempo, solo lo importamos y lo ejecutamos.
+
+
+Arriba de todo a la izquierda el segundo **OPEN A SQL SCRIPT FIELD IN A NEW QUERY TAB**
+
+
+Un ejemplo de script
+
+```
+CREATE DATABASE tienda CHARACTEER SET utf8mb4;
+USE tienda;
+
+CREATE TABLE fabricante (
+  codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(100) NOT NULL
+);
+
+INSERT INTO fabricante VALUES(1, 'Asus');
+INSERT INTO fabricante VALUES(2, 'Lenovo');
+INSERT INTO fabricante VALUES(3, 'Sambung');
+```
 
 
 ---
