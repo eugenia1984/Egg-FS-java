@@ -73,6 +73,76 @@ DROP DATABASE superheroes;
 
 ---
 
+## VIDEOS:
+
+---
+
+🧑‍💻 [Introduccion Base de Datos](https://www.youtube.com/watch?v=Thq0vO9v_80&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw)
+
+🧑‍💻 [Insertar, modificar, eliminar](https://www.youtube.com/watch?v=Sa7f59JjKP4&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=3)
+
+🧑‍💻 [Select, From, Where](https://www.youtube.com/watch?v=bLocGDEEs0I&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=4)
+
+🧑‍💻 [Tablas relacionadas](https://www.youtube.com/watch?v=IiJk53KWJZc&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=5)
+
+:computer: [Join avanzados(]https://www.youtube.com/watch?v=5XAkfs3K5ZI&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=6)
+
+:computer: [Order by, Group by, Having](https://www.youtube.com/watch?v=XE-vi6mNcuY&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=7)
+
+
+---
+
+## Informacion de los videos
+
+Las **BASE DE DATOS RELACIONALES** comparten conceptos con **POO**, porque las bases de datos relacionales tratan de manipular y modelar problemas de la realidad.
+
+Vamos a ver como los objetos del programa de Java se pueden almacenar en una **Base de Datos** también llamada **Schema**, y está conformada por **tablas** que representan lo que el programa pretende modelar en la realidad.
+
+Las tablas poseen **campos** qeu representan los atributos de los objetos y contienen **tipos de datos**:
+
+**VARCHAR** -> String y tambien van entre comillas dobles
+
+**SQL**: es un lenguaje declarativo de acceso a base de datos que permite especificar diversos tipos de operaciones en ellas. También llamado lenguaje de consulta estructurado. Permite **recuperar**, **modificar**, y **eliminar** información, además de **crear** nuevos esquemas(SCHEMA / BASE DE DATOS).
+
+
+Los **esquemas** contienen las **tablas** donde se almacena la informacion de la aplicación.
+
+**Datos DDL**: permiten crear y definir nuevas bases de datos, campos e indices.
+
+Los comandos son:
+
+	 * **CREATE**: crea esquemas, nuevas tablas, campos e indices.
+	 * **DROP**: elimina tablas e indices
+	 * **ALTER**: modifica las tablas agregando campos o cambiando la definición de los campos.
+
+
+-CREO  una base de datos / schema , puede ser tanto con SCHEMA como con DATABASE:
+
+```
+CREATE SCHEMA 'egg';
+```
+
+```
+CREATE DATABASE 'egg2';
+```
+
+Con el *trueno* puedo ejecutar mi sentencia.
+
+Una vez creada del lado izquierdo donde dice *schema* debo actualizar / refrescar para ver los cambios, ver mi tabla.
+
+Ahora voy a **crear una tabla dentro del schema / la base de datos**, se asimila a cuando uno define una clase junto a sus atributos.
+
+Para los nombres de cada columna si tengo más de una palabra las debo separar con guion bajo, y siempre todo en minuscula
+
+Damos el nombre a la tabla
+
+Vamos definiendo cada columna con su nombre y su tipo de dato, tambien le puedo definir la cantidad de caracteres, si es una **PK** (primary key / clave primaria), si quiero que tenga nulos ( NOT NULL).
+
+Los nombres van todos en minuscula, y si son mas de una palabra se separan con guion bajo, por ejemplo *nombre_mascota*.
+
+
+---
+
 ## PREGUNTAS DE APRENDIZAJE
 
 ### 1) Responda Verdadero (V) o Falso (F)
@@ -284,19 +354,6 @@ d) MIN()
 
 **Respuesta LIMIT**
 
----
-
-🧑‍💻 [Introduccion Base de Datos](https://www.youtube.com/watch?v=Thq0vO9v_80&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw)
-
-🧑‍💻 [Insertar, modificar, eliminar](https://www.youtube.com/watch?v=Sa7f59JjKP4&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=3)
-
-🧑‍💻 [Select, From, Where](https://www.youtube.com/watch?v=bLocGDEEs0I&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=4)
-
-🧑‍💻 [Tablas relacionadas](https://www.youtube.com/watch?v=IiJk53KWJZc&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=5)
-
-:computer: [Join avanzados(]https://www.youtube.com/watch?v=5XAkfs3K5ZI&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=6)
-
-:computer: [Order by, Group by, Having](https://www.youtube.com/watch?v=XE-vi6mNcuY&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=7)
 
 
 ---
