@@ -317,5 +317,22 @@ Información sacada de las paginas:
 
 Abrir el script llamado “superhéroes” y ejecutarlo de modo tal que se cree la base de datos y todas sus tablas. Posteriormente, crear las tablas que se muestran en el siguiente modelo de entidad relación:
 
+| creador |
+| ------- |
+| (PK) id_creador INT(11) |
+| nombre VARCHAR (20) |
+
+| personajes |
+| (PK) id_persona INT(11) |
+| nombre_real VARCHAR(20) |
+| personaje VARCHAR(20) |
+| inteligencia INT(11) |
+| fuerza VARCHAR(10) |
+| velocidad INT(11) |
+| poder INT(11) |
+| aparicion INT(11) |
+| ocupacion VARCHAR(30) |
+|id_creador INT(11) |
+
 
 
