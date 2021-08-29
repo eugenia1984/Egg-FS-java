@@ -247,7 +247,7 @@ Una tabla no puede tener más de una clave foránea definida.
 
 ->
 
-VERDADERO
+FALSO, SI PUEDE
 
 
 INSERT, UPDATE y CREATE son commandos DDL. 
@@ -261,7 +261,7 @@ El comando DROP se utiliza para eliminar todas las filas de una tabla.
 
 ->
 
-VERDADERO el comando DROP elimina TODA la tabla, es decir las filas y las columnas
+FALSO el comando DROP elimina TODA la tabla, es decir las filas y las columnas. Con DELETE se eliminan ls filas.
 
 
 
@@ -274,6 +274,8 @@ b) Las relaciones son enlaces lógicos entre las tablas implementadas a través 
 c) Las relaciones son almacenadas como atributos en la base de datos.
 
 d) Las relaciones explícitamente definen una asociación entre 2 tablas.
+
+**Respuesta: todas las anteriores**
 
 
 ### 3) ¿Cómo se crea una base de datos con SQL?
@@ -299,7 +301,7 @@ c) UPDATE
 
 d) INCLUDE
 
-**Respuesta INSERT INTO nombre_tabla...**
+**Respuesta B: INSERT INTO nombre_tabla...**
 
 
 ### 5) En SQL, para modificar la estructura de una tabla de una base de datos se emplea la instrucción
@@ -312,7 +314,7 @@ c) MODIFY TABLE
 
 d) Las anteriores respuestas no son correctas
 
-**Respuesta ALTER TABLE modifica la tabla agregando campos o cambiando la definicion de los campos**
+**Respuesta A: ALTER TABLE modifica la tabla agregando campos o cambiando la definicion de los campos**
 
 
 ### 6) ¿Qué instrucción se emplea para eliminar todo el contenido de una tabla, pero conservando la tabla?
@@ -325,7 +327,7 @@ c) TRUNCATE TABLE
 
 d) Las anteriores respuestas no son correctas
 
-**Respuesta DELETE TABLE se borran las filas pero la tabla sigue existiendo vacía. DROP TABLE eimina la definicion de la tabla**
+**Respuesta A y C : DELETE y TRUNCATE TABLE borran la data de la tabla, pero la tabla se conserva vacçia. DROP TABLE eimina la definicion de la tabla**
 
 
 ### 7) ¿Cómo se borra toda una base de datos con SQL?
@@ -338,7 +340,7 @@ g) ERASE DATABASE
 
 h) Las anteriores respuestas no son correctas
 
-**Respuesta DROP DATABASE**
+**Respuesta F: DROP DATABASE**
 
 
 ### 8) ¿En cuál de las siguientes sentencias del lenguaje SQL se emplea la cláusula SET?
@@ -351,7 +353,7 @@ c) SELECT
 
 d) UPDATE
 
-**Respuesta UPDATE**
+**Respuesta D: UPDATE**
 
 
 ### 9) En SQL, para eliminar las filas duplicadas del resultado de una sentencia SELECT se emplea:
@@ -364,7 +366,7 @@ c) DISTINCT
 
 d) Las anteriores respuestas no son correctas
 
-**Respuesta DISTINCT queremos traer solo registros diferentes**
+**Respuesta C: DISTINCT queremos traer solo registros diferentes**
 
 
 ### 10) Una sentencia SELECT sin la cláusula WHERE devuelve
@@ -377,7 +379,7 @@ c) No se puede ejecutar una sentencia SELECT sin la cláusula WHERE
 
 d) Las anteriores respuestas no son correctas
 
-**Respuesta: Todos los registros existentes en la tabla es como tener el ALL (*)**
+**Respuesta B: Todos los registros existentes en la tabla es como tener el ALL (*)**
 
 
 ### 11) En SQL, para ordenar los datos devueltos por una sentencia SELECT se emplea la cláusula
@@ -403,7 +405,7 @@ c) LIKE "Juan$"
 
 d) LIKE "Juan&"
 
-**Respuesta: Juan% indica que es donde comienza**
+**Respuesta A: Juan% indica que es donde comienza**
 
 
 ### 13) ¿Cuál de las siguientes no es una función de agregación?
@@ -416,6 +418,8 @@ c) SUM()
 
 d) Las anteriores respuestas no son correctas
 
+**Respuesta B: FLOOR**
+
 
 ### 14) ¿Cuál de las siguientes no es una función de agregación?
 
@@ -427,7 +431,7 @@ c) MAX()
 
 d) MIN()
 
-**Respuesta LIMIT**
+**Respuesta B: LIMIT**
 
 
 
