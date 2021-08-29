@@ -689,6 +689,38 @@ que quede de la siguiente manera:
 | cod_jefe VARCHAR(12) |
 | id_depto INT |
 
+
+```
+# Creo la base de datos de nombre : personal
+CREATE DATABASE personal;
+/* Otra forma
+DROP DATABASE IF EXISTS personal;
+CREATE DATABASE personal CHARACTER SET utf8mb4;
+USE personal;
+*/
+# Creo la primer tabla con su PK y columnas
+CREATE TABLE departamentos (
+id_depto INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+  nombre_depto VARCHAR(20) NOT NULL,
+  ciudad VARCHAR(15) NULL,
+  cod_director VARCHAR(12) NULL
+);
+# Creo la segunda tabla
+CREATE TABLE empleados(
+id_emp INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+nombre CHAR(30) NOT NULL,
+sex_emp CHAR(1) NOT NULL,
+fec_nac DATE NOT NULL,
+fec_incorporacion DATE NOT NULL,
+sal_empl FLOAT NOT NULL,
+comision_emp FLOAT NOT NULL,
+cargo_emp FLOAT NOT NULL,
+cod_jefe VARCHAR(12) NOT NULL,
+  id_depto INT UNSIGNED NOT NULL,
+FOREIGN KEY (id_depto) REFERENCES departamentos(id_depto)  
+);
+```
+
 ## a) A continuación, realizar las siguientes consultas sobre la base de datos personal:
 
 1. Obtener los datos completos de los empleados.
