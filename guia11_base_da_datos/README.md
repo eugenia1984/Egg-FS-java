@@ -5,17 +5,23 @@
 ```
 # Creación de base de datos
 CREATE DATABASE superheroes;
+```
 
+```
 # Uso de base de datos
 USE superheroes;
+```
 
+```
 # Creación de tabla
 CREATE TABLE creador (
 	id_creador INT NOT NULL,
     nombre VARCHAR(20) NOT NULL,
     PRIMARY KEY (id_creador)
 );
+```
 
+```
 # Creación de tabla
 CREATE TABLE personajes (
 	id_personaje INT NOT NULL,
@@ -31,11 +37,16 @@ CREATE TABLE personajes (
     PRIMARY KEY (id_personaje),
     FOREIGN KEY (id_creador) REFERENCES creador (id_creador)
 );
+```
 
+
+```
 # Inserción de valores a la tabla
 INSERT INTO creador VALUES (1, 'Marvel');
 INSERT INTO creador VALUES (2, 'DC Comics');
+```
 
+```
 # Inserción de valores a la tabla
 INSERT INTO personajes VALUES (1, 'Bruce Banner', 'Hulk', 160, '600 mil', 75, 98, 1962, 'Físico Nuclear', 1);
 INSERT INTO personajes VALUES (2, 'Tony Stark', 'Iron Man', 170, '200 mil', 70, 123, 1963, 'Inventor Industrial', 1);
@@ -50,21 +61,30 @@ INSERT INTO personajes VALUES (10, 'Barry Allen', 'Flash', 160, '10 mil', 120, 1
 INSERT INTO personajes VALUES (11, 'Bruce Wayne', 'Batman', 170, '500', 32, 47, 1939, 'Hombre de negocios', 2);
 INSERT INTO personajes VALUES (12, 'Clarck Kent', 'Superman', 165, 'infinita', 120, 182, 1948, 'Reportero', 2);
 INSERT INTO personajes VALUES (13, 'Diana Prince', 'Mujer Maravilla', 160, 'infinita', 95, 127, 1949, 'Princesa guerrera', 2);
+```
 
+```
 # Consultas a la tabla
 SELECT * FROM creador;
 SELECT * FROM personajes;
+```
 
+```
 # Modificación de registro
 UPDATE personajes
 SET aparicion = 1938
 WHERE id_personaje = 12;
-    
+```   
+
+```
 # Eliminación de registro
 DELETE
 FROM personajes
 WHERE id_personaje = 10;
+```
 
+
+```
 # Eliminación de tablas y de base de datos
 DROP TABLE creador;
 DROP TABLE personajes;
