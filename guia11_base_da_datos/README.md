@@ -705,6 +705,10 @@ id_depto INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   ciudad VARCHAR(15) NULL,
   cod_director VARCHAR(12) NULL
 );
+```
+
+
+```
 # Creo la segunda tabla
 CREATE TABLE empleados(
 id_emp INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -719,7 +723,9 @@ cod_jefe VARCHAR(12) NOT NULL,
   id_depto INT UNSIGNED NOT NULL,
 FOREIGN KEY (id_depto) REFERENCES departamentos(id_depto)  
 );
+```
 
+```
 # Inseto datos en la tabla departamentos
 INSERT INTO `departamentos` VALUES (1,'GERENCIA','BUENOS AIRES','31168759');
 INSERT INTO `departamentos` VALUES (2,'VENTAS','BUENOS AIRES','32861759');
@@ -729,12 +735,17 @@ INSERT INTO `departamentos` VALUES (5,'VENTAS','BUENOS AIRES','29845369');
 INSERT INTO `departamentos` VALUES (6,'GERENCIA','CAPITAL FEDERAL','32368759');
 INSERT INTO `departamentos` VALUES (7,'MARKETING','CAPITAL FEDERAL','33568759');
 INSERT INTO `departamentos` VALUES (8,'MARKETING','BUENOS AIRES','36568759');
+INSERT INTO `departamentos` VALUES (9,'MANTENIMIENTO','BUENOS AIRES','16895789');
+INSERT INTO `departamentos` VALUES (10,'INVESTIGACION','BUENOS AIRES','20458796');
+INSERT INTO `departamentos` VALUES (11,'MANTENIMIENTO','CAPITAL FEDERAL','18895789');
+INSERT INTO `departamentos` VALUES (12,'INVESTIGACION','CAPITAL FEDERAL','21458796');
+```
 
+```
 #INSERTO DATOS EN LA TABLA EMPLEADOS
 INSERT INTO `empleados` values (1, 'Ana Cortez', 'F', '1982-01-20','2021-01-18', 50000, 5000, 'Ventas', '19358685', 1);
 INSERT INTO `empleados` values (2, 'Carlos Martinez', 'M', '1990-02-27','2021-02-18', 51000, 6000, 'Ventas', '19399685', 1);
 INSERT INTO `empleados` values (3, 'Mara Lopez', 'F', '1986-02-16','2018-02-18', 500000, 7000, 'Gerencia', '13399685', 2);
-
 ```
 
 ## a) A continuación, realizar las siguientes consultas sobre la base de datos personal:
