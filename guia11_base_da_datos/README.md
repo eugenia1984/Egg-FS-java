@@ -75,7 +75,7 @@ DROP DATABASE superheroes;
 
 ## VIDEOS:
 
----
+
 
 🧑‍💻 [Introduccion Base de Datos](https://www.youtube.com/watch?v=Thq0vO9v_80&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw)
 
@@ -441,8 +441,8 @@ d) MIN()
 
 Información sacada de las paginas:
 
-[1](https://www.oracle.com/ar/database/what-is-a-relational-database/)
-[2](https://www.geeksforgeeks.org/sql-tutorial/)
+[1 - https://www.oracle.com/ar/database/what-is-a-relational-database](https://www.oracle.com/ar/database/what-is-a-relational-database/)
+[2 - https://www.geeksforgeeks.org/sql-tutorial/](https://www.geeksforgeeks.org/sql-tutorial/)
 
 ---
 
