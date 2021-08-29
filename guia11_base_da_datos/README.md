@@ -76,21 +76,8 @@ DROP DATABASE superheroes;
 ## VIDEOS:
 
 
-
-🧑‍💻 [Introduccion Base de Datos](https://www.youtube.com/watch?v=Thq0vO9v_80&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw)
-
-🧑‍💻 [Insertar, modificar, eliminar](https://www.youtube.com/watch?v=Sa7f59JjKP4&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=3)
-
-🧑‍💻 [Select, From, Where](https://www.youtube.com/watch?v=bLocGDEEs0I&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=4)
-
-🧑‍💻 [Tablas relacionadas](https://www.youtube.com/watch?v=IiJk53KWJZc&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=5)
-
-:computer: [Join avanzados](https://www.youtube.com/watch?v=5XAkfs3K5ZI&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=6)
-
-:computer: [Order by, Group by, Having](https://www.youtube.com/watch?v=XE-vi6mNcuY&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=7)
-
-
 ---
+🧑‍💻 [Introduccion Base de Datos](https://www.youtube.com/watch?v=Thq0vO9v_80&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw)
 
 ## Informacion de los videos
 
@@ -98,9 +85,9 @@ Las **BASE DE DATOS RELACIONALES** comparten conceptos con **POO**, porque las b
 
 Vamos a ver como los objetos del programa de Java se pueden almacenar en una **Base de Datos** también llamada **Schema**, y está conformada por **tablas** que representan lo que el programa pretende modelar en la realidad.
 
-Las tablas poseen **campos** qeu representan los atributos de los objetos y contienen **tipos de datos**:
+Las tablas poseen **campos** / **columnas** que representan los atributos de los objetos y contienen **tipos de datos**:
 
-**VARCHAR** -> String y tambien van entre comillas dobles
+**VARCHAR** -> String y tambien van entre comillas SIMPLES
 
 **SQL**: es un lenguaje declarativo de acceso a base de datos que permite especificar diversos tipos de operaciones en ellas. También llamado lenguaje de consulta estructurado. Permite **recuperar**, **modificar**, y **eliminar** información, además de **crear** nuevos esquemas(SCHEMA / BASE DE DATOS).
 
@@ -112,7 +99,9 @@ Los **esquemas** contienen las **tablas** donde se almacena la informacion de la
 Los comandos son:
 
 	 * **CREATE**: crea esquemas, nuevas tablas, campos e indices.
+	 
 	 * **DROP**: elimina tablas e indices
+	 
 	 * **ALTER**: modifica las tablas agregando campos o cambiando la definición de los campos.
 
 
@@ -130,17 +119,17 @@ CREATE DATABASE 'egg2';
 
 Con el *trueno* puedo ejecutar mi sentencia.
 
-Una vez creada del lado izquierdo donde dice *schema* debo actualizar / refrescar para ver los cambios, ver mi tabla.
+Una vez creada del lado izquierdo donde dice *schema* debo **actualizar / refrescar** para ver los cambios, para ver mi tabla.
 
-Ahora voy a **crear una tabla dentro del schema / la base de datos**, se asimila a cuando uno define una clase junto a sus atributos.
+Ahora voy a **crear una tabla dentro del schema / la base de datos**, se asimila a cuando uno define una clase junto a sus atributos y tipos de datos, es similar a definir una clase.
 
-Para los nombres de cada columna si tengo más de una palabra las debo separar con guion bajo, y siempre todo en minuscula
+Para los nombres de cada columna si tengo más de una palabra las debo **separar con guión bajo**, y siempre todo en **minúscula**,  por ejemplo *nombre_mascota*
 
 Damos el nombre a la tabla
 
 Vamos definiendo cada columna con su nombre y su tipo de dato, tambien le puedo definir la cantidad de caracteres, si es una **PK** (primary key / clave primaria), si quiero que tenga nulos ( NOT NULL).
 
-Los nombres van todos en minuscula, y si son mas de una palabra se separan con guion bajo, por ejemplo *nombre_mascota*.
+Entre () indico el MAX_LEN
 
 ```
 CREATE TABLE 'egg2'.'curso_programacion'(
@@ -150,20 +139,25 @@ CREATE TABLE 'egg2'.'curso_programacion'(
 
 ## DROP
 
-Para eliminar un schema o una tabla.
+Para **eliminar** un **schema** o una **tabla**.
 
 La puedo eliminar directamente desde la parte donde tengo el SCHEMA, hago click en la tabla a eliminar y drop.
 
 Tambien se puede hacer con sentencia, siempre y cuando marquemos el schema donde está la tabla qie queremos eliminar, lo que tenemos que hacer es seleccionarlo, desde chemma hacer doble ckick en la tabla que queremos eliminar
+
+
 
 ```
 DROP table nombre_de_la_tabla;
 ```
 
 
-Para borrar el **schema** tambien se puede hacer desde el SCHEMa seleccionandolo con click y drop, ojo porque al borrar el schema ya pierdo todas mis tablas.
+Para borrar el **schema** tambien se puede hacer desde el SCHEMA seleccionandolo con click y drop.
 
-Tambien se puede hacer en forma de sentencia
+**OJO** porque al borrar SCHEMA se borran todas sus tablas y la información que tenían.
+
+
+También se puede hacer en forma de sentencia
 
 ```
 DROP schema nombre_de_mi_base_de_datos;
@@ -171,7 +165,7 @@ DROP schema nombre_de_mi_base_de_datos;
 
 ## ALTER
 
-Se utiliza para modificar un schema o una tabla
+Se utiliza para **modificar** un **schema** o una **tabla**.
 
 Lo puedo hacer directo desde el modo grafico, me posiciono y lo cambio.
 
@@ -193,7 +187,7 @@ CHANGE COLUMN 'nombre1' 'nombre1' VARCHAR(50) NOT NULL;
 
 ## SCRIPT
 
-Archivos SQL que incorporan sentencias SQL ya escritas, nos ahorran tiempo, solo lo importamos y lo ejecutamos.
+**Archivo**s SQL que incorporan sentencias SQL ya escritas, nos ahorran tiempo, solo lo importamos y lo ejecutamos.
 
 
 Arriba de todo a la izquierda el segundo **OPEN A SQL SCRIPT FIELD IN A NEW QUERY TAB**
@@ -214,6 +208,116 @@ INSERT INTO fabricante VALUES(1, 'Asus');
 INSERT INTO fabricante VALUES(2, 'Lenovo');
 INSERT INTO fabricante VALUES(3, 'Sambung');
 ```
+
+Para ver la tabla:
+
+```
+SELECT * from fabricante;
+```
+
+SELECT * (todo) from(de la tabla) fabricante(nombre de la tabla)
+
+
+---
+
+🧑‍💻 [Insertar, modificar, eliminar](https://www.youtube.com/watch?v=Sa7f59JjKP4&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=3)
+
+## DML
+
+**DML** lenguaje de manupilación de datos, nos permite:
+
+	 * **INSERT** agregar datos a las tablas. Carga lotes de datos en la base de datos en una única operación.
+	 
+	 * **UPDATE** modificar datos. Modifica los valores de los campos y registros específicos.
+	 
+	 * **DELETE** eliminar datos (un registro de na tabla o de varias tablas)
+
+Es lo equivalente a un ABM (Alta, Baja, Modificación)
+
+
+### INSERT INTO
+
+En base a la misma tabla del fabricante amos a agregar registros con **INSERT INTO**
+
+	 * **INSERT INTO** en su formato más sencillo se utiliza para añadir una sola fila a una tabla. Debemos especificar el nomre de la tabla y una lista de valores para la fila. Los valores deben suministrarse en el mismo orden en que se especificaron los atributos correspondientes en el comando CREATE TABLE.
+	 
+```
+INSERT INTO nombre_tabla (columna1, columna2,...) VALUES (valor1, valor2,...);
+```
+
+En mi tabla de fabricante:
+
+```
+SELECT * FROM fabricante;
+
+INSERT INTO fabricante (CODIGO, NOMBRE) VALUES (10, 'HP');
+INSERT INTO fabricante (CODIGO, NOMBRE) VALUES (11, 'LG');
+```
+
+### UPDATE
+
+Para modificar valores de atributos de una o más filas seleccionadas. Una cláusula WHERE en el comando UPDATE selecciona las filas de una tabla que se van a modificar. La sentencia UPDATE tiene la siguiente forma, para el caso de querer modificar dos datos:
+
+```
+UPDATE nombre_tabla
+SET col_nombre1 = (valor | DEFAULT),
+        col_nombre2 =  (valor | DEFAULT)
+[ORDER BY...] [WHERE condicion]
+```
+
+Indicar la tabla y el código que queremos modificar junto con los valores que están involucrados (en este caso nombre).
+
+```
+SELECT * FROM fabricante;
+
+UPDATE fabricante
+	SET NOMBRE = 'HP'
+WHERE CODIGO = 10;
+```
+
+**RECORDAR** las *claves primarias* una vez creadas no pueden modificarse.
+
+### DELETE
+
+Elimina filas de una tabla. Inclyye una clásula WHERE, para seleccionar las filas que se van a eliminar.
+
+	 * Las filas se eliminan explícitamente sólo de una tabla a al vez. Sin embargo, la eliminación se puede propagar a filas de otras tablas si se han especificado  opciones de acciones referenciales en las restricciones de integridad referencial del DDL.
+	 * En función del número de filas seleccionadas por la condición de la clásula WHERE, ninguna, una o varias filas pueden ser eliminadas por un solo comando DELETE. **La ausencia de una clásula WHERE significa que se corrarán todas las filas de la relación**, sin embargo, la tabla sigue existiendo.
+
+```
+DELETE FROM nombre_tabla [WHERE condicion] [ORDER BY ...] [LIMIT cantidad_filas]
+```
+
+En el ejemplo que ya teníamos queremos borrar de la tabla fabricante el registo con código 10:
+
+
+```
+SELECT * FROM fabricante;
+
+DELETE
+  FROM fabricante
+  WHERE codigo = 10;
+```
+
+---
+
+
+🧑‍💻 [Select, From, Where](https://www.youtube.com/watch?v=bLocGDEEs0I&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=4)
+
+### Realizar consultas
+
+### SELECT
+
+### FROM
+
+### WHERE
+---
+
+🧑‍💻 [Tablas relacionadas](https://www.youtube.com/watch?v=IiJk53KWJZc&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=5)
+
+:computer: [Join avanzados](https://www.youtube.com/watch?v=5XAkfs3K5ZI&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=6)
+
+:computer: [Order by, Group by, Having](https://www.youtube.com/watch?v=XE-vi6mNcuY&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=7)
 
 
 ---
@@ -561,5 +665,218 @@ DROP DATABASE superheroes;
 ---
 
 ## Ejerccicio 2
+
+Abrir el script llamado “personal-inserts” y ejecutarlo de modo tal que se cree la base
+de datos “personal”, se creen las tablas y se inserten todos los datos en las tablas para
+que quede de la siguiente manera:
+
+| departamentos |
+| ------------- |
+| (PK) id_depto INT |
+| nombre_depto VARCHAR(20) |
+| ciudad VARCHAR(15) |
+| cod_director VARCHAR(12) |
+
+| empleados |
+| --------- |
+| (PK) id_empl INT |
+| nombre CHAR(30) |
+| sex_emp CHAR(1) |
+|fec_nac DATE |
+| sal_emp FLOAT |
+|comision_emp FLOAT |
+| cargo_emp FLOAT(15) |
+| cod_jefe VARCHAR(12) |
+| id_depto INT |
+
+## a) A continuación, realizar las siguientes consultas sobre la base de datos personal:
+
+1. Obtener los datos completos de los empleados.
+
+2. Obtener los datos completos de los departamentos.
+ 
+3. Listar el nombre de los departamentos.
+ 
+4. Obtener el nombre y salario de todos los empleados.
+
+5. Listar todas las comisiones.
+
+6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.
+
+7. Obtener los datos de los empleados vendedores, ordenados por nombre
+alfabéticamente
+
+8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de
+menor a mayor.
+
+9. Elabore un listado donde para cada fila, figure el alias ‘Nombre’ y ‘Cargo’ para
+las respectivas tablas de empleados.
+
+10. Listar los salarios y comisiones de los empleados del departamento 2000,
+ordenado por comisión de menor a mayor.
+
+11. Obtener el valor total a pagar que resulta de sumar el salario y la comisión de los empleados del departamento 3000 una bonificación de 500, en orden alfabético
+del empleado.
+
+12. Muestra los empleados cuyo nombre empiece con la letra J.
+
+13. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de
+aquellos empleados que tienen comisión superior a 1000.
+
+14. Obtener un listado similar al anterior, pero de aquellos empleados que NO
+tienen comisión.
+
+15. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
+
+16. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
+
+17. Hallar los empleados cuyo nombre no contiene la cadena “MA”
+
+18. Obtener los nombres de los departamentos que sean “Ventas” ni “Investigación”
+ni ‘Mantenimiento.
+
+19. Ahora obtener los nombres de los departamentos que no sean “Ventas” ni
+“Investigación” ni ‘Mantenimiento.
+
+20. Mostrar el salario más alto de la empresa.
+
+21. Mostrar el nombre del último empleado de la lista por orden alfabético.
+
+22. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
+
+23. Hallar el salario promedio por departamento. **Consultas con Having**
+
+24. Hallar los departamentos que tienen más de tres empleados. Mostrar el número
+de empleados de esos departamentos.
+
+25. Mostrar el código y nombre de cada jefe, junto al número de empleados que
+dirige. Solo los que tengan más de dos empleados (2 incluido).
+
+26. Hallar los departamentos que no tienen empleados ***Consulta con Subconsulta**
+
+27. Mostrar la lista de los empleados cuyo salario es mayor o igual que el promedio
+de la empresa. Ordenarlo por departamento.
+
+
+---
+
+## Ejercicio 3
+
+Abrir el script de la base de datos llamada “tienda.sql” y ejecutarlo para crear sus tablas e insertar datos en las mismas. A continuación, generar el modelo de entidad relación.
+
+Deberá obtener un diagrama de entidad relación igual al que se muestra a continuación:
+
+| fabricante |
+| ---------- |
+| (PK) codigo INT(10) |
+| nombre VARCHAR(100) |
+
+| producto |
+| -------- |
+| (PK) codigo INT(10) |
+| nombre VARCHAR(100) |
+| precio DOUBLE |
+| codigo_fabricante INT(10) |
+
+A continuación, se deben realizar las siguientes consultas sobre la base de datos:
+
+1. Lista el nombre de todos los productos que hay en la tabla producto.
+
+2. Lista los nombres y los precios de todos los productos de la tabla producto.
+
+3. Lista todas las columnas de la tabla producto.
+
+4. Lista los nombres y los precios de todos los productos de la tabla producto,
+redondeando el valor del precio.
+
+5. Lista el código de los fabricantes que tienen productos en la tabla producto.
+
+10. Lista el código de los fabricantes que tienen productos en la tabla producto, sin
+mostrar los repetidos.
+
+11. Lista los nombres de los fabricantes ordenados de forma ascendente.
+
+12. Lista los nombres de los productos ordenados en primer lugar por el nombre de
+forma ascendente y en segundo lugar por el precio de forma descendente.
+
+13. Devuelve una lista con las 5 primeras filas de la tabla fabricante.
+
+14. Lista el nombre y el precio del producto más barato. (Utilice solamente las cláusulas ORDER BY y LIMIT)
+
+15. Lista el nombre y el precio del producto más caro. (Utilice solamente las cláusulas ORDER BY y LIMIT)
+
+16. Lista el nombre de los productos que tienen un precio menor o igual a $120.
+
+17. Lista todos los productos que tengan un precio entre $60 y $200. Utilizando el
+operador BETWEEN.
+
+18. Lista todos los productos donde el código de fabricante sea 1, 3 o 5. Utilizando el operador IN.
+
+23. Devuelve una lista con el nombre de todos los productos que contienen la cadena
+Portátil en el nombre
+
+## Consultas Multitabla
+
+1. Devuelve una lista con el código del producto, nombre del producto, código del
+fabricante y nombre del fabricante, de todos los productos de la base de datos.
+
+2. Devuelve una lista con el nombre del producto, precio y nombre de fabricante de
+todos los productos de la base de datos. Ordene el resultado por el nombre del
+fabricante, por orden alfabético.
+
+3. Devuelve el nombre del producto, su precio y el nombre de su fabricante, del
+producto más barato.
+
+4. Devuelve una lista de todos los productos del fabricante Lenovo.
+
+5. Devuelve una lista de todos los productos del fabricante Crucial que tengan un
+precio mayor que $200.
+
+6. Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-
+Packard. Utilizando el operador IN.
+
+7. Devuelve un listado con el nombre de producto, precio y nombre de fabricante, de
+todos los productos que tengan un precio mayor o igual a $180. Ordene el resultado
+en primer lugar por el precio (en orden descendente) y en segundo lugar por el
+nombre (en orden ascendente)
+
+
+## Consultas Multitabla
+
+Resuelva todas las consultas utilizando las cláusulas LEFT JOIN y RIGHT JOIN.
+
+1. Devuelve un listado de todos los fabricantes que existen en la base de datos, junto
+con los productos que tiene cada uno de ellos. El listado deberá mostrar también
+aquellos fabricantes que no tienen productos asociados.
+
+2. Devuelve un listado donde sólo aparezcan aquellos fabricantes que no tienen
+ningún producto asociado.
+
+## Subconsultas (En la cláusula WHERE)
+
+Con operadores básicos de comparación
+
+1. Devuelve todos los productos del fabricante Lenovo. (Sin utilizar INNER JOIN).
+
+2. Devuelve todos los datos de los productos que tienen el mismo precio que el
+producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
+
+3. Lista el nombre del producto más caro del fabricante Lenovo.
+
+4. Lista todos los productos del fabricante Asus que tienen un precio superior al precio medio de todos sus productos.
+
+## Subconsultas con IN y NOT IN
+
+1. Devuelve los nombres de los fabricantes que tienen productos asociados.
+(Utilizando IN o NOT IN).
+
+2. Devuelve los nombres de los fabricantes que no tienen productos asociados.
+(Utilizando IN o NOT IN).
+
+
+## Subconsultas (En la cláusula HAVING)
+
+1. Devuelve un listado con todos los nombres de los fabricantes que tienen el mismo
+número de productos que el fabricante Lenovo.
 
 ---
