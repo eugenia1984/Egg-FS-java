@@ -529,6 +529,32 @@ Parte B:
 ```
 # B ) Cambiar en la tabla personajes el año de aparición a 1938 del personaje Superman.
 # A continuación, realizar un listado de toda la tabla para verificar que el personaje haya sido actualizado.
+#MODIFICACION DE REGISTRO
+UPDATE personajes #DE QUE TABLA
+SET aparicion = 1938 #QUE CAMBIO A QUE VALOR
+WHERE id_personaje = 12;  #EN QUE FILA
 ```
+
+Parte C:
+
+```
+# c) Eliminar el registro que contiene al personaje Flash. 
+# A continuación, mostrar toda la tabla para verificar que el registro haya sido eliminado.
+DELETE
+FROM personajes  #de que tabla
+WHERE id_personaje = 10; #que registro (fila) elimino
+# Para ver la tabla personajes y chequear que no esta el registro
+SELECT * from personajes;
+```
+
+Parte D:
+
+```
+# D) Eliminar la base de datos superhéroes.
+DROP TABLE creador;
+DROP TABLE personajes;
+DROP DATABASE superheroes;
+```
+
 
 ---
