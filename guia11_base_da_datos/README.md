@@ -746,6 +746,10 @@ INSERT INTO `departamentos` VALUES (12,'INVESTIGACION','CAPITAL FEDERAL','214587
 INSERT INTO `empleados` values (1, 'Ana Cortez', 'F', '1982-01-20','2021-01-18', 50000, 5000, 'Ventas', '19358685', 1);
 INSERT INTO `empleados` values (2, 'Carlos Martinez', 'M', '1990-02-27','2021-02-18', 51000, 6000, 'Ventas', '19399685', 1);
 INSERT INTO `empleados` values (3, 'Mara Lopez', 'F', '1986-02-16','2018-02-18', 500000, 7000, 'Gerencia', '13399685', 2);
+INSERT INTO `empleados` values (4, 'Maria Sancor', 'F', '1989-02-16','2019-02-18', 80000, 5000, 'Investigacion', '13699685', 10);
+INSERT INTO `empleados` values (5, 'Ana Paula Lopez', 'F', '1998-02-16','2020-02-18', 70000, 7000, 'Mantenimiento', '23399685', 11);
+INSERT INTO `empleados` values (6, 'Agustin Vasquez', 'M', '1993-02-16','2020-08-10', 81000, 5000, 'Investigacion', '16699685', 10);
+INSERT INTO `empleados` values (7, 'Andres Lopez', 'M', '1999-03-18','2021-02-18', 73000, 7000, 'Mantenimiento', '26399685', 11);
 ```
 
 ## a) A continuación, realizar las siguientes consultas sobre la base de datos personal:
