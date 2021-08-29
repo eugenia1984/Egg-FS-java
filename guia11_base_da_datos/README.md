@@ -497,7 +497,7 @@ CREATE TABLE personajes (
     PRIMARY KEY (id_personaje),
     FOREIGN KEY (id_creador) REFERENCES creador (id_creador)
 );
-# A # Inserción de valores a la tabla
+# A ) Inserción de valores a la tabla
 INSERT INTO creador VALUES (1, 'Marvel');
 INSERT INTO creador VALUES (2, 'DC Comics');
 
@@ -516,8 +516,19 @@ INSERT INTO personajes VALUES (11, 'Bruce Wayne', 'Batman', 170, '500', 32, 47, 
 INSERT INTO personajes VALUES (12, 'Clarck Kent', 'Superman', 165, 'infinita', 120, 182, 1948, 'Reportero', 2);
 INSERT INTO personajes VALUES (13, 'Diana Prince', 'Mujer Maravilla', 160, 'infinita', 95, 127, 1949, 'Princesa guerrera', 2);
 
+# Una vez insertados todos los registros realizar una selección de todos los atributos para
+# corroborar que la tablas se encuentren completas.
 #Para ver la tabla creador
 SELECT * from creador;
 # Para ver la tabla personajes
 SELECT * from personajes;
 ```
+
+Parte B:
+
+```
+# B ) Cambiar en la tabla personajes el año de aparición a 1938 del personaje Superman.
+# A continuación, realizar un listado de toda la tabla para verificar que el personaje haya sido actualizado.
+```
+
+---
