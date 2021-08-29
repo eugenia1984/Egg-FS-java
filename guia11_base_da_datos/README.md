@@ -556,5 +556,10 @@ DROP TABLE personajes;
 DROP DATABASE superheroes;
 ```
 
+[ver resolucion](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia11_base_da_datos/ejercicio1.sql)
+
+---
+
+## Ejerccicio 2
 
 ---
