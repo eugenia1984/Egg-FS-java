@@ -459,6 +459,7 @@ Abrir el script llamado “superhéroes” y ejecutarlo de modo tal que se cree 
 | nombre VARCHAR (20) |
 
 | personajes |
+| ---------- |
 | (PK) id_persona INT(11) |
 | nombre_real VARCHAR(20) |
 | personaje VARCHAR(20) |
