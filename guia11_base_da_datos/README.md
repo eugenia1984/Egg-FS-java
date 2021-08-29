@@ -202,7 +202,7 @@ Arriba de todo a la izquierda el segundo **OPEN A SQL SCRIPT FIELD IN A NEW QUER
 Un ejemplo de script
 
 ```
-CREATE DATABASE tienda CHARACTEER SET utf8mb4;
+CREATE DATABASE tienda CHARACTER SET utf8mb4;
 USE tienda;
 
 CREATE TABLE fabricante (
