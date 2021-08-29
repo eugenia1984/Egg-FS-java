@@ -750,6 +750,9 @@ INSERT INTO `empleados` values (4, 'Maria Sancor', 'F', '1989-02-16','2019-02-18
 INSERT INTO `empleados` values (5, 'Ana Paula Lopez', 'F', '1998-02-16','2020-02-18', 70000, 7000, 'Mantenimiento', '23399685', 11);
 INSERT INTO `empleados` values (6, 'Agustin Vasquez', 'M', '1993-02-16','2020-08-10', 81000, 5000, 'Investigacion', '16699685', 10);
 INSERT INTO `empleados` values (7, 'Andres Lopez', 'M', '1999-03-18','2021-02-18', 73000, 7000, 'Mantenimiento', '26399685', 11);
+INSERT INTO `empleados` values (8, 'Andrea Lopez', 'F', '1999-03-18','2021-02-18', 73000, 7000, 'Secretaria', '25399685', 11);
+INSERT INTO `empleados` values (9, 'Andrea Sol Lopez', 'F', '1999-03-18','2021-02-18', 61000, 9000, 'Vendedor', '25229685', 6);
+INSERT INTO `empleados` values (10, 'Marcos Gimenez', 'M', '2001-03-18','2021-02-18', 63000, 7000, 'Vendedor', '25449685', 6);
 ```
 
 ## a) A continuación, realizar las siguientes consultas sobre la base de datos personal:
@@ -769,14 +772,40 @@ SELECT * FROM departamentos;
 ```
 
 ## 3. Listar el nombre de los departamentos.
- 
+
+```
+# 3. Listar el nombre de los departamentos.
+SELECT nombre_depto FROM departamentos; 
+```
+
 ## 4. Obtener el nombre y salario de todos los empleados.
+
+```
+# 4. Obtener el nombre y salario de todos los empleados.
+SELECT nombre, sal_empl FROM empleados;
+```
 
 ## 5. Listar todas las comisiones.
 
+```
+# 5. Listar todas las comisiones.
+SELECT comision_emp FROM empleados;
+```
+
 ## 6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.
 
+```
+# 6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.SELECT * FROM empleados WHERE cargo_emp = 'Secretaria';
+SELECT * FROM empleados WHERE cargo_emp = 'Secretaria';
+```
+
+
 ## 7. Obtener los datos de los empleados vendedores, ordenados por nombre alfabéticamente
+
+```
+# 7. Obtener los datos de los empleados vendedores, ordenados por nombre alfabéticamente
+SELECT * FROM empleados WHERE cargo_emp = 'Vendedor' ORDER BY nombre;
+```
 
 ## 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a mayor.
 
