@@ -882,6 +882,11 @@ SELECT sal_empl, comision_emp FROM empleados WHERE id_depto = 2000 ORDER BY comi
 
 ## 11. Obtener el valor total a pagar que resulta de sumar el salario y la comisión de los empleados del departamento 3000 una bonificación de 500, en orden alfabético del empleado.
 
+```
+# 11. Obtener el valor total a pagar que resulta de sumar el salario y la comisión de los empleados del departamento 3000 una bonificación de 500, en orden alfabético del empleado.
+SELECT (sal_empl + comision_emp + 500) AS SalarioConComisionyBono FROM empleados WHERE id_depto = 3000 ORDER BY nombre ASC;
+```
+
 ## 12. Muestra los empleados cuyo nombre empiece con la letra J.
 
 ## 13. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de aquellos empleados que tienen comisión superior a 1000.
