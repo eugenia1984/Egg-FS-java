@@ -1,5 +1,206 @@
 # Base de datos
 
+# TIPOS DE DATOS
+
+Las columnas de la base de datos almacenan valores que pueden ser de diversos tipos. A
+continuación, se indican los tipos de datos agrupados en tres grupos.
+
+## Tipos de dato numéricos
+
+Listado de cada uno de los tipos de dato numéricos en MySQL, su ocupación en disco y
+valores.
+
+• INT (INTEGER): Ocupación de 4 bytes con valores entre -2147483648 y
+2147483647 o entre 0 y 4294967295.
+
+• SMALLINT: Ocupación de 2 bytes con valores entre -32768 y 32767 o entre 0 y
+65535.
+
+• TINYINT: Ocupación de 1 bytes con valores entre -128 y 127 o entre 0 y 255.
+
+• MEDIUMINT: Ocupación de 3 bytes con valores entre -8388608 y 8388607 o entre
+0 y 16777215.
+
+• BIGINT: Ocupación de 8 bytes con valores entre -8388608 y 8388607 o entre 0 y
+16777215.
+
+• DECIMAL (NUMERIC): Almacena los números de coma flotante como cadenas o
+string.
+
+• FLOAT (m,d): Almacena números de coma flotante, donde ‘m’ es el número de
+dígitos de la parte entera y ‘d’ el número de decimales.
+
+• DOUBLE (REAL): Almacena número de coma flotante con precisión doble. Igual
+que FLOAT, la diferencia es el rango de valores posibles.
+
+• BIT (BOOL, BOOLEAN): Número entero con valor 0 o 1.
+
+## Tipos de dato con formato fecha
+
+Listado de cada uno de los tipos de dato con formato fecha en MySQL, su ocupación en
+disco y valores.
+
+• DATE: Válido para almacenar una fecha con año, mes y día, su rango oscila entre
+‘1000-01-01′ y ‘9999-12-31′.
+
+• DATETIME: Almacena una fecha (año-mes-día) y una hora (horas-minutossegundos),
+su rango oscila entre ‘1000-01-01 00:00:00′ y ‘9999-12-31 23:59:59′.
+
+• TIME: Válido para almacenar una hora (horas-minutos-segundos). Su rango de
+horas oscila entre -838-59-59 y 838-59-59. El formato almacenado es ‘HH:MM:SS’.
+
+• TIMESTAMP: Almacena una fecha y hora UTC. El rango de valores oscila entre
+‘1970-01-01 00:00:01′ y ‘2038-01-19 03:14:07′.
+
+• YEAR: Almacena un año dado con 2 o 4 dígitos de longitud, por defecto son 4. El
+rango de valores oscila entre 1901 y 2155 con 4 dígitos. Mientras que con 2 dígitos
+el rango es desde 1970 a 2069 (70-69).
+
+
+## Tipos de dato con formato string
+
+Listado de cada uno de los tipos de dato con formato string en MySQL, su ocupación en
+disco y valores.
+
+• CHAR: Ocupación fija cuya longitud se especifica entre paréntesis y comprende
+de 1 a 255 caracteres. El espacio no utilizado se rellena con blancos.
+
+• VARCHAR: Ocupación variable cuya longitud comprende de 1 a 255 caracteres.
+
+• SET: Almacena 0, uno o varios valores una lista con un máximo de 64 posibles
+valores.
+
+• ENUM: Igual que SET pero solo puede almacenar un valor.
+
+• TINYTEXT: Una longitud máxima de 255 caracteres. Sirve para almacenar texto
+plano sin formato. Distingue entre minúsculas y mayúsculas.
+
+• TEXT: Una longitud máxima de 65.535 caracteres. Sirve para almacenar texto
+plano sin formato. Distingue entre minúsculas y mayúsculas.
+
+• MEDIUMTEXT: Una longitud máxima de 16.777.215 caracteres. Sirve para
+almacenar texto plano sin formato. Distingue entre minúsculas y mayúsculas.
+
+• LONGTEXT: Una longitud máxima de 4.294.967.298 caracteres. Sirve para
+almacenar texto plano sin formato. Distingue entre minúsculas y mayúsculas.
+
+
+---
+
+## COMANDOS PARA LA MANIPULACIÓN DE BASES DE DATOS
+
+• CREATE: Sirve para crear tablas o un nuevo esquema de base de datos.
+
+• DROP: Sirve para eliminar columnas, tablas o bases de datos.
+
+• ALTER: Se utiliza para modificar la estructura de una tabla, éste puede ser combinado
+con otros comandos como: ADD, DROP, ADD PRIMARY KEY(), ADD FOREIGN KEY(),
+entre otros.
+
+• DESCRIBE: Muestra la estructura de las tablas de la base de datos.
+
+• SHOW TABLES: Muestra las tablas que pertenecen a la base de datos.
+
+
+---
+
+
+## COMANDOS PARA LA MANIPULACIÓN DE INFORMACIÓN
+
+• SELECT: Es utilizado para realizar consultas a la base de datos que cumplan con
+alguna condición.
+
+• INSERT: Es utilizado para la inserción de información en la base de datos.
+
+• UPDATE: Se utiliza para la modificación o actualización de información en la base de
+datos.
+
+• DELETE: Elimina registros de la base de datos.
+
+
+---
+
+## CLÁUSULAS
+
+• FROM: Se utiliza para especificar la tabla o tablas de las cuales se va a seleccionar
+los registros.
+
+• WHERE: Es utilizado para determinar las condiciones que debe cumplir la
+información seleccionada.
+
+• GROUP BY: Sirve para agrupar los registros seleccionados en grupos específicos.
+
+• HAVING: Expresa la condición que debe satisfacer cada grupo.
+
+• ORDER BY: Sirve para ordenar registros de acuerdo a algún campo específico. Esta
+cláusula puede realizarse de forma ascendente o descendente.
+
+---
+
+## CONSULTAS CON PREDICADO
+
+El predicado se incluye entre la cláusula y el primer nombre del campo a recuperar. Los
+posibles predicados son:
+
+| predicado | descripcion |
+| --------- | ----------- |
+| ALL | Devuelve todos los campos de la tabla |
+| TOP | Devuelve un determinado número de registros de la tabla |
+| DISTINC | Omite los registros cuyos campos seleccionados coincidan totalmente |
+| DISTINCROW | Omite los registros duplicados basándose en la totalidad del registro y no en los campos Seleccionados.|
+
+---
+
+## OPERADORES LÓGICOS
+
+	 • AND: Es el equivalente a “y”, devuelve valor de verdad solo si todas las condiciones
+son verdaderas.
+
+	 • OR: Es el equivalente a “o”, devuelve valor de verdad si al menos una de las
+condiciones es verdadera.
+
+	 • NOT: Es el equivalente a negación, devuelve valor verdadero cuando la condición es
+falsa y viceversa.
+
+---
+
+## OPERADORES DE COMPARACIÓN
+
+```
+ <: Menor que.
+ >: Mayor que.
+ <>: Diferente.
+ <=: Menor o igual que.
+ >=: Mayor o igual que.
+ =: Igual que.
+ BETWEEN: Se utiliza para especificar un rango de valores.
+ IN: Se utiliza para especificar registros de una base de datos.
+ LIKE: Se utiliza para comparar patrones de texto pudiendo incluir comodines como los siguientes:
+```
+
+| predicado | descripcion |
+| --------- | ----------- |
+| % | Sustituto para cero o más caracteres. |
+| - | Sustituto para exactamente un carácter |
+| [lista caracteres] | Cualquier carácter de la lista |
+| [^lista caracteres] | Cualquier carácter que no esté en la lista |
+| [!lista caracteres] | Cualquier carácter que no esté en la lista |
+
+
+---
+
+## FUNCIONES DE COLUMNA
+
+```
+• Avg: Devuelve como resultado el promedio de un campo determinado.
+• Count: Devuelve como resultado el número de registros que cumplen una condición.
+• Sum: Devuelve como resultado la suma de los valores de un campo determinado.
+• Max: Devuelve el valor más alto de un campo determinado.
+• Min: Devuelve el valor más bajo de un campo determinado.
+```
+
+---
+
 ## Ejemplos
 
 ```
@@ -816,12 +1017,14 @@ INSERT INTO `empleados` VALUES (898,'Iván Duarte','M','1955-08-12','1998-05-16'
 SELECT * FROM empleados;
 ```
 
+
 ## 2. Obtener los datos completos de los departamentos.
 
 ```
 # 2. Obtener los datos completos de los departamentos.
 SELECT * FROM departamentos;
 ```
+
 
 ## 3. Listar el nombre de los departamentos.
 
@@ -830,6 +1033,7 @@ SELECT * FROM departamentos;
 SELECT nombre_depto FROM departamentos; 
 ```
 
+
 ## 4. Obtener el nombre y salario de todos los empleados.
 
 ```
@@ -837,12 +1041,14 @@ SELECT nombre_depto FROM departamentos;
 SELECT nombre, sal_empl FROM empleados;
 ```
 
+
 ## 5. Listar todas las comisiones.
 
 ```
 # 5. Listar todas las comisiones.
 SELECT comision_emp FROM empleados;
 ```
+
 
 ## 6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.
 
@@ -859,12 +1065,14 @@ SELECT * FROM empleados WHERE cargo_emp = 'Secretaria';
 SELECT * FROM empleados WHERE cargo_emp = 'Vendedor' ORDER BY nombre;
 ```
 
+
 ## 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a mayor.
 
 ```
 # 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a mayor.
 SELECT nombre, cargo_emp FROM empleados ORDER BY sal_empl DESC;
 ```
+
 
 ## 9. Elabore un listado donde para cada fila, figure el alias ‘Nombre’ y ‘Cargo’ para las respectivas tablas de empleados.
 
@@ -873,12 +1081,14 @@ SELECT nombre, cargo_emp FROM empleados ORDER BY sal_empl DESC;
 SELECT nombre AS Nombre, cargo_emp AS Cargo FROM empleados;
 ```
 
+
 ## 10. Listar los salarios y comisiones de los empleados del departamento 2000, ordenado por comisión de menor a mayor.
 
 ```
 # 10. Listar los salarios y comisiones de los empleados del departamento 2000, ordenado por comisión de menor a mayor.
 SELECT sal_empl, comision_emp FROM empleados WHERE id_depto = 2000 ORDER BY comision_emp ASC;
 ```
+
 
 ## 11. Obtener el valor total a pagar que resulta de sumar el salario y la comisión de los empleados del departamento 3000 una bonificación de 500, en orden alfabético del empleado.
 
@@ -887,29 +1097,105 @@ SELECT sal_empl, comision_emp FROM empleados WHERE id_depto = 2000 ORDER BY comi
 SELECT (sal_empl + comision_emp + 500) AS SalarioConComisionyBono FROM empleados WHERE id_depto = 3000 ORDER BY nombre ASC;
 ```
 
+
 ## 12. Muestra los empleados cuyo nombre empiece con la letra J.
+
+```
+# 12. Muestra los empleados cuyo nombre empiece con la letra J.
+SELECT nombre FROM empleados WHERE nombre LIKE 'J%';
+```
+
 
 ## 13. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de aquellos empleados que tienen comisión superior a 1000.
 
+
+```
+# 13. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de aquellos empleados que tienen comisión superior a 1000.
+SELECT sal_empl AS salario, comision_emp AS comision, ( sal_empl + comision_emp) AS 'salario total' FROM empleados WHERE comision_emp > 1000;
+```
+
+
 ## 14. Obtener un listado similar al anterior, pero de aquellos empleados que NO tienen comisión.
+
+```
+# 14. Obtener un listado similar al anterior, pero de aquellos empleados que NO tienen comisión.
+SELECT sal_empl AS salario, comision_emp AS comision, ( sal_empl + comision_emp) AS 'salario total' FROM empleados WHERE comision_emp = 0;
+```
+
 
 ## 15. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
 
+```
+# 15. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
+SELECT nombre AS empleado FROM empleados WHERE comision_emp > sal_empl;
+```
+
+
 ## 16. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
+
+```
+# 16. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
+SELECT nombre AS 'empleado con comision menor o igual al 30 % de su sueldo' FROM empleados WHERE comision_emp <= (sal_empl*0.3);
+```
+
 
 ## 17. Hallar los empleados cuyo nombre no contiene la cadena “MA”
 
-## 18. Obtener los nombres de los departamentos que sean “Ventas” ni “Investigación” ni ‘Mantenimiento.
+```
+# 17. Hallar los empleados cuyo nombre no contiene la cadena “MA”
+SELECT nombre FROM empleados WHERE nombre NOT LIKE '%ma%';
+```
 
-## 19. Ahora obtener los nombres de los departamentos que no sean “Ventas” ni “Investigación” ni ‘Mantenimiento.
+## 18. Obtener los nombres de los departamentos que no sean “Ventas” , “Investigación” o “Mantenimiento”.
+
+```
+# 18. Obtener los nombres de los departamentos que sean “Ventas” , “Investigación” o “Mantenimiento”.
+SELECT nombre_depto FROM departamentos WHERE nombre_depto IN ('Ventas', 'Investigacion', 'Mantenimiento');
+```
+
+
+## 19. Ahora obtener los nombres de los departamentos que no sean “Ventas” ni “Investigación” ni “Mantenimiento”.
+
+```
+# 19. Ahora obtener los nombres de los departamentos que no sean “Ventas” ni “Investigación” ni ‘Mantenimiento.
+SELECT * FROM departamentos WHERE nombre_depto NOT IN ('Ventas', 'Investigacion', 'Mantenimiento'); 
+```
+
 
 ## 20. Mostrar el salario más alto de la empresa.
 
+```
+# 20. Mostrar el salario más alto de la empresa.
+SELECT MAX(sal_empl) AS 'salario maximo' FROM empleados; 
+```
+
+
 ## 21. Mostrar el nombre del último empleado de la lista por orden alfabético.
+
+```
+# 21. Mostrar el nombre del último empleado de la lista por orden alfabético.
+SELECT nombre FROM empleados ORDER BY nombre DESC LIMIT 1;
+```
+
 
 ## 22. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
 
+```
+# 22. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
+SELECT MAX(sal_empl) AS 'salario maximo', MIN(sal_empl) AS 'salario minimo',
+ ( MAX(sal_empl) - MIN(sal_empl) ) AS 'diferencia entre salario maximo y salario minimo' FROM empleados;
+```
+ 
+ 
 ## 23. Hallar el salario promedio por departamento. **Consultas con Having**
+
+```
+# 23. Hallar el salario promedio por departamento. **Consultas con Having**
+SELECT id_depto, AVG(sal_empl) AS 'salario promedio' 
+FROM empleados 
+GROUP BY id_depto;
+```
+
 
 ## 24. Hallar los departamentos que tienen más de tres empleados. Mostrar el número de empleados de esos departamentos.
 
