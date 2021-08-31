@@ -1054,7 +1054,8 @@ SELECT comision_emp FROM empleados;
 
 ```
 # 6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.SELECT * FROM empleados WHERE cargo_emp = 'Secretaria';
-SELECT * FROM empleados WHERE cargo_emp = 'Secretaria';
+SELECT * FROM empleados 
+WHERE cargo_emp = 'Secretaria';
 ```
 
 
@@ -1062,7 +1063,9 @@ SELECT * FROM empleados WHERE cargo_emp = 'Secretaria';
 
 ```
 # 7. Obtener los datos de los empleados vendedores, ordenados por nombre alfabéticamente
-SELECT * FROM empleados WHERE cargo_emp = 'Vendedor' ORDER BY nombre;
+SELECT * FROM empleados 
+WHERE cargo_emp = 'Vendedor'
+ORDER BY nombre;
 ```
 
 
@@ -1070,7 +1073,8 @@ SELECT * FROM empleados WHERE cargo_emp = 'Vendedor' ORDER BY nombre;
 
 ```
 # 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a mayor.
-SELECT nombre, cargo_emp FROM empleados ORDER BY sal_empl DESC;
+SELECT nombre, cargo_emp FROM empleados 
+ORDER BY sal_empl DESC;
 ```
 
 
@@ -1086,7 +1090,9 @@ SELECT nombre AS Nombre, cargo_emp AS Cargo FROM empleados;
 
 ```
 # 10. Listar los salarios y comisiones de los empleados del departamento 2000, ordenado por comisión de menor a mayor.
-SELECT sal_empl, comision_emp FROM empleados WHERE id_depto = 2000 ORDER BY comision_emp ASC;
+SELECT sal_empl, comision_emp FROM empleados 
+WHERE id_depto = 2000 
+ORDER BY comision_emp ASC;
 ```
 
 
@@ -1094,7 +1100,9 @@ SELECT sal_empl, comision_emp FROM empleados WHERE id_depto = 2000 ORDER BY comi
 
 ```
 # 11. Obtener el valor total a pagar que resulta de sumar el salario y la comisión de los empleados del departamento 3000 una bonificación de 500, en orden alfabético del empleado.
-SELECT (sal_empl + comision_emp + 500) AS SalarioConComisionyBono FROM empleados WHERE id_depto = 3000 ORDER BY nombre ASC;
+SELECT (sal_empl + comision_emp + 500) AS SalarioConComisionyBono FROM empleados 
+WHERE id_depto = 3000 
+ORDER BY nombre ASC;
 ```
 
 
@@ -1102,7 +1110,8 @@ SELECT (sal_empl + comision_emp + 500) AS SalarioConComisionyBono FROM empleados
 
 ```
 # 12. Muestra los empleados cuyo nombre empiece con la letra J.
-SELECT nombre FROM empleados WHERE nombre LIKE 'J%';
+SELECT nombre FROM empleados
+WHERE nombre LIKE 'J%';
 ```
 
 
@@ -1111,7 +1120,8 @@ SELECT nombre FROM empleados WHERE nombre LIKE 'J%';
 
 ```
 # 13. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de aquellos empleados que tienen comisión superior a 1000.
-SELECT sal_empl AS salario, comision_emp AS comision, ( sal_empl + comision_emp) AS 'salario total' FROM empleados WHERE comision_emp > 1000;
+SELECT sal_empl AS salario, comision_emp AS comision, ( sal_empl + comision_emp) AS 'salario total' FROM empleados 
+WHERE comision_emp > 1000;
 ```
 
 
@@ -1119,7 +1129,8 @@ SELECT sal_empl AS salario, comision_emp AS comision, ( sal_empl + comision_emp)
 
 ```
 # 14. Obtener un listado similar al anterior, pero de aquellos empleados que NO tienen comisión.
-SELECT sal_empl AS salario, comision_emp AS comision, ( sal_empl + comision_emp) AS 'salario total' FROM empleados WHERE comision_emp = 0;
+SELECT sal_empl AS salario, comision_emp AS comision, ( sal_empl + comision_emp) AS 'salario total' FROM empleados 
+WHERE comision_emp = 0;
 ```
 
 
@@ -1127,7 +1138,8 @@ SELECT sal_empl AS salario, comision_emp AS comision, ( sal_empl + comision_emp)
 
 ```
 # 15. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
-SELECT nombre AS empleado FROM empleados WHERE comision_emp > sal_empl;
+SELECT nombre AS empleado FROM empleados 
+WHERE comision_emp > sal_empl;
 ```
 
 
@@ -1135,7 +1147,8 @@ SELECT nombre AS empleado FROM empleados WHERE comision_emp > sal_empl;
 
 ```
 # 16. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
-SELECT nombre AS 'empleado con comision menor o igual al 30 % de su sueldo' FROM empleados WHERE comision_emp <= (sal_empl*0.3);
+SELECT nombre AS 'empleado con comision menor o igual al 30 % de su sueldo' FROM empleados
+WHERE comision_emp <= (sal_empl*0.3);
 ```
 
 
@@ -1143,14 +1156,16 @@ SELECT nombre AS 'empleado con comision menor o igual al 30 % de su sueldo' FROM
 
 ```
 # 17. Hallar los empleados cuyo nombre no contiene la cadena “MA”
-SELECT nombre FROM empleados WHERE nombre NOT LIKE '%ma%';
+SELECT nombre FROM empleados 
+WHERE nombre NOT LIKE '%ma%';
 ```
 
 ## 18. Obtener los nombres de los departamentos que no sean “Ventas” , “Investigación” o “Mantenimiento”.
 
 ```
 # 18. Obtener los nombres de los departamentos que sean “Ventas” , “Investigación” o “Mantenimiento”.
-SELECT nombre_depto FROM departamentos WHERE nombre_depto IN ('Ventas', 'Investigacion', 'Mantenimiento');
+SELECT nombre_depto FROM departamentos 
+WHERE nombre_depto IN ('Ventas', 'Investigacion', 'Mantenimiento');
 ```
 
 
@@ -1158,7 +1173,8 @@ SELECT nombre_depto FROM departamentos WHERE nombre_depto IN ('Ventas', 'Investi
 
 ```
 # 19. Ahora obtener los nombres de los departamentos que no sean “Ventas” ni “Investigación” ni ‘Mantenimiento.
-SELECT * FROM departamentos WHERE nombre_depto NOT IN ('Ventas', 'Investigacion', 'Mantenimiento'); 
+SELECT * FROM departamentos 
+WHERE nombre_depto NOT IN ('Ventas', 'Investigacion', 'Mantenimiento'); 
 ```
 
 
@@ -1174,7 +1190,8 @@ SELECT MAX(sal_empl) AS 'salario maximo' FROM empleados;
 
 ```
 # 21. Mostrar el nombre del último empleado de la lista por orden alfabético.
-SELECT nombre FROM empleados ORDER BY nombre DESC LIMIT 1;
+SELECT nombre FROM empleados 
+ORDER BY nombre DESC LIMIT 1;
 ```
 
 
