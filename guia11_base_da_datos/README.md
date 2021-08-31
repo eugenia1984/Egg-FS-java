@@ -1030,8 +1030,10 @@ SELECT * FROM departamentos;
 
 ```
 # 3. Listar el nombre de los departamentos.
-SELECT nombre_depto FROM departamentos; 
+SELECT dstinct nombre_depto FROM departamentos; 
 ```
+
+Uso **distinct** para no tener nombres repetidos
 
 
 ## 4. Obtener el nombre y salario de todos los empleados.
@@ -1073,8 +1075,9 @@ ORDER BY nombre;
 
 ```
 # 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a mayor.
-SELECT nombre, cargo_emp FROM empleados 
-ORDER BY sal_empl DESC;
+SELECT nombre, cargo_emp, sal_empl 
+FROM empleados 
+ORDER BY sal_empl ASC;
 ```
 
 
@@ -1082,7 +1085,8 @@ ORDER BY sal_empl DESC;
 
 ```
 # 9. Elabore un listado donde para cada fila, figure el alias ‘Nombre’ y ‘Cargo’ para las respectivas tablas de empleados.
-SELECT nombre AS Nombre, cargo_emp AS Cargo FROM empleados;
+SELECT nombre AS Nombre, cargo_emp AS Cargo 
+FROM empleados;
 ```
 
 
@@ -1304,15 +1308,31 @@ INSERT INTO producto VALUES(11, 'Impresora HP Laserjet Pro M26nw', 180, 3);
 
 ### 1. Lista el nombre de todos los productos que hay en la tabla producto.
 
+```
+# 1. Lista el nombre de todos los productos que hay en la tabla producto.
+SELECT nombre FROM producto;
+```
 
 ### 2. Lista los nombres y los precios de todos los productos de la tabla producto.
 
+```
+# 2. Lista los nombres y los precios de todos los productos de la tabla producto.
+SELECT nombre, precio FROM producto;
+```
 
 ### 3. Lista todas las columnas de la tabla producto.
 
+```
+# 3. Lista todas las columnas de la tabla producto.
+SELECT * FROM producto;
+```
 
-### 4. Lista los nombres y los precios de todos los productos de la tabla producto,
-redondeando el valor del precio.
+### 4. Lista los nombres y los precios de todos los productos de la tabla producto, redondeando el valor del precio.
+
+```
+# 4. Lista los nombres y los precios de todos los productos de la tabla producto, redondeando el valor del precio.
+SELECT nombre, ROUND(precio) FROM producto;
+```
 
 
 ### 5. Lista el código de los fabricantes que tienen productos en la tabla producto.
