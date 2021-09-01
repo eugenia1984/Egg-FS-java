@@ -1470,12 +1470,26 @@ SELECT * FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante 
 
 ### 26. Devuelve todos los datos de los productos que tienen el mismo precio que el producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
 
+```
+SELECT * FROM producto WHERE precio = 
+(SELECT MAX(precio) FROM producto WHERE codigo_fabricante = 2)
+```
+
 
 ### 27. Lista el nombre del producto más caro del fabricante Lenovo.
+
+```
+SELECT nombre FROM producto WHERE precio =
+(SELECT MAX(precio) FROM producto WHERE codigo_fabricante = 2);
+```
 
 
 ### 28. Lista todos los productos del fabricante Asus que tienen un precio superior al precio medio de todos sus productos.
 
+```
+SELECT * FROM producto WHERE codigo_fabricante = 1 AND precio > 
+(SELECT AVG(precio) FROM producto WHERE codigo_fabricante = 1);
+```
 
 ## Subconsultas con IN y NOT IN
 
