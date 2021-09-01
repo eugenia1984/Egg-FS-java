@@ -1207,24 +1207,80 @@ SELECT MAX(sal_empl) AS 'salario maximo', MIN(sal_empl) AS 'salario minimo',
  ( MAX(sal_empl) - MIN(sal_empl) ) AS 'diferencia entre salario maximo y salario minimo' FROM empleados;
 ```
  
+ Otro modo
+ 
+ ```
+ SELECT sal_emp 
+ FROM empleados 
+ ORDER BY sal_emp 
+ DESC LIMIT 1;
+ ```
+ 
  
 ## 23. Hallar el salario promedio por departamento. **Consultas con Having**
 
 ```
-# 23. Hallar el salario promedio por departamento. **Consultas con Having**
+# 23. Hallar el salario promedio por departamento. 
 SELECT id_depto, AVG(sal_empl) AS 'salario promedio' 
 FROM empleados 
 GROUP BY id_depto;
 ```
 
+Con JOIN:
+
+```
+SELECT d.nombre_depto "Departamento", AVG(e.sal_emp) "Promedio"
+FROM empleados AS e
+JOIN departamentos AS d
+ON e.id_depto = d.id_depto
+GROUP BY e.id_depto;
+```
+
+
+**Consultas con Having**
 
 ## 24. Hallar los departamentos que tienen más de tres empleados. Mostrar el número de empleados de esos departamentos.
 
+```
+SELECT departamentos.nombre_depto 'Departamento', departamentos.ciudad 'Localidad'
+FROM departamentos
+JOIN empleados
+ON departamentos.id_depto = empleados.id_depto
+GROUP BY empleados.id_depto
+HAVING COUNT(empleados.id_emp) > 3;
+```
+
+
 ## 25. Mostrar el código y nombre de cada jefe, junto al número de empleados que dirige. Solo los que tengan más de dos empleados (2 incluido).
 
-## 26. Hallar los departamentos que no tienen empleados ***Consulta con Subconsulta**
+```
+SELECT cod_jefe 'Jefe'
+FROM empleados
+GROUP BY cod_jefe
+HAVING COUNT(cod_jefe) >= 2;
+```
+
+
+## 26. Hallar los departamentos que no tienen empleados 
+
+```
+SELECT departamentos.nombre_depto 'Departamento', departamentos.ciudad 'Localidad'
+FROM departamentos
+JOIN empleados
+ON departamentos.id_depto = empleados.id_depto
+GROUP BY empleados.id_depto
+HAVING COUNT(empleados.id_emp) =  3;
+```
+
+***Consulta con Subconsulta**
 
 ## 27. Mostrar la lista de los empleados cuyo salario es mayor o igual que el promedio de la empresa. Ordenarlo por departamento.
+
+```
+SELECT * FROM empleados 
+WHERE sal_empl >= (SELECT AVG(sal_empl) FROM empleados) 
+ORDER BY id_depto;
+```
 
 
 ---
@@ -1359,8 +1415,7 @@ SELECT nombre, ROUND(precio) FROM producto;
 ### 12. Lista el nombre de los productos que tienen un precio menor o igual a $120.
 
 
-### 13. Lista todos los productos que tengan un precio entre $60 y $200. Utilizando el
-operador BETWEEN.
+### 13. Lista todos los productos que tengan un precio entre $60 y $200. Utilizando el operador BETWEEN.
 
 
 ### 14. Lista todos los productos donde el código de fabricante sea 1, 3 o 5. Utilizando el operador IN.
@@ -1409,6 +1464,9 @@ Con operadores básicos de comparación
 
 ### 25. Devuelve todos los productos del fabricante Lenovo. (Sin utilizar INNER JOIN).
 
+```
+SELECT * FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre = 'Lenovo');
+```
 
 ### 26. Devuelve todos los datos de los productos que tienen el mismo precio que el producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
 
