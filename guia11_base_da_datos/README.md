@@ -1504,4 +1504,13 @@ SELECT * FROM producto WHERE codigo_fabricante = 1 AND precio >
 
 ### 31. Devuelve un listado con todos los nombres de los fabricantes que tienen el mismo número de productos que el fabricante Lenovo.
 
+```
+SELECT f.nombre
+FROM fabricante AS f
+JOIN producto AS p
+ON p.codigo_fabricante = f.codigo
+GROUP BY p.codigo_fabricante
+HAVING COUNT(p.codigo) = (SELECT COUNT(codigo) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre LIKE '%lenovo%'));
+```
+
 ---
