@@ -529,14 +529,160 @@ DELETE
 
 ### SELECT
 
+La sentencia SELECT es muy poderosa y ampliamente rica en sus claúsulas y variantes permitiendo la capacidad de atender en poco tiempo a consultas complejas sobra la base de datos.
+
+Está en el especialista desarrollador de aplicaciones conocerlo a profundidad para explotar las bondades y virtudes.
+
+La sentencia SELECR, obtiene filas de la base de datos y permite realizar la selección de una o varias filas o columnas de una o varias tablas.
+
+Formato de la columna:
+
+```
+SELECT nombre_de_las_columnas
+[INTO nueva_tabla_destino_para_los_resultados_del_select]
+FROM tabla_origen
+[WHERE condicion_de_busqueda]
+[GROUP BY nombre_de_columnas_poa_la_cual_agrupar]
+[HAVING condicion_busqueda_para_GROUPBY]
+[ORDER BY nombre_de_columnas [ASC | DESC]]
+```
+
+Se usa para listar las columnas de las tablas que se desean ver en el resultado de una consulta. Además de las columnas se pueden listar columnas a calcular por el SQL  cuando actué la sentencia. Esta clásula no puede omitirse.
+
 ### FROM
 
+Lista las tablas que deben ser analizadas en la evaluación de la expresión de la clásula WHERE y de donde se listarán las columnas enunciadas en el SELECT. Esta cláusula no puede omitirse.
+
 ### WHERE
+
+Establece criterios en el selección de ciertas filas en el resultado de la consulta gracias a las condiciones de búsqueda. Si no se requiere condiciones de búsqueda puede omitirse y el resultado de la sonculta serán todas las filas de las tablas enunciadas.
+
+
+```
+SELECT * FROM fabricante;    #traeme todo de la tabla fabricante
+
+SELECT * FROM fabricante WHERE codigo = 3; #traeme todo de la tabla fabricante que tenga 3 de código
+
+SELECT nombre FROM fabricante WHERE codigo = 5;    # traeme el nombre de la tabla fabricante donde el codigo es 5
+
+SELECT codigo, nombre FROM fabricante WHERE codigo = 3;   # traeme el campo codigo y nombre (los separo entre comas) donde codigo es 3
+
+SELECT * FROM fabricante WHERE codigo = 7;   # traeme todos los campos donde el codigo es 7
+
+SELECT * FROM fabricante WHERE codigo < 7;     #traeme todos los campos que tengan codigo menor a 7 (no incluye el 7)
+
+SELECT * FROM fabricante WHERE nombre = 'Lenovo';   #traeme todos los campos de la tabla fabricante donde tiene de nombre Lenovo
+
+SELECT * FROM fabricante WHERE nacionalidaad = 'CHINA';
+
+SELECT * FROM fabricante WHERE nacionalidaad = 'CHINA' AND nombre = 'Asus';
+
+SELECT * FROM fabricante WHERE nacionalidad = 'JAPON' OR nacionalidad = 'COREA DEL SUR';
+
+SELECT COUNT(*) FROM fabricante;   #COUNT cuenta la cantidad
+
+SELECT COUNT(*) FROM fabricante WHERE nacionalidad = 'JAPON';   #ademas de contarlos le agrego la condición de que la nacionalidad sea Japon
+
+SELECT MAX(CODIGO) FROM fabricante;   #MAX me va a calcular el maximo entre todos los codigos
+
+SELECT MIN(CODIGO) FROM fabricante;
+
+SELECT * FROM fabricante WHERE codigo IN (3,5);  #traeme los registros de la tabla fabricante donde el codigo sea 3 o 5
+
+SELECT * FROM fabricante WHERE nombre LIKE '%su%';  #traeme la tabla fabricante los registros donde en su nombre tengan su en su nombre. Si quiero poner que comience con uso '%J' y si quiero que termine con uso 'J%'
+
+SELECT * FROM fabricante WHERE codigo BETWEEN 2 AND 7;  #todos los registros de la tabla fabricante donde el codigo este entre 2 y 7, el 2 y el 7 los incluye
+```
+
 ---
 
 🧑‍💻 [Tablas relacionadas](https://www.youtube.com/watch?v=IiJk53KWJZc&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=5)
 
+## TABLAS RELACIONADAS
+
+## CLAVE PRIMARIA
+
+Permite que un registro NO sea DUPLICADO dentro de una tabla. Es un registrador único, me aseguro que no hay otro registro con el mismo valor.
+
+Me permite realizar restricciones
+
+```
+codigo INT UNSIGNED PRIMARY KEY;
+```
+
+Y si quiero que se vaya autoincrementando para tener 1,2,3,...
+
+```
+codigo INT UNSIGNED PRIMARY KEY AUTOINCREMENT;
+```
+
+Completo es:
+
+```
+CREATE DATABASE tienda CHARACTER SET utf8mb4;
+
+USE tienda;
+
+CREATE TABLE fabricante (
+	codigo INT UNSIGNED PRIMARY KEY,
+	nombre VARCHAR(100) NOT NULL
+);
+```
+
+
+## CLAVE FORANEA
+
+
+```
+CREATE TABLE producto(
+	codigo INT UNSIGNED PRIMARY KEY,
+	nombre VARCHAR(100) NOT NULL,
+	precio DOUBLE NOT NULL,
+	codigo_fabricante INT UNSIGNED NOT NULL, FOREING KEY (codigo_fabricante) REFERENCES  fabricante(codigo)
+);
+```
+
+**codigo_fabricante** es mi FOREING KEY que me va a relacionar la otra tabla con su PRIMARY KEY **codigo**
+
+
+Sigo con el ejemplo, en este caso usando **ALIAS** a fabricante lo nombramos con la letra **f** y a producto con la letra **p**
+
+En el FROM las tablas se separan por COMAS
+
+WHERE me muestra como se relacionan (vinculan) entre las tablas.
+
+En el SELECT aclaro que columna traer y de qué tabla -> f.nombre es el nombre de la tabla fabricante
+
+```
+SELECT * FROM fabricante;
+
+SELECT * FROM producto;
+
+SELECT f.nombre, p.nombre, p.precio
+	FROM fabricante f, producto p
+	WHERE f.codigo = p.codigo_fabricante;
+	
+```
+
+Traeme lo mismo de la consulta anterior pero que el código sea 7
+
+```
+SELECT f.nombre, p.nombre, p.precio
+	FROM fabricante f, producto p
+	WHERE f.codigo = p.codigo_fabricante;
+	AND f.codigo = 7;
+```
+
+
+```
+
+
+---
+
 :computer: [Join avanzados](https://www.youtube.com/watch?v=5XAkfs3K5ZI&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=6)
+
+
+---
 
 :computer: [Order by, Group by, Having](https://www.youtube.com/watch?v=XE-vi6mNcuY&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=7)
 
@@ -867,9 +1013,9 @@ WHERE id_personaje = 12;  #EN QUE FILA
 
 Parte C: Eliminar el registro que contiene al personaje Flash.
 
+A continuación, mostrar toda la tabla para verificar que el registro haya sido eliminado.
+
 ```
-# c) Eliminar el registro que contiene al personaje Flash. 
-# A continuación, mostrar toda la tabla para verificar que el registro haya sido eliminado.
 DELETE
 FROM personajes  #de que tabla
 WHERE id_personaje = 10; #que registro (fila) elimino
