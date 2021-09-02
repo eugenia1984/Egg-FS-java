@@ -298,6 +298,7 @@ DROP DATABASE superheroes;
 
 
 ---
+
 🧑‍💻 [Introduccion Base de Datos](https://www.youtube.com/watch?v=Thq0vO9v_80&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw)
 
 ## Informacion de los videos
@@ -525,9 +526,7 @@ DELETE
 
 🧑‍💻 [Select, From, Where](https://www.youtube.com/watch?v=bLocGDEEs0I&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=4)
 
-### Realizar consultas
-
-### SELECT
+### Realizar consultas con : SELECT
 
 La sentencia SELECT es muy poderosa y ampliamente rica en sus claúsulas y variantes permitiendo la capacidad de atender en poco tiempo a consultas complejas sobra la base de datos.
 
@@ -549,11 +548,11 @@ FROM tabla_origen
 
 Se usa para listar las columnas de las tablas que se desean ver en el resultado de una consulta. Además de las columnas se pueden listar columnas a calcular por el SQL  cuando actué la sentencia. Esta clásula no puede omitirse.
 
-### FROM
+### Realizar consultas con : FROM
 
 Lista las tablas que deben ser analizadas en la evaluación de la expresión de la clásula WHERE y de donde se listarán las columnas enunciadas en el SELECT. Esta cláusula no puede omitirse.
 
-### WHERE
+### Realizar consultas con : WHERE
 
 Establece criterios en el selección de ciertas filas en el resultado de la consulta gracias a las condiciones de búsqueda. Si no se requiere condiciones de búsqueda puede omitirse y el resultado de la sonculta serán todas las filas de las tablas enunciadas.
 
@@ -598,9 +597,7 @@ SELECT * FROM fabricante WHERE codigo BETWEEN 2 AND 7;  #todos los registros de 
 
 🧑‍💻 [Tablas relacionadas](https://www.youtube.com/watch?v=IiJk53KWJZc&list=PLgwlfcqa5h3wm7w2RoYIQnLL4qD6odOyw&index=5)
 
-## TABLAS RELACIONADAS
-
-## CLAVE PRIMARIA
+## TABLAS RELACIONADAS : CLAVE PRIMARIA
 
 Permite que un registro NO sea DUPLICADO dentro de una tabla. Es un registrador único, me aseguro que no hay otro registro con el mismo valor.
 
@@ -630,7 +627,7 @@ CREATE TABLE fabricante (
 ```
 
 
-## CLAVE FORANEA
+## TABLAS RELACIONADAS : CLAVE FORANEA
 
 
 ```
@@ -660,8 +657,7 @@ SELECT * FROM producto;
 
 SELECT f.nombre, p.nombre, p.precio
 	FROM fabricante f, producto p
-	WHERE f.codigo = p.codigo_fabricante;
-	
+	WHERE f.codigo = p.codigo_fabricante;	
 ```
 
 Traeme lo mismo de la consulta anterior pero que el código sea 7
@@ -674,7 +670,7 @@ SELECT f.nombre, p.nombre, p.precio
 ```
 
 
-```
+
 
 
 ---
@@ -913,6 +909,7 @@ d) MIN()
 Información sacada de las paginas:
 
 [1 - https://www.oracle.com/ar/database/what-is-a-relational-database](https://www.oracle.com/ar/database/what-is-a-relational-database/)
+
 [2 - https://www.geeksforgeeks.org/sql-tutorial/](https://www.geeksforgeeks.org/sql-tutorial/)
 
 ---
@@ -970,7 +967,7 @@ CREATE TABLE personajes (
 );
 ```
 
-## Parte A ) Inserción de valores a la tabla
+### Parte A ) Inserción de valores a la tabla
 
 ```
 # A ) Inserción de valores a la tabla
@@ -1000,7 +997,7 @@ SELECT * from creador;
 SELECT * from personajes;
 ```
 
-Parte B: Cambiar en la tabla personajes el año de aparición a 1938 del personaje Superman.
+### Parte B: Cambiar en la tabla personajes el año de aparición a 1938 del personaje Superman.
 
 ```
 # B ) Cambiar en la tabla personajes el año de aparición a 1938 del personaje Superman.
@@ -1011,7 +1008,7 @@ SET aparicion = 1938 #QUE CAMBIO A QUE VALOR
 WHERE id_personaje = 12;  #EN QUE FILA
 ```
 
-Parte C: Eliminar el registro que contiene al personaje Flash.
+### Parte C: Eliminar el registro que contiene al personaje Flash.
 
 A continuación, mostrar toda la tabla para verificar que el registro haya sido eliminado.
 
@@ -1023,7 +1020,7 @@ WHERE id_personaje = 10; #que registro (fila) elimino
 SELECT * from personajes;
 ```
 
-Parte D: Eliminar la base de datos superhéroes.
+### Parte D: Eliminar la base de datos superhéroes.
 
 ```
 # D) Eliminar la base de datos superhéroes.
@@ -1062,7 +1059,7 @@ que quede de la siguiente manera:
 | id_depto INT |
 
 
-Creo la base de datos de nombre : personal
+### Creo la base de datos de nombre : personal
 
 ```
 # Creo la base de datos de nombre : personal
@@ -1072,7 +1069,7 @@ CREATE DATABASE personal CHARACTER SET utf8mb4;
 USE personal;
 ```
 
-Creo la primer tabla con su PK y columnas
+### Creo la primer tabla con su PK y columnas
 
 ```
 # Creo la primer tabla con su PK y columnas
@@ -1084,7 +1081,7 @@ id_depto INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 );
 ```
 
-Creo la segunda tabla empleados
+### Creo la segunda tabla empleados
 
 ```
 # Creo la segunda tabla
@@ -1103,7 +1100,7 @@ FOREIGN KEY (id_depto) REFERENCES departamentos(id_depto)
 );
 ```
 
-Inserto datos en la tabla departamentos
+### Inserto datos en la tabla departamentos
  
 ```
 # Inserto datos en la tabla departamentos
@@ -1121,7 +1118,7 @@ INSERT INTO `departamentos` VALUES (4200,'MANTENIMIENTO','VALENCIA','16.759.060'
 INSERT INTO `departamentos` VALUES (4300,'MANTENIMIENTO','MADRID','16.759.060');
 ```
 
-Inserto datos en la tabla empleados
+### Inserto datos en la tabla empleados
  
 ```
 #INSERTO DATOS EN LA TABLA EMPLEADOS
@@ -1156,7 +1153,7 @@ INSERT INTO `empleados` VALUES (898,'Iván Duarte','M','1955-08-12','1998-05-16'
 
 ## a) A continuación, realizar las siguientes consultas sobre la base de datos personal:
 
-## 1. Obtener los datos completos de los empleados.
+#### 1. Obtener los datos completos de los empleados.
 
 ```
 # 1. Obtener los datos completos de los empleados.
@@ -1164,7 +1161,7 @@ SELECT * FROM empleados;
 ```
 
 
-## 2. Obtener los datos completos de los departamentos.
+#### 2. Obtener los datos completos de los departamentos.
 
 ```
 # 2. Obtener los datos completos de los departamentos.
@@ -1172,7 +1169,7 @@ SELECT * FROM departamentos;
 ```
 
 
-## 3. Listar el nombre de los departamentos.
+#### 3. Listar el nombre de los departamentos.
 
 ```
 # 3. Listar el nombre de los departamentos.
@@ -1182,7 +1179,7 @@ SELECT dstinct nombre_depto FROM departamentos;
 Uso **distinct** para no tener nombres repetidos
 
 
-## 4. Obtener el nombre y salario de todos los empleados.
+#### 4. Obtener el nombre y salario de todos los empleados.
 
 ```
 # 4. Obtener el nombre y salario de todos los empleados.
@@ -1190,7 +1187,7 @@ SELECT nombre, sal_empl FROM empleados;
 ```
 
 
-## 5. Listar todas las comisiones.
+#### 5. Listar todas las comisiones.
 
 ```
 # 5. Listar todas las comisiones.
@@ -1198,7 +1195,7 @@ SELECT comision_emp FROM empleados;
 ```
 
 
-## 6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.
+#### 6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.
 
 ```
 # 6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.SELECT * FROM empleados WHERE cargo_emp = 'Secretaria';
@@ -1207,7 +1204,7 @@ WHERE cargo_emp = 'Secretaria';
 ```
 
 
-## 7. Obtener los datos de los empleados vendedores, ordenados por nombre alfabéticamente
+#### 7. Obtener los datos de los empleados vendedores, ordenados por nombre alfabéticamente
 
 ```
 # 7. Obtener los datos de los empleados vendedores, ordenados por nombre alfabéticamente
@@ -1217,7 +1214,7 @@ ORDER BY nombre;
 ```
 
 
-## 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a mayor.
+#### 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a mayor.
 
 ```
 # 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a mayor.
@@ -1227,7 +1224,7 @@ ORDER BY sal_empl ASC;
 ```
 
 
-## 9. Elabore un listado donde para cada fila, figure el alias ‘Nombre’ y ‘Cargo’ para las respectivas tablas de empleados.
+#### 9. Elabore un listado donde para cada fila, figure el alias ‘Nombre’ y ‘Cargo’ para las respectivas tablas de empleados.
 
 ```
 # 9. Elabore un listado donde para cada fila, figure el alias ‘Nombre’ y ‘Cargo’ para las respectivas tablas de empleados.
@@ -1236,7 +1233,7 @@ FROM empleados;
 ```
 
 
-## 10. Listar los salarios y comisiones de los empleados del departamento 2000, ordenado por comisión de menor a mayor.
+#### 10. Listar los salarios y comisiones de los empleados del departamento 2000, ordenado por comisión de menor a mayor.
 
 ```
 # 10. Listar los salarios y comisiones de los empleados del departamento 2000, ordenado por comisión de menor a mayor.
@@ -1246,7 +1243,7 @@ ORDER BY comision_emp ASC;
 ```
 
 
-## 11. Obtener el valor total a pagar que resulta de sumar el salario y la comisión de los empleados del departamento 3000 una bonificación de 500, en orden alfabético del empleado.
+#### 11. Obtener el valor total a pagar que resulta de sumar el salario y la comisión de los empleados del departamento 3000 una bonificación de 500, en orden alfabético del empleado.
 
 ```
 # 11. Obtener el valor total a pagar que resulta de sumar el salario y la comisión de los empleados del departamento 3000 una bonificación de 500, en orden alfabético del empleado.
@@ -1256,7 +1253,7 @@ ORDER BY nombre ASC;
 ```
 
 
-## 12. Muestra los empleados cuyo nombre empiece con la letra J.
+#### 12. Muestra los empleados cuyo nombre empiece con la letra J.
 
 ```
 # 12. Muestra los empleados cuyo nombre empiece con la letra J.
@@ -1265,7 +1262,7 @@ WHERE nombre LIKE 'J%';
 ```
 
 
-## 13. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de aquellos empleados que tienen comisión superior a 1000.
+#### 13. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de aquellos empleados que tienen comisión superior a 1000.
 
 
 ```
@@ -1275,7 +1272,7 @@ WHERE comision_emp > 1000;
 ```
 
 
-## 14. Obtener un listado similar al anterior, pero de aquellos empleados que NO tienen comisión.
+#### 14. Obtener un listado similar al anterior, pero de aquellos empleados que NO tienen comisión.
 
 ```
 # 14. Obtener un listado similar al anterior, pero de aquellos empleados que NO tienen comisión.
@@ -1284,7 +1281,7 @@ WHERE comision_emp = 0;
 ```
 
 
-## 15. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
+#### 15. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
 
 ```
 # 15. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
@@ -1293,7 +1290,7 @@ WHERE comision_emp > sal_empl;
 ```
 
 
-## 16. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
+#### 16. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
 
 ```
 # 16. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
@@ -1302,7 +1299,7 @@ WHERE comision_emp <= (sal_empl*0.3);
 ```
 
 
-## 17. Hallar los empleados cuyo nombre no contiene la cadena “MA”
+#### 17. Hallar los empleados cuyo nombre no contiene la cadena “MA”
 
 ```
 # 17. Hallar los empleados cuyo nombre no contiene la cadena “MA”
@@ -1310,7 +1307,7 @@ SELECT nombre FROM empleados
 WHERE nombre NOT LIKE '%ma%';
 ```
 
-## 18. Obtener los nombres de los departamentos que no sean “Ventas” , “Investigación” o “Mantenimiento”.
+#### 18. Obtener los nombres de los departamentos que no sean “Ventas” , “Investigación” o “Mantenimiento”.
 
 ```
 # 18. Obtener los nombres de los departamentos que sean “Ventas” , “Investigación” o “Mantenimiento”.
@@ -1319,7 +1316,7 @@ WHERE nombre_depto IN ('Ventas', 'Investigacion', 'Mantenimiento');
 ```
 
 
-## 19. Ahora obtener los nombres de los departamentos que no sean “Ventas” ni “Investigación” ni “Mantenimiento”.
+#### 19. Ahora obtener los nombres de los departamentos que no sean “Ventas” ni “Investigación” ni “Mantenimiento”.
 
 ```
 # 19. Ahora obtener los nombres de los departamentos que no sean “Ventas” ni “Investigación” ni ‘Mantenimiento.
@@ -1328,7 +1325,7 @@ WHERE nombre_depto NOT IN ('Ventas', 'Investigacion', 'Mantenimiento');
 ```
 
 
-## 20. Mostrar el salario más alto de la empresa.
+#### 20. Mostrar el salario más alto de la empresa.
 
 ```
 # 20. Mostrar el salario más alto de la empresa.
@@ -1336,7 +1333,7 @@ SELECT MAX(sal_empl) AS 'salario maximo' FROM empleados;
 ```
 
 
-## 21. Mostrar el nombre del último empleado de la lista por orden alfabético.
+#### 21. Mostrar el nombre del último empleado de la lista por orden alfabético.
 
 ```
 # 21. Mostrar el nombre del último empleado de la lista por orden alfabético.
@@ -1345,7 +1342,7 @@ ORDER BY nombre DESC LIMIT 1;
 ```
 
 
-## 22. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
+#### 22. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
 
 ```
 # 22. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
@@ -1363,7 +1360,7 @@ SELECT MAX(sal_empl) AS 'salario maximo', MIN(sal_empl) AS 'salario minimo',
  ```
  
  
-## 23. Hallar el salario promedio por departamento. **Consultas con Having**
+#### 23. Hallar el salario promedio por departamento. **Consultas con Having**
 
 ```
 # 23. Hallar el salario promedio por departamento. 
@@ -1385,7 +1382,7 @@ GROUP BY e.id_depto;
 
 **Consultas con Having**
 
-## 24. Hallar los departamentos que tienen más de tres empleados. Mostrar el número de empleados de esos departamentos.
+#### 24. Hallar los departamentos que tienen más de tres empleados. Mostrar el número de empleados de esos departamentos.
 
 ```
 SELECT departamentos.nombre_depto 'Departamento', departamentos.ciudad 'Localidad'
@@ -1397,7 +1394,7 @@ HAVING COUNT(empleados.id_emp) > 3;
 ```
 
 
-## 25. Mostrar el código y nombre de cada jefe, junto al número de empleados que dirige. Solo los que tengan más de dos empleados (2 incluido).
+#### 25. Mostrar el código y nombre de cada jefe, junto al número de empleados que dirige. Solo los que tengan más de dos empleados (2 incluido).
 
 ```
 SELECT cod_jefe 'Jefe'
@@ -1407,7 +1404,7 @@ HAVING COUNT(cod_jefe) >= 2;
 ```
 
 
-## 26. Hallar los departamentos que no tienen empleados 
+#### 26. Hallar los departamentos que no tienen empleados 
 
 ```
 SELECT departamentos.nombre_depto 'Departamento', departamentos.ciudad 'Localidad'
@@ -1420,7 +1417,7 @@ HAVING COUNT(empleados.id_emp) =  3;
 
 ***Consulta con Subconsulta**
 
-## 27. Mostrar la lista de los empleados cuyo salario es mayor o igual que el promedio de la empresa. Ordenarlo por departamento.
+#### 27. Mostrar la lista de los empleados cuyo salario es mayor o igual que el promedio de la empresa. Ordenarlo por departamento.
 
 ```
 SELECT * FROM empleados 
@@ -1449,7 +1446,7 @@ Deberá obtener un diagrama de entidad relación igual al que se muestra a conti
 | precio DOUBLE |
 | codigo_fabricante INT(10) |
 
-Importo del script:
+#### Importo del script:
 
 ```
 DROP DATABASE IF EXISTS tienda;
@@ -1457,7 +1454,7 @@ CREATE DATABASE tienda CHARACTER SET utf8mb4;
 USE tienda;
 ```
 
-Creo la tabla fabricante:
+#### Creo la tabla fabricante:
 
 ```
 CREATE TABLE fabricante (
@@ -1466,7 +1463,7 @@ CREATE TABLE fabricante (
 );
 ```
 
-Creo la tabla producto:
+#### Creo la tabla producto:
 
 ```
 CREATE TABLE producto (
@@ -1478,7 +1475,8 @@ CREATE TABLE producto (
 );
 ```
 
-Inserto los datos en la tabla fabricante:
+#### Inserto los datos en la tabla fabricante:
+
 ```
 INSERT INTO fabricante VALUES(1, 'Asus');
 INSERT INTO fabricante VALUES(2, 'Lenovo');
@@ -1491,7 +1489,8 @@ INSERT INTO fabricante VALUES(8, 'Huawei');
 INSERT INTO fabricante VALUES(9, 'Xiaomi');
 ```
 
-Inserto los datos en la tabla productos:
+#### Inserto los datos en la tabla productos:
+
 ```
 INSERT INTO producto VALUES(1, 'Disco duro SATA3 1TB', 86.99, 5);
 INSERT INTO producto VALUES(2, 'Memoria RAM DDR4 8GB', 120, 6);
