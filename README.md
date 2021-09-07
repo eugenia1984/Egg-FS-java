@@ -35,6 +35,8 @@ In each unit you will see: theory, questions to understand theory and exercises.
    * [**Unit 10**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia10_excepciones) : **Exceptions**
    
    * [**Unit 11**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia11_base_da_datos) : **Data Base**
+   
+   * [**Unit 12**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia12_jdbc): **JDBC**
  
  
 ---
@@ -106,6 +108,8 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
    * [**Unidad 10**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia10_excepciones) : **Excepciones**
    
    *  [**Unidad 11**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia11_base_da_datos) : **Base de  Datos**
+   *  
+   *  [**Unidad 12**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia12_jdbc): **JDBC**
    
    
 ---   
