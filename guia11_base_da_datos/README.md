@@ -1029,7 +1029,7 @@ DROP TABLE personajes;
 DROP DATABASE superheroes;
 ```
 
-[ver resolucion](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia11_base_da_datos/ejercicio1.sql)
+:computer: [ver resolucion en archivo .sql](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia11_base_da_datos/ejercicio1.sql)
 
 ---
 
@@ -1424,6 +1424,9 @@ SELECT * FROM empleados
 WHERE sal_empl >= (SELECT AVG(sal_empl) FROM empleados) 
 ORDER BY id_depto;
 ```
+
+
+:computer: [ejercicios en archivo .sql](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia11_base_da_datos/ejercicio2.sql)
 
 
 ---
