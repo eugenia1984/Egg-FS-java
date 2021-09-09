@@ -140,7 +140,6 @@ La clase DriverManager permite obtener objetos Connection con la base de datos.
 Para conectarse es necesario proporcionar:
 
    * URL de conexión, que incluye:
-   * 
 o Nombre del host donde está la base de datos.
 o Nombre de la base de datos a usar.
 
