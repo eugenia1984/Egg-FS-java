@@ -755,4 +755,6 @@ g) Ingresar un fabricante a la base de datos
 h) Editar un producto con datos a elección.
 
 
+:computer: [Ejercicio resuelto en -> **TiendaJDBC**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia12_jdbc/TiendaJDBC)
+
 ---
