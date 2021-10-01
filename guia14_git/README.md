@@ -141,7 +141,7 @@ git version 2.9.2
 ```
 
 2) Otra forma es instalar Git mediante HomeBrew:
-3) 
+
 Homebrew instala una lista de paquetes útiles que no vienen preinstalados en Mac.
 
 A. Pegue el siguiente comando en su terminal para instalar Homebrew:
@@ -866,7 +866,7 @@ reclamar
 
 ##  PREGUNTAS DE APRENDIZAJE
 
-1) ¿Qué es Git?
+#### 1) ¿Qué es Git?
 
 a) Una plataforma de repositorios remotos
 
@@ -876,9 +876,12 @@ c) Un lenguaje de programación
 
 d) Un sistema de control de versiones
 
+**Respuesta D -> Git es un sistema de control de versiones**
 
-2) ¿Qué es GitHub?
-3) 
+
+
+####  2) ¿Qué es GitHub?
+
 a) Una plataforma de repositorios remotos
 
 b) Un nombre para GitHub
@@ -887,8 +890,10 @@ c) Un lenguaje de programación
 
 d) Un sistema de control de versiones
 
+**Respuesta A -> GitHub es una plataforma de repositorios remotos**
 
-3) ¿Que comando usamos para iniciar un repositorio de manera local?
+
+####  3) ¿Que comando usamos para iniciar un repositorio de manera local?
 
 a) Git clone
 
@@ -898,8 +903,10 @@ c) Git init
 
 d) Git status
 
+**Respuesta C -> para iniciar un repositorio de manera local utilizamos** ```git init```
 
-4) ¿Que comando usamos para obtener la información de nuestra rama?
+
+####  4) ¿Que comando usamos para obtener la información de nuestra rama?
 
 a) Git help
 
@@ -909,8 +916,10 @@ c) Git info
 
 d) Git status
 
+**Respuesta D ->** ```git status``` 
 
-5) ¿Que comando usamos para incluir los cambios en el repositorio local?
+
+####  5) ¿Que comando usamos para incluir los cambios en el repositorio local?
 
 a) Git add
 
@@ -920,8 +929,10 @@ c) Git status
 
 d) Git init
 
+**Respuesta A ->** ```git add```
 
-6) ¿Que comando usamos para guardar nuestros cambios en el repositorio local?
+
+####  6) ¿Que comando usamos para guardar nuestros cambios en el repositorio local?
 
 a) Git clone
 
@@ -931,8 +942,10 @@ c) Git commit
 
 d) Git add
 
+**Respuesta C -> para confirmar los conbios que están en STAGE area** ``git commit -m " el mensaje"```
 
-7) ¿Que comando usamos para enviar nuestros cambios al repositorio remoto?
+
+####  7) ¿Que comando usamos para enviar nuestros cambios al repositorio remoto?
 
 a) Git send
 
@@ -942,8 +955,10 @@ c) Git pull
 
 d) Git remote
 
+**Respuesta B**  ```git push```
 
-8) ¿Que comando usamos para crear una rama?
+
+####  8) ¿Que comando usamos para crear una rama?
 
 a) Git branch
 
@@ -953,8 +968,10 @@ c) Git clone
 
 d) Git init
 
+**Respuesta A** ```git branch -b monreRama```
 
-9) ¿Que comando usamos para unir los cambios de dos ramas?
+
+####  9) ¿Que comando usamos para unir los cambios de dos ramas?
 
 a) Git merge
 
@@ -964,8 +981,10 @@ c) Git pull
 
 d) Git push
 
+**Respuesta A** ```git merge```
 
-10) Para unir nuestros cambios de dos ramas en el repositorio remoto vamos a usar:
+
+####  10) Para unir nuestros cambios de dos ramas en el repositorio remoto vamos a usar:
 
 a) Pull Request
 
@@ -976,7 +995,8 @@ c) Pull Merge
 d) Ninguna de las anteriores
 
 
-11) ¿Que comando usamos para clonar un repositorio de GitHub?
+
+####  11) ¿Que comando usamos para clonar un repositorio de GitHub?
 
 a) Git pull
 
@@ -985,6 +1005,8 @@ b) Git clone
 c) Git download
 
 d) Git remote
+
+**Respuesta B** ```git clone```
 
 ---
 
