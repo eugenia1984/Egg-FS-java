@@ -2776,4 +2776,346 @@ right-top
  |        |
  ----------
 ```		       
-		       
+		
+---
+
+## PSEUDO-CLASES
+				
+CSS también permite aplicar diferentes estilos a un mismo enlace en función de su estado.
+De esta forma, es posible cambiar el aspecto de un enlace cuando por ejemplo el usuario
+pasa el ratón por encima o cuando el usuario pincha sobre ese enlace.
+				
+Como con los atributos id o class no es posible aplicar diferentes estilos a un mismo
+elemento en función de su estado, CSS introduce un nuevo concepto llamado pseudoclases.
+				
+En concreto, CSS define las siguientes cuatro pseudo-clases:
+				
+• :link, aplica estilos a los enlaces que apuntan a páginas o recursos que aún no han
+sido visitados por el usuario.
+				
+• :visited, aplica estilos a los enlaces que apuntan a recursos que han sido visitados
+anteriormente por el usuario. El historial de enlaces visitados se borra
+automáticamente cada cierto tiempo y el usuario también puede borrarlo
+manualmente.
+				
+• :hover, aplica estilos al enlace sobre el que el usuario ha posicionado el puntero del
+ratón.
+				
+• :active, aplica estilos al enlace que está clickeado el usuario.
+				
+---	
+
+# BOOTSTRAP
+				
+Es un framework de interfaz de usuario, de código abierto, creado para un desarrollo web
+más rápido y sencillo. Mark Otto y Jacob Thornton fueron los creadores iniciales. El
+framework combina CSS y JavaScript para estilizar los elementos de una página HTML.
+				
+Contiene todo tipo de plantillas de diseño basadas en HTML y CSS para diversas funciones
+y componentes, como navegación, sistema de cuadrícula, carruseles de imágenes y
+botones.
+				
+Si bien Bootstrap ahorra tiempo al desarrollador de tener que administrar las plantillas
+repetidamente, su objetivo principal es crear sitios responsive. Permite que la interfaz de
+usuario de un sitio web funcione de manera óptima en todos los tamaños de pantalla, ya
+sea en teléfonos de pantalla pequeña o en dispositivos de escritorio de pantalla grande.
+Por lo tanto, los desarrolladores no necesitan crear sitios específicos para dispositivos y
+limitar su rango de audiencia.		
+
+## ARCHIVOS PRIMARIOS DE BOOTSRAP
+				
+Ya sabemos qué es Bootstrap; consiste en una colección de sintaxis que realizan funciones
+específicas. Debido a esto, tiene sentido que el marco tenga solo tres diferentes tipos de
+archivos. A continuación, detallamos los tres archivos principales que administran esta
+interfaz de usuario y la funcionalidad de un sitio web.
+				
+##  BOOTSTRAP.CSS
+				
+Esta es la hoja de estilos de bootstrap, gracias a esta podremos implementar estilos ya
+definidos y asi estilizar nuestra pagina de una manera sencilla. Además las plantillas que
+contiene bootstrap, usan esta hoja de estilos.
+				
+##  BOOTSTRAP.JS
+				
+Este archivo es la parte principal de Bootstrap. Consiste en archivos JavaScript que son
+responsables de la interactividad del sitio web.
+				
+##  CÓMO USAR BOOTSTRAP
+				
+Para utilizar bootstrap lo único que vamos a tener que hacer es ir a estas dos paginas:
+				
+[https://getbootstrap.com/docs/4.5/getting-started/introduction/#css](https://getbootstrap.com/docs/4.5/getting-started/introduction/#css)
+				
+[https://getbootstrap.com/docs/4.5/getting-started/introduction/#js](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js)
+				
+Dentro de estas dos paginas vamos a encontrar una etiqueta link para el CSS de Bootstrap
+y unas etiquetas script para el Javascript de Bootstrap.
+				
+Para poder usar Bootstrap lo que haremos es pegar el link con la hoja de estilos de
+Bootstrap en la etiqueta ```<head>``` de nuestro html y las etiquetas script antes de la etiqueta
+de cierre ```</body>```.
+				
+```	
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+  integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <title>Pagina con bootstrap</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-
+  DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+  crossorigin="anonymous"></script>
+</body>
+</html>				
+```
+Una vez que hemos hecho esto, ya podemos usar Bootstrap y sus plantilas.
+			 
+## PLANTILLAS
+			 
+Dado que es uno de los framework más utilizados, podemos encontrar un amplio abanico
+de marcos de trabajo pensados y diseñados a partir de los componentes y estilos que
+presenta Bootstrap, de modo que existen variables y ejemplos listos para utilizar en
+proyectos específicos.
+			 
+[https://themes.getbootstrap.com/official-themes/](https://themes.getbootstrap.com/official-themes/)
+			 
+---	
+			 
+## PREGUNTAS DE APRENDIZAJE
+
+			 
+####  1) ¿Qué significa el acrónimo HTML?:
+			 
+a) Hyper Text Mask Language.
+			 
+**b) Hard Text Markup Language.**
+			 
+c) Hyper Text Markup Language.
+			 
+d) Hard Text Mask Language.
+
+			 
+#### 2) HTML es un lenguaje:
+			 
+a) De programación.
+			 
+**b) De marcado.**
+			 
+c) Hablado.
+			 
+d) Ninguno de los anteriores.
+
+			 
+#### 3) La etiqueta que encierra todo el contenido de una página es:
+			 
+a) <head></head>
+			 
+b) <body></body>
+			 
+c) !DOCTYPE
+			 
+d) <html></html>
+
+			 
+#### 4) La etiqueta que es el contenedor de todo aquello que se va incluir en el html es:
+			 
+a) <head></head>
+			 
+b) <body></body>
+			 
+c) !DOCTYPE
+			 
+d) <html></html>
+
+			 
+#### 5) La etiqueta que encierra todo el contenido visible al usuario es:
+			 
+a) <head></head>
+			 
+**b) <body></body>**
+			 
+c) !DOCTYPE
+			 
+d) <html></html>
+
+			 
+#### 6) ¿Cuál de estos no es un atributo básico?
+			 
+a) id
+			 
+b) class
+			 
+c) style
+			 
+d) align
+
+			 
+#### 7) En relación a HTML cual de estas es verdadera:
+			 
+a) Todas las etiquetas deben ir en minúsculas -> pueden ir en mayúsucla, pero como HTML a veces va con otros lenguajes, se recomeinda usar minúsculas
+			 
+b) Todas las etiquetes tienen apertura y cierre -> hayetiquetas, como **img** o **br** que son self-closed, se cierran ellas mismas
+			 
+**c) HTML5 es la ultima versión de HTML**
+			 
+d) Ninguna es cierta
+
+			 
+#### 8) ¿Cuál es la etiqueta para indicar un salto de línea?
+			 
+a) </br> -> br no tiene etiqueta de cierre
+			 
+b) <breakLine> -> no e suna etiqueta
+			 
+**c) <br>**
+			 
+d) <hr> -< es para hacer una linea
+
+			 
+#### 9) ¿Cuál es la etiqueta para poner texto en negrita?
+			 
+**a) <strong></strong>**
+			 
+b) <bold></bold> -> también la pone en negrita, pero strong tiene más significado semático, además de indicarla en negrita dice que es importante
+			 
+c) <i></i> -> es italic, para cursiva
+			 
+d) <u></u> -> es underline, para subrayado
+
+			 
+#### 10) ¿Qué etiqueta se usa para escribir una lista no ordenada?
+			 
+a) <ol> -> es para una lista ordenada 
+			 
+**b) <ul>**
+			 
+c) <li>
+			 
+d) <list>
+
+			 
+#### 11) ¿Qué etiqueta se usa para denominar cada fila en una tabla html?
+			 
+a) <tr>
+			 
+b) <td>
+			 
+c) <th>
+			 
+d) <li>
+
+			 
+#### 12) ¿Qué atributo debe ir siempre en la etiqueta <a>?
+			 
+a) src
+			 
+b) align
+			 
+**c) href** -> me indica hacia donde me lleva el anchor (enlace / link)
+			 
+d) alt
+
+			 
+#### 13) ¿Qué significa CSS?
+			 
+**a) Cascading Style Sheets**
+			 
+b) Coded Style Sheets
+			 
+c) Color Style Sheets
+			 
+d) Carrot Soup Sauce
+
+			 
+#### 14) En que parte del HTML podemos agregar la hoja de estilos
+			 
+a) <Body>
+			 
+**b) <Head>** -> ncerrado de las etiquetas de **style**
+			 
+c) <Footer>
+			 
+d) <Nav>
+
+			 
+####  15) La etiqueta para agregar el archivo CSS a el archivo HTML es:
+			 
+a) <head>
+			 
+**b) <link>**
+			 
+c) <css>
+			 
+d) <meta>
+
+			 
+####  16) Para delimitar un bloque de CSS usamos:
+			 
+**a) Llaves {}**
+			 
+b) Parentesis ()
+			 
+c) Comas ,,
+			 
+d) Corchetes []
+			
+			 
+####  17) ¿Cual de estos no es un tipo de selector?
+			 
+a) Selector de Clase
+			 
+b) Selector de Etiqueta
+			 
+c) Selector Universal
+			 
+**d) Selector de Cascada**
+	
+			 
+####  18) En relación al atributo class cual es cierta:
+			 
+a) No se puede repetir en dos elementos
+			 
+**b) Es reutilizable**
+			 
+c) Debe ir siempre
+			 
+d) Ninguna es cierta
+
+			 
+#### 19) ¿Cuál de estas no es una unidad de medida en CSS?
+			 
+a) Puntos
+			 
+b) Pulgadas
+			 
+c) Pies
+			 
+d) Milimetros
+			 
+#### 20) ¿Cuál de estas no es una manera de especificar colores en CSS?
+			 
+a) RGB
+			 
+**b) Binario**
+			 
+c) Nombre
+			 
+d) Hexadecimal
+			 
+			 
+#### 21) ¿Cuál de estos atributos no es parte del modelo de caja?
+			 
+a) Margen
+			 
+b) Relleno
+			 
+c) Borde
+			 
+**d) Longitud**
+			 
+---			 
