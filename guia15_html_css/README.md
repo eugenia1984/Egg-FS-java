@@ -72,7 +72,7 @@ de párrafo (<p>):
 
 **etiqueta de apertura** ->```<p>```
 
-**etiqueta de cierre** ->`` </p>```
+**etiqueta de cierre** ->``` </p>```
 
 **contenido** ->```Mi gato es muy gruñon ```
 
@@ -1040,3 +1040,238 @@ Aquí tenéis un ejemplo de estructura de tabla con la etiqueta th:
   ```
   
 ---  
+  
+ ## ATRIBUTOS PARA TABLAS, FILAS Y CELDAS
+
+A partir de esta idea simple y sencilla, las tablas adquieren otra magnitud cuando les
+incorporamos toda una cantidad de atributos aplicados sobre cada tipo de etiquetas que
+las componen.
+
+En cuanto a atributos para tabla hay unos cuantos. Muchos los conoces ya de otras
+etiquetas, como width, height, align, etc. Hay otros que son especialmente creados para las
+etiquetas TABLE.
+
+• **cellspacing**: es el espacio entre celdas de la tabla.
+
+• **cellpadding**: es el espacio entre el borde de la celda y su contenido.
+
+• **border**: es el número de píxeles que tendrá el borde de la tabla.
+
+• **bordercolor**: es el rbg que le vas a asignar al borde de la tabla.
+
+En cuanto a las etiquetas "interiores" de una tabla, nos referimos a TR y TD, ten en cuenta:
+
+• Podemos usar prácticamente cualquier tipo de etiqueta dentro de la etiqueta TD
+para, de esta forma, escribir su contenido.
+
+• Las etiquetas situadas en el interior de la celda no modifican el resto del
+documento.
+
+• Las etiquetas de fuera de la celda no son tenidas en cuenta por ésta.
+
+Así pues, podemos especificar el formato de nuestras celdas a partir de etiquetas
+introducidas en su interior o mediante atributos colocados dentro de la etiqueta de celda
+TD o bien, en algunos casos, dentro de la etiqueta TR, si deseamos que el atributo sea
+valido para toda la línea. La forma más útil y actual de dar forma a las celdas es a partir de
+las hojas de estilo en cascada que ya tendréis la oportunidad de abordar más adelante.
+
+Empecemos viendo atributos que nos permiten modificar una celda en concreto o toda
+una línea:
+
+• **align**: Justifica el texto de la celda del mismo modo que si fuese el de un párrafo.
+
+• **valign**: Podemos elegir si queremos que el texto aparezca arriba (top), en el centro
+(middle) o abajo (bottom) de la celda.
+
+• **bgcolor**: Da color a la celda o línea elegida.
+
+• **bordercolor**: Define el color del borde.
+
+Otros atributos que pueden ser únicamente asignados a una celda y no al conjunto de
+celdas de una línea son:
+
+• **background**: Nos permite colocar un fondo para la celda a partir de un enlace o una
+imagen.
+
+• **height**: Define la altura de la celda en pixeles o porcentaje.
+
+• **width**: Define la anchura de la celda en pixeles o porcentaje.
+
+• **colspan**: Expande una celda horizontalmente.
+
+• **rowspan**: Expande una celda verticalmente.
+
+Estos últimos cuatro atributos descritos son de gran utilidad. Concretamente, height y
+width nos ayudan a definir las dimensiones de nuestras celdas de una forma absoluta (en
+pixeles o puntos de pantalla) o de una forma relativa, es decir por porcentajes referidos al
+tamaño total de la tabla.
+
+posible expandir celdas fusionando éstas con sus vecinas. El valor que pueden tomar estas
+etiquetas es numérico. El número representa la cantidad de celdas fusionadas.
+
+Así:
+```
+<td colspan="2">
+```
+El resto de los atributos presentados presentan una utilidad y uso bastante obvios. Los
+dejamos a vuestra propia investigación.
+
+---
+
+## FORMULARIOS HTML
+
+
+Hasta ahora hemos visto la forma en la que el HTML gestiona y muestra la información,
+esencialmente mediante texto, imágenes y enlaces. Nos queda por ver de qué forma
+podemos intercambiar información con nuestro visitante. Desde luego, este nuevo aspecto
+resulta primordial para gran cantidad de acciones que se pueden llevar a cabo mediante la
+Web: comprar un articulo, rellenar una encuesta, enviar un comentario al autor, registrar un
+usuario, etc.
+
+
+Los formularios son esas famosas cajas de texto y botones que podemos encontrar en
+muchas páginas web. Son muy utilizados para realizar búsquedas o bien para introducir
+datos personales por ejemplo en sitios de comercio electrónico. Los datos que el usuario
+introduce en estos campos son enviados al correo electrónico del administrador del
+formulario o bien a un programa que se encarga de procesarlo automáticamente. Nosotros
+en esta guía no vamos a mostrar como enviar la información al mail, ya que nos interesa,
+más adelante poder manejar esa información.
+
+##  QUÉ SE PUEDE HACER CON UN FORMULARIO
+
+Usando HTML podemos únicamente enviar el contenido del formulario a un correo
+electrónico, es decir, construir un formulario con diversos campos y, a la hora pulsar el
+botón de enviar, generar un mensaje de que se ha registrado con éxito la información.
+
+Pero para todo lo que sea manejar esa información y guardarla, por ejemplo, en una base
+de datos vamos a tener que utilizar Java. Como lo haremos lo veremos más adelante en el
+curso.
+
+Así pues, en resumen, con HTML podremos construir los formularios, con diversos tipos de
+campos, como cajas de texto, botones de radio, cajas de selección, menús desplegables,
+etc. Sin embargo, debe quedar claro que desde HTML no se puede manejar esta
+información para guardarla o enviarla a algún correo, etc. Eso será trabajo de Java.
+
+## CÓMO HACER UN FORMULARIO EN HTML
+
+
+Los formularios son definidos por medio de las etiquetas FORM y su cierre. Entre estas dos
+etiquetas colocaremos todos los campos y botones que componen el formulario. Dentro
+de esta etiqueta FORM debemos especificar algunos atributos
+
+**action**: define el tipo de acción a llevar a cabo con el formulario. Como ya hemos dicho,
+existen dos posibilidades:
+
+• El formulario es enviado a una dirección de correo electrónico. Para esto hay que
+poner el mail en el action.
+
+• El formulario es enviado a un programa o script que procesa su contenido. Esta es
+la posibilidad que más no interesa.
+
+```
+<form action="ruta del método que va a manejar la información"></form>
+```
+
+**method**: Este atributo se encarga de especificar la forma en la que el formulario es enviado.
+Los dos valores posibles que puede tomar esta atributo son **POST** y **GET**. A efectos
+prácticos y, salvo que se os diga lo contrario, daremos siempre el valor POST. Estos
+conceptos de POST y GET, lo veremos más adelante en el curso.
+
+**enctype**: Se utiliza para indicar la forma en la que viajará la información que se mande por
+el formulario. En el caso más corriente, enviar el formulario por correo electrónico, el valor
+de este atributo debe de ser "text/plain". Así conseguimos que se envíe el contenido del
+formulario como texto plano dentro del email. Si fuéramos a enviar una imagen dentro del
+formulario, este atributo debería ser “multipart/form-data”. También todos estos conceptos
+vamos a verlos más adelante.
+
+Este ultimo atributo puede que esté como que no esté, las otras dos si vamos a guardar la
+información de nuestro formulario en Java, van a estar siempre.
+
+###  EJEMPLO DE ETIQUETA FORM COMPLETA
+
+Entonces con todo lo anterior ya explicado, la etiqueta completa nos quedaría así:
+
+```
+<form action="ruta del metodo que va a manejar la información" method="POST" enctype="multipart/form-data"></form>
+```
+
+Entre esta etiqueta y su cierre colocaremos el resto de etiquetas que darán forma a nuestro
+formulario.
+
+## CAMPOS DE TEXTO
+
+El lenguaje HTML nos propone una gran diversidad de alternativas a la hora de crear
+nuestros formularios, es decir, una gran variedad de elementos para diferentes propósitos.
+Estas van desde la clásica caja de texto, hasta la lista de opciones en un menú
+desplegable, pasando por las cajas de validación, etc.
+
+Las etiquetas que tenemos que utilizar para crear campos de texto, pueden ser de dos
+tipos. Veamos en qué consiste cada una de estas modalidades y como podemos
+implementarlas en nuestro formulario.
+
+## ETIQUETA INPUT
+
+Las cajas de texto son colocadas por medio de la etiqueta INPUT. Dentro de esta etiqueta
+hemos de especificar el valor de dos atributos: type y name.
+
+```
+<input type="text" name="nombre">
+```
+
+De este modo expresamos nuestro deseo de crear una caja de texto cuyo contenido será
+llamado "nombre" (por ejemplo, en el caso de la etiqueta anterior, pero podemos poner
+distintos nombres a cada uno de los campos de texto que habrán en los formularios).
+
+## ATRIBUTO TYPE
+
+Como hemos visto el atributo type nos sirve para especificar el tipo de dato que se va a
+ingresar en nuestro input, en el ejemplo anterior lo habíamos puesto como tipo text, para
+que sea una caja de texto y poder ingresar texto. Pero existen otros tipos de valores para el
+atributo type
+
+## NUMBER
+
+Este tipo permite al usuario ingresar números. Los navegadores vienen con validaciones
+para evitar que el usuario ingrese algo que no sea números. Además, en los navegadores
+modernos, los campos numéricos suelen venir con controles que permiten a los usuarios
+cambiar su valor de forma gráfica.
+```
+<input type="number">
+```
+
+## DATE
+
+Este le permite al usuario ingresar una fecha, ya sea mediante una caja de texto o una
+interfaz grafica con selector de fecha.
+```
+<input type="date">
+```
+
+## EMAIL
+
+Este tipo permite al usuario ingresar un mail. Los navegadores vienen con validaciones
+para validar que se esté ingresando con el formato correcto de un mail. Este input se va a
+ver como un input de texto común y corriente.
+```
+<input type="email">
+```
+
+## TEXTO OCULTO
+
+Hay determinados casos en los que podemos desear esconder el texto escrito en el
+campo input, por medio de círculos negros, de manera que aporte una cierta
+confidencialidad. Para esto vamos a usar el type password.
+```
+<input type="password">
+```
+
+## ATRIBUTO NAME
+
+Si vemos de nuevo el ejemplo del principio:
+```
+<input type="text" name="nombre">
+```
+En este ejemplo creamos una caja de texto cuyo contenido será llamado "nombre”,
+elegimos nombre, pero podemos ponerles el nombre que queramos.
+
+--- 
