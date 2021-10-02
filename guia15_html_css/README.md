@@ -2335,4 +2335,132 @@ h2.subtitle{
 		       
 ---
 		       
-		       
+## UNIDADES DE MEDIDA CSS
+
+Los valores que se pueden asignar a los atributos de estilo se pueden ver en una tabla más
+adelante en la guía. Muchos de los valores que podemos asignarle son unidades de
+medida, por ejemplo, el valor del tamaño de un margen o el tamaño de la fuente. Las
+unidades de medida CSS se pueden clasificar en dos grupos, las relativas y las absolutas.
+Más la posibilidad de expresar valores en porcentaje.
+
+Absolutas: las unidades absolutas son medidas fijas, que deberían verse igual en todos los
+dispositivos. Como los centímetros, que son una convención de medida internacional. Pese
+a que en principio pueden parecer más útiles, puesto que se verían en todos los sistemas
+igual, tienen el problema de adaptarse menos a las distintas particularidades de los
+dispositivos que pueden acceder a una web y restan accesibilidad a nuestro web. Puede
+que en tu ordenador 1 centímetro sea una medida razonable, pero en un móvil puede ser
+un espacio exageradamente grande, puesto que la pantalla es mucho menor. Se aconseja
+utilizar, por tanto, medidas relativas.
+
+• pt (puntos): Un punto es 1/72 pulgadas.
+
+• in (pulgadas)
+
+• cm (centimentros)
+
+• mm (milímetros)
+
+• px (pixeles): Es la unidad mínima de resolución de la pantalla. En realidad suele
+considerársela una unidad absoluta, relativa o híbrida dependiendo del criterio que
+se analice. Un pixel equivale a 0.26 milímetros.
+
+
+***Relativas***: se llaman así porque son unidades relativas al medio o soporte sobre el que se
+está viendo la página web, que dependiendo de cada usuario puede ser distinto, puesto
+que existen muchos dispositivos que pueden acceder a la web, como ordenadores o
+teléfonos móviles. En principio las unidades relativas son más aconsejables, porque se
+ajustarán mejor al medio con el que el usuario está accediendo a nuestra web. Son las
+siguientes:
+
+### Unidad em
+
+La unidad em se utiliza para hacer referencia al tamaño actual de la fuente que ha sido
+establecida en el navegador, que habitualmente es un valor aproximado a 16px (salvo que
+se modifique por el usuario). De esta forma, podemos trabajar simplificando las unidades a
+medidas en base a ese tamaño.
+
+Por ejemplo, imaginemos que el tamaño de la fuente establecida en el navegador del
+usuario es exactamente 16px. Una cantidad 1em equivaldría a 16px, mientras que una
+cantidad de 2em sería justo el doble: 32px. Por otro lado, una cantidad de 0.5em sería justo
+la mitad: 8px.
+
+Por ejemplo:
+
+32px = 2em;
+
+16px = 1em;
+
+8px = 0,5em;
+
+### Unidad porcentaje
+
+Porcentaje (%), es una de las unidades relativas más utilizadas. Su valor está calculado
+siempre en base a otro elemento. Si lo aplicamos sobre una fuente es relativo al tamaño de
+la fuente declarada en el contexto, pero si lo aplicamos al width de un elemento entonces
+es relativo al ancho de su contenedor.
+
+El porcentaje se utiliza para definir una unidad en función de la que esté definida en un
+momento dado. Imaginemos que estamos trabajando en 12pt y definimos una unidad
+como 150%. Esto sería igual al 150% de los 12pt actuales, que equivale a 18pt.
+
+---
+
+# COLORES EN CSS
+
+Con CSS se puede especificar colores para cada elemento HTML de la página, incluso hay
+elementos que podrían admitir varios colores, como el color de fondo o el color del borde.
+Pero bueno, vamos a ver ahora es las distintas maneras de escribir un color en una
+declaración CSS.
+
+Porque lo más habitual es que especifiquemos un color con su valor RGB. Pero en CSS
+tenemos otras maneras de declarar colores que pueden interesarnos, como mínimo para
+poder entender el código CSS cuando lo veamos escrito.
+
+## NOTACIÓN HEXADECIMAL RGB
+
+Se especifican los tres valores de color (rojo, verde y azul) con valores en hexadecimal
+entre 00 y FF.
+```
+background-color: #ff8800;
+```
+
+## NOMBRE DEL COLOR
+
+También podemos definir un color por su nombre. Los nombres de colores son en inglés,
+los mismos que sirven para especificar colores con HTML.
+```
+color: red;
+border-color: Lime;
+```
+
+## NOTACIÓN DE COLOR CON PORCENTAJES DE RGB
+
+Se puede definir un color por los distintos porcentajes de valores RGB. Si todos los valores
+están al 100% el color es blanco. Si todos están al 0% obtendríamos el negro y con
+combinaciones de distintos porcentajes de RGB obtendríamos cualquier matiz de color.
+```
+color: rgb(33%, 0%, 0%);
+```
+
+## NOTACIÓN POR VALORES DECIMALES DE RGB, DE 0 A 255
+
+De una manera similar a la notación por porcentajes de RGB se puede definir un color
+directamente con valores decimales en un rango desde 0 a 255.
+```
+color: rgb(200,255,0);
+```
+De entre todas estas notaciones podemos utilizar la que más nos interese o con la que nos
+sintamos más a gusto. Nosotros en nuestros ejemplos venimos utilizando la notación
+hexadecimal RGB por habernos acostumbrado a ella en HTML.
+
+## COLOR TRANSPARENTE
+
+Para finalizar, podemos comentar que también existe el color transparente, que no es
+ningún color, sino que específica que el elemento debe tener el mismo color que el fondo
+donde está. Este valor, transparent, sustituye al color. Podemos indicarlo en principio sólo
+para fondos de elementos, es decir, para el atributo background-color.
+```
+background-color: transparent;
+```
+
+---		       
