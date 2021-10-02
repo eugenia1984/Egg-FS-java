@@ -2463,4 +2463,317 @@ para fondos de elementos, es decir, para el atributo background-color.
 background-color: transparent;
 ```
 
----		       
+---	
+		       
+
+# PROPIEDADES CSS
+
+Tanto para practicar en tu aprendizaje como para trabajar con las CSS lo mejor es disponer
+de las distintas propiedades y valores de estilos que podemos aplicarle a las páginas web.
+Aquí puedes ver las propiedades CSS más fundamentales para aplicar estilos a elementos
+básicos, que te vendrá perfectamente para comenzar con las CSS. Pero antes debemos
+explicar el concepto de el modelo de caja para poder entender algunas de las
+propiedades de css.
+
+## EL MODELO DE CAJA
+
+El modelo de cajas o "box model" es seguramente la característica más importante del
+lenguaje de hojas de estilos CSS, ya que condiciona el diseño de todas las páginas web. El
+modelo de cajas es el comportamiento de CSS que hace que todos los elementos de las
+páginas se representen mediante cajas rectangulares.
+
+Las cajas de una página se crean automáticamente. Cada vez que se inserta una etiqueta
+HTML, se crea una nueva caja rectangular que encierra los contenidos de ese elemento. La
+siguiente imagen muestra las tres cajas rectangulares que crean las tres etiquetas HTML
+que incluye la página:
+
+Las cajas de las páginas no son visibles a simple vista porque inicialmente no muestran
+ningún color de fondo ni ningún borde.
+
+Los navegadores crean y colocan las cajas de forma automática, pero CSS permite
+modificar todas sus características. Cada una de las cajas está formada por cuatro partes,
+tal y como muestra la siguiente imagen:
+
+```
+----------------------------------------------
+|  MARGIN                                    |
+|  ---------------------------------------   |
+|  | BORDER                               |  |
+|  |  ----------------------------------  |  |
+|  |  | PADDING                        |  |  |
+|  |  |  ----------------------------  |  |  |
+|  |  |  | CONTENT                  |  |  |  |
+|  |  |  |                          |  |  |  |
+|  |  |  |--------------------------|  |  |  |
+|  |  |--------------------------------|  |  |
+|  |--------------------------------------|  |
+|--------------------------------------------| 
+```
+
+• **Contenido (content)**: se trata del contenido HTML del elemento (las palabras de un
+párrafo, una imagen, el texto de una lista de elementos, etc.)
+
+• **Relleno (padding)**: espacio libre opcional existente entre el contenido y el borde.
+
+• **Borde (border)**: línea que encierra completamente el contenido y su relleno.
+
+•** Margen (margin)**: separación opcional existente entre la caja y el resto de cajas
+adyacentes.
+
+Existen otras dos partes de una caja que son:
+
+• **Imagen de fondo (background image)**: imagen que se muestra por detrás del
+contenido y el espacio de relleno.
+
+• **Color de fondo (background color)**: color que se muestra por detrás del contenido y
+el espacio de relleno.
+
+El relleno y el margen son transparentes, por lo que en el espacio ocupado por el relleno se
+muestra el color o imagen de fondo (si están definidos) y en el espacio ocupado por el
+margen se muestra el color o imagen de fondo de su elemento padre (si están definidos).
+Si ningún elemento padre tiene definido un color o imagen de fondo, se muestra el color o
+imagen de fondo de la propia página (si están definidos).
+
+Si una caja define tanto un color como una imagen de fondo, la imagen tiene más prioridad
+y es la que se visualiza. No obstante, si la imagen de fondo no cubre totalmente la caja del
+elemento o si la imagen tiene zonas transparentes, también se visualiza el color de fondo.
+Combinando imágenes transparentes y colores de fondo se pueden lograr efectos gráficos
+muy interesantes.
+
+Teniendo esto en cuenta podemos ver las siguientes propiedades de css:
+
+## WIDTH (Ancho)
+
+
+La propiedad CSS que controla la anchura de la caja de los elementos se denomina width.
+
+| width | anchura |
+| ----- | ------- |
+| valores | medida - porcentaje - auto - inherit |
+| se aplica a | todos los elementos, salvo los elementos en línea que no sean imagenes, las filas de tabla y los grupos de tabla |
+| valor inicial | auto |
+| descripcion | establece la anchura de un elemento |
+
+## HEIGHT (Alto)
+
+La propiedad CSS que controla la anchura de la caja de los elementos se denomina height
+
+| height | altura |
+| ------ | ------- |
+| valores | medida - porcentaje - auto - inherit |
+| se aplica a | todos los elementos, salvo los elementos en línea que no sean imagenes, las filas de tabla y los grupos de tabla |
+| valor inicial | auto |
+| descripcion | establece la altura de un elemento |
+
+## MARGIN (margen)
+
+CSS define cuatro propiedades para controlar cada uno de los márgenes horizontales y
+verticales de un elemento
+
+```
+margin-top:
+margin -rigth:
+margin-bottom:
+margin-left:
+```
+
+valores -> medida - porcentaje - auto - inherit 
+
+Se aplica a -> todos los elementos, salvo margin-top y mrgin-bottom que se aplican a los elementos de bloque y a las imagenes
+
+Valor inicial -> 0
+
+Descripcion -> establece cada uno de los márgenes horizontales y verticales de un elemento
+
+
+```
+  ----------------------------------------
+  |                  |                    |
+  |                  | margin-top         |
+  |                  |                    |
+  |                  |                    |
+  |<--------------> CAJA  <-------------->|
+  | margin-left      |       margin-right |
+  |                  |                    |
+  |                  |                    |
+  |                  |                    |
+  |                  | margin-bottom      |
+  |---------------------------------------|
+```
+
+## PADDING (RELLENO)
+
+CSS define cuatro propiedades para controlar cada uno de los espacios de relleno
+horizontales y verticales de un elemento
+
+```
+padding-top:
+padding-right:
+padding-bottom:
+padding-left:
+```
+
+valores -> medida - porcentaje - auto - inherit 
+
+Se aplica a -> todos los elementos,excepto algunos elementos de tablas como grupos de cabeceras y grupos de pieas de tabla
+
+Valor inicial -> 0
+
+Descripcion -> establece cada uno de los rellenos horizontales y verticales de un elemento
+
+```
+  ----------------------------------------
+  |                  |                    |
+  |                  | padding-top        |
+  |                  |                    |
+  |                  |                    |
+  |<--------------> CAJA  <-------------->|
+  | padding-left     |      padding-right |
+  |                  |                    |
+  |                  |                    |
+  |                  |                    |
+  |                  | padding-bottom     |
+  |---------------------------------------|
+```
+
+
+## BORDER (BORDES)
+
+CSS permite definir el aspecto de cada uno de los cuatro bordes horizontales y verticales
+de los elementos. Para cada borde se puede establecer su anchura, su color y su estilo.
+
+
+```
+border-top-width:
+border-right-width:
+border-bottom-width:
+border-left-width:
+```
+
+valores -> medida - thin - medium - thick - inherit 
+
+Se aplica a -> todos los elementos
+
+Valor inicial -> medium
+
+Descripcion -> establece la anchura de cada uno de los cuatro bordes de los elementos
+
+
+
+##  Border-color
+
+
+El color de los bordes se controla con las cuatro propiedades siguientes
+
+
+```
+border-top-color:
+border-right-color:
+border-bottom-color:
+border-left-color:
+```
+
+valores -> color- transparent - inherit 
+
+Se aplica a -> todos los elementos
+
+Valor inicial -> -
+
+Descripcion -> establece el color de cada uno de los cuatro bordes de los elementos
+
+
+## Border - Forma Resumida
+
+Todos los estilos de los bordes se controlan con la siguiente siguientes
+
+valores -> madida_borde - color_borde - estilo_borde - inherit
+
+Se aplica a -> todos los elementos
+
+Valor inicial -> -
+
+Descripcion -> establece el estilo completo de todos los bordes de los elementos
+
+
+## Background-color
+
+El color de fondo se establece con esta propiedad:
+
+Valores- > color - transperent - inherit
+
+Se aplica a -> todos los elementos
+
+Valor inicial -> transparent
+
+Descripcion -> establece un color de fondo para los elementos
+
+La imagen de fondo se establece con esta propiedad:
+
+
+## Background-image
+
+Valores- > url - none - ihherit
+
+Se aplica a -> todos los elementos
+
+Valor inicial -> none
+
+Descripcion -> establece una imagen como fondo para los elementos
+
+
+## Background- repeat
+
+La repetición de la imagen de fondo se configura con esta propiedad:
+
+Valores- > repeat - repeat-x - repeat-y - no-repeat - inherit
+
+Se aplica a -> todos los elementos
+
+Valor inicial -> repeat
+
+Descripcion -> controla la forma en la que se repiten las imágenes de fondo
+
+
+## Background-position
+
+La posición de la imagen de fondo se configura con esta propiedad:
+
+Valores- > % - medidas - (left-center-rigth) % - medida - (top-center-bottom) - (left-center-right) - (top-center-bottom) - inherit
+
+Se aplica a -> todos los elementos
+
+Valor inicial -> 0% 0%
+
+Descripcion -> controla la posición en la que se muestra la imagen en el fondo del elemento
+
+
+```
+bottom-left
+ ---------
+ |        |
+ |        |
+ | *      |
+ ----------
+```
+
+
+```
+right-top
+ ---------
+ |      * |
+ |        |
+ |        |
+ ----------
+```
+
+
+
+```
+50% 50 $
+ ---------
+ |        |
+ |   *    |
+ |        |
+ ----------
+```		       
+		       
