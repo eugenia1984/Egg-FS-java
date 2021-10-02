@@ -1275,3 +1275,138 @@ En este ejemplo creamos una caja de texto cuyo contenido será llamado "nombre�
 elegimos nombre, pero podemos ponerles el nombre que queramos.
 
 --- 
+  
+  El nombre del elemento del formulario es de gran importancia para poder identificarlo en
+nuestro programa de procesamiento (Java).
+
+Además de estos dos atributos, esenciales para el correcto funcionamiento de nuestra
+etiqueta, existen otra serie de atributos que pueden resultarnos de utilidad pero que no son
+imprescindibles:
+
+**size**: define el tamaño de la caja de texto, en número de caracteres visibles. Si al escribir el
+usuario llega al final de la caja, el texto que escriba a continuación también cabrá dentro
+del campo pero irá desfilando, a medida que se escribe, haciendo desaparecer la parte de
+texto que queda a la izquierda.
+
+**maxlength**: indica el tamaño máximo del texto, en número de caracteres, que puede ser
+escrito en el campo. En caso que el campo de texto tenga definido el atributo maxlength, el
+navegador no permitirá escribir más caracteres en ese campo que los que hayamos
+indicado.
+
+**value**: en algunos casos puede resultarnos interesante asignar un valor definido al campo
+en cuestión. Esto puede ayudar al usuario a rellenar más rápidamente el formulario o darle
+alguna idea sobre la naturaleza de datos que se requieren. Este valor inicial del campo
+puede ser expresado mediante el atributo value. Veamos su efecto con un ejemplo
+sencillo:
+```
+<input type="text" name="instituto" value="Egg Educación">
+```
+
+**placeholder**: este atributo especifica una pequeña pista que describe el valor esperado de
+para el campo (input).
+La pequeña sugerencia se muestra en el campo de entrada antes de que el usuario ingrese
+un valor. Una vez que escriba, esa pista va a desaparecer.
+```
+<input type="text" name="nombre " placeholder="Nombre del usuario ">
+```
+
+**Nota**: recordemos que todos estos ejemplos de input deben ir entre las etiquetas de
+apertura y de cierre form.
+
+```
+<form>
+  <input type="text" name="instituto" value="Egg Educación">
+</form>
+```
+
+
+## ETIQUETA TEXTAREA PARA TEXTO LARGO
+
+Si deseamos poner a la disposición de usuario un campo de texto donde pueda escribir
+cómodamente sobre un espacio compuesto de varias líneas, hemos de invocar una nueva
+etiqueta: TEXTAREA y su cierre correspondiente.
+
+Este tipo de campos son prácticos cuando el contenido a enviar no es un nombre, teléfono,
+edad o cualquier otro dato breve, sino más bien, un comentario, opinión, etc. en los que
+existe la posibilidad que el usuario desee rellenar varias líneas.
+
+Dentro de la etiqueta textarea deberemos indicar, como para el caso visto anteriormente, el
+atributo name para asociar el contenido a un nombre que será asemejado a una variable
+en un lenguaje de programación. Además, podemos definir las dimensiones del campo a
+partir de los atributos siguientes:
+
+• **rows**: define el número de líneas del campo de texto.
+
+• **cols**: define el número de columnas del campo de texto.
+
+La etiqueta queda por tanto de esta forma:
+
+```
+<textarea name="comentario" rows="10" cols="40"></textarea>
+```
+
+Asimismo, es posible predefinir el contenido del campo. Para ello, no usaremos el atributo
+value, sino que escribiremos dentro de la etiqueta el contenido que deseamos atribuirle.
+
+Veámoslo:
+```
+<textarea name="comentario" rows="10" cols="40">Escribe tu comentario…</textarea>
+```
+
+Esta etiqueta al igual que el input debe ir dentro de la etiqueta form.
+
+## ETIQUETA LABEL
+
+El elemento LABEL y su etiqueta de cierre, provee una descripción corta para el campo de
+texto y que puede ser asociada a un campo de texto. Podemos asociar una etiqueta label a
+un campo de texto para que el usuario pueda acceder al campo de texto con solo clickear
+el label. También, como veremos más adelante, cuando veamos las cajas de opciones,
+clickear en el nombre de la opción para acceder a ella, “tickear” esa opción.
+
+La etiqueta se ve de esta forma:
+```
+<label>Nombre del Usuario</label>
+<input type="text" name="nombre">
+```
+
+## ATRIBUTO LABEL
+
+La etiqueta label solo consta del atributo for. Mediante la utilización del atributo for
+podemos asociar el label con el input. Para lograr esto vamos a tener que utilizar también
+el atributo ID, este atributo lo explicamos previamente y lo vamos a ver más en detalle en la
+parte de CSS.
+
+La manera que anclamos un label a un input es, al label le vamos a dar un valor en su
+atributo for, este va a representar el dato que se va a ingresar en el input y en el input
+vamos a poner el mismo valor pero en el atributo ID. Entonces, el primer elemento input en
+el documento con un ID que coincida con el dispuesto en el atributo for puesto en el
+label, será el control etiquetado para este elemento.
+
+Esto se vería así:
+```
+<label for="nombre">Nombre del Usuario</label>
+<input type="text" id="nombre" name="nombre">
+```
+
+
+El label y el input se verán igual pero ahora cuando el usuario clickee el label se va a activar
+el campo de texto del input para poder ingresar el valor que el usuario necesite. Después
+vamos a ver un ejemplo más útil con las cajas de opciones.
+
+## OTROS ELEMENTOS DE FORMULARIOS
+
+Seguramente hayan notado que los input son un manera muy practica de hacernos llegar
+la información del navegante. No obstante, en muchos casos, permitir al usuario que
+escriba cualquier texto permite demasiada libertad y puede que la información que éste
+escriba no sea la que nosotros estamos necesitando.
+
+Por ejemplo, pensemos que queremos que el usuario indique su país de residencia. En ese
+caso podríamos ofrecer una lista de países para que seleccione el que sea. Este mismo
+caso se puede aplicar a gran variedad de informaciones, como el tipo de tarjeta de crédito
+para un pago, la puntuación que da a un recurso, si quiere recibir o no un boletín de
+novedades, etc...
+
+Este tipo de opciones predefinidas por nosotros pueden ser expresadas por medio de
+diferentes campos de formulario. Veamos a continuación cuales son:
+  
+  
