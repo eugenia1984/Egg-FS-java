@@ -1966,4 +1966,323 @@ En el ejemplo:
 
 ```
 
----					  
+---	
+					  
+					  
+## INCLUIR CSS A NUESTRO HTML
+
+CSS sirve para definir el aspecto de las páginas web, eso ya debe haber quedado claro. No
+obstante, hay diferentes niveles a los que podemos aplicar los estilos. Vamos a ir por orden,
+describiendo los puntos desde el más específico al más general, de manera que también
+iremos aumentando la dificultad e importancia de los distintos usos.
+
+## PEQUEÑAS PARTES DE LA PÁGINA
+
+Para definir estilos en secciones reducidas de una página se puede utilizar el
+atributo style en la etiqueta sobre la que queremos aplicar estilos. Como valor de ese
+atributo indicamos en sintaxis CSS las características de estilos. Lo vemos con un ejemplo,
+pondremos un párrafo en el que determinadas palabras las vamos a visualizar en color
+verde.
+```
+<p>My mother has <span style="color: green">blue</span> eyes.</p>
+```
+
+## ESTILO DEFINIDO PARA UNA ETIQUETA
+
+De este modo podemos hacer que toda una etiqueta muestre un estilo determinado. Por
+ejemplo, podemos definir un párrafo entero en color rojo y otro en color azul. Para ello
+utilizamos el atributo style, que es admitido por todas las etiquetas del HTML.
+
+```
+<p style="color: #990000">
+ Esto es un párrafo de color rojo.
+</p>
+<p style="color: #000099">
+ Esto es un párrafo de color azul.
+</p>
+```
+
+##  ESTILO DEFINIDO EN UNA PARTE DE LA PÁGINA
+
+Con la etiqueta <div> podemos definir secciones de una página y aplicarle estilos con el
+atributo style, es decir, podemos definir estilos de una vez a todo un bloque de la página.
+```
+<div style="color: #000099; font-weight: bold">
+ <h3>Estas etiquetas van en <strong>azul y negrita</strong></h3>
+ <p>Seguimos dentro del DIV, luego permanecen los etilos</p>
+</div>
+```
+
+Hasta aquí hemos visto los usos de las CSS más específicos, que se consiguen usando el
+atributo style en las etiquetas. Sin embargo, hay otras formas más avanzadas de usar las
+CSS, que deberías tener en cuenta porque son todavía más versátiles y recomendadas
+
+## ESTILO DEFINIDO PARA TODA UNA PÁGINA
+
+Podemos definir, en la cabecera del documento, estilos para que sean aplicados a toda la
+página. Es una manera muy cómoda de darle forma al documento y muy potente, ya que
+estos estilos serán seguidos en toda la página y nos ahorraremos así "ensuciar" las
+etiquetas HTML colocando el atributo style.
+
+Además, es común que los estilos declarados se quieran aplicar a distintas etiquetas
+dentro del mismo documento. Gracias a la aplicación de estilos para toda la página,
+podemos escribir los estilos una vez y usarlos para un número indefinido de etiquetas. Por
+ejemplo podremos definir el estilo a todos los párrafos una vez y que se aplique
+igualmente, sea cual sea el número de párrafos del documento. Por último, también
+tendremos la ventaja que, si más adelante deseamos cambiar los estilos de todas las
+etiquetas, lo haremos de una sola vez, ya que el estilo fue definido una única vez de
+manera global.
+
+A grandes rasgos, entre ```<style>``` y ```</style>```, se coloca el nombre de la etiqueta (o selector)
+para la que queremos definir los estilos y entre llaves -{ }- colocamos en sintaxis CSS las
+características de estilos. El concepto de selectores lo veremos más adelante.
+
+```
+<html>
+<head>
+  <title>Ejemplo de estilos para toda una pagina</title>
+  <style>
+    h1 { text-decoration: underline; text-align: center }
+    p { font-Family: arial,verdana; color: white; background-color: black }
+    body { color: black; background-color: #cccccc; text-indent: 1cm }
+   </style>
+</head>
+<body>
+  <h1>Pagina con estilos</h1>
+  <p>Pagina con estilos de ejemplo</p>
+</body>
+</html>
+
+```
+Como se puede apreciar en el código, hemos definido que la etiqueta <h1> se presentará
+
+• Subrayado
+
+• Centrada
+
+También, por ejemplo, hemos definido que el cuerpo entero de la página (etiqueta <body>)
+se le apliquen los estilos siguientes:
+
+• Color del texto negro
+
+
+• Color del fondo grisáceo
+• Margen lateral de 1 centímetro
+
+Cabe destacar que muchos de los estilos aplicados a la etiqueta <body> son heredados
+por el resto de las etiquetas del documento, como el color del texto o su tamaño. Esto es
+así, siempre y cuando no se vuelvan a definir esos estilos en las etiquetas hijas, en cuyo
+caso el estilo de la etiqueta más concreta será el que mande. Puede verse este detalle en
+la etiqueta <p>, que tiene definidos estilos que ya fueron definidos para <body>. Los estilos
+que se tienen en cuenta son los de la etiqueta <p>, que es más concreta.
+
+---
+									       
+## ESTILO DEFINIDO PARA TODO UN SITIO WEB
+									       
+Una de las características más potentes del desarrollo con hojas de estilos es la posibilidad
+de definir los estilos de todo un sitio web en una única declaración.
+									       
+Esto se consigue creando un archivo de extensión .css donde tan sólo colocamos las
+declaraciones de estilos de la página y enlazando todas las páginas del sitio con ese
+archivo. De este modo, todas las páginas comparten una misma declaración de estilos,
+reutilizando el código CSS de una manera mucho más potente.
+									       
+Este es el modelo más ventajoso de aplicar estilos al documento HTML y por lo tanto el
+más recomendable. De hecho, cualquier otro modo de definir estilos no es considerado
+una buena práctica y lo tenemos que evitar siempre que se pueda.
+									       
+Algunas de las ventajas de este modelo de definición de estilos son las siguientes:
+									       
+• Se ahorra en líneas de código HTML, ya que no tenemos que escribir el CSS en la
+propia página (lo que reduce el peso del documento y mejora la velocidad de
+descarga).
+									       
+• Se mantiene separado correctamente lo que es el contenido (HTML) de la
+presentación (CSS), que es uno de los objetivos de las hojas de estilo y una de las
+máximas de todo desarrollador: cada cosa en su sitio.	
+
+• Se evita la molestia de definir una y otra vez los estilos con el HTML y lo que es más
+importante, si cambiamos la declaración de estilos, cambiarán automáticamente
+todas las páginas del sitio web. Esto es una característica muy deseable, porque
+aumenta considerablemente la facilidad de mantenimiento del sitio web.
+									       
+ Veamos ahora cómo el proceso para incluir estilos con un fichero externo.
+									       
+## 1- Creamos el fichero con la declaración de estilos
+									       
+Es un fichero de texto normal con la extensión .css para aclararnos qué tipo de archivo es.
+El texto que debemos incluir debe ser escrito exclusivamente en sintaxis CSS, es decir,
+sería erróneo incluir código HTML en él: etiquetas y demás. Podemos ver un ejemplo a
+continuación.
+									       
+El nombre de este archivo va a ser **estilos.css**.		
+									       
+```
+p {
+  font-size: 12cm;
+  font-family: arial, helvetica;
+  font-weight: normal;
+}
+									       
+h1 {
+  font-size: 36cm;
+  font-family: verdana, arial;
+  text-decoration: underline;
+  text-align: center;
+  background-color: Teal;
+}
+									       
+body {
+  background-color: #006600;
+  font-family: arial;
+  color: White;
+}
+```
+
+## 2- Enlazamos la página web con la hoja de estilos
+									       
+Para ello, vamos a colocar la etiqueta <link> dentro de la etiqueta <head></head> con los
+atributos siguientes:
+									       
+• **rel**: indica el tipo de relación que tiene el recurso enlazado y la página HTML. Para
+los archivos CSS, siempre se utiliza el valor stylesheet.
+									       
+• **href**: indica la URL del archivo CSS que contiene los estilos. La URL indicada puede
+ser relativa o absoluta y puede apuntar a un recurso interno o externo al sitio web.
+Veamos una página web entera que enlaza con la declaración de estilos anterior:								
+									       
+```
+<html>
+<head>
+  <link rel="stylesheet" href="estilos.css">
+  <title>Ejemplo de pagina que lee estilos </title>
+</head>
+<body>
+  <h1>Pagina con estilos</h1>
+  <p>Pagina con estilos de ejemplo</p>
+</body>
+</html>
+```	
+
+---
+					   
+##  SELECTORES CCS
+					   
+Teniendo en cuenta que ya podemos asignarle estilos a todo un sitio web, mediante un
+archivo css que usa selectores para elegir las etiquetas a las que asignarles los estilos,
+también tenemos que entender que existen varios tipos de selectores
+					   
+### Selector Universal
+					   
+Se utiliza para seleccionar todos los elementos de la página. El siguiente ejemplo elimina el
+margen y el relleno de todos los elementos HTML (por ahora no es importante fijarse en la
+parte de la declaración de la regla CSS):
+
+```
+*{
+  margin: 0;
+  padding: 0;
+}
+```
+					   
+## Selector de Etiqueta
+					   
+Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del
+selector. El siguiente ejemplo selecciona todos los párrafos de la página:					   
+
+```
+p{
+  text-align: justify;
+  font-family: Verdana;
+}
+```	
+		
+## Selector Descendente
+					   
+Selecciona los elementos que se encuentran dentro de otros elementos. Un elemento es
+descendiente de otro cuando se encuentra entre las etiquetas de apertura y de cierre del
+otro elemento.
+					   
+El selector del siguiente ejemplo selecciona todos los elementos <span> de la página que
+se encuentren dentro de un elemento <p>.
+
+```
+p sapn{			   
+  color: red;
+}					   
+```					   
+## Selector de Clase
+					   
+¿Como hago para aplicarle estilos solo al primer párrafo?
+					   
+Una de las soluciones más sencillas para aplicar estilos a un solo elemento de la página
+consiste en utilizar el atributo class de HTML sobre ese elemento para indicar directamente
+la regla CSS que se le debe aplicar. 
+
+Ejemplo:
+					   
+					   
+HTML:
+```					   
+<body>
+ <p class="destacado">Parrafo 1</p>
+ <p class="error">Parrafo 2</p>
+ <p>Parrafo 3</p>
+</body>
+```
+		 
+CSS:
+```		 
+.destacado {
+  font-size: 15px;
+}
+.error {
+  color: red;
+}
+```
+En nuestro archivo CSS para especificar una clase, vamos a poner punto(‘.’) y el nombre de
+la clase que queremos que coincida que con valor que pongamos en nuestro atributo class
+en el html.
+		 
+Entonces, en el ejemplo podemos ver como el primer párrafo tiene el valor destacado y el
+segundo párrafo el valor error para el atributo class y en nuestro archivo CSS, hemos
+definido un estilo para esas clases.
+		 
+El beneficio del atributo class, además de dejarnos asignar estilos a un solo elemento, es
+que después podemos reutilizar esa class para asignarle ese estilo a otros párrafos
+concretos o a otras etiquetas, solo deberemos ponerle el valor de un estilo que ya existe en
+el atributo class.
+		 
+## Selector de Id
+		 
+En un documento HTML, los selectores de ID de CSS buscan un elemento basado en el
+contenido del atributo id. El atributo ID del elemento seleccionado debe coincidir
+exactamente con el valor dado en el selector. Este tipo de selectores sólo seleccionan un
+elemento de la página porque el valor del atributo id no se puede repetir en dos elementos
+diferentes de una misma página.
+		 
+Ejemplo:
+
+HTML:
+```
+<div id="identificador">¡Este div tiene un ID especial!</div>
+<div>Este solo es un div regular.</div>		 
+```
+CSS:
+```
+#identificador{
+ background-color: blue;
+}		       
+```
+
+		  En nuestro archivo CSS para especificar un ID, vamos a poner el numeral (‘#’) y el nombre
+del ID que queremos que coincida que con valor que pongamos en nuestro atributo ID en
+el html.
+		       
+Como podemos ver el ID, es muy parecido al atributo class pero la diferencia es que el ID
+se puede usar para identificar un solo elemento, mientras que una clase se puede usar
+para agrupar más de uno.		       
+		       
+---									       
+									       
