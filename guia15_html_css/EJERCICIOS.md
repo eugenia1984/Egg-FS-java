@@ -7,8 +7,8 @@ dejamos el link: Visual Studio Code.
 Recomendamos también ir al apartado de bibliografía al final de la guía por si necesitamos
 reforzar o queremos saber más sobre los temas vistos.
 
-**1.** Crear un archivo HTML, que contenga un encabezado <h1> seguido de un párrafo y
-un encabezado ```<h2>``○6 seguido de otro párrafo. Después, hacer que un párrafo se
+**1.** Crear un archivo HTML, que contenga un encabezado ```<h1>``` seguido de un párrafo y
+un encabezado ```<h2>``` seguido de otro párrafo. Después, hacer que un párrafo se
 muestre en negrita y el otro en itálica. Utilizar saltos de línea si los consideran
 necesarios.
   
