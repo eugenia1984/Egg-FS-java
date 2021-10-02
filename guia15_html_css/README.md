@@ -1832,4 +1832,138 @@ porcentajes, ahora podemos definir utilizando muchas más unidades como:
 
 ---
 					  
-					  
+
+## SINTAXIS HTML
+
+La meta básica del lenguaje Cascading Stylesheet (CSS) es permitir al motor del
+navegador pintar elementos de la página con características específicas, como colores,
+posición o decoración. La sintaxis CSS refleja estas metas y estos son los bloques básicos
+de construcción.
+
+• La propiedad que es un identificador, un nombre leíble por humanos, que define qué
+característica es considerada.
+
+• El valor que describe como las características deben ser manejadas por el motor.
+Cada propiedad tiene un conjunto de valores válidos, definido por una gramática
+formal, así como un significado semántico, implementados por el motor del
+navegador.
+
+---
+
+## DECLARACIONES DE CSS
+
+Configurando propiedades CSS a valores específicos es la función principal del lenguaje
+del CSS. Una propiedad y su valor son llamados una declaración, y cualquier motor de CSS
+calcula qué declaraciones aplican a cada uno de los elementos de una página para
+mostrarlos apropiadamente y estilizarlos.
+
+Ambos propiedades y valores son sensibles a mayúsculas y minúsculas en CSS. El par se
+separa por dos puntos, “ : ”, y los espacios en blanco antes, entre ellos y después, pero no
+necesariamente dentro de ellos, son ignorados.
+
+Declaración CSS:
+
+```
+backgorund-color : red;
+```
+
+**propiedad** -> backgorund-color
+
+**:** -> los dos puntos separan las dos entidades
+
+**red** -> valor
+
+
+Hay más de 100 propiedades diferentes en CSS y cerca de un número infinito de diferentes
+valores. No todos los pares de propiedades y valores son permitidos, cada propiedad
+define que valores son válidos. Cuando un valor no es válido para una propiedad
+específica, la declaración es considerada inválida y es completamente ignorada por el
+motor del CSS.
+
+##  BLOQUES DE DECLARACIONES EN CSS
+
+Las declaraciones son agrupada en bloques, que es una estructura delimitada por una llave
+de apertura, ‘{‘, y una de cierre, ‘}’. Los bloques en ocasiones puedes anidarse, por lo que las
+llaves de apertura y cierre deben de coincidir.
+
+Bloque css:
+```
+{
+  Aquí puede ir cualquier
+  contenido, incluso
+  ningún contenido.
+}
+```
+
+Las **llaves delimitan el inicio y el final del bloque**.
+
+Esos bloques son naturalmente llamados **bloques de declaraciones** y las declaraciones
+dentro de ellos están separadas por un punto y coma, “ ; ”. Un bloque de declaración puede
+estar vacío, que es contener una declaración nula. Los espacios en blanco alrededor de las
+declaraciones son ignorados. En cuanto a la última declaración de un bloque, esta no
+necesita terminar en un punto y coma, aunque es usualmente considerado una buena
+práctica porque previene el olvidar agregarlo cuando se extienda el bloque con otra
+declaración.
+
+Bloque css con declaraciones:
+```
+{
+ background-color : red ;
+ background-style: none;
+}
+```
+
+CSS define una serie de términos que permiten describir cada una de las partes que
+componen los estilos CSS. El siguiente esquema muestra las partes que forman un estilo
+CSS muy básico:
+
+```
+h1{
+  color: black;	
+}
+```
+Los diferentes términos se definen a continuación:
+
+***Regla***: cada uno de los estilos que componen una hoja de estilos CSS.
+
+En el ejemplo:
+```
+h1{
+  color: black;	
+}
+```
+
+
+***Selector***: indica el elemento o elementos HTML a los que se aplica la regla CSS.
+
+En el ejemplo:
+
+```
+h1
+```
+
+***Declaración***: especifica los estilos que se aplican a los elementos. Está compuesta por una
+o más propiedades CSS.
+
+En el ejemplo:
+```
+  color: black;	
+```
+
+***Propiedad***: permite modificar el aspecto de una característica del elemento.
+
+En el ejemplo ->
+```
+  color:
+```
+
+***Valor***: indica el nuevo valor de la característica modificada en el elemento.
+
+En el ejemplo:
+```
+
+ black;	
+
+```
+
+---					  
