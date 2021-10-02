@@ -1606,3 +1606,230 @@ aprendido a partir de la creación de un formulario.
 ```
 
 
+
+---
+
+# SECCIONES EN HTML
+
+Las paginas web se trabajan con lo que se conoce como un esquema. El esquema (outline)
+de una página web es un índice de los apartados de una página web que muestra la
+relación de jerarquía entre los diferentes apartados y subapartados. El concepto de
+esquema se formalizó en HTML 5 con más precisión que en HTML 4 / XHTML 1 y explica
+algunas características y formas de utilización de las etiquetas de secciones y bloques de
+contenido.
+
+En relación a esto se pensó que las páginas de HTML se pueden dividir en secciones y en
+HTML 5 se introdujo una serié de etiquetas que nos van a ayudar con la división de nuestra
+pagina en secciones. Dentro de cada sección van a haber más etiquetas, esto es
+simplemente para que podemos tener un índice de los apartados de la pagina web.
+
+```<section>```: se utiliza para representar una sección "general" dentro de un documento o
+aplicación, como un capítulo de un libro. Puede contener subsecciones y si lo
+acompañamos de h1-h6 podemos estructurar mejor toda la página creando jerarquías del
+contenido, algo muy favorable para el buen posicionamiento web.
+
+```<article>```: representa un componente de una página que consiste en una composición
+autónoma en un documento, página, aplicación, o sitio web con la intención de que pueda
+ser reutilizado y repetido.
+
+```<aside>```: representa una sección de la página que abarca un contenido relacionado con el
+contenido que lo rodea, por lo que se le puede considerar un contenido independiente.
+Este elemento puede utilizarse para efectos tipográficos, barras laterales, elementos
+publicitarios u otro contenido que se considere separado del contenido principal de la
+página.
+
+```<header>```: representa un grupo de artículos introductorios o de navegación. Está destinado
+a contener por lo general la cabecera de la sección (un elemento h1-h6 o un elemento
+hgroup).
+
+```<nav>```: representa una sección de una página que enlaza a otras páginas o a otras partes
+dentro de la página. No todos los grupos de enlaces en una página necesita estar en un
+elemento nav, sólo las secciones que constan de bloques de navegación principales son
+apropiadas para el elemento de navegación.
+
+```<footer>```: representa el pie de una sección, con información acerca de la página/sección
+que poco tiene que ver con el contenido de la página, como el autor, el copyright o el año.
+<hgroup>: representa el encabezado de una sección. El elemento se utiliza para agrupar un
+conjunto de elementos h1-h6 cuando el título tiene varios niveles, tales como subtítulos o
+títulos alternativos.
+
+---
+
+## ETIQUETAS EXTRAS
+
+En este apartado que va a ser el ultimo de nuestra parte de html vamos a ver unas
+etiquetas que no hemos visto todavía y que son importantes.
+
+## ETIQUETA DIV
+
+La etiqueta div se conoce como etiqueta de división. La etiqueta div se usa en HTML para
+hacer divisiones de contenido en la página web como (texto, imágenes, encabezado, pie
+de página, barra de navegación, etc.). La etiqueta Div tiene etiquetas de apertura (<div>) y
+de cierre (</div>) y es obligatorio cerrar la etiqueta. Div es la etiqueta más útil en el
+desarrollo web porque nos ayuda a separar datos en la página web y podemos crear una
+sección particular para datos o funciones particulares en las páginas web. Cabe aclarar
+que la etiqueta div genera un salto de linea.
+
+• La etiqueta Div es una etiqueta de nivel de bloque
+
+• Es una etiqueta de contenedor genérica
+
+• Se utiliza para agrupar varias etiquetas de HTML para que se puedan crear
+secciones y aplicarles estilo.
+
+Un ejemplo que podríamos usar para la etiqueta div es, supongamos que tenemos 3
+párrafos que queremos alinear a la izquierda, esto recordemos lo haríamos con el atributo
+align. Nosotros haríamos algo así:
+
+```
+<p align="left">Parrafo 1</p>
+<p align="left">Parrafo 2</p>
+<p align="left">Parrafo 3</p>
+
+```
+
+Una forma de simplificar nuestro código anterior y de evitar introducir continuamente el
+atributo align sobre cada una de nuestras etiquetas es utilizando la etiqueta DIV. Vamos a
+usar un div para generar una sección de todos los párrafos y le pones el atributo align al
+div.
+
+Esto se vería asÏ:
+
+
+```
+<div align="left">
+	<p>Parrafo 1</p>
+	<p>Parrafo 2</p>
+	<p>Parrafo 3</p>
+</div>
+```
+Como hemos visto, la etiqueta DIV marca divisiones en las que definimos un bloque de
+contenido, y a los que podríamos aplicar estilo de manera global, aunque lo correcto sería
+aplicar ese estilo del lado del CSS.
+
+---
+
+## ETIQUETA SPAN
+
+El elemento span HTML es un contenedor en línea genérico para elementos y contenido en
+línea. Solía agrupar elementos con fines de estilo (mediante el uso de los atributos de clase
+o id). La mejor manera de usarlo es cuando no hay ningún otro elemento semántico
+disponible. span es muy similar a la etiqueta div, pero div es una etiqueta a nivel de bloque
+y span es una etiqueta en línea. La etiqueta Span es una etiqueta emparejada, lo que
+significa que tiene una etiqueta de apertura (<) y de cierre (>), y es obligatorio cerrar la
+etiqueta.
+
+• La etiqueta span se utiliza para agrupar elementos en línea.
+
+• La etiqueta span no realiza ningún cambio visual por sí misma.
+
+• span es muy similar a la etiqueta div, pero div es una etiqueta a nivel de bloque y
+span es una etiqueta en línea.
+
+Un ejemplo de la etiqueta span, es poner una parte de un párrafo de un color concreto, ya
+que es una etiqueta en linea, la podemos meter dentro de una etiqueta p.
+
+```
+<p>My mother has <span style="color: blue">blue</span> eyes.</p>
+```
+La etiqueta span no crea un salto de línea similar a una etiqueta div, sino que permite al
+usuario separar cosas de otros elementos a su alrededor en una página dentro de la misma
+línea. Al evitar el salto de línea, solo da como resultado el texto seleccionado para cambiar,
+manteniendo todos los demás elementos a su alrededor iguales.
+
+Nota: en el apartado de CSS vamos a ver mejor el atributo style y el atributo color. Ahora los
+estamos usando para el ejemplo.
+
+---
+
+#  CSS
+
+## INTRODUCCIÓN
+
+CSS es el acrónimo de Cascading Style Sheets, o lo que sería en español Hojas de Estilo
+en Cascada. Es un lenguaje que sirve para especificar el estilo o aspecto de las páginas
+web. CSS se define en base a un estándar publicado por una organización llamada W3C,
+que también se encarga de estandarizar el propio lenguaje HTML.
+
+## POR QUÉ EXISTE CSS
+
+El lenguaje HTML está limitado a la hora de aplicar forma a un documento. Sirve de manera
+excelente para especificar el contenido que debe tener una página web, pero no permite
+definir cómo ese documento se debe presentar al usuario.
+
+Otro motivo que ha hecho necesaria la creación de CSS ha sido la separación del
+contenido de la presentación. Al inicio las páginas web tenían mezclado en su código
+HTML el contenido con las etiquetas necesarias para darle forma. Esto tiene sus
+inconvenientes, ya que la lectura del código HTML se hace pesada y difícil a la hora de
+buscar errores o depurar las páginas. Además, desde el punto de vista de la riqueza de la
+información y la utilidad de las páginas a la hora de almacenar su contenido, es un gran
+problema que los textos están mezclados con etiquetas incrustadas para dar forma a
+éstos, pues se degrada su utilidad.
+
+## CSS SOLVENTA ESTOS PROBLEMAS
+
+Como hemos visto, para facilitar un correcto mantenimiento de las páginas web y para
+permitir que los diseñadores pudieran trabajar como sería deseable, había que introducir
+un nuevo elemento en los estándares y éste fue el lenguaje CSS.
+
+CSS se ideó para aplicar el formato en las páginas, de una manera mucho más detallada,
+con nuevas posibilidades que no estaban al alcance de HTML. Al mismo tiempo, gracias a
+la posibilidad de aplicar el estilo de manera externa al propio documento HTML, se
+consiguió que el mantenimiento de las páginas fuese mucho más sencillo.
+
+
+## CARACTERÍSTICAS Y VENTAJAS DE CSS
+
+El modo de funcionamiento de CSS consiste en definir, mediante una sintaxis especial, la
+forma de presentación que le aplicaremos a los elementos de la página.
+
+Podemos aplicar CSS a muchos niveles, desde un sitio web entero hasta una pequeña
+etiqueta. Estos son los principales bloques de acción.
+
+• Una web entera: de modo que se puede definir en un único lugar el estilo de toda
+una web, de una sola vez.
+
+• Un documento HTML o página en particular: se puede definir la forma de cada uno
+de los bloques de contenido de una página, en una declaración que afectará a un
+solo documento de un sitio web.
+
+• Una porción del documento: aplicando estilos visibles en un trozo de la página,
+como podría ser la cabecera.
+
+• Una etiqueta en concreto: llegando incluso a poder definir varios estilos diferentes
+para una sola etiqueta. Esto es muy importante ya que ofrece potencia en nuestra
+programación. Podemos definir, por ejemplo, varios tipos de párrafos: en rojo, en
+azul, con márgenes, sin ellos...
+
+La potencia de la tecnología salta a la vista. Pero no solo se queda ahí, ya que además esta
+sintaxis CSS permite aplicar al documento formato de modo mucho más exacto. Si antes el
+HTML se nos quedaba corto para maquetar las páginas y teníamos que utilizar trucos para
+conseguir nuestros efectos, ahora tenemos muchas más herramientas que nos permiten
+definir esta forma:
+
+• Podemos definir la distancia entre líneas del documento.
+
+• Se puede aplicar identado (sangrado) a las primeras líneas del párrafo.
+
+• Podemos colocar elementos en la página con mayor precisión, y sin lugar a errores.
+
+• Y mucho más, como definir la visibilidad de los elementos, márgenes, subrayados,
+tachados, etc.
+
+Otra ventaja importante de CSS es la capacidad de especificar las medidas con diversas
+unidades. Si con HTML tan sólo podíamos definir atributos en las páginas con pixeles y
+porcentajes, ahora podemos definir utilizando muchas más unidades como:
+
+• Pixeles (px) y porcentaje (%), como antes.
+
+• Pulgadas (in).
+
+• Puntos (pt).
+
+• Centímetros (cm).
+
+• Y otras que veremos más adelante
+
+---
+					  
+					  
