@@ -1409,4 +1409,200 @@ novedades, etc...
 Este tipo de opciones predefinidas por nosotros pueden ser expresadas por medio de
 diferentes campos de formulario. Veamos a continuación cuales son:
   
-  
+  ## LISTAS DE OPCIONES
+
+Las listas de opciones son ese tipo de menús desplegables que nos permiten elegir una (o
+varias) de las múltiples opciones que nos proponen. Para construirlas emplearemos una
+etiqueta SELECT, con su respectivo cierre.
+
+
+
+
+
+
+Como para los casos ya vistos, dentro de esta etiqueta definiremos su nombre por medio
+del atributo name. Cada opción será incluida en una línea precedida de la etiqueta
+**OPTION**.
+
+Podemos ver, a partir de estas explicaciones, la forma más típica y sencilla de esta
+etiqueta:
+
+```
+<select name="estacion">
+	<option>Primavera</option>
+	<option>Verano</option>
+	<option>Otoño</option>
+	<option>Invierno</option>
+</select>
+```
+
+Esta estructura puede verse modificada principalmente a partir de otros dos atributos:
+
+**size**: indica el número de valores mostrados a la vez en la lista. Lo típico es que no se
+incluya ningún valor en el atributo size, en ese caso tendremos un campo de opciones
+desplegable, pero si indicamos un valor para el atributo size aparecerá un campo donde
+veremos las opciones definidas por size y el resto podrán ser vistos por medio de la barra
+lateral de desplazamiento.
+
+**multiple**: permite la selección de más elementos de la lista. Este atributo se expresa sin
+valor alguno, es decir, no se utiliza con el igual, simplemente se pone para conseguir el
+efecto, o no se pone si queremos una lista desplegable común.
+```
+<select name="estacion" size="3" multiple>
+```
+
+La etiqueta OPTION puede asimismo ser modificada por medio de otros atributos.
+
+selected: del mismo modo que multiple, este atributo no toma ningún valor sino que
+simplemente indica que la opción que lo presenta esta elegida por defecto.
+```
+<option selected>Otoño</option>
+```
+
+## BOTONES DE RADIO
+
+Existe otra alternativa para plantear una elección, en este caso, obligamos al usuario a
+elegir únicamente una de las opciones que se le proponen.
+
+La etiqueta empleada en este caso es INPUT en la cual usaremos el atributo type con el de
+valor radio. Este atributo colocara una casilla pinchable al lado del valor del input. Veamos
+un ejemplo:
+```
+<input type="radio" name="estacion" value="1">Primavera
+<br>
+<input type="radio" name="estacion" value="2">Verano
+<br>
+<input type="radio" name="estacion" value="3">Otoño
+<br>
+<input type="radio" name="estacion" value="4">Invierno
+```
+
+En este tipo de input para elegir una opción debemos tocar en la casilla clickeable, pero
+habíamos explicado previamente en la etiqueta label, que podíamos hacer que la etiqueta
+label al clickearla se active la caja de texto del input. Ahora, podemos usar eso para que
+cuando el usuario clickee la palabra primavera se seleccione esa opción. 
+
+Esto se vería así:
+
+```
+<input type="radio" id="primavera" name="estacion" value="1">
+<label for="primavera">Primavera</label>
+<br>
+<input type="radio" id="verano" name="estacion" value="2">
+<label for="verano">Verano</label>
+<br>
+<input type="radio" id="otonio" name="estacion" value="3">
+<label for="otonio">Otoño</label>
+<br>
+<input type="radio" id="invierno" name="estacion" value="4">
+<label for="invierno">Invierno</label>
+```
+
+La única diferencia va a ser que el usuario va a poder clickear el nombre de la estación que
+quiere para seleccionar esa opción, además de poder clickear la casilla.
+
+## CAJAS DE VALIDACIÓN
+
+Este tipo de elementos pueden ser activados o desactivados por el visitante por un simple
+click sobre la caja en cuestión. Para esto vamos a usar la etiqueta INPUT con el valor
+checkbox en el atributo type.
+```
+<input type="checkbox" name="estacion" value="1">Primavera
+```
+
+## ENVIO, BORRADO Y DEMÁS
+
+Ha llegado el momento de explicar cómo podemos hacer un botón para provocar el envío
+del formulario, entre otras cosas.
+
+Como podremos imaginarnos, en formularios no solamente habrá elementos o campos
+donde solicitar información del usuario, sino también habrá que implementar otra serie de
+funciones. Concretamente, han de permitirnos su envío mediante un botón. También
+puede resultar práctico poder proponer un botón de borrado o bien acompañar el
+formulario de datos ocultos que puedan ayudarnos en su procesamiento.
+
+
+## BOTÓN DE ENVÍO DE FORMULARIO (BOTÓN DE SUBMIT)
+
+Para dar por finalizado el proceso de relleno del formulario y hacerlo llegar a su gestor, el
+usuario ha de enviarlo por medio de un botón previsto a tal efecto. Para esto vamos a
+utilizar la etiqueta BUTTON y su respectivo cierre. Dentro el elemento button se puede
+poner texto ( y etiquetas como <i>, <b>, <strong>, <br>, <img>, etc.). 
+
+Se vería así:
+```
+<button type="submit">Enviar</button>
+```
+
+Como puede verse, tan solo hemos de especificar que se trata de un botón de envío
+(type="submit") y hemos de definir el mensaje que queremos que aparezca escrito en el
+botón.
+
+## BOTÓN DE BORRADO (BOTÓN DE RESET)
+
+Este botón nos permitirá borrar el formulario por completo, en el caso de que el usuario
+desee rehacerlo desde el principio. Su estructura sintáctica es parecida a la anterior:
+```
+<button type="reset">Borrar</button>
+```
+
+A diferencia del botón de envío, indispensable en cualquier formulario, el botón de borrado
+resulta meramente optativo y no es utilizado frecuentemente. Hay que tener cuidado de no
+ponerlo muy cerca del botón de envío y de distinguir claramente el uno del otro, para que
+ningún usuario borre el contenido del formulario que acaba de rellenar por error.
+
+## BOTONES NORMALES
+
+Dentro de los formularios también podemos colocar botones normales, pulsables como
+cualquier otro botón. Estos botones por si solos no tienen mucha utilidad pero podremos
+necesitarlos para realizar acciones en el futuro. Su sintaxis es la siguiente:
+```
+<button type="button">Borrar</button>
+```
+
+## DATOS OCULTOS (CAMPOS HIDDEN)
+
+En algunos casos, aparte de los propios datos rellenados por el usuario, puede resultar
+práctico enviar datos definidos por nosotros mismos que ayuden al programa en su
+procesamiento del formulario. Este tipo de datos, que no se muestran en la página pero si
+pueden ser detectados solicitando el código fuente, no son frecuentemente utilizados por
+páginas construidas en HTML, son más bien usados por páginas que emplean tecnologías
+de servidor. No se asusten, veremos más adelante qué quiere decir esto. Tan solo
+queremos dar constancia de su existencia y de su modo creación. He aquí un ejemplo:
+
+```
+<input type="hidden" name="instituto" value="Egg Educación">
+```
+
+Esta etiqueta, incluida dentro de nuestro formulario, enviara un dato adicional al programa
+encargado de la gestión del formulario.
+
+## EJEMPLO COMPLETO DE FORMULARIO
+
+Con esto ultimo finalizamos el tema de formularios. Pasemos ahora a ejemplificar todo lo
+aprendido a partir de la creación de un formulario.
+
+```
+<form action="ruta del metodo que va a manejar la información" method="POST" enctype="multipart/form-data"></form>
+<label>Nombre del usuario</label> <br>
+<input type="text" name="nombre"> <br>
+<label>Edad del usuario</label> <br>
+<input type="number" name="edad "> <br>
+<label>Fecha de nacimiento del usuario</label> <br>
+<input type="date” name="fechanac"> <br>
+<label>Sexo del usuario</label> <br>
+<input type="radio" name="sexo" value="Hombre"> Hombre <br>
+<input type="radio" name="sexo" value="Mujer"> Mujer <br>
+<label>Pais nacimiento del usuario</label> <br>
+<select name="pais">
+	<option>Argentina</option>
+	<option>Brasil</option>
+	<option>Chile</option>
+	<option>Uruguay</option>
+</select>
+<br>
+<button type="submit">Enviar</button>
+<button type="reset">Borrar</button>
+```
+
+
