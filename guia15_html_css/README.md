@@ -2913,35 +2913,35 @@ d) Ninguno de los anteriores.
 			 
 #### 3) La etiqueta que encierra todo el contenido de una página es:
 			 
-a) <head></head>
+a) ``` <head></head>```
 			 
-b) <body></body>
+b) ```<body></body>```
 			 
-c) !DOCTYPE
+c) ```!DOCTYPE```
 			 
-d) <html></html>
+**d)** ```<html></html>```
 
 			 
 #### 4) La etiqueta que es el contenedor de todo aquello que se va incluir en el html es:
 			 
-a) <head></head>
+a) ```<head></head>```
 			 
-b) <body></body>
+b)``` <body></body>```
 			 
-c) !DOCTYPE
+c) ```!DOCTYPE```
 			 
-d) <html></html>
+d) ```<html></html>```
 
 			 
 #### 5) La etiqueta que encierra todo el contenido visible al usuario es:
 			 
-a) <head></head>
+a) ```<head></head>```
 			 
-**b) <body></body>**
+**b)** ```<body></body>```
 			 
-c) !DOCTYPE
+c)``` !DOCTYPE```
 			 
-d) <html></html>
+d) ```<html></html>```
 
 			 
 #### 6) ¿Cuál de estos no es un atributo básico?
@@ -2968,46 +2968,46 @@ d) Ninguna es cierta
 			 
 #### 8) ¿Cuál es la etiqueta para indicar un salto de línea?
 			 
-a) </br> -> br no tiene etiqueta de cierre
+a) ```</br>``` -> br no tiene etiqueta de cierre
 			 
-b) <breakLine> -> no e suna etiqueta
+b) ```<breakLine>``` -> no e suna etiqueta
 			 
-**c) <br>**
+**c)``` <br>```**
 			 
-d) <hr> -< es para hacer una linea
+d)``` <hr> ```-< es para hacer una linea
 
 			 
 #### 9) ¿Cuál es la etiqueta para poner texto en negrita?
 			 
-**a) <strong></strong>**
+**a)**``` <strong></strong>```
 			 
-b) <bold></bold> -> también la pone en negrita, pero strong tiene más significado semático, además de indicarla en negrita dice que es importante
+b) ```<bold></bold> ```-> también la pone en negrita, pero strong tiene más significado semático, además de indicarla en negrita dice que es importante
 			 
-c) <i></i> -> es italic, para cursiva
+c) ```<i></i>``` -> es italic, para cursiva
 			 
-d) <u></u> -> es underline, para subrayado
+d) ```<u></u>``` -> es underline, para subrayado
 
 			 
 #### 10) ¿Qué etiqueta se usa para escribir una lista no ordenada?
 			 
-a) <ol> -> es para una lista ordenada 
+a) ```<ol> ```-> es para una lista ordenada 
 			 
-**b) <ul>**
+**b)**``` <ul>```
 			 
-c) <li>
+c) ```<li>```
 			 
-d) <list>
+d) ```<list>```
 
 			 
 #### 11) ¿Qué etiqueta se usa para denominar cada fila en una tabla html?
 			 
-a) <tr>
+a)``` <tr>```
 			 
-b) <td>
+b)``` <td>```
 			 
-c) <th>
+c) ```<th>```
 			 
-d) <li>
+d)``` <li>```
 
 			 
 #### 12) ¿Qué atributo debe ir siempre en la etiqueta <a>?
@@ -3034,35 +3034,35 @@ d) Carrot Soup Sauce
 			 
 #### 14) En que parte del HTML podemos agregar la hoja de estilos
 			 
-a) <Body>
+a) ```<Body>```
 			 
-**b) <Head>** -> ncerrado de las etiquetas de **style**
+**b)**``` <Head>``` -> ncerrado de las etiquetas de **style**
 			 
-c) <Footer>
+c)``` <Footer>```
 			 
-d) <Nav>
+d) ```<Nav>```
 
 			 
 ####  15) La etiqueta para agregar el archivo CSS a el archivo HTML es:
 			 
-a) <head>
+a)``` <head>```
 			 
-**b) <link>**
+**b)**``` <link>```
 			 
-c) <css>
+c)``` <css>```
 			 
-d) <meta>
+d) ```<meta>```
 
 			 
 ####  16) Para delimitar un bloque de CSS usamos:
 			 
-**a) Llaves {}**
+**a)** Llaves ```{}```
 			 
-b) Parentesis ()
+b) Parentesis``` ()```
 			 
-c) Comas ,,
+c) Comas ```,,```
 			 
-d) Corchetes []
+d) Corchetes ```[]```
 			
 			 
 ####  17) ¿Cual de estos no es un tipo de selector?
