@@ -2276,13 +2276,63 @@ CSS:
 }		       
 ```
 
-		  En nuestro archivo CSS para especificar un ID, vamos a poner el numeral (‘#’) y el nombre
+En nuestro archivo CSS para especificar un ID, vamos a poner el numeral (‘#’) y el nombre
 del ID que queremos que coincida que con valor que pongamos en nuestro atributo ID en
 el html.
 		       
 Como podemos ver el ID, es muy parecido al atributo class pero la diferencia es que el ID
 se puede usar para identificar un solo elemento, mientras que una clase se puede usar
-para agrupar más de uno.		       
+para agrupar más de uno.
 		       
----									       
-									       
+		       
+---
+		       
+## PRIORIDAD EN APLICACIÓN DE ESTILO
+		       
+Ahora que entendemos los selectores en CSS, tenemos que entender como prioriza los
+estilos CSS.
+		       
+## Herencia
+		       
+Los hijos heredan los estilos de sus elementos padres, no es necesario declarar sus estilos
+si estos se mantienen igual.
+		       
+```
+body{
+  color: yellow;
+}
+h2{
+  color: yellow; //No es necesario
+}
+```		       
+
+ ## Cascada
+		       
+Todo estilo sobrescribe a uno anterior.
+
+```
+h2{
+  color: yellow;
+}
+h2{
+  color: red;
+}
+```
+
+		     
+## Especificidad
+		       
+Cuando hay conflictos de estilos el navegador aplica sólo el de mayor especificidad.
+
+```
+h2{
+  color: yellow;
+}
+h2.subtitle{
+  color: green;
+}
+```
+		       
+---
+		       
+		       
