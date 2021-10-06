@@ -3118,4 +3118,9 @@ c) Borde
 			 
 **d) Longitud**
 			 
+---
+			 
+
+:star: [**ejercicios realizados**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia15_html_css/guia15_html_css_ejercicios)
+			 
 ---			 
