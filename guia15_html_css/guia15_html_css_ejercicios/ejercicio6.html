@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 6</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <!--Link Google fonts roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Ejercicio 6 - práctica de HTML 5 y CSS3</h1>
+    <p>Consigna : Vamos a crear un formulario para registrar un usuario.</p>
+  </header>
+  <main>
+    <section class="ejercicio6">
+      <h2>Registrar un usuario</h2>
+      <form action="#" method="POST">
+        <label for="nombre">Nombre del usuario</label> 
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre"> 
+        <label for="password">Contaseña del usuario</label> 
+        <input type="password" id="password" name="password" placeholder="Ingrese la contraseña"> 
+        <label for="edad">Edad del usuario</label> 
+        <input type="number" id="edad" name="edad" placeholder="Ingrese al edad"> 
+        <label for="fechanac">Fecha de nacimiento del usuario</label> 
+        <input type="date” id="fechanac" name="fechanac"> 
+        <label>Sexo del usuario</label> 
+        <input type="radio" name="sexo" value="Hombre"> Hombre 
+        <input type="radio" name="sexo" value="Mujer"> Mujer 
+        <input type="radio" name="sexo" value="NoDice"> Prefiero no decir 
+        <label>Pais nacimiento del usuario</label> 
+        <select name="pais">
+          <option>Argentina</option>
+          <option>Brasil</option>
+          <option>Chile</option>
+          <option>Uruguay</option>
+          <option>Otro país</option>
+        </select>  
+        <br>
+        <button type="submit">Enviar</button>
+        <button class="reset" type="reset">Borrar</button>
+      </form>  
+</select>
+    
+    </section>
+    <section class="ejercicio6">
+      <p>
+        <a href="index.html"class="link-estilizado">volver a la página principal</a>
+      </p> 
+    </section>
+  </main>
+  <footer>
+    <p>Práctica de <a href="https://linkedin.com/in/maríaeugeniacosta" target="_blank">María Eugenia Costa</a> para el curso de <strong>Full Stack Java</strong> en <i>Egg</i></p>
+  </footer>
+</body>
+</html>

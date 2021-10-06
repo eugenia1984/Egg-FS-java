@@ -1,0 +1,274 @@
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --red: rgb(194, 13, 13);
+  --blue: rgb(33, 61, 170);
+  --yellow: rgb(221, 215, 32);
+  --green: rgb(114, 207, 21);
+  --pink: rgb(223, 45, 157);
+  --greenyellow: rgb(37, 77, 9);
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3{
+  text-align: center;
+  padding: 1rem 0.5rem;
+}
+
+p {
+  padding: 0.5rem 0.25rem;
+  line-height: 1.8;
+}
+
+main {
+  min-height: 600px;
+}
+
+.link-estilizado{
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/*HEADER & FOOTER*/
+header, footer{
+  background-color: rgb(224, 235, 22);
+  text-align: center;
+  padding: 1rem;
+}
+/*SECCIONES*/
+section.ejercicio1, 
+section.ejercicio2,
+section.ejercicio3,
+section.ejercicio4,
+section.ejercicio5,
+section.ejercicio6,
+section.ejercicio7,
+section.ejercicio9,
+section.ejercicio10,
+section.ejercicio11,
+section.ejercicio12 {
+  padding: 2.5rem 2rem;
+}
+/*Ejercicio 4 y 5*/
+img.con-efecto{
+  width: 80%;
+  margin: 5% 10%;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.21);
+}
+img.con-efecto:hover{
+  opacity: 0.5;
+}
+/*Ejercicio 5*/
+.ejercicio5 ul li{
+  text-align: center;
+  list-style: none;
+}
+
+#eje5 table, 
+#eje5 th, 
+#eje5 td {
+  border: 5px solid #fff;
+  border-collapse: collapse;
+  border-radius: 7px;
+}
+
+#eje5 th, 
+#eje5 td {
+  background-color: #d3f2f2;
+}
+
+#eje5 tr{
+  height: 2.5rem;
+  text-align: center;
+}
+
+.link-estilizado2{
+  text-decoration: none;
+  font-weight: 700;
+  color:#14dc7f;
+  background-color: #111;
+  padding: 1.5rem;
+  border-radius: 14px;
+}
+
+.link-estilizado2:hover{
+  background-color: rgb(242, 236, 62);
+}
+
+/*Ejercicio 6*/
+label, input, select {
+  display: block;
+  margin-top: 1rem;
+}
+
+input[type="radio"]{
+  display: inline;
+  margin: 10px;
+}
+input {
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+
+select {
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.25rem 0.50rem;
+}
+
+button.reset {
+  margin-left: 60px;
+}
+
+/*Ejercicio7*/
+#ejercicio7 {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.text-left{
+  text-align: left;
+  color:#208f36;
+}
+/*Ejercicio 8*/
+.link-estilizado3 {
+  text-decoration: none;
+  font-weight: 700;
+  color: #CC0000;
+}
+
+.link-estilizado3:hover {
+  color: #fff;
+  background-color: #CC0000;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.link-estilizado3:visited {
+  color: #CCC;
+}
+
+/*Ejercicio 9*/
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 340px;
+  border-bottom: none;
+  border: 2px solid #7C7C7C;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.menu li {
+  background: #F4F4F4;
+  border-bottom: 1px solid #7C7C7C;
+  border-top: 1px solid #FFF;
+  padding: 0.25rem;
+}
+
+ul.menu li:hover {
+  background: #ce4e4e;
+}
+
+ul.menu li a {
+  color: #333;
+  display: block;
+  padding: 0.25rem;
+  text-decoration: none;
+}
+
+ul.menu li a:hover {
+  color:#fff;
+  font-weight: 800;
+} 
+
+/*Ejercicio 10*/
+h2#titulo {
+  color: rgb(25, 201, 124);
+  text-align: left;
+}
+
+.ejercicio10 strong{
+  color: var(--red);
+}
+
+h3#subtitulo{
+  text-align: left;
+  color: var(--blue);
+}
+
+.ejercicio10 a {
+  color: var(--red);
+}
+
+.ejercicio10 em {
+  color: var(--blue);
+}
+#adicional p {
+  color: var(--green);
+}
+
+span#especial {
+  color: var(--pink);
+}
+
+a.red, 
+.red {
+  color: var(--red);
+}
+
+.especial {
+  color: var(--yellow);
+}
+
+td {
+  color: var(--green);
+}
+
+strong.yellow {
+  color: var(--yellow);
+}
+
+em.green {
+  color: var(--green);
+}
+
+/*Ejercicio 11*/
+table {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.thead>th {
+  background-color: rgb(228, 226, 226);
+  width: 140px;
+}
+
+table,td, th {
+	border: 1px solid #333;
+}
+.bg-yellow {
+  background-color: #FFFFCC;
+}
+section.ejercicio11 td {
+  color: #000;
+}
+
+th[scope="row"] {
+  background-color: #E6F3FF;
+  width: 180px;
+}
+/*Ejercicio 12*/
+.ejercicio12 td {
+  color: #000;
+}
