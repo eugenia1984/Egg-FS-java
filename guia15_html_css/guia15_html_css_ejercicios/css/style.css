@@ -11,6 +11,7 @@
   --green: rgb(114, 207, 21);
   --pink: rgb(223, 45, 157);
   --greenyellow: rgb(37, 77, 9);
+  --yellow2: rgb(216, 210, 30);
 }
 body{
   font-family: 'Roboto', sans-serif;
@@ -271,4 +272,56 @@ th[scope="row"] {
 /*Ejercicio 12*/
 .ejercicio12 td {
   color: #000;
+}
+
+#barra-de-navegacion {
+  background-color: rgb(201, 42, 42);
+  color: #fff;
+}
+
+#barra-de-navegacion a.navbar-brand {
+  color: var(--yellow2);
+  font-weight: 800;
+}
+
+#barra-de-navegacion a.nav-link.active{
+  color: var(--yellow2);
+}
+
+#barra-de-navegacion a.nav-link {
+  color: #fff;
+}
+#barra-de-navegacion a.nav-link:hover {
+  color: rgb(136, 54, 10);
+  background-color: #fff;
+}
+
+.consigna {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  padding: 2.50rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-personal{
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  box-shadow: 5px 10px #888888;
+  border-radius: 14px;
+}
+
+.btn-personal p {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0rem;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  } 
 }
