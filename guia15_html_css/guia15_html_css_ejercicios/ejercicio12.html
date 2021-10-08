@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejercicio 12 - 17</title>
+  <title>Town Coffe |Ejercicio 12 - 17</title>
   <link rel="stylesheet" href="./css/style.css">
   <!--Link Google fonts roboto-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
   <!--Link a CSS de Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 </head>
@@ -18,11 +20,11 @@
     <h1>Ejercicios 12 al 17</h1>
     <p>Ejercicio 12 - consigna: Ahora vamos a utilizar Bootstrap. Deberemos crear una pagina que tenga un encabezado H1 con un párrafo y un encabezado H2 con un párrafo. Tenemos que  lograr que se vean con los estilos de Bootstrap.</p>
   </header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg" id="barra-de-navegacion">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Town Coffe</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"> <img src="./image/coffee_icon.png" alt="cofee beans icon"> </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -42,12 +44,14 @@
   <img src="./image/coffe.jpg" class="img-fluid" alt="papas fritas">
   <main>
     <section class="ejercicio12">
-      <h2>Este es el encabezado h2</h2>
-      <p>Este es el párrafo que le sigue al encabezado h2.</p>
+      <h2>Bienvenidos a <strong>Town Coffe</strong></h2>
+      <p class="text-center">Donde podrán disfrutar del mejor café.</p>
     </section>
     <section class="ejercicio12" id="tabla-eje12">
-      <h2>Ejercicio 13 y 14</h2>
-      <p>Consigna: Usar Bootstrap para mostrar un tabla de productos que tenga la columna Producto y Precio y tenga tres productos. Una vez que tenemos esa tabla vamos a sumarle una columna Detalle con botones de Ver producto </p>
+      <section class="consigna">
+        <h2>Ejercicio 13 y 14</h2>
+        <p>Consigna: Usar Bootstrap para mostrar un tabla de productos que tenga la columna Producto y Precio y tenga tres productos. Una vez que tenemos esa tabla vamos a sumarle una columna Detalle con botones de Ver producto </p>
+      </section>
       <table class="table table-striped">
         <thead>
           <tr>
@@ -58,26 +62,28 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row">Producto 1</th>
-            <td>10000</td>
+            <th scope="row">Café de Colombia</th>
+            <td>$ 1.080</td>
             <td> <a class="btn btn-primary" href="#"> Ver producto</a></td>
           </tr>
           <tr>
-            <th scope="row">Producto 2</th>
-            <td>10000</td>
+            <th scope="row">Café de Etiopía</th>
+            <td> $ 1.120</td>
             <td> <a class="btn btn-primary" href="#"> Ver producto</a></td>
           </tr>
           <tr>
-            <th scope="row">Producto 3</th>
-            <td>10000</td>
+            <th scope="row">Café de Perú</th>
+            <td>$ 1.300</td>
             <td> <a class="btn btn-primary" href="#"> Ver producto</a></td>
           </tr>
         </tbody>
       </table>
     </section>
     <section class="ejercicio12" id="formulario-eje15">
-      <h2>Ejercicio 15</h2> 
-      <p>Consigna: Un formulario para que el usuario se pueda registrar en nuestra pagina usando Bootstrap.</p>
+      <section class="consigna">
+        <h2>Ejercicio 15</h2> 
+        <p>Consigna: Un formulario para que el usuario se pueda registrar en nuestra pagina usando Bootstrap.</p>
+      </section>
 
       <form>
         <h3>Formulario de registro</h3>
@@ -93,20 +99,24 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
         </div>
-        <button type="submit" class="btn btn-primary">Registrar</button>
+        <button type="submit" class="btn btn-personal"><p>Registrarse</p></button>
       </form>
     </section>
 
     <section class="ejercicio12">
-      <h2>Ejercicio 16</h2>
-      <p>Consigna: Además, haremos una landing page que contenga un navbar, investigar el navbar en Bootstrap, con botones a todos las paginas previamente mencionadas.</p>
-      <p>Esta parte se ve en la barra de navegación de arriba</p>
+     <section class="consigna"> 
+       <h2>Ejercicio 16</h2>
+        <p>Consigna: Además, haremos una landing page que contenga un navbar, investigar el navbar en Bootstrap, con botones a todos las paginas previamente mencionadas.</p>
+        <p>Esta parte se ve en la barra de navegación de arriba</p>
+      </section>
     </section>
 
     <section class="ejercicio12">
-      <h2>Ejercicio 17</h2>
-      <p>Consigna: Por último, le sumaremos una imagen a la landing page usando las clases para la etiqueta img que nos provee Bootstrap.</p>
-      <p>Esta parte se ve debajo de la barra de navegación de arriba</p>
+      <section class="consigna">
+        <h2>Ejercicio 17</h2>
+        <p>Consigna: Por último, le sumaremos una imagen a la landing page usando las clases para la etiqueta img que nos provee Bootstrap.</p>
+        <p>Esta parte se ve debajo de la barra de navegación de arriba</p>
+      </section>
     </section>
 
     <section class="ejercicio12">
