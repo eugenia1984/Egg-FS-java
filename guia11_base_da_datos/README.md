@@ -1749,3 +1749,113 @@ HAVING COUNT(p.codigo) = (SELECT COUNT(codigo) FROM producto WHERE codigo_fabric
 ```
 
 ---
+
+## Ejercicio 4
+
+con la base de datos nbs.sql:
+
+## 1 Mostrar el nombre de todos los jugadores ordenados alfabéticamente.
+```
+SELECT nombre from jugadores ORDER BY nombre ASC;
+```
+
+## 2 Mostrar el nombre de los jugadores que sean pivots (‘C’) y que pesen más de 200 libras, ordenados por nombre alfabéticamente.
+```
+SELECT nombre, posicion, peso FROM jugadores 
+WHERE Posicion = 'C' AND Peso >= 200 ORDER BY nombre ASC;
+```
+
+## 3 Mostrar el nombre de todos los equipos ordenados alfabéticamente.
+```
+SELECT nombre from equipos ORDER BY nombre ASC;
+```
+
+## 4 Mostrar el nombre de los equipos del este (East).
+```
+SELECT nombre, conferencia FROM equipos
+WHERE conferencia = 'East';
+```
+
+## 5 Mostrar los equipos donde su ciudad empieza con la letra ‘c’, ordenados por nombre.
+```
+SELECT nombre, ciudad from equipos
+WHERE ciudad 
+LIKE 'c%' 
+ORDER BY nombre ASC;
+```
+
+## 6 Mostrar todos los jugadores y su equipo ordenados por nombre del equipo.
+```
+SELECT nombre, nombre_equipo 
+FROM jugadores 
+ORDER BY Nombre_equipo ASC;
+```
+
+## 7 Mostrar todos los jugadores del equipo “Raptors” ordenados por nombre.
+```
+SELECT nombre, nombre_equipo FROM jugadores 
+WHERE nombre_equipo = 'Raptors';
+```
+
+## 8 Mostrar los puntos por partido del jugador ‘Pau Gasol’.
+```
+SELECT A.nombre, B.puntos_por_partido FROM estadisticas AS B 
+INNER JOIN jugadores AS A 
+ON B.jugador = A.codigo WHERE A.Nombre = 'Pau Gasol';
+```
+
+## 9 Mostrar los puntos por partido del jugador ‘Pau Gasol’ en la temporada ’04/05′.
+```
+SELECT A.nombre, B.puntos_por_partido FROM estadisticas AS B 
+INNER JOIN jugadores AS A 
+ON B.jugador = A.codigo 
+WHERE A.Nombre = 'Pau Gasol' AND temporada = '04/05';
+```
+
+## 10 Mostrar el número de puntos de cada jugador en toda su carrera.
+```
+SELECT A.nombre, B.puntos_por_partido FROM estadisticas AS B 
+INNER JOIN jugadores AS A 
+ON B.jugador = A.codigo;
+```
+
+## 11 Mostrar el número de jugadores de cada equipo.
+```
+SELECT nombre_equipo, COUNT(nombre_equipo) FROM jugadores 
+GROUP BY nombre_equipo; 
+```
+
+## 12
+```
+SELECT A.nombre, AVG(Puntos_por_partido) AS promedio 
+FROM estadisticas AS B 
+INNER JOIN jugadores AS A 
+ON B.jugador = A.codigo 
+GROUP BY A.Nombre ORDER BY promedio DESC LIMIT 1;
+```
+
+#13
+```
+SELECT A.nombre, MAX(A.altura), A.nombre_equipo, B. conferencia, B.division 
+FROM jugadores AS A 
+INNER JOIN equipos AS B on A.nombre_equipo = B.nombre;
+```
+
+## 14 Mostrar la media de puntos en partidos de los equipos de la división Pacific.
+```
+SELECT A.nombre, (AVG(B.puntos_local)+ AVG(B.puntos_visitante))/2 AS promedio_puntos 
+FROM equipos AS A 
+INNER JOIN partidos AS B ON A.nombre = B.equipo_local OR A.nombre = B.equipo_visitante 
+WHERE A.Division = "Pacific" GROUP BY A.nombre; 
+```
+
+#15
+```
+SELECT codigo, equipo_local "Equipo Local", equipo_visitante "Equipo Visitante", 
+CASE
+	WHEN puntos_local > puntos_visitante THEN equipo_local
+    WHEN puntos_local < puntos_visitante THEN equipo_visitante
+    ELSE NULL 
+END "Equipo Ganador"
+FROM partidos;
+```
