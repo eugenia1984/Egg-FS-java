@@ -757,4 +757,6 @@ realizar. Las consultas a realizar sobre la BD son las siguientes:
 
 :computer: [Ejercicio resuelto en -> **TiendaJDBC**](https://github.com/eugenia1984/Egg-FS-java/tree/master/guia12_jdbc/TiendaJDBC)
 
+:computer: La base de datos de puede ver [**aca**](https://github.com/eugenia1984/Egg-FS-java/blob/master/guia12_jdbc/tienda.sql)
+
 ---
