@@ -67,7 +67,7 @@ In each unit you will see: theory, questions to understand theory and exercises.
 
 ## Notes
 I appreciate your interest in this Project <br/>
-⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn]( http://www.linkedin.com/in/maríaeugeniacosta)
+⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
 
 
@@ -151,8 +151,9 @@ relacionales: >, >=, < , <=, =, <> ; lógicos: conjunción (Y, and, &&), disyunc
 
 
 ## Notas:
+
 Aprecio tu interes en este proyecto <br/>
-⌨️ con ❤️ por [María Eugenia Costa](https://github.com/eugenia1984) 😊 y seguime en  [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
+⌨️ con ❤️ por [María Eugenia Costa](https://github.com/eugenia1984) 😊 y seguime en  [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
 ---
 
